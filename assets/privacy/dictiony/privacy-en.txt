@@ -1,0 +1,69 @@
+Privacy Policy
+
+Last Updated: September 25, 2025
+
+Dictiony (“App”) does not collect, process, or share any personal data. The App works offline and all data is stored only on the user’s device.
+
+1. Personal Information
+
+The App does not request personal information such as name, email, or photos.
+
+2. User Data
+
+All data created by the user is stored only on the device.
+This data is not transmitted to the internet, servers, or third parties.
+
+3. Speech Recognition
+
+The App uses the device’s built-in speech recognition services.
+Audio is processed by the device. Dictiony does not collect, record, or store speech or audio data.
+
+4. Advertising
+
+We use Google AdMob to display advertisements. AdMob and its partners may automatically collect device and usage information (for example: advertising identifiers, device model, OS version, and ad interaction data) to serve and measure ads. We do not use your speech recordings, practice content, or other user-created content for advertising, profiling, or marketing purposes.
+
+Third-party services used:
+
+Google AdMob policies/support — https://support.google.com/admob/answer/6128543?hl=en
+
+5. Premium Subscription
+
+Dictiony offers a Premium Subscription via in-app purchases on Google Play. Subscriptions are billed on a monthly basis and automatically renew unless cancelled by the user. Purchasing the Premium Subscription removes advertisements within the App and may provide additional premium features or functionality.
+
+All subscription payments are processed by Google Play. Payment details are handled by Google and are not shared with Dictiony. For refunds, subscription management, or cancellation, please use Google Play > Subscriptions or visit: https://play.google.com/store/account/subscriptions
+
+6. Data Usage
+
+Data is used solely to provide the core functionality of the App.
+User-created data (practice sessions, progress, etc.) is not used for advertising, analytics, or marketing.
+
+7. Data Deletion
+
+Users can delete all data at any time using the in-app reset option.
+Uninstalling the App will permanently remove all data from the device.
+Backups created by the user are outside the App's control and must be deleted manually.
+
+8. Security
+
+All data remains on the device.
+No internet transfer occurs.
+100% security cannot be guaranteed; users are responsible for their device security.
+
+9. Third-Party Libraries
+
+Dictiony itself does not collect or share data.
+However, the App may use third-party open-source libraries, and their behavior cannot be fully controlled. Therefore, 100% guarantees cannot be provided.
+
+10. Children's Privacy
+
+The App is not directed to children under 13 and we do not knowingly collect personal information from children under 13. If we learn that we have collected personal information from a child under 13 without parental consent, we will take steps to delete that information. Parents or guardians who believe their child under 13 has provided personal information may contact us at rapheldorsoftware@gmail.com to request deletion.
+
+11. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. When changes are made, we will update the "Last Updated" date. Significant changes will be highlighted or communicated in-app where feasible.
+
+12. Contact
+
+For any questions regarding this Privacy Policy, you can contact us at:
+
+📧 rapheldorsoftware@gmail.com
