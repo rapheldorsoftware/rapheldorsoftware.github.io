@@ -282,6 +282,77 @@
             color: #fff;
         }
 
+        /* Privacy Picker */
+        .picker-hero {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .picker-hero h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+            color: #fff;
+            margin-bottom: 0.75rem;
+            background: linear-gradient(180deg, #fff 0%, #777 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .picker-hero p {
+            color: #888;
+            font-size: 1.1rem;
+            max-width: 520px;
+            margin: 0 auto;
+        }
+
+        .picker-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 1.25rem;
+            padding: 0.5rem 0 2rem;
+            animation: fadeIn 1s ease-out 0.15s backwards;
+        }
+
+        .picker-card {
+            background: linear-gradient(145deg, #111, #0a0a0a);
+            border: 1px solid var(--border-color);
+            padding: 1.75rem 1.25rem;
+            border-radius: 16px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .picker-card:hover {
+            transform: translateY(-5px);
+            border-color: #444;
+        }
+
+        .picker-card .app-icon {
+            margin-bottom: 1rem;
+        }
+
+        .picker-card h3 {
+            font-size: 1.05rem;
+            color: #fff;
+            margin-bottom: 0.35rem;
+        }
+
+        .picker-card span {
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        .picker-card:hover span {
+            color: #aaa;
+        }
+
         /* Privacy Layout */
         .privacy-container {
             display: flex;
@@ -306,9 +377,32 @@
             color: #666;
         }
 
+        .back-to-apps {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            margin-bottom: 1.5rem;
+            padding: 0.55rem 0.85rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            background: #111;
+            color: #aaa;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-family: inherit;
+            transition: all 0.2s;
+        }
+
+        .back-to-apps:hover {
+            color: #fff;
+            border-color: #444;
+        }
+
         .nav-item {
-            display: block;
-            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.85rem 1rem;
             margin-bottom: 0.5rem;
             border-radius: 8px;
             cursor: pointer;
@@ -316,11 +410,19 @@
             color: #888;
         }
 
+        .nav-item img {
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
         .nav-item:hover,
         .nav-item.active {
             background: #111;
             color: #fff;
-            padding-left: 1.5rem;
+            padding-left: 1.25rem;
         }
 
         .content-area {
@@ -432,6 +534,15 @@
             }
 
             /* Privacy Page Responsive */
+            .picker-hero h1 {
+                font-size: 1.9rem;
+            }
+
+            .picker-grid {
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                gap: 1rem;
+            }
+
             .privacy-container {
                 flex-direction: column;
                 gap: 2rem;
@@ -453,7 +564,7 @@
 
             .nav-item {
                 margin-bottom: 0;
-                padding: 0.5rem 1rem;
+                padding: 0.5rem 0.85rem;
                 background: #111;
                 border: 1px solid #333;
             }
@@ -461,7 +572,11 @@
             .nav-item.active {
                 background: #fff;
                 color: #000;
-                padding-left: 1rem;
+                padding-left: 0.85rem;
+            }
+
+            .nav-item.active img {
+                box-shadow: 0 0 0 1px #000;
             }
 
             .content-area h2 {
@@ -511,7 +626,7 @@
                     <li><a href="/" id="link-home"
                             onclick="if(currentView==='home') event.preventDefault(); showView('home')">Home</a></li>
                     <li><a href="/privacy" id="link-privacy"
-                            onclick="event.preventDefault(); showView('privacy')">Privacy & Terms</a></li>
+                            onclick="event.preventDefault(); showPicker('privacy')">Privacy & Terms</a></li>
                 </ul>
             </nav>
         </header>
@@ -585,13 +700,21 @@
             </section>
         </main>
 
-        <!-- Privacy View -->
+        <main id="picker-view" style="display: none;">
+            <section class="picker-hero">
+                <h1 id="picker-title">Select an Application</h1>
+                <p id="picker-subtitle">Choose an app to view its privacy policy or terms of use.</p>
+            </section>
+            <section class="picker-grid" id="picker-grid">
+            </section>
+        </main>
+
         <main id="privacy-view" style="display: none;">
             <div class="privacy-container">
                 <aside class="sidebar">
+                    <button type="button" class="back-to-apps" onclick="showPicker()">← All apps</button>
                     <h3>Applications</h3>
                     <div id="app-list">
-                        <!-- Javascript will populate this -->
                     </div>
                 </aside>
 
@@ -619,147 +742,255 @@
     </div>
 
     <script>
-        // --- App Data ---
         const apps = [
-            { id: 'booktou', name: 'Booktou' },
-            { id: 'dictiony', name: 'Dictiony' },
-            { id: 'doitly', name: 'Doitly' },
-            { id: 'lessonta', name: 'Lessonta' },
-            { id: 'notero', name: 'Notero' },
-            { id: 'wordballoonpop', name: 'WordBalloonPop' }
-            { id: 'beanjup', name: 'Beanjup' }
+            { id: 'booktou', name: 'Booktou', logo: 'assets/booktou-logo.png' },
+            { id: 'dictiony', name: 'Dictiony', logo: 'assets/dictiony/dictiony_logo.png' },
+            { id: 'doitly', name: 'Doitly', logo: 'assets/doitly/doitly_logo.png' },
+            { id: 'lessonta', name: 'Lessonta', logo: 'assets/lessonta/lessonta_logo.png' },
+            { id: 'notero', name: 'Notero', logo: 'assets/notero-logo.png' },
+            { id: 'wordballoonpop', name: 'WordBalloonPop', logo: 'assets/wordballoonpop/word_balloon_pop_logo.png' },
+            { id: 'beanjup', name: 'Beanjup', logo: 'assets/beanjup-logo.png' }
         ];
 
-        // --- State Management ---
-        let currentApp = 'booktou';
+        let currentApp = null;
         let currentType = 'privacy';
-        let currentView = 'home'; // 'home' or 'privacy'
+        let currentView = 'home';
 
-        // --- DOM Elements ---
         const homeView = document.getElementById('home-view');
+        const pickerView = document.getElementById('picker-view');
         const privacyView = document.getElementById('privacy-view');
         const linkHome = document.getElementById('link-home');
         const linkPrivacy = document.getElementById('link-privacy');
         const appListEl = document.getElementById('app-list');
+        const pickerGridEl = document.getElementById('picker-grid');
+        const pickerTitleEl = document.getElementById('picker-title');
+        const pickerSubtitleEl = document.getElementById('picker-subtitle');
         const contentEl = document.getElementById('policy-content');
         const btnPrivacy = document.getElementById('btn-privacy');
         const btnTerms = document.getElementById('btn-terms');
 
-        // --- Initialization ---
+        function isPrivacyPath(path) {
+            return path.includes('/privacy') || path.endsWith('privacy.html');
+        }
+
+        function isTermsPath(path) {
+            return path.includes('/terms') || path.endsWith('terms.html');
+        }
+
+        function basePathForType(type) {
+            return type === 'terms' ? '/terms' : '/privacy';
+        }
+
+        function urlFor(view, appId, type) {
+            const base = basePathForType(type || currentType);
+            if (view === 'detail' && appId) {
+                return `${base}?app=${encodeURIComponent(appId)}`;
+            }
+            return base;
+        }
+
         function init() {
             const path = window.location.pathname;
             const urlParams = new URLSearchParams(window.location.search);
             const appParam = urlParams.get('app');
+            const validApp = appParam && apps.find(a => a.id === appParam);
 
-            if (path.includes('/privacy')) {
+            if (isPrivacyPath(path)) {
                 currentType = 'privacy';
-                showView('privacy', false);
-                setUI('privacy');
-            } else if (path.includes('/terms')) {
+                updateTypeButtons();
+                if (validApp) {
+                    currentApp = appParam;
+                    showView('detail', false);
+                } else {
+                    showView('picker', false);
+                }
+            } else if (isTermsPath(path)) {
                 currentType = 'terms';
-                showView('privacy', false);
-                setUI('terms');
-            } else if (appParam && apps.find(a => a.id === appParam)) {
+                updateTypeButtons();
+                if (validApp) {
+                    currentApp = appParam;
+                    showView('detail', false);
+                } else {
+                    showView('picker', false);
+                }
+            } else if (validApp) {
                 currentApp = appParam;
-                showView('privacy', false);
-                setUI('privacy');
+                currentType = 'privacy';
+                updateTypeButtons();
+                showView('detail', false);
             } else {
                 showView('home', false);
             }
-
-            renderSidebar();
         }
 
-        // --- View Switching ---
+        function hideAllViews() {
+            homeView.style.display = 'none';
+            pickerView.style.display = 'none';
+            privacyView.style.display = 'none';
+        }
+
+        function setNavActive(viewName) {
+            if (viewName === 'home') {
+                linkHome.classList.add('active');
+                linkPrivacy.classList.remove('active');
+            } else {
+                linkHome.classList.remove('active');
+                linkPrivacy.classList.add('active');
+            }
+        }
+
+        function updatePickerCopy() {
+            if (currentType === 'terms') {
+                pickerTitleEl.textContent = 'Terms of Use';
+                pickerSubtitleEl.textContent = 'Select an application to view its terms of use.';
+            } else {
+                pickerTitleEl.textContent = 'Privacy Policy';
+                pickerSubtitleEl.textContent = 'Select an application to view its privacy policy.';
+            }
+        }
+
         function showView(viewName, updateHistory = true) {
             currentView = viewName;
+            hideAllViews();
 
             if (viewName === 'home') {
                 document.title = 'Rapheldor Software';
                 homeView.style.display = 'block';
-                privacyView.style.display = 'none';
-                linkHome.classList.add('active');
-                linkPrivacy.classList.remove('active');
+                setNavActive('home');
+                currentApp = null;
 
                 if (updateHistory) {
                     window.history.pushState({ view: 'home' }, '', '/');
                 }
+            } else if (viewName === 'picker') {
+                document.title = (currentType === 'terms' ? 'Terms of Use' : 'Privacy Policy') + ' - Rapheldor Software';
+                pickerView.style.display = 'block';
+                setNavActive('picker');
+                currentApp = null;
+                updatePickerCopy();
+                renderPicker();
+
+                if (updateHistory) {
+                    window.history.pushState({ view: 'picker', type: currentType }, '', urlFor('picker', null, currentType));
+                }
             } else {
                 document.title = (currentType === 'terms' ? 'Terms of Use' : 'Privacy Policy') + ' - Rapheldor Software';
-                homeView.style.display = 'none';
                 privacyView.style.display = 'block';
-                linkHome.classList.remove('active');
-                linkPrivacy.classList.add('active');
+                setNavActive('detail');
+                updateTypeButtons();
+                renderSidebar();
                 loadContent();
 
                 if (updateHistory) {
-                    const path = currentType === 'terms' ? '/terms' : '/privacy';
-                    window.history.pushState({ view: 'privacy', app: currentApp, type: currentType }, '', path);
+                    window.history.pushState(
+                        { view: 'detail', app: currentApp, type: currentType },
+                        '',
+                        urlFor('detail', currentApp, currentType)
+                    );
                 }
             }
         }
 
-        // --- Shortcuts ---
+        function showPicker(type) {
+            if (type === 'privacy' || type === 'terms') {
+                currentType = type;
+                updateTypeButtons();
+            }
+            showView('picker');
+        }
+
         function showPrivacy(appId) {
             if (appId && apps.find(a => a.id === appId)) {
                 currentApp = appId;
-                renderSidebar(); // Update sidebar active state
             }
-            showView('privacy');
+            if (!currentApp) {
+                showView('picker');
+                return;
+            }
+            showView('detail');
         }
 
-        // --- Privacy Logic ---
+        function renderPicker() {
+            pickerGridEl.innerHTML = '';
+            const actionLabel = currentType === 'terms' ? 'View Terms' : 'View Privacy';
+
+            apps.forEach(app => {
+                const card = document.createElement('div');
+                card.className = 'picker-card';
+                card.onclick = () => selectApp(app.id);
+                card.innerHTML = `
+                    <img src="${app.logo}" alt="${app.name}" class="app-icon" onerror="this.style.opacity='0.3'">
+                    <h3>${app.name}</h3>
+                    <span>${actionLabel}</span>
+                `;
+                pickerGridEl.appendChild(card);
+            });
+        }
+
         function renderSidebar() {
             appListEl.innerHTML = '';
             apps.forEach(app => {
                 const item = document.createElement('div');
                 item.className = `nav-item ${app.id === currentApp ? 'active' : ''}`;
-                item.textContent = app.name;
+                item.innerHTML = `
+                    <img src="${app.logo}" alt="" onerror="this.style.display='none'">
+                    <span>${app.name}</span>
+                `;
                 item.onclick = () => selectApp(app.id);
                 appListEl.appendChild(item);
             });
         }
 
         function selectApp(appId) {
+            if (!apps.find(a => a.id === appId)) return;
             currentApp = appId;
-            renderSidebar();
-            loadContent();
+            showView('detail');
+        }
 
-            // Update URL
-            const path = currentType === 'terms' ? '/terms' : '/privacy';
-            window.history.pushState({ view: 'privacy', app: appId, type: currentType }, '', path);
+        function updateTypeButtons() {
+            btnPrivacy.style.opacity = currentType === 'privacy' ? '1' : '0.5';
+            btnTerms.style.opacity = currentType === 'terms' ? '1' : '0.5';
         }
 
         function setUI(type) {
             currentType = type;
-            btnPrivacy.style.opacity = type === 'privacy' ? '1' : '0.5';
-            btnTerms.style.opacity = type === 'terms' ? '1' : '0.5';
-            loadContent();
+            updateTypeButtons();
+            if (currentView === 'detail') {
+                loadContent();
+            } else if (currentView === 'picker') {
+                updatePickerCopy();
+                renderPicker();
+            }
         }
 
         function setType(type) {
             setUI(type);
 
-            // Update URL and Title
-            if (currentView === 'privacy') {
+            if (currentView === 'detail' || currentView === 'picker') {
                 document.title = (type === 'terms' ? 'Terms of Use' : 'Privacy Policy') + ' - Rapheldor Software';
-                const path = type === 'terms' ? '/terms' : '/privacy';
-                window.history.pushState({ view: 'privacy', app: currentApp, type: type }, '', path);
+                const path = currentView === 'detail'
+                    ? urlFor('detail', currentApp, type)
+                    : urlFor('picker', null, type);
+                window.history.pushState(
+                    { view: currentView, app: currentApp, type: type },
+                    '',
+                    path
+                );
             }
         }
 
         async function loadContent() {
-            // contentEl.innerHTML = '<div style="opacity:0.5">Loading...</div>';
+            if (!currentApp) return;
 
             const fileName = currentType === 'privacy' ? 'privacy-en.txt' : 'terms-en.txt';
             const folder = currentType === 'privacy' ? 'privacy' : 'terms';
             const path = `assets/${folder}/${currentApp}/${fileName}`;
+            const appName = apps.find(a => a.id === currentApp)?.name || currentApp;
 
             try {
                 const response = await fetch(path);
                 if (!response.ok) throw new Error('Not found');
                 const text = await response.text();
-                // Simple formatting or use marked if available
                 if (typeof marked !== 'undefined' && marked.parse) {
                     contentEl.innerHTML = marked.parse(text);
                 } else {
@@ -768,37 +999,37 @@
             } catch (err) {
                 console.warn(err);
                 if (currentType === 'terms') {
-                    // Start fallback for terms if missing - some might not have terms
-                    contentEl.innerHTML = `Terms of use not found for ${apps.find(a => a.id === currentApp).name}.`;
+                    contentEl.innerHTML = `Terms of use not found for ${appName}.`;
                 } else {
                     contentEl.innerHTML = `Could not load Privacy Policy. <br><br> <a href="${path}" target="_blank" style="text-decoration:underline;">Click here to view file directly</a>`;
                 }
             }
         }
 
-        // Handle Browser Back Button
         window.onpopstate = function (event) {
             if (event.state) {
+                if (event.state.type) {
+                    currentType = event.state.type;
+                    updateTypeButtons();
+                }
                 if (event.state.view === 'home') {
                     showView('home', false);
-                } else if (event.state.view === 'privacy') {
+                } else if (event.state.view === 'picker') {
+                    showView('picker', false);
+                } else if (event.state.view === 'detail' || event.state.view === 'privacy') {
                     if (event.state.app) currentApp = event.state.app;
-                    if (event.state.type) {
-                        currentType = event.state.type;
-                        btnPrivacy.style.opacity = currentType === 'privacy' ? '1' : '0.5';
-                        btnTerms.style.opacity = currentType === 'terms' ? '1' : '0.5';
+                    if (currentApp) {
+                        showView('detail', false);
+                    } else {
+                        showView('picker', false);
                     }
-                    renderSidebar();
-                    showView('privacy', false);
                 }
             } else {
                 init();
             }
         };
 
-        // Start
         init();
-
     </script>
 </body>
 
