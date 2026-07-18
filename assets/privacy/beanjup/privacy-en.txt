@@ -1,0 +1,235 @@
+ Beanjup Privacy Policy
+
+Effective Date: July 18, 2026
+
+Last Updated: July 18, 2026
+
+This Privacy Policy explains how Efe KIRBIZ, an independent software developer
+based in Türkiye and publishing under the name Rapheldor Software ("Rapheldor,"
+"we," "us," or "our"), handles information in connection with the mobile game
+Beanjup (the "Game") for Android and iOS.
+
+ 1. Privacy at a Glance
+
+The current version of Beanjup:
+
+- does not require or offer user accounts;
+- does not contain advertising;
+- does not use third-party advertising or analytics SDKs;
+- does not track users across apps or websites;
+- does not collect precise or approximate location information;
+- does not access contacts, photos, the camera, the microphone, or files;
+- does not include in-app purchases;
+- stores game preferences and high scores locally on your device; and
+- allows you to voluntarily contact us through your own email application when
+  reporting a bug or requesting support.
+
+We do not sell personal information.
+
+ 2. Information Stored Only on Your Device
+
+Beanjup stores a limited amount of information locally on your device so the
+Game can remember your preferences:
+
+- high scores and gameplay progress;
+- selected language;
+- music and sound settings;
+- vibration settings; and
+- whether you accepted the Privacy Policy and Terms of Use.
+
+This information is not transmitted to Rapheldor. It normally remains on your
+device until you clear the Game's app data or uninstall the Game. Device backup
+and restore features provided by your operating system or app store may process
+local app data in accordance with their own terms and privacy policies.
+
+ 3. Voluntary Support and Bug Reports
+
+Beanjup includes a support screen that can open your device's email application.
+The Game does not automatically send emails. You decide whether to send a
+message and what information to include.
+
+If you contact us by email, we may receive:
+
+- your email address and any name associated with your email account;
+- the subject and contents of your message;
+- the Game version, operating system version, device specifications, and
+  reproduction steps that you choose to provide; and
+- screenshots, videos, or other attachments that you choose to include.
+
+We use this information only to:
+
+- respond to your request;
+- investigate and fix bugs;
+- improve the stability and usability of the Game;
+- protect our support services from abuse; and
+- comply with applicable legal obligations.
+
+Please do not include passwords, government-issued identification numbers,
+financial information, health information, precise location information, or any
+other unnecessary sensitive personal information in your support message.
+
+Our support email is hosted by a third-party email provider, currently Google's
+Gmail service. Your email application and email provider also process your
+message in accordance with their own terms and privacy policies.
+
+ 4. App Store and Platform Information
+
+Google Play, the Apple App Store, Android, iOS, device manufacturers, and
+operating system services may independently process information such as
+downloads, installations, device details, app store account information, and
+crash or performance diagnostics. Their processing of information is governed
+by their own privacy policies and is not controlled by this Privacy Policy.
+
+Rapheldor may receive aggregated or pseudonymized reports made available through
+Google Play or the Apple App Store, such as the Game version, device model,
+operating system version, crash stack traces, installation statistics, and
+general performance information. We use these reports solely to maintain and
+improve the Game and not for advertising or cross-app tracking.
+
+ 5. How We Share Information
+
+We do not sell, rent, or trade personal information.
+
+We may disclose information only in the following limited circumstances:
+
+- Service providers: Providers that support our email, hosting, security, or
+  technical operations, only to the extent necessary to provide those services.
+- Legal requirements: When we reasonably believe disclosure is required by
+  applicable law, a valid legal process, or to protect the rights, safety, or
+  security of users, Rapheldor, or others.
+- Transfer of the Game: If ownership or operation of the Game is sold, assigned,
+  reorganized, or otherwise transferred, information may be transferred subject
+  to appropriate confidentiality and data protection safeguards.
+
+We do not share personal information for behavioral advertising.
+
+ 6. Legal Grounds for Processing
+
+Where applicable law requires a legal basis for processing, we process personal
+information:
+
+- to respond to and fulfill requests you make, such as support requests;
+- with your consent, where consent is required or appropriate;
+- for our legitimate interests in securing, maintaining, debugging, and
+  improving the Game, provided those interests do not override your rights and
+  freedoms; and
+- to comply with legal obligations or establish, exercise, or defend legal
+  claims.
+
+Support information is collected directly from you only when you voluntarily
+send us an email. Gameplay information stored locally on your device is not
+collected by Rapheldor.
+
+ 7. Data Retention and Deletion
+
+- Local Game data remains on your device until you clear the Game's app data or
+  uninstall the Game, subject to platform-controlled backup and restore
+  features.
+- Support messages are retained only as long as reasonably necessary to respond
+  to your request, investigate issues, maintain support records, prevent abuse,
+  and comply with legal obligations. We typically delete or anonymize support
+  correspondence within 12 months after the related request has been resolved,
+  unless a longer retention period is reasonably necessary for legal, security,
+  or dispute-related purposes.
+- Store diagnostics are retained according to the retention policies of Google
+  Play and the Apple App Store.
+
+Beanjup does not currently provide user accounts, so there is no Game account to
+delete. You may request the deletion of a support email or other personal
+information held by us by contacting rapheldorsoftware@gmail.com.
+
+We may request sufficient information to locate and verify the relevant
+correspondence before processing your request.
+
+ 8. Security
+
+We use reasonable administrative and technical safeguards appropriate to the
+limited amount of information we handle. However, no email, device, storage
+system, or method of electronic transmission is completely secure. You should
+avoid sending unnecessary sensitive personal information by email.
+
+ 9. International Processing
+
+Our service providers and app store providers may process information in
+countries other than the country where you reside. Where required by law, we
+rely on appropriate legal safeguards for international transfers. By
+voluntarily contacting us, your message may be processed in Türkiye and in other
+countries where your email provider or our email provider operates.
+
+ 10. Your Privacy Rights
+
+Depending on where you live, you may have the right to:
+
+- know whether we process your personal information;
+- request access to or a copy of your personal information;
+- request correction of inaccurate or incomplete information;
+- request deletion or restriction of processing;
+- object to certain types of processing;
+- withdraw consent where processing is based on consent; and
+- lodge a complaint with a competent data protection authority.
+
+These rights may be subject to legal limitations and exceptions.
+
+To submit a privacy request, email rapheldorsoftware@gmail.com using the subject
+line "Beanjup Privacy Request." We will respond in accordance with applicable
+law.
+
+Users in Türkiye may also have the rights provided under Article 11 of Turkish
+Law No. 6698 on the Protection of Personal Data (KVKK).
+
+ 11. Children and Teenagers
+
+Beanjup is intended for a general audience aged 13 and older. It is not directed
+to children under the age of 13, and our Google Play target audience does not
+include children under 13.
+
+We do not knowingly collect personal information from children under 13.
+Children under 13 should not use the Game or send us support messages. If you
+are a parent or legal guardian and believe that a child under 13 has provided us
+with personal information, please contact us at
+rapheldorsoftware@gmail.com. We will take reasonable steps to locate and delete
+that information.
+
+Users aged 13 to 17 should ask a parent or legal guardian to review this Privacy
+Policy and obtain any permission required under applicable law before sending
+us personal information or attachments.
+
+ 12. Third-Party Links
+
+The Game may open external links, including our website, this Privacy Policy,
+the Terms of Use, app store pages, and your email application. We do not control
+the privacy practices or content of third-party services. Please review their
+privacy policies before providing any personal information.
+
+ 13. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes to the
+Game, applicable laws, or our privacy practices. We will update the "Last
+Updated" date and, where required, provide additional notice within the Game or
+through the relevant app store.
+
+If a future version of the Game introduces user accounts, advertising,
+analytics, cloud saves, online leaderboards, in-app purchases, or other features
+involving the processing of personal information, we will update this Privacy
+Policy and the relevant app store privacy disclosures before or when those
+features become available.
+
+ 14. Contact
+
+Developer and Data Controller:
+Efe KIRBIZ, publishing as Rapheldor Software
+
+Country:
+Türkiye
+
+Privacy and Support Email:
+rapheldorsoftware@gmail.com
+
+Website:
+https://rapheldorsoftware.com
+
+Game:
+Beanjup
+
+Android Package Name and iOS Bundle Identifier:
+com.rapheldorsoftware.beanjup
