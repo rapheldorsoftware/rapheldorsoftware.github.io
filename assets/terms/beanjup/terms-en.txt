@@ -1,6 +1,6 @@
 # Beanjup Terms of Use
 
-**Effective Date:** July 23, 2026  
+**Effective Date:** July 23, 2026
 **Last Updated:** July 23, 2026
 
 These Terms of Use ("Terms") are an agreement between you and Efe KIRBIZ, an
@@ -312,20 +312,20 @@ protection also applies.
 
 ## 20. Contact
 
-**Developer and Legal Operator:**  
+**Developer and Legal Operator:**
 Efe KIRBIZ, publishing as Rapheldor Software
 
-**Country:**  
+**Country:**
 Türkiye
 
-**Support Email:**  
+**Support Email:**
 rapheldorsoftware@gmail.com
 
-**Website:**  
+**Website:**
 https://rapheldorsoftware.com
 
-**Game:**  
+**Game:**
 Beanjup
 
-**Android Package Name and iOS Bundle Identifier:**  
+**Android Package Name and iOS Bundle Identifier:**
 com.rapheldorsoftware.beanjup
