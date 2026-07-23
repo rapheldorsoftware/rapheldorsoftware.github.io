@@ -1,8 +1,7 @@
- Beanjup Terms of Use
+# Beanjup Terms of Use
 
-Effective Date: July 18, 2026
-
-Last Updated: July 18, 2026
+**Effective Date:** July 23, 2026  
+**Last Updated:** July 23, 2026
 
 These Terms of Use ("Terms") are an agreement between you and Efe KIRBIZ, an
 independent software developer based in Türkiye and publishing under the name
@@ -11,29 +10,27 @@ download, installation, access to, and use of the mobile game Beanjup (the
 "Game") on Android and iOS.
 
 Please read these Terms and the
-[Beanjup Privacy Policy](https://rapheldorsoftware.com/privacy) before using the
-Game. By selecting the approval button in the Game, downloading the Game, or
-using the Game, you agree to these Terms. If you do not agree, do not use the
-Game.
+[Beanjup Privacy Policy](https://rapheldorsoftware.com/privacy?app=beanjup)
+before using the Game. By selecting the approval button in the Game,
+downloading the Game, or using the Game, you agree to these Terms. If you do not
+agree, do not use the Game.
 
- 1. Eligibility and Age
+## 1. Eligibility and Age
 
 Beanjup is intended for users aged 13 and older and is not directed to children
-under 13.
+under 13. A person under 13 must not use the Game.
 
-If you are under the age of legal majority where you live, your parent or legal
-guardian must review and agree to these Terms on your behalf where required by
-applicable law. A person under 13 must not use the Game.
-
-If a parent or guardian permits a minor to use the Game, the parent or guardian
-is responsible for supervising the minor's use and helping the minor understand
-these Terms, including the rules about support emails, attachments, and external
+If you are under the legal age of majority where you live, a parent or legal
+guardian must review and agree to these Terms on your behalf where applicable
+law requires. A parent or guardian who permits a minor to use the Game is
+responsible for supervising that use and helping the minor understand these
+Terms, advertising choices, platform profiles, support messages, and external
 links.
 
- 2. License to Use the Game
+## 2. License to Use the Game
 
-Subject to these Terms and the applicable app store rules, Rapheldor grants you
-a limited, personal, revocable, non-exclusive, non-transferable, and
+Subject to these Terms and applicable app-store rules, Rapheldor grants you a
+limited, personal, revocable, non-exclusive, non-transferable, and
 non-sublicensable license to install and use the Game for your own
 non-commercial entertainment on devices that you own or control.
 
@@ -41,199 +38,260 @@ The Game is licensed, not sold. Rapheldor and its licensors retain all rights
 not expressly granted to you.
 
 For a copy obtained through Apple's App Store, your license is also subject to
-Apple's Licensed Application End User License Agreement ("Apple Standard EULA")
-and Apple Media Services Terms and Conditions. For a copy obtained through
-Google Play, your use is also subject to the applicable Google Play terms.
+Apple's Licensed Application End User License Agreement ("Apple Standard
+EULA") and Apple Media Services Terms and Conditions. For a copy obtained
+through Google Play, your use is also subject to applicable Google Play terms.
 
- 3. The Current Game
+## 3. The Current Game
 
 The current version of Beanjup:
 
 - is a single-player casual game;
-- does not require a user account;
-- does not contain advertising;
+- does not require a separate Rapheldor account;
+- includes interstitial and optional rewarded advertising;
+- offers weekly and all-time online leaderboards through Google Play Games and
+  Apple Game Center;
 - does not include in-app purchases;
-- does not provide online chat, public profiles, or user-generated content; and
-- stores high scores and preferences locally on the device.
+- does not provide chat or allow users to type a public display name inside the
+  Game; and
+- stores preferences, local progress, and pending score uploads on the device.
 
-We may add, remove, or change features in a future version. If a change
-materially affects these Terms, privacy practices, payments, or your rights, we
-will update the applicable terms and notices.
+Use of ads, gaming profiles, and leaderboards depends on third-party services,
+network availability, device compatibility, regional availability, and your
+platform or privacy settings.
 
- 4. Acceptable Use
+## 4. Advertising and Rewarded Continuations
 
-You agree to use the Game lawfully and only as intended. You must not:
+Beanjup may display third-party ads supplied through Google Mobile Ads,
+including interstitial ads during selected transitions. Advertisements and the
+products or services they promote are supplied by third parties. Rapheldor does
+not control every ad's content, destination, availability, or claims and does
+not endorse an advertised product merely by displaying the ad.
 
-- use the Game in violation of applicable law or another person's rights;
+The Game may offer an optional rewarded ad after a failed run. If you choose to
+watch and successfully complete the rewarded ad as recognized by the ad
+provider, the Game may grant one continuation for that run. Rewards:
+
+- have no cash or real-world monetary value;
+- cannot be sold, transferred, exchanged, or redeemed outside the Game;
+- may be limited to one per run or otherwise limited;
+- may be unavailable because of connection, inventory, consent, age, regional,
+  technical, or provider restrictions; and
+- may not be granted if the ad is closed early, fails, or the provider does not
+  report completion.
+
+We do not guarantee that an ad or reward will always be available. Privacy
+choices concerning advertising are described in the Privacy Policy and, where
+required, can be managed through the privacy-options control in the Game or
+through device settings.
+
+## 5. Platform Sign-In and Leaderboards
+
+Beanjup uses Google Play Games on Android and Apple Game Center on iOS. These
+are platform accounts and services; Rapheldor does not create or control your
+Google or Apple account and does not receive your account password.
+
+When you are signed in to the relevant gaming service:
+
+- completed-run scores may be submitted to weekly and all-time leaderboards;
+- your platform gamer name or nickname, score, and rank may be displayed to you
+  and other players according to platform privacy settings;
+- the platform may keep the best qualifying score under its leaderboard rules;
+  and
+- the Game may temporarily retain a score on your device and retry an upload
+  later.
+
+Weekly leaderboards reset according to the schedule configured with the
+platform. All-time leaderboards are intended to retain the best score while the
+leaderboard remains active. Platform processing, caching, moderation,
+anti-cheat checks, outages, and synchronization delays can affect when or
+whether a score or rank appears.
+
+You agree not to manipulate scores or rankings through cheats, bots, modified
+clients, automation, exploits, tampering, or unauthorized tools. We or the
+platform provider may reject, hide, correct, or remove suspicious or invalid
+scores and may restrict leaderboard access where permitted.
+
+Any gamer name, profile image, or other platform-profile content is governed by
+the platform provider's rules. You are responsible for your platform-profile
+content and must not use unlawful, abusive, hateful, deceptive, infringing, or
+otherwise prohibited profile content.
+
+You can manage gaming profile visibility, sign-in, and platform game data in
+Google Play Games or Game Center settings. Choosing not to sign in, signing out,
+or restricting profile visibility may prevent leaderboard participation or
+hide your rank without preventing offline gameplay.
+
+## 6. Local Data and Game Progress
+
+High scores, preferences, language, audio and vibration settings, consent
+choices, tutorial progress, and pending score uploads may be stored locally.
+Clearing app data, uninstalling the Game, changing devices, device failure, or
+platform backup behavior may cause local data to be lost.
+
+Online leaderboard entries are not a cloud save of all gameplay progress. We do
+not promise that local progress can be recovered, synchronized, or transferred.
+
+## 7. Acceptable Use
+
+You agree to use the Game lawfully and as intended. You must not:
+
+- violate applicable law or another person's rights;
 - copy, distribute, sell, rent, lease, sublicense, publicly perform, or
-  commercially exploit the Game except where applicable law expressly permits;
+  commercially exploit the Game except where law expressly permits;
 - reverse engineer, decompile, disassemble, derive source code from, modify, or
-  create derivative works from the Game, except to the limited extent such a
-  restriction is prohibited by applicable law or permitted by an applicable
-  open-source license;
-- bypass or interfere with security, integrity, access controls, or technical
-  limitations;
+  create derivative works from the Game, except where such a restriction is
+  prohibited by law or an applicable open-source license;
+- bypass or interfere with security, integrity, consent mechanisms, access
+  controls, advertising, leaderboard systems, or technical limitations;
 - use cheats, automation, bots, modified clients, exploits, or unauthorized
-  tools to manipulate the Game;
-- introduce malware or attempt to damage, disrupt, overload, or gain
-  unauthorized access to the Game, our systems, or another user's device;
-- impersonate Rapheldor or falsely claim that content or communications are
-  approved by us; or
-- use our support channel to send unlawful, threatening, abusive, deceptive,
+  tools to manipulate gameplay, ads, rewards, scores, or rankings;
+- introduce malware or attempt to disrupt, overload, damage, or gain
+  unauthorized access to the Game, our systems, a provider, or another user's
+  device;
+- impersonate Rapheldor or falsely claim approval, sponsorship, or affiliation;
+  or
+- misuse support channels to send unlawful, threatening, abusive, deceptive,
   infringing, malicious, or spam content.
 
- 5. Local Data and Game Progress
-
-High scores, language, audio, vibration, and legal consent choices are stored
-locally on your device. Clearing app data, uninstalling the Game, changing
-devices, device failure, or platform backup behavior may cause this data to be
-lost.
-
-Unless a future version expressly introduces a cloud save feature, we do not
-promise that local progress can be recovered, synchronized, or transferred.
-
- 6. Support, Bug Reports, and Feedback
+## 8. Support, Bug Reports, and Feedback
 
 The Game may open your email application so you can voluntarily contact us. You
 are responsible for reviewing the recipient, message, and attachments before
-sending.
+sending. Do not send passwords, government identifiers, financial or health
+information, precise location, confidential third-party information, or other
+unnecessary sensitive information.
 
-Do not send passwords, government-issued identification numbers, financial
-information, health information, precise location information, confidential
-third-party information, or other unnecessary sensitive information.
+You retain ownership of original material in a support message. You grant
+Rapheldor a worldwide, royalty-free, non-exclusive license to use, reproduce,
+adapt, and analyze the message and attachments only as reasonably necessary to
+respond, investigate and fix issues, improve or secure the Game, prevent abuse,
+and maintain reasonable support or legal records.
 
-You retain ownership of original material you include in a support message.
-However, you give Rapheldor a worldwide, royalty-free, non-exclusive license to
-use, reproduce, adapt, and analyze the message and attachments only as
-reasonably necessary to:
+If you provide an idea, suggestion, or general feedback, we may use it without
+payment or obligation to you, while handling personal information under the
+Privacy Policy.
 
-- respond to you;
-- investigate, reproduce, and fix the reported issue;
-- improve and secure the Game; and
-- maintain reasonable support and legal records.
+## 9. Intellectual Property
 
-If you provide an idea, suggestion, or general feedback about the Game, we may
-use it without payment or obligation to you, provided we handle any personal
-information according to the Privacy Policy.
-
- 7. Intellectual Property
-
-The Game, including its software, game design, mechanics as expressed in the
-Game, artwork, graphics, animation, audio, music, text, logos, names, and other
-content, is owned by or licensed to Rapheldor and is protected by intellectual
-property laws.
+The Game, including its software, design, artwork, graphics, animation, audio,
+music, text, logos, names, and other content, is owned by or licensed to
+Rapheldor and is protected by intellectual-property laws.
 
 "Beanjup," "Rapheldor Software," related logos, and visual branding may not be
 used in a way that suggests sponsorship, endorsement, or affiliation without
-our prior written permission.
+prior written permission.
 
-The Game may include open-source or third-party components. Those components
-remain subject to their respective license terms. Applicable open-source
-notices are available from the Game's legal or about section.
+The Game may include open-source or third-party components governed by their
+respective license terms. Applicable notices are available from the Game's
+legal or about section where provided.
 
- 8. App Stores and External Services
+## 10. App Stores and External Services
 
-Your download and use of the Game may depend on services provided by Apple,
-Google, your device manufacturer, operating system provider, internet provider,
-email provider, or other third parties. Their own terms, fees, availability, and
-privacy policies apply to those services.
+The Game depends in part on services provided by Google, Apple, device and
+operating-system providers, internet and email providers, and advertising
+partners. Their terms, fees, availability, moderation, and privacy policies
+apply to their services.
 
-The Game may contain links that open our website, app store pages, legal
-documents, or your email application. We do not control third-party services
-and are not responsible for their content, security, availability, or practices.
-A link does not necessarily mean that Rapheldor endorses all content on the
-linked service.
+Relevant external services include Google Play, Google Mobile Ads, Google's
+User Messaging Platform, Google Play Games, the Apple App Store, and Apple Game
+Center. You must comply with their applicable terms.
 
-You must comply with applicable third-party terms when using the Game.
+The Game may open our website, legal documents, app-store pages, platform help
+or profile pages, advertisements, or your email application. We do not control
+third-party services and are not responsible for their content, security,
+availability, products, claims, or practices. External links do not necessarily
+constitute endorsement.
 
- 9. Updates, Availability, and Changes
+## 11. Updates, Availability, and Changes
 
-We may provide updates that correct errors, improve performance, change
+We may provide updates to fix errors, improve performance, change
 compatibility, add or remove features, or address security and legal
-requirements. Some updates may be required to continue using the Game.
+requirements. Some updates may be required to continue using all features.
 
-We do not guarantee that the Game or every feature will always be available on
-every device, operating system version, language, country, or app store. To the
-extent permitted by applicable law, we may modify, suspend, or discontinue all
-or part of the Game.
+We do not guarantee that the Game, advertisements, rewarded continuations,
+leaderboards, sign-in, or every other feature will always be available on every
+device, operating-system version, language, country, network, or app store. To
+the extent permitted by law, we may modify, suspend, or discontinue all or part
+of the Game.
 
- 10. Suspension and Termination
+## 12. Suspension and Termination
 
-You may stop using the Game at any time by uninstalling it.
+You may stop using the Game at any time by uninstalling it and may separately
+manage connected gaming-service data through your platform account.
 
-Your license may terminate automatically if you materially violate these Terms.
-Where reasonable and legally permitted, we may restrict access to future online
-features or support channels to protect the Game, users, or our services from
-abuse. Sections that by their nature should survive termination, including
-intellectual property, disclaimers, liability limitations, and dispute
-provisions, will continue to apply.
+Your license may terminate automatically if you materially violate these
+Terms. Where reasonable and legally permitted, we may restrict access to online
+features or support channels to protect the Game, users, providers, or services
+from abuse. Provisions that should survive termination by their nature,
+including intellectual property, disclaimers, liability limitations, and
+dispute provisions, remain in effect.
 
- 11. Disclaimer
+## 13. Disclaimer
 
-To the maximum extent permitted by applicable law, the Game is provided on an
-"as is" and "as available" basis. We do not guarantee that the Game will always
-be uninterrupted, error-free, secure, compatible with every device, or that
-local progress will never be lost.
+To the maximum extent permitted by applicable law, the Game is provided "as
+is" and "as available." We do not guarantee uninterrupted, error-free, secure,
+or universally compatible operation; availability of ads or rewards; accuracy
+or immediate synchronization of leaderboards; or recovery of local progress.
 
-Nothing in these Terms excludes any warranty, remedy, or consumer right that
+Nothing in these Terms excludes a warranty, remedy, or consumer right that
 cannot lawfully be excluded or limited. Some jurisdictions do not allow certain
-disclaimers, so some of this section may not apply to you.
+disclaimers, so portions of this section may not apply to you.
 
- 12. Limitation of Liability
+## 14. Limitation of Liability
 
 To the maximum extent permitted by applicable law, Rapheldor will not be liable
 for indirect, incidental, special, consequential, or punitive loss arising from
-your use of or inability to use the Game, including loss of local progress,
-data, opportunity, or profits.
+use of or inability to use the Game, including loss of local progress, scores,
+rank, rewards, data, opportunity, or profits.
 
-Nothing in these Terms limits liability where doing so would be unlawful,
-including liability that cannot be limited under mandatory consumer law or
-liability arising from fraud, willful misconduct, gross negligence, death, or
-personal injury where applicable law prohibits limitation.
+Nothing limits liability where limitation would be unlawful, including
+liability that cannot be limited under mandatory consumer law or liability for
+fraud, willful misconduct, gross negligence, death, or personal injury where
+applicable law prohibits limitation.
 
- 13. Privacy
+## 15. Privacy
 
 Our handling of information related to the Game is described in the
-[Beanjup Privacy Policy](https://rapheldorsoftware.com/privacy), which forms an
-important part of your relationship with us.
+[Beanjup Privacy Policy](https://rapheldorsoftware.com/privacy?app=beanjup),
+which forms an important part of your relationship with us.
 
- 14. Governing Law and Disputes
+## 16. Governing Law and Disputes
 
 These Terms are governed by the laws of the Republic of Türkiye, without
-excluding any mandatory consumer protection that applies in the country where
-you live.
+excluding mandatory consumer protection applicable in the country where you
+live.
 
-Before starting a formal claim, you may contact us at
+Before starting a formal claim, you may contact
 rapheldorsoftware@gmail.com so we can try to resolve the issue informally.
-Nothing in this section prevents either party from seeking urgent relief where
-available or from using a competent consumer authority, consumer arbitration
-committee, regulator, or court as provided by applicable law.
+Nothing prevents either party from seeking urgent relief or using a competent
+consumer authority, consumer arbitration committee, regulator, or court as
+provided by applicable law.
 
- 15. Changes to These Terms
+## 17. Changes to These Terms
 
-We may update these Terms to reflect changes to the Game, law, security, or our
-operations. We will update the "Last Updated" date and, when required, provide
-additional notice through the Game, our website, or the relevant app store.
+We may update these Terms to reflect changes to the Game, providers, law,
+security, or our operations. We will update the "Last Updated" date and provide
+additional notice where required through the Game, website, or app store.
 
-If you do not agree to updated Terms, you should stop using and uninstall the
-Game. Continued use after updated Terms take effect constitutes acceptance to
+If you do not agree to updated Terms, stop using and uninstall the Game.
+Continued use after updated Terms take effect constitutes acceptance only to
 the extent permitted by applicable law.
 
- 16. General Terms
+## 18. General Terms
 
-If a provision of these Terms is found unenforceable, it will be limited or
-removed only to the minimum extent necessary, and the remaining provisions will
-continue in effect.
+If a provision is unenforceable, it will be limited or removed only to the
+minimum extent necessary, and the remaining provisions remain effective. Our
+failure to enforce a provision is not a waiver.
 
-Our failure to enforce a provision is not a waiver. You may not transfer these
-Terms or your license except where applicable law allows. We may transfer these
-Terms in connection with a sale, assignment, reorganization, or transfer of the
-Game, subject to applicable law.
+You may not transfer these Terms or your license except where applicable law
+allows. We may transfer these Terms in connection with a sale, assignment,
+reorganization, or transfer of the Game, subject to applicable law.
 
-These Terms, the Privacy Policy, and the applicable app store terms form the
-agreement governing your use of the Game.
+These Terms, the Privacy Policy, and applicable app-store and platform terms
+form the agreement governing your use of the Game.
 
- 17. Apple App Store Notice
+## 19. Apple App Store Notice
 
 For users who obtained the Game from Apple's App Store:
 
@@ -252,22 +310,22 @@ For users who obtained the Game from Apple's App Store:
 If the Apple Standard EULA provides a mandatory or additional protection, that
 protection also applies.
 
- 18. Contact
+## 20. Contact
 
-Developer and Legal Operator:
+**Developer and Legal Operator:**  
 Efe KIRBIZ, publishing as Rapheldor Software
 
-Country:
+**Country:**  
 Türkiye
 
-Support Email:
+**Support Email:**  
 rapheldorsoftware@gmail.com
 
-Website:
+**Website:**  
 https://rapheldorsoftware.com
 
-Game:
+**Game:**  
 Beanjup
 
-Android Package Name and iOS Bundle Identifier:
+**Android Package Name and iOS Bundle Identifier:**  
 com.rapheldorsoftware.beanjup
