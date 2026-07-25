@@ -1,7 +1,7 @@
 # Beanjup Privacy Policy
 
 **Effective Date:** July 23, 2026
-**Last Updated:** July 23, 2026
+**Last Updated:** July 25, 2026
 
 This Privacy Policy explains how Efe KIRBIZ, an independent software developer
 based in Türkiye and publishing under the name Rapheldor Software
@@ -16,6 +16,9 @@ The current version of Beanjup:
 - uses Google Mobile Ads to provide interstitial and optional rewarded ads;
 - uses Google's User Messaging Platform ("UMP") to manage advertising privacy
   choices where required;
+- uses Firebase Crashlytics and Firebase Analytics (Google) to understand
+  crashes, stability, and basic Game usage so we can fix bugs and improve the
+  Game;
 - offers online leaderboards through Google Play Games on Android and Apple
   Game Center on iOS;
 - stores gameplay progress, preferences, consent records, and pending score
@@ -154,23 +157,52 @@ health information, precise location, or other unnecessary sensitive personal
 information. Our support email is currently hosted by Google's Gmail service;
 your own email provider also processes the message under its policies.
 
-## 6. App Stores, Devices, and Diagnostics
+## 6. Firebase Crashlytics, Firebase Analytics, App Stores, and Diagnostics
+
+### 6.1 Firebase Crashlytics and Firebase Analytics
+
+Beanjup integrates Google Firebase services, including:
+
+- **Firebase Crashlytics**, to collect crash logs, stack traces, diagnostic
+  information, and related device or app identifiers so we can detect, diagnose,
+  and fix stability problems; and
+- **Firebase Analytics**, to collect limited app-activity and performance
+  information (for example app opens, feature use signals, and similar usage
+  events) so we can understand how the Game is used and improve it.
+
+Depending on device, platform, and Firebase configuration, these services may
+automatically collect or receive information such as:
+
+- crash logs, stack traces, and diagnostic or session information;
+- app interactions and other app-activity events;
+- device or other identifiers used by Firebase (including Firebase installation
+  identifiers and related app-instance identifiers);
+- device model, operating system, Game version, language, and similar technical
+  information; and
+- timestamps and related reliability or performance metadata.
+
+Google processes this information as a service provider / processor for
+Rapheldor for app functionality, analytics, debugging, and product improvement.
+Crashlytics and Analytics data are not used by Rapheldor to sell your
+information for money or to show personalized ads by themselves. Advertising
+processing is described separately in Section 3.
+
+For more information, review the
+[Google Privacy Policy](https://policies.google.com/privacy) and Firebase
+product documentation for Crashlytics and Analytics.
+
+### 6.2 App stores, devices, and other diagnostics
 
 Google Play, the Apple App Store, Android, iOS, device manufacturers, and
 operating-system services may independently process downloads, installations,
 device details, store-account information, game-service activity, and crash or
 performance diagnostics under their own policies.
 
-Rapheldor may receive aggregated or pseudonymized store reports such as Game
-version, device model, operating-system version, crash stack traces,
-installation statistics, advertising performance, and general performance
-information. We use available reports to operate, secure, debug, and improve
-the Game and its monetization.
-
-Beanjup does not currently integrate Firebase Analytics, Firebase Crashlytics,
-or a separate Rapheldor behavioral-analytics service. This does not limit the
-advertising, measurement, diagnostics, or platform processing described in
-this Policy.
+Rapheldor may receive aggregated or pseudonymized store and Firebase reports
+such as Game version, device model, operating-system version, crash stack
+traces, installation statistics, advertising performance, and general
+performance information. We use available reports to operate, secure, debug,
+and improve the Game and its monetization.
 
 ## 7. How Information Is Shared
 
@@ -181,6 +213,8 @@ Information may be processed or disclosed in these limited circumstances:
 - **Advertising providers:** Google Mobile Ads and participating advertising
   partners, for ad delivery, personalization where permitted, measurement,
   analytics, security, and fraud prevention.
+- **Firebase / Google:** Firebase Crashlytics and Firebase Analytics, for crash
+  reporting, diagnostics, app functionality, and product analytics.
 - **Gaming platforms:** Google Play Games and Apple Game Center, to authenticate
   players and provide scores, ranks, profiles, and leaderboards.
 - **Operational providers:** Providers supporting email, website hosting,
@@ -203,6 +237,9 @@ We and our providers process information, as applicable:
 - to remember choices and synchronize scores;
 - to respond to support requests;
 - to measure advertising and Game performance;
+- to collect crash logs, diagnostics, and limited analytics needed to operate,
+  debug, and improve the Game (including through Firebase Crashlytics and
+  Firebase Analytics);
 - to detect fraud, cheating, abuse, and security incidents;
 - with consent where consent is required;
 - for legitimate interests in operating, securing, debugging, and improving the
@@ -218,6 +255,10 @@ We and our providers process information, as applicable:
   applicable.
 - Google and Apple retain gaming profile, score, advertising, and diagnostic
   data according to their own policies and your platform settings.
+- Firebase Crashlytics and Firebase Analytics retain crash, diagnostic,
+  identifier, and analytics data according to Google Firebase retention
+  settings and policies. Rapheldor uses these reports for as long as reasonably
+  needed to operate, debug, and improve the Game.
 - Support correspondence is normally deleted or anonymized within 12 months
   after the request is resolved, unless longer retention is reasonably needed
   for legal, security, abuse-prevention, or dispute purposes.
@@ -292,6 +333,7 @@ include:
 
 - [Google Privacy Policy](https://policies.google.com/privacy)
 - [Google Play Games privacy settings](https://support.google.com/googleplay/answer/3129346)
+- [Firebase / Google Cloud privacy resources](https://firebase.google.com/support/privacy)
 - [Apple Privacy Policy](https://www.apple.com/legal/privacy/)
 - [Apple Game Center & Privacy](https://www.apple.com/legal/privacy/data/en/game-center/)
 
