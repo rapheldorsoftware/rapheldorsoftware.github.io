@@ -1,7 +1,7 @@
 # Beanjup Terms of Use
 
 **Effective Date:** July 23, 2026
-**Last Updated:** July 23, 2026
+**Last Updated:** July 25, 2026
 
 These Terms of Use ("Terms") are an agreement between you and Efe KIRBIZ, an
 independent software developer based in Türkiye and publishing under the name
@@ -49,6 +49,8 @@ The current version of Beanjup:
 - is a single-player casual game;
 - does not require a separate Rapheldor account;
 - includes interstitial and optional rewarded advertising;
+- uses Google Firebase Crashlytics and Firebase Analytics to help detect
+  crashes, diagnose issues, and improve Game stability and gameplay;
 - offers weekly and all-time online leaderboards through Google Play Games and
   Apple Game Center;
 - does not include in-app purchases;
@@ -194,8 +196,9 @@ partners. Their terms, fees, availability, moderation, and privacy policies
 apply to their services.
 
 Relevant external services include Google Play, Google Mobile Ads, Google's
-User Messaging Platform, Google Play Games, the Apple App Store, and Apple Game
-Center. You must comply with their applicable terms.
+User Messaging Platform, Google Firebase (including Crashlytics and Analytics),
+Google Play Games, the Apple App Store, and Apple Game Center. You must comply
+with their applicable terms.
 
 The Game may open our website, legal documents, app-store pages, platform help
 or profile pages, advertisements, or your email application. We do not control
