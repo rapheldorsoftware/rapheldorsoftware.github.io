@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booktou — Book Tracker & Reading Assistant</title>
+    <meta name="description"
+        content="Booktou is your personal reading assistant. Track books, keep streaks, focus with Pomodoro, unlock achievements, and build a library you'll love.">
+    <meta property="og:title" content="Booktou — Read. Track. Remember.">
+    <meta property="og:description"
+        content="Build reading habits that stick. Track your library, keep your streak, and unlock achievements with Booktou.">
+    <meta property="og:image" content="../assets/booktou/marketing/track-books.webp">
+    <link rel="icon" href="../assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,800&family=Sora:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f7f3eb;
+            --bg-soft: #fffdf8;
+            --bg-deep: #efe8dc;
+            --ink: #2a2622;
+            --muted: #7a736a;
+            --line: rgba(42, 38, 34, 0.1);
+            --flame: #f0782c;
+            --flame-deep: #e06218;
+            --progress: #6b8fce;
+            --shadow: 0 12px 32px rgba(42, 38, 34, 0.08);
+            --font-display: "Fraunces", Georgia, serif;
+            --font-body: "Sora", system-ui, sans-serif;
+            --ease: cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background:
+                linear-gradient(180deg, #fbf8f2 0%, var(--bg) 40%, #f3eee4 100%);
+            color: var(--ink);
+            font-family: var(--font-body);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .site-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            background: rgba(251, 248, 242, 0.88);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s var(--ease), background 0.3s var(--ease);
+        }
+
+        .site-header.scrolled {
+            border-bottom-color: var(--line);
+            background: rgba(251, 248, 242, 0.96);
+        }
+
+        .brand-link {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            color: var(--ink);
+        }
+
+        .brand-link img {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .header-actions a.subtle {
+            color: var(--muted);
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+
+        .header-actions a.subtle:hover {
+            color: var(--ink);
+        }
+
+        #download {
+            scroll-margin-top: 5.5rem;
+        }
+
+        .back-top {
+            position: fixed;
+            right: 1.1rem;
+            bottom: 1.1rem;
+            z-index: 60;
+            width: 46px;
+            height: 46px;
+            border: 1px solid var(--line);
+            border-radius: 50%;
+            background: var(--bg-soft);
+            color: var(--ink);
+            box-shadow: var(--shadow);
+            cursor: pointer;
+            display: grid;
+            place-items: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.25s var(--ease);
+        }
+
+        .back-top.visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .back-top svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.65rem;
+            padding: 0.85rem 1.15rem;
+            border-radius: 14px;
+            font-family: inherit;
+            font-size: 0.92rem;
+            font-weight: 600;
+            border: 1px solid transparent;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .btn-play {
+            background: var(--flame);
+            color: #fff;
+        }
+
+        .btn-apple {
+            background: var(--bg-soft);
+            border-color: var(--line);
+            color: var(--ink);
+        }
+
+        .btn-apple.is-soon {
+            opacity: 0.7;
+            cursor: default;
+        }
+
+        .btn svg {
+            width: 20px;
+            height: 20px;
+            flex-shrink: 0;
+        }
+
+        .btn-meta {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: 1.15;
+            text-align: left;
+        }
+
+        .btn-meta small {
+            font-size: 0.65rem;
+            font-weight: 500;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        .btn-meta strong {
+            font-size: 0.95rem;
+            font-weight: 700;
+        }
+
+        .store-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.85rem;
+        }
+
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            min-height: 100dvh;
+            display: grid;
+            align-items: center;
+            gap: 2.5rem;
+            padding: 7rem 1.25rem 3rem;
+            overflow: hidden;
+            max-width: 1180px;
+            margin: 0 auto;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 540px;
+            animation: riseIn 0.9s var(--ease) both;
+        }
+
+        .hero-visual {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            animation: riseIn 0.9s var(--ease) 0.12s both;
+        }
+
+        .hero-visual img {
+            width: 100%;
+            max-width: 360px;
+            margin: 0 auto;
+            border-radius: 20px;
+            border: 1px solid var(--line);
+            box-shadow: var(--shadow);
+            background: var(--bg-soft);
+        }
+
+        @media (min-width: 900px) {
+            .hero {
+                grid-template-columns: 1.1fr 0.9fr;
+                gap: 3rem;
+                padding-top: 7.5rem;
+                padding-bottom: 4rem;
+            }
+
+            .hero-visual img {
+                max-width: 400px;
+            }
+        }
+
+        @keyframes riseIn {
+            from {
+                opacity: 0;
+                transform: translateY(22px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.1rem, 7vw, 3.4rem);
+            font-weight: 700;
+            letter-spacing: -0.035em;
+            line-height: 1.08;
+            margin-bottom: 1rem;
+            max-width: 12ch;
+            color: var(--ink);
+        }
+
+        .hero h1 em {
+            font-style: normal;
+            color: var(--flame);
+        }
+
+        .hero p {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 34ch;
+            margin-bottom: 1.75rem;
+        }
+
+        .section {
+            padding: 5rem 1.25rem;
+            max-width: 1120px;
+            margin: 0 auto;
+        }
+
+        .section-head {
+            max-width: 36rem;
+            margin-bottom: 2rem;
+        }
+
+        .section-head .eyebrow {
+            display: inline-block;
+            color: var(--flame);
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            margin-bottom: 0.75rem;
+        }
+
+        .section-head h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.9rem, 5vw, 2.8rem);
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            margin-bottom: 0.85rem;
+            color: var(--ink);
+        }
+
+        .section-head p {
+            color: var(--muted);
+            font-size: 1.05rem;
+        }
+
+        .feature {
+            display: grid;
+            gap: 1.75rem;
+            align-items: center;
+            margin: 4.5rem 0;
+            opacity: 0;
+            transform: translateY(28px);
+            transition: opacity 0.75s var(--ease), transform 0.75s var(--ease);
+        }
+
+        .feature.in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .feature-visual {
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1px solid var(--line);
+            background: var(--bg-soft);
+            box-shadow: var(--shadow);
+            max-width: 380px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .feature-visual img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        @media (min-width: 900px) {
+            .feature {
+                grid-template-columns: 1fr 380px;
+                gap: 3rem;
+                margin: 5rem 0;
+                justify-content: space-between;
+            }
+
+            .feature.reverse {
+                grid-template-columns: 380px 1fr;
+            }
+
+            .feature.reverse .feature-copy {
+                order: 2;
+            }
+
+            .feature.reverse .feature-visual {
+                order: 1;
+                margin-left: 0;
+                margin-right: auto;
+            }
+
+            .feature:not(.reverse) .feature-visual {
+                margin-left: auto;
+                margin-right: 0;
+            }
+        }
+
+        .feature-copy h3 {
+            font-family: var(--font-display);
+            font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            margin-bottom: 0.85rem;
+            color: var(--ink);
+        }
+
+        .feature-copy p {
+            color: var(--muted);
+            font-size: 1.02rem;
+            max-width: 38ch;
+        }
+
+        .motivation {
+            margin: 2rem 1.25rem 0;
+            padding: 3.5rem 1.5rem;
+            border-radius: 28px;
+            background: var(--bg-soft);
+            border: 1px solid var(--line);
+            box-shadow: var(--shadow);
+            text-align: center;
+            max-width: 1120px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .motivation h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.9rem, 5vw, 2.7rem);
+            letter-spacing: -0.03em;
+            margin-bottom: 0.85rem;
+            color: var(--ink);
+        }
+
+        .motivation p {
+            color: var(--muted);
+            max-width: 42ch;
+            margin: 0 auto 1.75rem;
+        }
+
+        .pill-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.65rem;
+            margin-bottom: 2rem;
+        }
+
+        .pill {
+            padding: 0.55rem 0.9rem;
+            border-radius: 999px;
+            border: 1px solid rgba(240, 120, 44, 0.28);
+            background: rgba(240, 120, 44, 0.08);
+            color: var(--flame-deep);
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .final-cta {
+            padding: 5rem 1.25rem 4rem;
+            text-align: center;
+        }
+
+        .final-cta h2 {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 5vw, 3rem);
+            letter-spacing: -0.035em;
+            margin-bottom: 0.75rem;
+            color: var(--ink);
+        }
+
+        .final-cta p {
+            color: var(--muted);
+            margin-bottom: 1.75rem;
+        }
+
+        .final-cta .store-row {
+            justify-content: center;
+        }
+
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 2rem 1.25rem 3rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--muted);
+            font-size: 0.9rem;
+            max-width: 1120px;
+            margin: 0 auto;
+        }
+
+        .site-footer nav {
+            display: flex;
+            gap: 1.25rem;
+        }
+
+        .site-footer a:hover {
+            color: var(--ink);
+        }
+
+        @media (max-width: 640px) {
+            .site-header {
+                padding: 0.75rem 1rem;
+                gap: 0.5rem;
+            }
+
+            .brand-link {
+                gap: 0.45rem;
+                font-size: 0.95rem;
+                min-width: 0;
+            }
+
+            .brand-link img {
+                width: 30px;
+                height: 30px;
+                border-radius: 8px;
+                flex-shrink: 0;
+            }
+
+            .brand-link span {
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .header-actions {
+                gap: 0.55rem;
+            }
+
+            .header-actions a.subtle {
+                font-size: 0.78rem;
+            }
+
+            .hero {
+                padding-top: 5.5rem;
+                align-items: center;
+                min-height: auto;
+            }
+
+            .store-row {
+                width: 100%;
+            }
+
+            .store-row .btn {
+                flex: 1 1 100%;
+            }
+
+            .back-top {
+                right: 0.85rem;
+                bottom: 0.85rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="site-header" id="site-header">
+        <a class="brand-link" href="/booktou/">
+            <img src="../assets/booktou/marketing/icon.webp" alt="Booktou">
+            <span>Booktou</span>
+        </a>
+        <div class="header-actions">
+            <a class="subtle" href="/privacy?app=booktou">Privacy</a>
+            <a class="subtle" href="/terms?app=booktou">Terms</a>
+            <a class="subtle" href="#download" id="nav-download">Download</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Read. Track. <em>Remember.</em></h1>
+            <p>Your personal reading assistant — build a library, keep your streak alive, and turn every session into
+                progress you can feel.</p>
+            <div class="store-row">
+                <a class="btn btn-play"
+                    href="https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M3.6 2.8c-.3.2-.6.6-.6 1.1v16.2c0 .5.3.9.6 1.1l9.9-9.2L3.6 2.8zm11.3 6.5L12.2 12l2.7 2.7 3.7-2.1c.7-.4.7-1.4 0-1.8l-3.7-2.5zM4.8 21.5l8.4-8.4 2.1 2.1-8.8 5c-.6.4-1.3.1-1.7-.7zm8.4-10.6L4.8 2.5c.4-.8 1.1-1.1 1.7-.7l8.8 5-2.1 2.1z" />
+                    </svg>
+                    <span class="btn-meta"><small>Get it on</small><strong>Google Play</strong></span>
+                </a>
+                <span class="btn btn-apple is-soon" role="text" aria-label="App Store coming soon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M16.4 12.7c0-2.1 1.7-3.1 1.8-3.2-1-1.4-2.5-1.6-3-1.7-1.3-.1-2.5.8-3.1.8-.7 0-1.7-.7-2.8-.7-1.4 0-2.8.9-3.5 2.2-1.5 2.6-.4 6.5 1.1 8.6.7 1 1.6 2.2 2.7 2.1 1.1 0 1.5-.7 2.8-.7s1.6.7 2.8.7c1.2 0 1.9-1 2.6-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.2-.8-2.2-3.7zM14.7 6.4c.6-.7 1-1.7.9-2.7-1 .1-2.1.6-2.7 1.4-.6.7-1.1 1.7-.9 2.7 1 0 2-.6 2.7-1.4z" />
+                    </svg>
+                    <span class="btn-meta"><small>App Store</small><strong>Coming Soon</strong></span>
+                </span>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <img src="../assets/booktou/marketing/track-books.webp" alt="Booktou app showing reading progress and streak">
+        </div>
+    </section>
+
+    <main>
+        <section class="section">
+            <div class="section-head">
+                <span class="eyebrow">Built for book lovers</span>
+                <h2>Every page turns into a little win.</h2>
+                <p>Booktou makes reading feel rewarding — streaks, focus timers, achievements, and a library that stays
+                    with you.</p>
+            </div>
+
+            <article class="feature">
+                <div class="feature-copy">
+                    <h3>Track your books with zero friction</h3>
+                    <p>Scan ISBN barcodes, search titles, or add books manually. Organize what you’ve read, what you’re
+                        reading, and what’s next — with progress you can see at a glance.</p>
+                </div>
+                <div class="feature-visual">
+                    <img src="../assets/booktou/marketing/save-progress.webp" alt="Booktou book progress screen"
+                        loading="lazy">
+                </div>
+            </article>
+
+            <article class="feature reverse">
+                <div class="feature-copy">
+                    <h3>Protect your reading streak</h3>
+                    <p>Read at least 10 minutes a day and keep the flame alive. Miss a day? Start again. The streak
+                        system is designed to build a habit you actually keep.</p>
+                </div>
+                <div class="feature-visual">
+                    <img src="../assets/booktou/marketing/reading-streak.webp" alt="Booktou reading streak screen"
+                        loading="lazy">
+                </div>
+            </article>
+
+            <article class="feature">
+                <div class="feature-copy">
+                    <h3>Focus with Pomodoro & stopwatch</h3>
+                    <p>Start a session, stay present, and log real reading time. Pair deep focus with the book you’re
+                        currently reading — then watch daily and monthly stats grow.</p>
+                </div>
+                <div class="feature-visual">
+                    <img src="../assets/booktou/marketing/pomodoro.webp" alt="Booktou Pomodoro and stopwatch"
+                        loading="lazy">
+                </div>
+            </article>
+
+            <article class="feature reverse">
+                <div class="feature-copy">
+                    <h3>See your progress, not just your pages</h3>
+                    <p>Daily and monthly charts turn quiet effort into visible momentum. Know which days you showed up —
+                        and celebrate the ones that stacked up.</p>
+                </div>
+                <div class="feature-visual">
+                    <img src="../assets/booktou/marketing/statistics.webp" alt="Booktou reading statistics"
+                        loading="lazy">
+                </div>
+            </article>
+
+            <article class="feature">
+                <div class="feature-copy">
+                    <h3>A calendar of your reading life</h3>
+                    <p>Look back on sessions by day. Revisit what you read, when you read it, and how long you stayed in
+                        the story.</p>
+                </div>
+                <div class="feature-visual">
+                    <img src="../assets/booktou/marketing/calendar.webp" alt="Booktou reading calendar" loading="lazy">
+                </div>
+            </article>
+
+            <article class="feature reverse">
+                <div class="feature-copy">
+                    <h3>Capture quotes before they fade</h3>
+                    <p>Scan text from the page with your camera, save notes and quotes, and rediscover lines that stuck
+                        with you — so the best parts never get lost.</p>
+                </div>
+                <div class="feature-visual">
+                    <img src="../assets/booktou/marketing/notes-quotes.webp" alt="Booktou notes and quote scanning"
+                        loading="lazy">
+                </div>
+            </article>
+
+            <article class="feature">
+                <div class="feature-copy">
+                    <h3>Unlock achievements. Level up.</h3>
+                    <p>Finish books, keep streaks, and hit page goals to earn XP and badges. Reading becomes a journey
+                        with milestones that feel great to chase.</p>
+                </div>
+                <div class="feature-visual">
+                    <img src="../assets/booktou/marketing/achievements.webp" alt="Booktou achievements and levels"
+                        loading="lazy">
+                </div>
+            </article>
+        </section>
+
+        <section class="motivation">
+            <h2>Motivation that respects your brain</h2>
+            <p>Small wins, visible progress, and gentle streaks — the kind of feedback loop that makes you want to open
+                the book again tomorrow.</p>
+            <div class="pill-row">
+                <span class="pill">Daily streak fuel</span>
+                <span class="pill">XP & badges</span>
+                <span class="pill">Focus sessions</span>
+                <span class="pill">10+ themes</span>
+                <span class="pill">Private by design</span>
+            </div>
+        </section>
+
+        <section class="final-cta" id="download">
+            <h2>Start your next reading streak tonight</h2>
+            <p>Download Booktou and turn “I should read more” into a habit that sticks.</p>
+            <div class="store-row">
+                <a class="btn btn-play"
+                    href="https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou" target="_blank"
+                    rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M3.6 2.8c-.3.2-.6.6-.6 1.1v16.2c0 .5.3.9.6 1.1l9.9-9.2L3.6 2.8zm11.3 6.5L12.2 12l2.7 2.7 3.7-2.1c.7-.4.7-1.4 0-1.8l-3.7-2.5zM4.8 21.5l8.4-8.4 2.1 2.1-8.8 5c-.6.4-1.3.1-1.7-.7zm8.4-10.6L4.8 2.5c.4-.8 1.1-1.1 1.7-.7l8.8 5-2.1 2.1z" />
+                    </svg>
+                    <span class="btn-meta"><small>Get it on</small><strong>Google Play</strong></span>
+                </a>
+                <span class="btn btn-apple is-soon" role="text" aria-label="App Store coming soon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                        <path
+                            d="M16.4 12.7c0-2.1 1.7-3.1 1.8-3.2-1-1.4-2.5-1.6-3-1.7-1.3-.1-2.5.8-3.1.8-.7 0-1.7-.7-2.8-.7-1.4 0-2.8.9-3.5 2.2-1.5 2.6-.4 6.5 1.1 8.6.7 1 1.6 2.2 2.7 2.1 1.1 0 1.5-.7 2.8-.7s1.6.7 2.8.7c1.2 0 1.9-1 2.6-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.2-.8-2.2-3.7zM14.7 6.4c.6-.7 1-1.7.9-2.7-1 .1-2.1.6-2.7 1.4-.6.7-1.1 1.7-.9 2.7 1 0 2-.6 2.7-1.4z" />
+                    </svg>
+                    <span class="btn-meta"><small>App Store</small><strong>Coming Soon</strong></span>
+                </span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Rapheldor Software · Published by Efe Kırbız</p>
+        <nav>
+            <a href="/privacy?app=booktou">Privacy</a>
+            <a href="/terms?app=booktou">Terms</a>
+        </nav>
+    </footer>
+
+    <button type="button" class="back-top" id="back-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 19V5" />
+            <path d="M5 12l7-7 7 7" />
+        </svg>
+    </button>
+
+    <script>
+        const header = document.getElementById('site-header');
+        const backTop = document.getElementById('back-top');
+        const downloadLink = document.getElementById('nav-download');
+        const downloadSection = document.getElementById('download');
+
+        const onScroll = () => {
+            const y = window.scrollY;
+            header.classList.toggle('scrolled', y > 12);
+            backTop.classList.toggle('visible', y > 480);
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        downloadLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            downloadSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            history.replaceState(null, '', '#download');
+        });
+
+        backTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        const features = document.querySelectorAll('.feature');
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('in');
+                        io.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.18 });
+            features.forEach((el) => io.observe(el));
+        } else {
+            features.forEach((el) => el.classList.add('in'));
+        }
+    </script>
+</body>
+
+</html>
