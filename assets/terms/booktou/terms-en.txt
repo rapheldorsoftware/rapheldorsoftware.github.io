@@ -1,19 +1,86 @@
-Booktou Terms and Conditions
+# Booktou Terms of Use
 
-Last Updated: September 29, 2025
+**Last updated: August 15, 2026**
 
-By downloading or using Booktou, you agree to these terms.
+These Terms of Use ("Terms") govern your use of the Booktou mobile application (the "App"), provided by Rapheldor Software ("we", "us", or "our"). By downloading, accessing, or using Booktou, you agree to these Terms and our [Privacy Policy](https://rapheldorsoftware.com/privacy?app=booktou). If you do not agree, do not use the App.
 
-Booktou offers a Premium Subscription through Google Play. Subscriptions automatically renew and can be canceled through Google Play. Premium removes all ads within the app and may provide additional premium features or functionality.
+## 1. Eligibility
 
-The app uses Google AdMob to display advertisements. AdMob may collect information as described in their Privacy Policy.
+You must be legally able to agree to these Terms in your country. Booktou and its Friend Streak account feature are not directed to children under 13. If you are under the age of legal majority where you live, a parent or legal guardian must review and accept these Terms where required.
 
-Booktou does not collect or share personal data as part of its core functionality. Subscription verification is handled by Google Play and we do not receive payment details.
+## 2. License to use Booktou
 
-You are responsible for maintaining your device and internet access to use the app.
+We grant you a personal, limited, non-exclusive, non-transferable, revocable license to use Booktou for lawful, non-commercial purposes on devices you own or control, subject to the applicable Google Play or Apple App Store rules.
 
-For refunds or subscription management, please use Google Play > Subscriptions. We do not process payments or refunds directly.
+You may not copy, sell, sublicense, reverse engineer except where applicable law permits it, interfere with security controls, use automated methods to abuse the service, attempt unauthorized access, or use Booktou in a way that harms other users or third-party services.
 
-We may update this Terms and Conditions from time to time. When changes are made, we will update the "Last Updated" date. Significant changes will be highlighted or communicated in-app where feasible.
+## 3. Your content and local data
 
-If you have any questions about these Terms, please don't hesitate to contact us at rapheldorsoftware@gmail.com
+You retain responsibility for books, notes, quotes, images, reviews, profile information, backups, and other content you enter or import. You confirm that you have the rights needed to use that content and that it does not violate law or another person's rights.
+
+Most Booktou data is stored locally. You are responsible for maintaining your device and for exporting or backing up important data. Updates, device failure, operating-system changes, uninstallation, corrupted files, or software errors can cause data loss. To the maximum extent permitted by law, we are not responsible for local data or independently stored backups that are lost or corrupted outside our reasonable control.
+
+## 4. Friend Streak account
+
+Friend Streak is an optional social feature that requires Google or Apple sign-in. You are responsible for your provider account and for activity performed through it. Do not share authentication codes or passwords with us or anyone else.
+
+Friend Streak pairs two users and shares display names and streak progress. Invite codes are intended for the person you choose. You must not harass others, impersonate another person, manipulate the feature through automated or abusive activity, attempt to access another pair's data, or use Friend Streak for unlawful purposes.
+
+We may restrict or terminate access to cloud features when reasonably necessary to prevent abuse, comply with law, protect users or services, or address a serious breach of these Terms.
+
+You may delete the Friend Streak account in the App or request deletion at [rapheldorsoftware.com/booktou/account-deletion](https://rapheldorsoftware.com/booktou/account-deletion/). Account deletion removes the Firebase account and associated Friend Streak cloud records. It does not delete the local library, personal Google Drive backups, store purchase history, or an active subscription.
+
+## 5. Google Drive backups
+
+Google Drive backup is optional and uses the App Data folder in your own Google Drive. You are responsible for your Google Account, available storage, backup choices, and restoring or deleting those files. We do not operate the Drive service and cannot guarantee its availability or recover files from it for you.
+
+## 6. Premium subscriptions and purchases
+
+Booktou may offer monthly or yearly auto-renewing Premium subscriptions and may change the available plans or included features for future purchases. The price and billing period shown by Google Play or the Apple App Store before purchase control your transaction.
+
+Payment, renewal, cancellation, refunds, billing grace periods, and purchase history are handled by the store. Unless you cancel through the store at least as required by that store, a subscription may renew automatically and the store may charge your account. Deleting Booktou data, uninstalling the App, signing out, or deleting a Friend Streak account does **not** cancel a subscription.
+
+Manage or cancel subscriptions through Google Play or your Apple account's subscription settings. Refund eligibility is determined by the applicable store and mandatory consumer law. Booktou may require an internet connection to purchase, restore, or periodically confirm premium status.
+
+## 7. Advertising and rewarded features
+
+The free version may display Google AdMob ads. Some optional rewards, such as a Friend Streak freeze, may require completing a rewarded ad. Ad availability is not guaranteed, and a reward is granted only when the ad provider reports eligible completion. Premium normally removes ads while the purchase remains valid and is successfully restored.
+
+## 8. Third-party services and content
+
+Booktou relies on services supplied by Google, Apple, Firebase, AdMob, Google Drive, Open Library, app stores, and other platform providers. Their own terms and privacy policies apply. Book metadata, covers, search results, ads, and other third-party content may be incomplete, unavailable, inaccurate, or subject to separate rights. We do not endorse or guarantee third-party content or services.
+
+## 9. Notifications and health or professional advice
+
+Reminders, goals, statistics, streaks, and reading estimates are informational and motivational tools. Delivery of notifications is not guaranteed. Booktou does not provide medical, legal, financial, or other professional advice.
+
+## 10. Availability and changes
+
+We may maintain, update, add, remove, suspend, or discontinue features. Cloud and third-party features may be interrupted by network issues, provider outages, quota limits, platform changes, or security measures. We will use reasonable care but do not promise uninterrupted or error-free operation.
+
+## 11. Disclaimer
+
+To the maximum extent permitted by applicable law, Booktou is provided "as is" and "as available" without warranties beyond those that cannot legally be excluded. Nothing in these Terms limits mandatory consumer guarantees or other rights that cannot be waived.
+
+## 12. Limitation of liability
+
+To the maximum extent permitted by law, Rapheldor Software will not be liable for indirect, incidental, special, consequential, or punitive losses, or for loss of local data, backups, profits, or opportunities, arising from use of or inability to use Booktou. This limitation does not apply where liability cannot legally be limited, including liability arising from fraud, wilful misconduct, or other mandatory grounds.
+
+## 13. Termination
+
+You may stop using Booktou at any time. You may remove local data, delete the Friend Streak account, revoke provider access, and uninstall the App. Provisions that by their nature should survive termination, including ownership, disclaimers, limitations, and dispute terms, remain effective.
+
+## 14. Governing law
+
+These Terms are governed by the laws of the Republic of Turkiye, without depriving you of mandatory consumer protections that apply in your country. Courts or authorities with mandatory jurisdiction remain available to you.
+
+## 15. Changes to these Terms
+
+We may update these Terms to reflect App changes, provider requirements, security needs, or law. We will update the date above and provide additional notice where appropriate. If applicable law requires consent to a material change, we will request it.
+
+## 16. Contact
+
+- Rapheldor Software
+- Email: [rapheldorsoftware@gmail.com](mailto:rapheldorsoftware@gmail.com)
+- Website: [https://rapheldorsoftware.com](https://rapheldorsoftware.com)
+

@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Delete your Booktou Friend Streak account and associated cloud data.">
+  <link rel="canonical" href="https://rapheldorsoftware.com/booktou/account-deletion/">
+  <link rel="icon" href="../../assets/favicon.ico">
+  <title>Booktou Account Deletion | Rapheldor Software</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #090909;
+      --panel: #121212;
+      --panel-2: #181818;
+      --line: #303030;
+      --text: #f5f5f5;
+      --muted: #b8b8b8;
+      --accent: #ff5a52;
+      --accent-soft: rgba(255, 90, 82, .13);
+      --success: #74d99f;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 92% 4%, rgba(255, 90, 82, .12), transparent 28rem),
+        radial-gradient(circle at 8% 80%, rgba(255, 255, 255, .05), transparent 24rem),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    a { color: inherit; }
+
+    .shell {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 64px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 10px 0 40px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      font-weight: 760;
+      letter-spacing: -.02em;
+    }
+
+    .brand img, .app-mark img {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .lang-switch {
+      display: inline-flex;
+      padding: 4px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #0d0d0d;
+    }
+
+    .lang-switch button {
+      border: 0;
+      border-radius: 8px;
+      padding: 8px 12px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+    }
+
+    .lang-switch button[aria-pressed="true"] {
+      background: #fff;
+      color: #0a0a0a;
+    }
+
+    main {
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: linear-gradient(160deg, rgba(255,255,255,.035), transparent 45%), var(--panel);
+      box-shadow: 0 28px 90px rgba(0,0,0,.42);
+      overflow: hidden;
+    }
+
+    .hero { padding: clamp(28px, 7vw, 64px); }
+
+    .app-mark {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--muted);
+      font-weight: 700;
+      margin-bottom: 26px;
+    }
+
+    h1 {
+      max-width: 700px;
+      margin: 0;
+      font-size: clamp(2.25rem, 7vw, 4.8rem);
+      line-height: 1.02;
+      letter-spacing: -.055em;
+    }
+
+    .lead {
+      max-width: 680px;
+      margin: 24px 0 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 13px;
+      text-decoration: none;
+      font-weight: 800;
+      transition: transform .16s ease, background .16s ease;
+    }
+
+    .button:hover { transform: translateY(-1px); }
+    .button.primary { background: var(--accent); color: #fff; }
+    .button.secondary { border: 1px solid var(--line); background: var(--panel-2); }
+
+    .content {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1px;
+      background: var(--line);
+      border-top: 1px solid var(--line);
+    }
+
+    section {
+      padding: 30px;
+      background: var(--panel);
+    }
+
+    section.full { grid-column: 1 / -1; }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.22rem;
+      letter-spacing: -.02em;
+    }
+
+    p { margin: 0; }
+    p + p { margin-top: 12px; }
+    ol, ul { margin: 14px 0 0; padding-left: 22px; }
+    li + li { margin-top: 8px; }
+
+    .note {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border: 1px solid rgba(116, 217, 159, .3);
+      border-radius: 14px;
+      background: rgba(116, 217, 159, .08);
+      color: #dff9e9;
+    }
+
+    .warning {
+      padding: 14px 16px;
+      border: 1px solid rgba(255, 90, 82, .35);
+      border-radius: 14px;
+      background: var(--accent-soft);
+    }
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 28px 4px 0;
+      color: var(--muted);
+      font-size: .92rem;
+    }
+
+    footer nav { display: flex; gap: 18px; }
+    [data-lang="tr"] { display: none; }
+
+    @media (max-width: 700px) {
+      .shell { width: min(100% - 20px, 920px); padding-top: 14px; }
+      header { padding-bottom: 22px; }
+      .brand span { display: none; }
+      main { border-radius: 22px; }
+      .content { grid-template-columns: 1fr; }
+      section.full { grid-column: auto; }
+      section { padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="brand" href="/">
+        <img src="../../assets/rapheldorlogo.png" alt="">
+        <span>Rapheldor Software</span>
+      </a>
+      <div class="lang-switch" aria-label="Language">
+        <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-set-lang="tr" aria-pressed="false">TR</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div class="app-mark">
+          <img src="../../assets/booktou-logo.png" alt="Booktou">
+          <span>Booktou · Rapheldor Software</span>
+        </div>
+
+        <div data-lang="en">
+          <h1>Delete your Friend Streak account.</h1>
+          <p class="lead">Use Booktou for immediate self-service deletion, or email us if you no longer have access to the app. This page explains exactly what is deleted and what stays under your control.</p>
+          <div class="actions">
+            <a class="button primary" href="mailto:rapheldorsoftware@gmail.com?subject=Booktou%20Account%20Deletion%20Request&body=Please%20delete%20my%20Booktou%20Friend%20Streak%20account.%0A%0ASign-in%20provider%20(Google%20or%20Apple)%3A%0AAccount%20email%20or%20Apple%20relay%20email%3A%0ADisplay%20name%20(if%20known)%3A%0A%0AI%20understand%20that%20my%20Friend%20Streak%20cloud%20data%20will%20be%20deleted.">Request deletion by email</a>
+            <a class="button secondary" href="/privacy?app=booktou">Privacy policy</a>
+          </div>
+        </div>
+
+        <div data-lang="tr">
+          <h1>Arkadaş Serisi hesabını sil.</h1>
+          <p class="lead">Hesabını uygulama içinden hemen silebilir veya artık uygulamaya erişemiyorsan bize e-posta gönderebilirsin. Bu sayfada hangi verilerin silindiği ve hangi verilerin senin kontrolünde kaldığı açıkça anlatılır.</p>
+          <div class="actions">
+            <a class="button primary" href="mailto:rapheldorsoftware@gmail.com?subject=Booktou%20Hesap%20Silme%20Talebi&body=Booktou%20Arkadas%20Serisi%20hesabimin%20silinmesini%20istiyorum.%0A%0AGiris%20saglayicisi%20(Google%20veya%20Apple)%3A%0AHesap%20e-postasi%20veya%20Apple%20relay%20e-postasi%3A%0AGorunen%20ad%20(biliniyorsa)%3A%0A%0AArkadas%20Serisi%20bulut%20verilerimin%20silinecegini%20anliyorum.">E-postayla silme talebi gönder</a>
+            <a class="button secondary" href="/privacy?app=booktou">Gizlilik politikası</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <section>
+          <div data-lang="en">
+            <h2>Fastest: delete in Booktou</h2>
+            <ol>
+              <li>Open <strong>Profile</strong>.</li>
+              <li>Open <strong>Settings</strong>.</li>
+              <li>Under <strong>Experimental Features</strong>, select <strong>Friend Streak Account</strong>.</li>
+              <li>Select <strong>Delete Friend Streak Account</strong> and confirm with Google or Apple.</li>
+            </ol>
+            <p class="note">Deletion begins immediately after successful reauthentication.</p>
+          </div>
+          <div data-lang="tr">
+            <h2>En hızlı yol: Booktou içinden sil</h2>
+            <ol>
+              <li><strong>Profil</strong> ekranını aç.</li>
+              <li><strong>Ayarlar</strong>'ı aç.</li>
+              <li><strong>Deneysel Özellikler</strong> altında <strong>Arkadaş Serisi Hesabı</strong>'nı seç.</li>
+              <li><strong>Arkadaş Serisi Hesabını Sil</strong>'i seç ve Google veya Apple ile onayla.</li>
+            </ol>
+            <p class="note">Yeniden kimlik doğrulama başarılı olunca silme işlemi hemen başlar.</p>
+          </div>
+        </section>
+
+        <section>
+          <div data-lang="en">
+            <h2>If you cannot open the app</h2>
+            <p>Email <a href="mailto:rapheldorsoftware@gmail.com">rapheldorsoftware@gmail.com</a> with the subject <strong>Booktou Account Deletion Request</strong>. Include:</p>
+            <ul>
+              <li>Google or Apple as the sign-in provider;</li>
+              <li>the linked email or Apple private relay address, if known; and</li>
+              <li>your Booktou display name, if known.</li>
+            </ul>
+            <p class="warning"><strong>Never send a password, verification code, Apple key, or Google token.</strong></p>
+          </div>
+          <div data-lang="tr">
+            <h2>Uygulamayı açamıyorsan</h2>
+            <p><a href="mailto:rapheldorsoftware@gmail.com">rapheldorsoftware@gmail.com</a> adresine <strong>Booktou Hesap Silme Talebi</strong> konulu bir e-posta gönder. Şunları ekle:</p>
+            <ul>
+              <li>giriş sağlayıcın: Google veya Apple;</li>
+              <li>biliniyorsa bağlı e-posta ya da Apple özel relay adresi; ve</li>
+              <li>biliniyorsa Booktou'daki görünen adın.</li>
+            </ul>
+            <p class="warning"><strong>Asla parola, doğrulama kodu, Apple anahtarı veya Google token'ı gönderme.</strong></p>
+          </div>
+        </section>
+
+        <section>
+          <div data-lang="en">
+            <h2>Data that will be deleted</h2>
+            <ul>
+              <li>Firebase Friend Streak authentication account;</li>
+              <li>Friend Streak membership and paired streak record;</li>
+              <li>invite codes and invitation status;</li>
+              <li>daily completion, missed/frozen status, shared totals, and related dates; and</li>
+              <li>other cloud records linked only to this Friend Streak account.</li>
+            </ul>
+          </div>
+          <div data-lang="tr">
+            <h2>Silinecek veriler</h2>
+            <ul>
+              <li>Firebase Arkadaş Serisi kimlik doğrulama hesabı;</li>
+              <li>Arkadaş Serisi üyeliği ve eşleşmiş seri kaydı;</li>
+              <li>davet kodları ve davet durumu;</li>
+              <li>günlük tamamlama, kaçırma/dondurma durumu, ortak toplamlar ve ilgili tarihler; ve</li>
+              <li>yalnızca bu Arkadaş Serisi hesabına bağlı diğer bulut kayıtları.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <div data-lang="en">
+            <h2>Data not deleted automatically</h2>
+            <ul>
+              <li>your local library, notes, history, and settings;</li>
+              <li>exports or backups saved on your device;</li>
+              <li>backups in your personal Google Drive;</li>
+              <li>Google Play or App Store purchase history; and</li>
+              <li>an active Premium subscription.</li>
+            </ul>
+            <p>These are controlled from Booktou, your device, Google Drive, or the relevant app store.</p>
+          </div>
+          <div data-lang="tr">
+            <h2>Otomatik silinmeyen veriler</h2>
+            <ul>
+              <li>yerel kitaplığın, notların, geçmişin ve ayarların;</li>
+              <li>cihazına kaydettiğin dışa aktarımlar veya yedekler;</li>
+              <li>kişisel Google Drive'ındaki yedekler;</li>
+              <li>Google Play veya App Store satın alma geçmişi; ve</li>
+              <li>aktif Premium aboneliği.</li>
+            </ul>
+            <p>Bunları Booktou, cihazın, Google Drive veya ilgili uygulama mağazası üzerinden yönetebilirsin.</p>
+          </div>
+        </section>
+
+        <section class="full">
+          <div data-lang="en">
+            <h2>Processing time and verification</h2>
+            <p>In-app deletion is designed to complete immediately once your identity is confirmed. Email requests are normally completed within 30 days after we verify account ownership. We may ask you to reply from the linked address or provide limited account details. We will never ask for a password or one-time code.</p>
+            <p>Production account and Friend Streak records are deleted. Limited security or service logs may remain with providers for the retention periods in their policies or when retention is required by law.</p>
+          </div>
+          <div data-lang="tr">
+            <h2>İşlem süresi ve doğrulama</h2>
+            <p>Uygulama içi silme, kimliğin doğrulandıktan sonra hemen tamamlanacak şekilde tasarlanmıştır. E-posta talepleri hesap sahipliğini doğrulamamızdan sonra normalde 30 gün içinde tamamlanır. Bağlı adresten yanıt vermeni veya sınırlı hesap bilgisi paylaşmanı isteyebiliriz. Asla parola ya da tek kullanımlık kod istemeyiz.</p>
+            <p>Üretim hesabı ve Arkadaş Serisi kayıtları silinir. Sınırlı güvenlik ya da hizmet günlükleri, sağlayıcıların politikalarında belirtilen süre boyunca veya kanunen gerekli olduğunda saklanabilir.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <span>© Rapheldor Software 2026</span>
+      <nav>
+        <a href="/privacy?app=booktou">Privacy</a>
+        <a href="/terms?app=booktou">Terms</a>
+        <a href="mailto:rapheldorsoftware@gmail.com">Contact</a>
+      </nav>
+    </footer>
+  </div>
+
+  <script>
+    const buttons = document.querySelectorAll('[data-set-lang]');
+    const blocks = document.querySelectorAll('[data-lang]');
+
+    function setLanguage(language) {
+      document.documentElement.lang = language;
+      blocks.forEach((block) => {
+        block.style.display = block.dataset.lang === language ? '' : 'none';
+      });
+      buttons.forEach((button) => {
+        button.setAttribute('aria-pressed', String(button.dataset.setLang === language));
+      });
+      try { localStorage.setItem('booktou-legal-language', language); } catch (_) {}
+    }
+
+    buttons.forEach((button) => button.addEventListener('click', () => setLanguage(button.dataset.setLang)));
+
+    let initial = 'en';
+    try { initial = localStorage.getItem('booktou-legal-language') || initial; } catch (_) {}
+    if (initial !== 'tr' && navigator.language.toLowerCase().startsWith('tr')) initial = 'tr';
+    setLanguage(initial === 'tr' ? 'tr' : 'en');
+  </script>
+</body>
+</html>
+
