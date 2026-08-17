@@ -1,6 +1,6 @@
 # Booktou Privacy Policy
 
-**Last updated: August 15, 2026**
+**Last updated: August 17, 2026**
 
 This Privacy Policy explains how Rapheldor Software ("we", "us", or "our") handles information when you use the Booktou mobile application (the "App") and the Booktou pages on rapheldorsoftware.com.
 
@@ -8,7 +8,7 @@ This Privacy Policy explains how Rapheldor Software ("we", "us", or "our") handl
 
 Booktou is local-first. Your library, books, reading history, notes, quotes, collections, goals, profile details, and most settings are stored on your device. We do not upload this content to our servers as part of the App's core functionality.
 
-Cloud processing occurs only when you choose a network feature, such as Friend Streak, Google Drive backup, book search/cover lookup, advertising, or an in-app purchase. The sections below explain each feature.
+Cloud processing occurs when you choose a network feature, such as Friend Streak, Google Drive backup, book search/cover lookup, advertising, or an in-app purchase, and also automatically through anonymous, aggregate app analytics and crash reporting, described below. The sections below explain each feature.
 
 We do not sell your personal information. We do not use your library, notes, or reading history to build advertising profiles.
 
@@ -70,7 +70,13 @@ Booktou uses Google Fonts for typography. Depending on platform caching and pack
 
 Text recognition is designed to run on the device through Google ML Kit. The selected image is not uploaded to Rapheldor Software. Platform services may download recognition models or other supporting components.
 
-## 6. Advertising and consent
+## 6. Analytics and crash reporting
+
+Booktou uses Firebase Analytics and Firebase Crashlytics, provided by Google Firebase, to understand feature usage in aggregate and to diagnose and fix crashes. Unlike the optional features described elsewhere in this policy, these run automatically in released builds of the App (they are disabled in development/debug builds) rather than only when you choose a specific feature.
+
+These tools may process device and app information, screen and event names, general usage patterns, app version, and crash diagnostics such as stack traces and device state at the time of a failure. Analytics events and user properties are limited to categorical, non-identifying information, such as a screen name or a selected theme — we do not send book titles, note content, author names, quotes, or other library content to Firebase Analytics or Crashlytics, and this data is not linked to your Friend Streak identity or used to build advertising profiles.
+
+## 7. Advertising and consent
 
 The free version of Booktou uses Google AdMob, including rewarded ads for optional rewards such as streak freezes. Google and its advertising partners may process advertising identifiers, IP address, device and app information, approximate location derived from network data, ad interactions, diagnostics, and consent choices to provide, limit, personalize where permitted, prevent fraud, and measure ads.
 
@@ -78,46 +84,46 @@ Where required, Booktou asks for advertising consent and provides ad privacy con
 
 Booktou does not provide your local library, notes, quotes, or reading history to AdMob for advertising.
 
-## 7. Purchases and subscriptions
+## 8. Purchases and subscriptions
 
 Premium purchases are processed by Google Play or Apple's App Store. The store may process payment information, transaction identifiers, subscription status, and account information under its own policies. Rapheldor Software does not receive your full payment-card details. Booktou receives and stores the purchase status and transaction information needed to unlock, restore, and manage premium access.
 
-## 8. Notifications, camera, photos, and device permissions
+## 9. Notifications, camera, photos, and device permissions
 
 Local reading reminders and streak reminders are scheduled on your device. Booktou currently does not use Friend Streak "nudge" actions to send a remote push notification; sharing a nudge uses your device's share sheet.
 
 Camera or photo access is used only when you choose features such as barcode scanning, selecting a cover, or text recognition. Biometric authentication, when enabled for app lock, is performed by the operating system; Booktou does not receive or store your biometric template.
 
-## 9. Website data
+## 10. Website data
 
 The Booktou legal and account deletion pages are static pages hosted through GitHub Pages. We do not place our own analytics cookies on these pages. The hosting provider may process IP addresses and technical request logs for security and service operation under its own policy. If you contact us by email, we process your email address and message to answer the request and, when applicable, verify and complete account deletion.
 
-## 10. Legal bases and international processing
+## 11. Legal bases and international processing
 
-Where data-protection law requires a legal basis, we process information as necessary to provide features you request and perform our agreement with you; based on your consent for optional sign-in, advertising, tracking, or Drive access where applicable; and for legitimate interests such as service security, abuse prevention, troubleshooting, and legal compliance. You can withdraw optional permissions through the App, device settings, provider account settings, or by deleting the Friend Streak account.
+Where data-protection law requires a legal basis, we process information as necessary to provide features you request and perform our agreement with you; based on your consent for optional sign-in, advertising, tracking, or Drive access where applicable; and for legitimate interests such as service security, abuse prevention, troubleshooting, aggregate analytics, crash diagnostics, and legal compliance. You can withdraw optional permissions through the App, device settings, provider account settings, or by deleting the Friend Streak account.
 
 Firebase, Google, Apple, GitHub, Open Library, advertising partners, and store providers may process information in countries other than your own. Their privacy terms and applicable safeguards govern their processing.
 
-## 11. Data sharing
+## 12. Data sharing
 
 We disclose information only as described in this policy:
 
 - to the friend you pair with, limited to the shared display name and Friend Streak activity;
-- to service providers necessary to supply authentication, cloud synchronization, integrity checks, backups, book information, ads, purchases, and website hosting;
+- to service providers necessary to supply authentication, cloud synchronization, integrity checks, backups, book information, analytics, crash reporting, ads, purchases, and website hosting;
 - when required by law or a valid legal request; or
 - to protect users, the App, our rights, or the public from fraud, abuse, or security threats.
 
 We do not sell or rent personal information.
 
-## 12. Security
+## 13. Security
 
 We use reasonable technical and organizational measures, including authenticated Firebase access rules, App Check, platform sign-in, and encrypted network connections. No system is completely secure, and we cannot guarantee absolute security. Keep your device and provider accounts protected and do not share invite codes publicly unless you intend another person to use them.
 
-## 13. Children
+## 14. Children
 
 Booktou is not directed to children under 13, and Friend Streak accounts are not intended for children under 13. We do not knowingly collect personal information from a child under 13 without authorization required by applicable law. A parent or guardian who believes a child provided account information can contact us to request review and deletion.
 
-## 14. Your choices and rights
+## 15. Your choices and rights
 
 Depending on your location, you may have rights to access, correct, delete, restrict, object to, or receive a copy of personal information and to withdraw consent. Most Booktou content is local and is not accessible to us. For Friend Streak cloud data, use the in-app deletion control or the account deletion page. You may also contact us for help.
 
@@ -132,7 +138,7 @@ You can manage:
 
 If applicable, you may lodge a complaint with your local data-protection authority.
 
-## 15. Third-party privacy information
+## 16. Third-party privacy information
 
 - [Google Privacy Policy](https://policies.google.com/privacy)
 - [Firebase Privacy and Security](https://firebase.google.com/support/privacy)
@@ -141,13 +147,12 @@ If applicable, you may lodge a complaint with your local data-protection authori
 - [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 - [Internet Archive / Open Library terms and privacy information](https://archive.org/about/terms.php)
 
-## 16. Changes to this policy
+## 17. Changes to this policy
 
 We may update this policy when Booktou, our providers, or legal requirements change. We will update the date above and provide additional notice in the App where appropriate. Continued use after an effective update is subject to applicable law and any consent requirements.
 
-## 17. Contact
+## 18. Contact
 
 - Rapheldor Software
 - Email: [rapheldorsoftware@gmail.com](mailto:rapheldorsoftware@gmail.com)
 - Website: [https://rapheldorsoftware.com](https://rapheldorsoftware.com)
-
