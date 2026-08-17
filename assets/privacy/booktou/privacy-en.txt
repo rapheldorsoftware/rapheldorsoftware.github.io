@@ -2,7 +2,7 @@
 
 **Last updated: August 17, 2026**
 
-This Privacy Policy explains how Rapheldor Software ("we", "us", or "our") handles information when you use the Booktou mobile application (the "App") and the Booktou pages on rapheldorsoftware.com.
+This Privacy Policy explains how Efe KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"), handles information when you use the Booktou mobile application (the "App") and the Booktou pages on rapheldorsoftware.com.
 
 ## 1. At a glance
 
@@ -136,7 +136,7 @@ You can manage:
 - subscriptions through Google Play or the App Store; and
 - Google or Apple account access through the provider's account settings.
 
-If applicable, you may lodge a complaint with your local data-protection authority.
+If applicable, you may lodge a complaint with your local data-protection authority. Users in Türkiye may also have the rights provided under Article 11 of Turkish Law No. 6698 on the Protection of Personal Data (KVKK).
 
 ## 16. Third-party privacy information
 
@@ -153,6 +153,20 @@ We may update this policy when Booktou, our providers, or legal requirements cha
 
 ## 18. Contact
 
-- Rapheldor Software
-- Email: [rapheldorsoftware@gmail.com](mailto:rapheldorsoftware@gmail.com)
-- Website: [https://rapheldorsoftware.com](https://rapheldorsoftware.com)
+Developer and Data Controller:
+Efe KIRBIZ, publishing as Rapheldor Software
+
+Country:
+Türkiye
+
+Privacy and Support Email:
+[rapheldorsoftware@gmail.com](mailto:rapheldorsoftware@gmail.com)
+
+Website:
+[https://rapheldorsoftware.com](https://rapheldorsoftware.com)
+
+App:
+Booktou
+
+Android Package Name and iOS Bundle Identifier:
+com.rapheldorsoftware.booktou
