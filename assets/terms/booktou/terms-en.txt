@@ -1,8 +1,8 @@
 # Booktou Terms of Use
 
-**Last updated: August 15, 2026**
+**Last updated: August 17, 2026**
 
-These Terms of Use ("Terms") govern your use of the Booktou mobile application (the "App"), provided by Rapheldor Software ("we", "us", or "our"). By downloading, accessing, or using Booktou, you agree to these Terms and our [Privacy Policy](https://rapheldorsoftware.com/privacy?app=booktou). If you do not agree, do not use the App.
+These Terms of Use ("Terms") are an agreement between you and Efe KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"). They govern your use of the Booktou mobile application (the "App"). By downloading, accessing, or using Booktou, you agree to these Terms and our [Privacy Policy](https://rapheldorsoftware.com/privacy?app=booktou). If you do not agree, do not use the App.
 
 ## 1. Eligibility
 
@@ -13,6 +13,8 @@ You must be legally able to agree to these Terms in your country. Booktou and it
 We grant you a personal, limited, non-exclusive, non-transferable, revocable license to use Booktou for lawful, non-commercial purposes on devices you own or control, subject to the applicable Google Play or Apple App Store rules.
 
 You may not copy, sell, sublicense, reverse engineer except where applicable law permits it, interfere with security controls, use automated methods to abuse the service, attempt unauthorized access, or use Booktou in a way that harms other users or third-party services.
+
+For a copy obtained through Apple's App Store, your license is also subject to Apple's Licensed Application End User License Agreement ("Apple Standard EULA") and Apple Media Services Terms and Conditions. For a copy obtained through Google Play, your use is also subject to the applicable Google Play terms.
 
 ## 3. Your content and local data
 
@@ -78,9 +80,44 @@ These Terms are governed by the laws of the Republic of Turkiye, without deprivi
 
 We may update these Terms to reflect App changes, provider requirements, security needs, or law. We will update the date above and provide additional notice where appropriate. If applicable law requires consent to a material change, we will request it.
 
-## 16. Contact
+## 16. Apple App Store Notice
 
-- Rapheldor Software
-- Email: [rapheldorsoftware@gmail.com](mailto:rapheldorsoftware@gmail.com)
-- Website: [https://rapheldorsoftware.com](https://rapheldorsoftware.com)
+For users who obtained Booktou from Apple's App Store:
+
+- these Terms are between you and Rapheldor Software, not Apple;
+- Rapheldor Software, not Apple, is responsible for the App, support, and claims relating to the App, subject to applicable law;
+- Apple has no obligation to provide maintenance or support for the App;
+- your license is limited to use on Apple-branded products you own or control, as permitted by Apple's Usage Rules, including applicable Family Sharing;
+- you represent that you are not located in a country subject to a United States government embargo and are not listed on a United States government prohibited or restricted parties list; and
+- Apple and its subsidiaries are third-party beneficiaries of these Terms and may enforce the applicable provisions against you.
+
+If the Apple Standard EULA provides a mandatory or additional protection, that protection also applies.
+
+## 17. General Terms
+
+If a provision of these Terms is found unenforceable, it will be limited or removed only to the minimum extent necessary, and the remaining provisions will continue in effect.
+
+Our failure to enforce a provision is not a waiver. You may not transfer these Terms or your license except where applicable law allows. We may transfer these Terms in connection with a sale, assignment, reorganization, or transfer of the App, subject to applicable law.
+
+These Terms, the Privacy Policy, and the applicable app store terms form the agreement governing your use of Booktou.
+
+## 18. Contact
+
+Developer and Legal Operator:
+Efe KIRBIZ, publishing as Rapheldor Software
+
+Country:
+Türkiye
+
+Support Email:
+[rapheldorsoftware@gmail.com](mailto:rapheldorsoftware@gmail.com)
+
+Website:
+[https://rapheldorsoftware.com](https://rapheldorsoftware.com)
+
+App:
+Booktou
+
+Android Package Name and iOS Bundle Identifier:
+com.rapheldorsoftware.booktou
 
