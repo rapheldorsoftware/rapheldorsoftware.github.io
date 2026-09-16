@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Booktou — Kitap Takip Uygulaması ve Okuma Sayacı</title>
+  <meta name="description" content="Booktou ile kitaplığını düzenle, okuduğun sayfaları ve süreyi takip et. Okuma alışkanlığı, Pomodoro sayacı, notlar ve istatistikler tek uygulamada. Android ve iPhone için.">
+  <link rel="canonical" href="https://www.rapheldorsoftware.com/booktou/tr/">
+  <link rel="alternate" hreflang="tr" href="https://www.rapheldorsoftware.com/booktou/tr/">
+  <link rel="alternate" hreflang="en" href="https://www.rapheldorsoftware.com/booktou/">
+  <link rel="alternate" hreflang="x-default" href="https://www.rapheldorsoftware.com/booktou/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Booktou — Kitaplarını ve okuma alışkanlığını takip et">
+  <meta property="og:description" content="Kitaplığın, okuma süren, notların ve istatistiklerin tek yerde. Booktou ile okumaya ayırdığın zamanı görünür kıl.">
+  <meta property="og:url" content="https://www.rapheldorsoftware.com/booktou/tr/">
+  <meta property="og:image" content="https://www.rapheldorsoftware.com/assets/booktou/marketing/track-books.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "@id": "https://www.rapheldorsoftware.com/booktou/#app",
+    "name": "Booktou",
+    "description": "Kitaplığını düzenlemek, okuma sürelerini kaydetmek ve okuma istatistiklerini görmek için kitap takip uygulaması.",
+    "url": "https://www.rapheldorsoftware.com/booktou/tr/",
+    "image": "https://www.rapheldorsoftware.com/assets/booktou/marketing/icon.webp",
+    "applicationCategory": "ReferenceApplication",
+    "operatingSystem": "Android, iOS",
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "TRY"},
+    "sameAs": [
+      "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou",
+      "https://apps.apple.com/tr/app/booktou-book-tracker/id6795242771"
+    ]
+  }
+  </script>
+  <style>
+    :root { --paper:#f8f4eb; --cream:#fffcf6; --ink:#29241f; --muted:#6c6258; --orange:#dc6828; --line:#ded3c4; --blue:#4b6d9c; --display:"Fraunces",Georgia,serif; --body:"Sora",sans-serif; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:var(--body); line-height:1.65; }
+    a { color:inherit; }
+    img { max-width:100%; display:block; }
+    .skip { position:absolute; left:-9999px; top:0; background:var(--ink); color:white; padding:.6rem 1rem; z-index:10; }
+    .skip:focus { left:1rem; }
+    .wrap { max-width:1160px; margin:auto; padding:0 1.5rem; }
+    header { background:var(--cream); border-bottom:1px solid var(--line); }
+    .nav { min-height:74px; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .brand { display:inline-flex; align-items:center; gap:.65rem; text-decoration:none; font-weight:700; font-size:1.08rem; }
+    .brand img { width:38px; height:38px; border-radius:11px; }
+    .nav-links { display:flex; flex-wrap:wrap; align-items:center; gap:1.3rem; font-size:.86rem; font-weight:600; }
+    .nav-links a { text-decoration:none; }
+    .nav-links a:hover, .text-link:hover { color:var(--orange); }
+    .hero { background:radial-gradient(circle at 75% 20%,#f6dfc8 0,transparent 39%),var(--paper); padding:5.5rem 0 4.5rem; }
+    .hero-grid { display:grid; grid-template-columns:1.03fr .97fr; align-items:center; gap:3.5rem; }
+    .eyebrow { display:inline-block; color:var(--orange); text-transform:uppercase; font-size:.75rem; font-weight:700; letter-spacing:.15em; margin-bottom:1rem; }
+    h1,h2,h3 { font-family:var(--display); line-height:1.1; letter-spacing:-.035em; }
+    h1 { font-size:clamp(2.8rem,6vw,5.2rem); margin:0 0 1.2rem; max-width:12ch; }
+    h1 em { color:var(--orange); font-style:normal; }
+    .lead { color:var(--muted); font-size:1.09rem; max-width:53ch; margin:0 0 1.8rem; }
+    .store-links { display:flex; flex-wrap:wrap; gap:.7rem; }
+    .button { display:inline-flex; align-items:center; justify-content:center; padding:.85rem 1.25rem; border-radius:13px; font-weight:700; text-decoration:none; transition:transform .2s ease; }
+    .button:hover { transform:translateY(-3px); }
+    .button.primary { background:var(--orange); color:white; }
+    .button.secondary { background:var(--cream); border:1px solid var(--line); }
+    .hero-media { position:relative; padding:1rem; }
+    .hero-media:before { content:""; position:absolute; inset:2rem 0 0 2rem; border:1px solid #e5c9ab; border-radius:42% 58% 55% 45%; transform:rotate(-8deg); }
+    .hero-media img { position:relative; width:min(100%,390px); margin:auto; border-radius:22px; box-shadow:0 22px 55px #51423425; border:1px solid var(--line); }
+    .section { padding:5rem 0; }
+    .section.alt { background:var(--cream); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+    .section-head { max-width:740px; margin-bottom:2.5rem; }
+    h2 { font-size:clamp(2rem,4vw,3.1rem); margin:.15rem 0 1rem; }
+    .section-head p, .section p { color:var(--muted); }
+    .feature-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
+    .feature { padding:1.5rem; background:var(--cream); border:1px solid var(--line); border-radius:20px; box-shadow:0 9px 24px #57422b0a; }
+    .alt .feature { background:var(--paper); }
+    .feature .number { font-family:var(--display); font-size:1.45rem; color:var(--orange); }
+    h3 { font-size:1.5rem; margin:.9rem 0 .6rem; }
+    .feature p { font-size:.93rem; margin:0; }
+    .story { display:grid; grid-template-columns:.9fr 1.1fr; align-items:center; gap:4rem; }
+    .story img { border-radius:22px; border:1px solid var(--line); box-shadow:0 16px 40px #51423418; width:min(100%,380px); margin:auto; }
+    .story ul { padding-left:1.25rem; color:var(--muted); }
+    .story li { margin:.55rem 0; }
+    .text-link { color:var(--orange); font-weight:700; text-underline-offset:.2em; }
+    .faq { display:grid; gap:.85rem; max-width:760px; }
+    .faq details { background:var(--cream); border:1px solid var(--line); border-radius:15px; padding:1rem 1.2rem; }
+    .faq summary { cursor:pointer; font-weight:700; }
+    .faq p { margin:.6rem 0 0; }
+    .closing { background:var(--ink); color:var(--cream); padding:4.5rem 0; }
+    .closing h2 { max-width:17ch; }
+    .closing p { color:#c6bcb0; max-width:58ch; }
+    .closing .button.secondary { background:transparent; color:white; border-color:#746b60; }
+    footer { padding:2rem 0; font-size:.85rem; color:var(--muted); }
+    footer .wrap { display:flex; flex-wrap:wrap; justify-content:space-between; gap:1rem; }
+    footer nav { display:flex; flex-wrap:wrap; gap:1rem; }
+    @media(max-width:800px) { .hero-grid,.story { grid-template-columns:1fr; gap:2rem; } .feature-grid { grid-template-columns:1fr 1fr; } .hero { padding:3.5rem 0; } }
+    @media(max-width:580px) { .wrap { padding:0 1.15rem; } .nav { align-items:flex-start; padding:1rem 0; } .nav-links { gap:.7rem; justify-content:flex-end; } .nav-links a[href="#ozellikler"] { display:none; } .feature-grid { grid-template-columns:1fr; } .section { padding:3.5rem 0; } .hero-media { padding:0; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .button { transition:none; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#icerik">İçeriğe geç</a>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="/booktou/tr/"><img src="/assets/booktou/marketing/icon.webp" alt="" width="38" height="38">Booktou</a>
+      <nav class="nav-links" aria-label="Ana menü">
+        <a href="#ozellikler">Özellikler</a>
+        <a href="/booktou/tr/kitap-okuma-takibi/">Okuma rehberi</a>
+        <a href="/booktou/" lang="en">English</a>
+      </nav>
+    </div>
+  </header>
+  <main id="icerik">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">Okumayı görünür kıl</span>
+          <h1>Kitapların bir yerde. <em>İlerlemen gözünün önünde.</em></h1>
+          <p class="lead">Booktou; kitaplığını düzenlemek, okuma süreni kaydetmek ve alışkanlığını takip etmek için bir kitap takip uygulaması. Okudukların, okuyacakların, notların ve istatistiklerin tek yerde.</p>
+          <div class="store-links">
+            <a class="button primary" href="https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=tr" rel="noopener">Google Play'den indir</a>
+            <a class="button secondary" href="https://apps.apple.com/tr/app/booktou-book-tracker/id6795242771" rel="noopener">App Store'dan indir</a>
+          </div>
+        </div>
+        <div class="hero-media"><img src="/assets/booktou/marketing/track-books.webp" alt="Booktou kitaplığı ve okuma ilerlemesi ekranı" width="800" height="1300"></div>
+      </div>
+    </section>
+    <section class="section" id="ozellikler">
+      <div class="wrap">
+        <div class="section-head"><span class="eyebrow">Booktou ile neler yapabilirsin?</span><h2>Kitap takibi, yalnızca bitenleri saymak değildir.</h2><p>Okuma yolculuğunun farklı parçalarını aynı yerde tut: kitapların, seansların, notların ve küçük başarıların.</p></div>
+        <div class="feature-grid">
+          <article class="feature"><span class="number">01</span><h3>Kişisel kitaplık</h3><p>Kitabı ISBN barkoduyla tara, adıyla ara veya elle ekle. Okuyorum, okudum ve okuyacağım kitaplarını koleksiyonlarla düzenle.</p></article>
+          <article class="feature"><span class="number">02</span><h3>Okuma sayacı</h3><p>Pomodoro ya da kronometreyle okuma seansı başlat. Okumaya ayırdığın zamanı günlük ve aylık istatistiklerde gör.</p></article>
+          <article class="feature"><span class="number">03</span><h3>Okuma serisi</h3><p>Her gün okumaya zaman ayırdığında serini takip et. Hedefe giden yolda devamlılığını görselleştir.</p></article>
+          <article class="feature"><span class="number">04</span><h3>Notlar ve alıntılar</h3><p>Unutmak istemediğin düşünceleri ve cümleleri sakla. Dilersen sayfadaki yazıyı kamerayla yakala.</p></article>
+          <article class="feature"><span class="number">05</span><h3>İstatistik ve takvim</h3><p>Hangi günler okuduğunu, ne kadar süre ayırdığını ve kitaplarında nasıl ilerlediğini geriye dönüp incele.</p></article>
+          <article class="feature"><span class="number">06</span><h3>Hedefler ve rozetler</h3><p>Kitap, sayfa ve seri hedefleriyle yolculuğuna küçük kilometre taşları ekle. Temalarla uygulamayı kendine göre düzenle.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section alt">
+      <div class="wrap story">
+        <img src="/assets/booktou/marketing/statistics.webp" alt="Booktou günlük ve aylık okuma istatistikleri" width="800" height="1300" loading="lazy">
+        <div><span class="eyebrow">Kendi ritmini bul</span><h2>Okuma alışkanlığını somut verilerle izle.</h2><p>Bir kitap listesi oluşturmak iyi bir başlangıçtır. Birkaç dakikalık seansı kaydetmek ve haftalık ilerlemene bakmak, neyin sana uyduğunu görmene yardımcı olur.</p><ul><li>Okuduğun ve okumak istediğin kitapları ayır.</li><li>Bir seans başlatıp süreyi kaydet.</li><li>İlerlemeni takvimden ve istatistiklerden incele.</li></ul><a class="text-link" href="/booktou/tr/kitap-okuma-takibi/">Kitap okuma takibi rehberini oku →</a></div>
+      </div>
+    </section>
+    <section class="section" id="sorular">
+      <div class="wrap">
+        <div class="section-head"><span class="eyebrow">Sık sorulanlar</span><h2>Booktou hakkında kısa cevaplar</h2></div>
+        <div class="faq">
+          <details><summary>Booktou ücretsiz mi?</summary><p>Booktou'yu ücretsiz indirebilirsin. Uygulamada reklamlar ve isteğe bağlı uygulama içi satın almalar bulunur.</p></details>
+          <details><summary>Kitaplarımı nasıl eklerim?</summary><p>ISBN barkodunu tarayabilir, kitap adıyla arayabilir veya bilgileri kendin girebilirsin.</p></details>
+          <details><summary>Okuma süremi nasıl takip ederim?</summary><p>Pomodoro veya kronometreyle seans başlatabilirsin. Kaydedilen süreyi istatistiklerinde görebilirsin.</p></details>
+          <details><summary>Booktou hangi cihazlarda kullanılabilir?</summary><p>Booktou Android telefonlarda Google Play, iPhone ve iPad'de App Store üzerinden indirilebilir.</p></details>
+        </div>
+      </div>
+    </section>
+    <section class="closing" id="indir"><div class="wrap"><span class="eyebrow">Sonraki sayfayı aç</span><h2>Okuma yolculuğuna bugün yer aç.</h2><p>Kitaplığını kur, ilk seansını kaydet ve okuma alışkanlığının nasıl şekillendiğini gör.</p><div class="store-links"><a class="button primary" href="https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=tr">Google Play</a><a class="button secondary" href="https://apps.apple.com/tr/app/booktou-book-tracker/id6795242771">App Store</a></div></div></section>
+  </main>
+  <footer><div class="wrap"><span>© 2026 Rapheldor Software · Booktou</span><nav aria-label="Alt bağlantılar"><a href="/booktou/" lang="en">English</a><a href="/privacy?app=booktou">Gizlilik</a><a href="/terms?app=booktou">Kullanım koşulları</a></nav></div></footer>
+</body>
+</html>

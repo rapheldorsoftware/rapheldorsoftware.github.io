@@ -4,13 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booktou — Book Tracker & Reading Assistant</title>
+    <title>Booktou — Book Tracker, Reading Timer & Personal Library</title>
     <meta name="description"
-        content="Booktou is your personal reading assistant. Track books, keep streaks, focus with Pomodoro, unlock achievements, and build a library you'll love.">
+        content="Track books and reading time with Booktou. Organize your personal library, log progress, build reading streaks, save quotes, and explore your reading stats on iPhone and Android.">
+    <link rel="canonical" href="https://www.rapheldorsoftware.com/booktou/">
+    <link rel="alternate" hreflang="en" href="https://www.rapheldorsoftware.com/booktou/">
+    <link rel="alternate" hreflang="tr" href="https://www.rapheldorsoftware.com/booktou/tr/">
+    <link rel="alternate" hreflang="x-default" href="https://www.rapheldorsoftware.com/booktou/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.rapheldorsoftware.com/booktou/">
     <meta property="og:title" content="Booktou — Read. Track. Remember.">
     <meta property="og:description"
         content="Build reading habits that stick. Track your library, keep your streak, and unlock achievements with Booktou.">
-    <meta property="og:image" content="../assets/booktou/marketing/track-books.webp">
+    <meta property="og:image" content="https://www.rapheldorsoftware.com/assets/booktou/marketing/track-books.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "@id": "https://www.rapheldorsoftware.com/booktou/#app",
+      "name": "Booktou",
+      "description": "A book tracker and reading timer for organizing a personal library, recording reading sessions, and viewing reading statistics.",
+      "url": "https://www.rapheldorsoftware.com/booktou/",
+      "image": "https://www.rapheldorsoftware.com/assets/booktou/marketing/icon.webp",
+      "applicationCategory": "ReferenceApplication",
+      "operatingSystem": "Android, iOS",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+      "sameAs": [
+        "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou",
+        "https://apps.apple.com/us/app/booktou-book-tracker/id6795242771"
+      ]
+    }
+    </script>
     <link rel="icon" href="../assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -456,6 +481,38 @@
             text-align: center;
         }
 
+        .faq-list {
+            display: grid;
+            gap: 0.9rem;
+            max-width: 760px;
+        }
+
+        .faq-list details {
+            padding: 1.15rem 1.3rem;
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            background: var(--bg-soft);
+        }
+
+        .faq-list summary {
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .faq-list p {
+            margin-top: 0.7rem;
+            color: var(--muted);
+        }
+
+        .guide-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            color: var(--flame-deep);
+            font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 0.2em;
+        }
+
         .final-cta h2 {
             font-family: var(--font-display);
             font-size: clamp(2rem, 5vw, 3rem);
@@ -528,6 +585,11 @@
                 font-size: 0.78rem;
             }
 
+            .header-actions a[href^="/privacy"],
+            .header-actions a[href^="/terms"] {
+                display: none;
+            }
+
             .hero {
                 padding-top: 5.5rem;
                 align-items: center;
@@ -557,6 +619,7 @@
             <span>Booktou</span>
         </a>
         <div class="header-actions">
+            <a class="subtle" href="/booktou/tr/" lang="tr">Türkçe</a>
             <a class="subtle" href="/privacy?app=booktou">Privacy</a>
             <a class="subtle" href="/terms?app=booktou">Terms</a>
             <a class="subtle" href="#download" id="nav-download">Download</a>
@@ -566,8 +629,8 @@
 <section class="hero">
         <div class="hero-content">
             <h1>Read. Track. <em>Remember.</em></h1>
-            <p>Your personal reading assistant — build a library, keep your streak alive, and turn every session into
-                progress you can feel.</p>
+            <p>Booktou is a book tracker and reading timer for iPhone and Android. Build your personal library, keep a
+                reading streak, and turn every session into progress you can see.</p>
             <div class="store-row">
                 <a class="btn btn-play"
                     href="https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou" target="_blank"
@@ -698,6 +761,33 @@
                 <span class="pill">10+ themes</span>
                 <span class="pill">Private by design</span>
             </div>
+        </section>
+
+        <section class="section" id="faq">
+            <div class="section-head">
+                <span class="eyebrow">Quick answers</span>
+                <h2>What can you track with Booktou?</h2>
+                <p>Booktou brings your books, reading sessions, and progress together in one place.</p>
+            </div>
+            <div class="faq-list">
+                <details>
+                    <summary>How do I add a book to my library?</summary>
+                    <p>Search for a title, scan its ISBN barcode, or add it manually. You can organize books you've read, are reading, and want to read.</p>
+                </details>
+                <details>
+                    <summary>Can I track reading time and habits?</summary>
+                    <p>Yes. Use a Pomodoro timer or stopwatch to record a reading session, then review your activity and reading statistics.</p>
+                </details>
+                <details>
+                    <summary>Can I save notes and favorite quotes?</summary>
+                    <p>Yes. Keep notes and quotes with your books, including text captured from a page with your camera.</p>
+                </details>
+                <details>
+                    <summary>Where is Booktou available?</summary>
+                    <p>Booktou is available on <a href="https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou">Google Play</a> and the <a href="https://apps.apple.com/us/app/booktou-book-tracker/id6795242771">App Store</a>. It is free to download and offers optional in-app purchases.</p>
+                </details>
+            </div>
+            <a class="guide-link" href="/booktou/tr/kitap-okuma-takibi/" lang="tr">Türkçe rehber: kitap okuma takibi nasıl yapılır?</a>
         </section>
 
         <section class="final-cta" id="download">
