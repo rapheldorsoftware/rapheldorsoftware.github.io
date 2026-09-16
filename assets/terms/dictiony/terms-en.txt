@@ -1,0 +1,21 @@
+Dictiony Terms and Conditions
+
+Last Updated: October 23, 2025
+
+By downloading or using Dictiony, you agree to these terms.
+
+Dictiony offers a Premium Subscription through Google Play. Subscriptions automatically renew and can be canceled through Google Play. Premium removes all ads within the app and may provide additional premium features or functionality.
+
+Dictiony is a speech practice and diction training app that uses your device's microphone to analyze pronunciation and provide feedback. Speech recordings are processed locally on your device and are not collected, stored, or transmitted by the App for analytics or marketing purposes.
+
+The App may display advertisements using Google AdMob. AdMob and its partners may collect certain device or usage information as described in their privacy policies. We do not use your speech recordings or practice content for advertising, profiling, or marketing purposes.
+
+Dictiony does not collect or share personal data as part of its core functionality. Your practice sessions, progress data, and speech feedback remain private on your device. Subscription verification is handled by Google Play and we do not receive payment details.
+
+You are responsible for maintaining your device and internet access to use the App and view ads where applicable. Microphone access is required for speech recognition features to function properly.
+
+For refunds or subscription management (if any third-party purchases occur via external services), please use the relevant store's support channels. We do not process payments or refunds directly.
+
+We may update this Terms and Conditions from time to time. When changes are made, we will update the "Last Updated" date. Significant changes will be highlighted or communicated in-app where feasible.
+
+If you have any questions about these Terms, please don't hesitate to contact us at rapheldorsoftware@gmail.com

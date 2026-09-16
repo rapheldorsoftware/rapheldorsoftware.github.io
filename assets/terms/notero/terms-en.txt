@@ -1,0 +1,19 @@
+Notero Terms and Conditions
+
+Last Updated: September 29, 2025
+
+By downloading or using Notero, you agree to these terms.
+
+Notero is a local-first note-taking app: core user content (notes, folders, passwords, security questions, etc.) is stored locally on your device and is not collected by the App for analytics or marketing purposes.
+
+The App may display advertisements using Google AdMob. AdMob and its partners may collect certain device or usage information as described in their privacy policies. We do not use your personal notes or content for advertising, profiling, or marketing purposes.
+
+Notero does not collect or share personal data as part of its core functionality. We do not process payments or refunds directly.
+
+You are responsible for maintaining your device and internet access to use the App and view ads where applicable.
+
+For refunds or subscription management (if any third-party purchases occur via external services), please use the relevant store's support channels. We do not process payments or refunds directly.
+
+We may update this Terms and Conditions from time to time. When changes are made, we will update the "Last Updated" date. Significant changes will be highlighted or communicated in-app where feasible.
+
+If you have any questions about these Terms, please don't hesitate to contact us at rapheldorsoftware@gmail.com

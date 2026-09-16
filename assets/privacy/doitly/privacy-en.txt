@@ -1,0 +1,42 @@
+Privacy Policy
+
+Last Updated: September 25, 2025
+
+Doitly (“App”) does not collect, process, or share any personal data. The App works offline and all data is stored only on the user’s device.
+
+1. Personal Information
+
+The App does not request personal information such as name, email, or photos.
+
+2. To-Dos
+
+All to-dos created by the user are stored only on the device.
+This data is not transmitted to the internet, servers, or third parties.
+
+3. Data Usage
+
+Data is used solely to provide the core functionality of managing to-dos.
+Data is not used for advertising, analytics, or marketing.
+
+4. Data Deletion
+
+Users can delete all to-dos at any time using the “delete data” option.
+Uninstalling the App will permanently remove all data from the device.
+Backups created by the user are outside the App’s control and must be deleted manually.
+
+5. Security
+
+All data remains on the device.
+No internet transfer occurs.
+100% security cannot be guaranteed; users are responsible for their device security.
+
+6. Third-Party Libraries
+
+Doitly itself does not collect or share data.
+However, the App may use third-party open-source libraries, and their behavior cannot be fully controlled. Therefore, 100% guarantees cannot be provided.
+
+7. Contact
+
+For any questions regarding this Privacy Policy, you can contact us at:
+
+📧 rapheldorsoftware@gmail.com
