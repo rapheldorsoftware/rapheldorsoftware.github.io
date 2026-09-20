@@ -17,7 +17,7 @@ The following information may be stored on your device:
 - practice cards and daily words shown to you;
 - spoken-attempt transcripts, pronunciation and word-level accuracy scores, attempt duration and date, streaks, accuracy history, and weak-word tracking;
 - collected Word Tower entries;
-- daily practice goals, reminder times, app language, speech-recognition locale, appearance, consent, and other settings; and
+- an age band (under 13, 13–17, or 18+), daily practice goals, reminder times, app language, speech-recognition locale, appearance, consent, and other settings; and
 - purchase status and technical records needed to unlock or restore Premium access.
 
 Uninstalling the App generally removes local app data, subject to the operating system's backup and restore behavior. Account deletion from the App also removes the current account's locally stored learning data from that device.
@@ -68,7 +68,7 @@ Non-Premium users may see banner and interstitial advertisements supplied by Goo
 - diagnostic information such as crash information, performance data, and SDK errors; and
 - device, operating-system, App, and network information.
 
-Google uses this information to provide and measure advertising, perform analytics, prevent fraud and abuse, comply with law, and, where permitted, personalize advertisements. Depending on the user's region, Speaktou uses Google's User Messaging Platform to request consent or present privacy choices before requesting ads. Users can revisit available advertising privacy choices from the App's Settings screen. They may also manage advertising identifiers and personalization through device or Google account settings.
+Google uses this information to provide and measure advertising, perform analytics, prevent fraud and abuse, comply with law, and, where permitted, personalize advertisements. Speaktou does not initialize Firebase or Google Mobile Ads until the user's age band has been resolved. For users aged 13–17, ad requests are marked for teen age-restricted treatment, limited to general-audience content, and requested as non-personalized ads. For users whose age is unresolved, no ads are requested. Depending on the user's region, Speaktou uses Google's User Messaging Platform to request consent or present privacy choices before requesting ads. Users can revisit available advertising privacy choices from the App's Settings screen. They may also manage advertising identifiers and personalization through device or Google account settings.
 
 Advertising data is processed by Google under the [Google Privacy Policy](https://policies.google.com/privacy) and [Google's advertising technologies information](https://policies.google.com/technologies/ads). Speaktou does not receive users' full advertising profiles from Google.
 
@@ -109,7 +109,9 @@ We use reasonable technical and organizational measures, including encrypted net
 
 ## 13. Children
 
-Speaktou is not directed to children under 13, and accounts are not intended for children under 13. We do not knowingly collect personal information from a child under 13 without authorization required by applicable law. A parent or guardian who believes a child provided account information may contact us to request review and deletion.
+Speaktou is intended for users aged 13 and older. Before Firebase or advertising services start, the App determines an age band. On supported Android devices, it first requests an age-range signal from Google Play's Age Signals API. If Google Play does not share a signal, or on iOS, the App displays a neutral date-of-birth screen. The entered date is used on the device only to calculate an age band; the full date of birth is not stored or sent to Rapheldor Software. Only the resulting age band is stored locally. Google may process age-verification and age-range information under its own policies.
+
+Users identified as under 13 cannot continue into the App. Users aged 13–17 receive an age-restricted experience, including general-audience, non-personalized advertising. Age information and Play Age Signals are used only to provide an age-appropriate experience and meet legal or platform requirements, not to build advertising profiles. A parent or guardian who believes a child provided account information may contact us to request review and deletion.
 
 ## 14. Your choices and rights
 
