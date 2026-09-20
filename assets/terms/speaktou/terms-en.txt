@@ -1,6 +1,6 @@
 # Speaktou Terms of Use
 
-**Last updated: September 16, 2026**
+**Last updated: September 20, 2026**
 
 These Terms of Use ("Terms") are an agreement between you and Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"). They govern your use of the Speaktou mobile application (the "App"). By downloading, accessing, or using Speaktou, you agree to these Terms and our [Privacy Policy](https://rapheldorsoftware.com/privacy?app=speaktou). If you do not agree, do not use the App.
 
@@ -12,103 +12,110 @@ You must be legally able to agree to these Terms in your country. Speaktou is no
 
 We grant you a personal, limited, non-exclusive, non-transferable, revocable license to use Speaktou for lawful, non-commercial purposes on devices you own or control, subject to the applicable Google Play or Apple App Store rules.
 
-You may not copy, sell, sublicense, reverse engineer except where applicable law permits it, interfere with security controls, use automated methods to abuse the service, attempt unauthorized access, or use Speaktou in a way that harms other users or third-party services.
+You may not copy, sell, sublicense, reverse engineer except where applicable law permits it, interfere with security controls, use automated methods to abuse the service, attempt unauthorized access, manipulate advertising or purchases, or use Speaktou in a way that harms users or third-party services.
 
 For a copy obtained through Apple's App Store, your license is also subject to Apple's Licensed Application End User License Agreement ("Apple Standard EULA") and Apple Media Services Terms and Conditions. For a copy obtained through Google Play, your use is also subject to the applicable Google Play terms.
 
 ## 3. Your content and local data
 
-You retain responsibility for your spoken practice attempts and any settings or preferences you enter. Most Speaktou data — practice history, streaks, accuracy scores, and your Word Tower — is stored locally on your device. You are responsible for maintaining your device. Updates, device failure, operating-system changes, uninstallation, corrupted files, or software errors can cause data loss. To the maximum extent permitted by law, we are not responsible for local data that is lost or corrupted outside our reasonable control; signing in to enable cloud sync, described below, reduces this risk but does not eliminate it.
+You retain responsibility for your spoken practice attempts and settings. Speaktou stores learning information locally and may synchronize it to the account's cloud records as described in the Privacy Policy. Device failure, operating-system changes, uninstallation, corrupted files, provider outages, or software errors can cause data loss. Cloud synchronization reduces this risk but does not guarantee recovery.
 
-## 4. Account and cloud sync
+## 4. Accounts and cloud synchronization
 
-Creating an account (signing in with Google or Apple) is optional; you may also use Speaktou as a guest. You are responsible for your provider account and for activity performed through it. Signing in synchronizes your practice progress to our cloud service so it can be restored if you change devices or reinstall the App.
+Continuing as a guest creates an anonymous Firebase account. You may connect Google or, on supported Apple devices, Apple sign-in. You are responsible for your provider account and activity performed through it. Speaktou may synchronize practice progress so it can be restored across supported sessions and devices.
 
-You must not attempt to access another user's account or data, manipulate practice scoring or streaks through automated or abusive means, or use your account for unlawful purposes. We may restrict or terminate access to cloud features when reasonably necessary to prevent abuse, comply with law, protect users or services, or address a serious breach of these Terms.
+You must not access another user's data, manipulate scoring or streaks through automated or abusive means, or use the account unlawfully. We may restrict or terminate cloud access when reasonably necessary to prevent abuse, comply with law, protect users or services, or address a serious breach of these Terms.
 
-You may delete your account at any time from **Settings > Delete account** in the App. Account deletion removes your Firebase authentication account and cloud practice data. It does not cancel an active Google Play or App Store subscription, which must be managed separately in the relevant store.
+You may delete the account from **Settings > Delete account** or follow the instructions at [Speaktou Account Deletion](https://rapheldorsoftware.com/speaktou/account-deletion/). Account deletion does not cancel an active store subscription.
 
 ## 5. Microphone use and pronunciation scoring
 
-Speaktou's pronunciation-practice feature requires microphone access and relies on your device's built-in speech-recognition service to score your spoken attempts, and on your device's built-in text-to-speech engine to play back correct pronunciation. Scoring is an approximation intended to support practice and motivation; it is not a certified or professional assessment of language proficiency, and we do not guarantee its accuracy.
+Pronunciation practice requires microphone access and relies on the device's speech-recognition service to convert speech to text. Reference playback uses the device's text-to-speech engine. Recognition and scoring are approximations for practice and motivation; they are not certified assessments of language proficiency, and we do not guarantee their accuracy.
 
-## 6. Premium subscriptions and purchases
+## 6. Advertising
 
-Speaktou may offer monthly or yearly auto-renewing Premium subscriptions and may change the available plans or included features for future purchases. The price and billing period shown by Google Play or the Apple App Store before purchase control your transaction.
+Speaktou may display banner and interstitial advertising to non-Premium users through Google Mobile Ads. Premium users are not shown these ads. Ads may be personalized or non-personalized depending on region, consent, provider settings, device settings, and applicable law.
 
-Payment, renewal, cancellation, refunds, billing grace periods, and purchase history are handled by the store. Unless you cancel through the store at least as required by that store, a subscription may renew automatically and the store may charge your account. Deleting Speaktou's local data, uninstalling the App, signing out, or deleting your account does **not** cancel a subscription.
+You must not intentionally generate invalid impressions or clicks, interfere with ad delivery, use automation to interact with ads, or attempt to manipulate advertising measurement. Advertising availability, content, and relevance are controlled partly by third-party providers. Additional information is provided in the Privacy Policy.
 
-Manage or cancel subscriptions through Google Play or your Apple account's subscription settings. Refund eligibility is determined by the applicable store and mandatory consumer law. Speaktou may require an internet connection to purchase, restore, or periodically confirm Premium status, and for speech recognition on some devices.
+## 7. Premium subscriptions and purchases
 
-## 7. Third-party services
+Speaktou may offer monthly or yearly auto-renewing Premium subscriptions and may change available plans or included features for future purchases. The price and billing period displayed by Google Play or the Apple App Store before purchase control the transaction.
 
-Speaktou relies on services supplied by Google, Apple, Firebase, and app store providers for sign-in, cloud sync, device integrity checks, speech recognition, text-to-speech, and purchases. Their own terms and privacy policies apply. We do not endorse or guarantee the availability or accuracy of these third-party services.
+Payment, renewal, cancellation, refunds, billing grace periods, and purchase history are handled by the store. Unless cancelled as required by that store, a subscription may renew automatically and the store may charge the user's account. Uninstalling the App, signing out, deleting local data, or deleting the Speaktou account does **not** cancel a subscription.
 
-## 8. Notifications and language-learning results
+Subscriptions can be managed through Google Play or Apple account subscription settings. Refund eligibility is determined by the applicable store and mandatory consumer law. An internet connection may be required to purchase, restore, or validate Premium status.
 
-Practice and word-of-the-day reminders are motivational tools; delivery is not guaranteed and depends on your device's notification settings. Speaktou is a practice aid and does not guarantee any particular language-learning outcome, certification, or exam result.
+## 8. Third-party services
 
-## 9. Availability and changes
+Speaktou relies on services supplied by Google, Apple, Firebase, Google Mobile Ads, app-store providers, and device speech providers for authentication, cloud synchronization, device integrity, speech recognition, text-to-speech, advertising, consent, measurement, and purchases. Their own terms and privacy policies apply. We do not guarantee the availability, accuracy, or content of third-party services.
 
-We may maintain, update, add, remove, suspend, or discontinue features. Cloud and third-party features may be interrupted by network issues, provider outages, quota limits, platform changes, or security measures. We will use reasonable care but do not promise uninterrupted or error-free operation.
+## 9. Notifications and learning results
 
-## 10. Disclaimer
+Practice and word-of-the-day reminders are motivational tools; delivery is not guaranteed and depends on device settings. Speaktou is a practice aid and does not guarantee any language-learning outcome, certification, examination result, employment result, or academic result.
+
+## 10. Availability and changes
+
+We may maintain, update, add, remove, suspend, or discontinue features. Cloud, advertising, store, and speech features may be interrupted by connectivity, provider outages, quota limits, platform changes, consent choices, or security measures. We do not promise uninterrupted or error-free operation.
+
+## 11. Disclaimer
 
 To the maximum extent permitted by applicable law, Speaktou is provided "as is" and "as available" without warranties beyond those that cannot legally be excluded. Nothing in these Terms limits mandatory consumer guarantees or other rights that cannot be waived.
 
-## 11. Limitation of liability
+## 12. Limitation of liability
 
 To the maximum extent permitted by law, Rapheldor Software will not be liable for indirect, incidental, special, consequential, or punitive losses, or for loss of local data, profits, or opportunities, arising from use of or inability to use Speaktou. This limitation does not apply where liability cannot legally be limited, including liability arising from fraud, wilful misconduct, or other mandatory grounds.
 
-## 12. Termination
+## 13. Termination
 
-You may stop using Speaktou at any time. You may delete your account, revoke provider access, and uninstall the App. Provisions that by their nature should survive termination, including ownership, disclaimers, limitations, and dispute terms, remain effective.
+You may stop using Speaktou at any time. You may delete the account, revoke provider access, and uninstall the App. Provisions that by their nature should survive termination, including ownership, disclaimers, limitations, and dispute terms, remain effective.
 
-## 13. Governing law
+## 14. Governing law
 
 These Terms are governed by the laws of the Republic of Türkiye, without depriving you of mandatory consumer protections that apply in your country. Courts or authorities with mandatory jurisdiction remain available to you.
 
-## 14. Changes to these Terms
+## 15. Changes to these Terms
 
-We may update these Terms to reflect App changes, provider requirements, security needs, or law. We will update the date above and provide additional notice where appropriate. If applicable law requires consent to a material change, we will request it.
+We may update these Terms to reflect App changes, provider requirements, security needs, or law. We will update the date above and provide additional notice where appropriate. Where applicable law requires consent to a material change, we will request it.
 
-## 15. Apple App Store Notice
+## 16. Apple App Store Notice
 
 For users who obtained Speaktou from Apple's App Store:
 
 - these Terms are between you and Rapheldor Software, not Apple;
 - Rapheldor Software, not Apple, is responsible for the App, support, and claims relating to the App, subject to applicable law;
 - Apple has no obligation to provide maintenance or support for the App;
-- your license is limited to use on Apple-branded products you own or control, as permitted by Apple's Usage Rules, including applicable Family Sharing;
-- you represent that you are not located in a country subject to a United States government embargo and are not listed on a United States government prohibited or restricted parties list; and
-- Apple and its subsidiaries are third-party beneficiaries of these Terms and may enforce the applicable provisions against you.
+- the license is limited to use on Apple-branded products the user owns or controls, as permitted by Apple's Usage Rules, including applicable Family Sharing;
+- the user represents that they are not located in a country subject to a United States government embargo and are not listed on a United States government prohibited or restricted parties list; and
+- Apple and its subsidiaries are third-party beneficiaries of these Terms and may enforce the applicable provisions.
 
 If the Apple Standard EULA provides a mandatory or additional protection, that protection also applies.
 
-## 16. General Terms
+## 17. General Terms
 
-If a provision of these Terms is found unenforceable, it will be limited or removed only to the minimum extent necessary, and the remaining provisions will continue in effect.
+If a provision is found unenforceable, it will be limited or removed only to the minimum extent necessary, and the remaining provisions will continue in effect. Failure to enforce a provision is not a waiver. Users may not transfer these Terms or their license except where applicable law allows. We may transfer these Terms in connection with a sale, assignment, reorganization, or transfer of the App, subject to applicable law.
 
-Our failure to enforce a provision is not a waiver. You may not transfer these Terms or your license except where applicable law allows. We may transfer these Terms in connection with a sale, assignment, reorganization, or transfer of the App, subject to applicable law.
+These Terms, the Privacy Policy, and applicable app-store terms form the agreement governing use of Speaktou.
 
-These Terms, the Privacy Policy, and the applicable app store terms form the agreement governing your use of Speaktou.
+## 18. Contact
 
-## 17. Contact
-
-Developer and Legal Operator:
+Developer and Legal Operator:  
 Nurullah KIRBIZ, publishing as Rapheldor Software
 
-Country:
+Country:  
 Türkiye
 
-Support Email:
+Support Email:  
 [rapheldorsoftware@gmail.com](mailto:rapheldorsoftware@gmail.com)
 
-Website:
+Website:  
 [https://rapheldorsoftware.com](https://rapheldorsoftware.com)
 
-App:
+App:  
 Speaktou
 
-Android Package Name and iOS Bundle Identifier:
+Android Package Name:  
+com.rapheldorsoftw.speaktou
+
+iOS Bundle Identifier:  
 com.rapheldorsoftware.speaktou

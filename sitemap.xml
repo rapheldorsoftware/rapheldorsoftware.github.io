@@ -2,10 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.rapheldorsoftware.com/</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.rapheldorsoftware.com/privacy?app=speaktou</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.rapheldorsoftware.com/terms?app=speaktou</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.rapheldorsoftware.com/speaktou/account-deletion/</loc>
+    <lastmod>2026-09-20</lastmod>
   </url>
   <url>
     <loc>https://www.rapheldorsoftware.com/booktou/</loc>
+    <lastmod>2026-09-16</lastmod>
+  </url>
+  <url>
+    <loc>https://www.rapheldorsoftware.com/booktou/account-deletion/</loc>
     <lastmod>2026-09-16</lastmod>
   </url>
   <url>
