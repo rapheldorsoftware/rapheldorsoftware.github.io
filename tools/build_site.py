@@ -5,6 +5,7 @@ Run: python tools/build_site.py
 from pathlib import Path
 from html import escape
 import json
+import hashlib
 import re
 import sys
 from urllib.parse import quote
@@ -12,6 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'content'))
 from ui import UI, NAMES
 
 ROOT = Path(__file__).resolve().parents[1]
+CSS_VERSION = hashlib.sha256((ROOT/'assets/site.css').read_bytes()).hexdigest()[:12]
 BASE = 'https://www.rapheldorsoftware.com'
 APPS = json.loads((ROOT/'content/apps.json').read_text(encoding='utf-8'))
 E = lambda value: escape(str(value), quote=True)
@@ -53,7 +55,7 @@ def page(title,description,body,path,lang,app=None,extra_head=''):
 <title>{E(title)}</title><meta name="description" content="{E(description)}"><meta name="theme-color" content="#faf9f6">
 <link rel="canonical" href="{BASE}{path}">{alternatives}<link rel="icon" href="/assets/favicon.ico">
 <meta property="og:type" content="website"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{BASE}{path}"><meta property="og:image" content="{BASE}{image}"><meta name="twitter:card" content="summary_large_image">
-<script src="/assets/language.js"></script><link rel="stylesheet" href="/assets/site.css">{extra_head}<script src="/assets/site.js" defer></script></head>
+<script src="/assets/language.js"></script><link rel="stylesheet" href="/assets/site.css?v={CSS_VERSION}">{extra_head}<script src="/assets/site.js" defer></script></head>
 <body{style}>{header(app,lang)}{body}{footer(lang,app)}</body></html>'''
 
 def write(path,html):
