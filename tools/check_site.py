@@ -6,6 +6,7 @@ import json
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'content'))
 from ui import UI, NAMES
+from home import HOME
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://www.rapheldorsoftware.com'
@@ -57,6 +58,16 @@ for route in ROUTES:
         if tag=='img' and a.get('src'):assert 'alt' in a and a.get('width') and a.get('height'),(route,'image attributes')
 
 expected={'booktou':25,'speaktou':17,'notero':14,'lessonta':19,'doitly':8,'dictiony':2,'beanjup':8,'wordballoonpop':2}
+assert set(HOME)==set().union(*(set(a['locales']) for a in APPS))
+for lang,copy in HOME.items():
+    route='/' if lang=='en' else '/'+lang+'/'
+    text=file_for(route).read_text(encoding='utf-8');p=Page(text)
+    assert 'about-section' not in text and '#about' not in text
+    assert p.json[0]['@type']=='CollectionPage'
+    html=next(a for t,a in p.tags if t=='html')
+    assert html['lang']==lang and html['dir']==('rtl' if lang=='ar' else 'ltr')
+    assert {a.get('hreflang') for t,a in p.tags if t=='link' and a.get('rel')=='alternate'}==set(HOME)|{'x-default'}
+    assert all(copy.values())
 for app in APPS:
     assert len(app['locales'])==expected[app['id']]
     for kind in ('privacy','terms'):

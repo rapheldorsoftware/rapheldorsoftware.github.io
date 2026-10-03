@@ -1,6 +1,6 @@
 # Rapheldor Software
 
-Static portfolio and product pages for eight apps. GitHub Pages serves the
+Static showcase and product pages for eight apps. GitHub Pages serves the
 checked-in HTML. No Node runtime, external font, frontend framework or tracking
 script is needed by visitors.
 
@@ -12,8 +12,8 @@ python tools/check_site.py
 ```
 
 Content lives in `content/apps.json`; shared translated labels live in
-`content/ui.py`. There are 95 product/language pages, English and Turkish
-portfolio pages, privacy/terms views and two account-deletion pages.
+`content/ui.py`. There are 95 product/language pages, 26 localized
+showcase pages, privacy/terms views and two account-deletion pages.
 
 Each product only lists languages verified in its app repository. The product
 copy distinguishes interface languages from practice languages. Speaktou's
@@ -59,3 +59,8 @@ an Arabic RTL product page, category filters, gallery next/previous/Escape,
 keyboard focus, policy loading and reduced-motion styles. Automated checks cover
 all generated routes, local links, assets, metadata, translation inventories and
 text/button color contrast. These checks are not a full accessibility audit.
+
+The home entry follows browser/phone language, with English as the fallback.
+Explicit localized URLs are honored. Manual language selections are remembered
+in local storage and take precedence on later visits to the home entry.
+The homepage contains app information only, without a studio biography.
