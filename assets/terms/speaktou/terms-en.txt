@@ -1,6 +1,6 @@
 # Speaktou Terms of Use
 
-**Last updated: September 20, 2026**
+**Last updated: October 4, 2026**
 
 These Terms of Use ("Terms") are an agreement between you and Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"). They govern your use of the Speaktou mobile application (the "App"). By downloading, accessing, or using Speaktou, you agree to these Terms and our [Privacy Policy](https://rapheldorsoftware.com/privacy?app=speaktou). If you do not agree, do not use the App.
 
@@ -34,21 +34,23 @@ Pronunciation practice requires microphone access and relies on the device's spe
 
 ## 6. Advertising
 
-Speaktou may display banner and interstitial advertising to non-Premium users through Google Mobile Ads. Premium users are not shown these ads. Ads may be personalized or non-personalized depending on region, consent, provider settings, device settings, and applicable law.
+Speaktou may display banner, interstitial and optional rewarded advertising to non-Premium users through Google Mobile Ads. Premium users are not shown these ads. Ads may be personalized or non-personalized depending on region, consent, provider settings, device settings, and applicable law.
 
 You must not intentionally generate invalid impressions or clicks, interfere with ad delivery, use automation to interact with ads, or attempt to manipulate advertising measurement. Advertising availability, content, and relevance are controlled partly by third-party providers. Additional information is provided in the Privacy Policy.
 
 ## 7. Premium subscriptions and purchases
 
-Speaktou may offer monthly or yearly auto-renewing Premium subscriptions and may change available plans or included features for future purchases. The price and billing period displayed by Google Play or the Apple App Store before purchase control the transaction.
+Speaktou offers monthly and annual auto-renewing Premium subscriptions and a non-consumable Lifetime Premium option. All three plans unlock the same Premium entitlement, including additional practice beyond the daily goal, word review and full vocabulary history. Available features and prices may change for future purchases. The price and billing period displayed by Google Play or the Apple App Store before purchase control the transaction.
 
 Payment, renewal, cancellation, refunds, billing grace periods, and purchase history are handled by the store. Unless cancelled as required by that store, a subscription may renew automatically and the store may charge the user's account. Uninstalling the App, signing out, deleting local data, or deleting the Speaktou account does **not** cancel a subscription.
 
 Subscriptions can be managed through Google Play or Apple account subscription settings. Refund eligibility is determined by the applicable store and mandatory consumer law. An internet connection may be required to purchase, restore, or validate Premium status.
 
+Lifetime Premium is a one-time purchase with no automatic renewal. It provides access to the Premium features of Speaktou for as long as the app and those services remain available. It is not a promise of indefinite server operation or access to unrelated future products. This does not limit mandatory consumer rights or store refund rights. Use Restore purchases with the store account that made the purchase.
+
 ## 8. Third-party services
 
-Speaktou relies on services supplied by Google, Apple, Firebase, Google Mobile Ads, app-store providers, and device speech providers for authentication, cloud synchronization, device integrity, speech recognition, text-to-speech, advertising, consent, measurement, and purchases. Their own terms and privacy policies apply. We do not guarantee the availability, accuracy, or content of third-party services.
+Speaktou relies on services supplied by Google, Apple, Firebase (including optional usage analytics), RevenueCat, Google Mobile Ads, app-store providers, and device speech providers for authentication, cloud synchronization, device integrity, speech recognition, text-to-speech, advertising, consent, measurement, and purchases. Their own terms and privacy policies apply. We do not guarantee the availability, accuracy, or content of third-party services.
 
 ## 9. Notifications and learning results
 

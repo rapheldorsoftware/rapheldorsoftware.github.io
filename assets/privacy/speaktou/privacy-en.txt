@@ -1,12 +1,12 @@
 # Speaktou Privacy Policy
 
-**Last updated: September 20, 2026**
+**Last updated: October 4, 2026**
 
 This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"), handles information when you use the Speaktou mobile application (the "App") and the Speaktou pages on rapheldorsoftware.com.
 
 ## 1. At a glance
 
-Speaktou is a language-learning app with a local-first practice experience. Practice history, streaks, accuracy scores, weak-word tracking, collected vocabulary ("Word Tower"), and most settings are stored on your device. Speaktou also uses Firebase for accounts and progress synchronization, device speech-recognition services for pronunciation practice, app-store services for subscriptions, and Google Mobile Ads to display ads to non-Premium users.
+Speaktou is a language-learning app with a local-first practice experience. Practice history, streaks, accuracy scores, weak-word tracking, collected vocabulary ("Word Tower"), and most settings are stored on your device. Speaktou also uses Firebase for accounts and progress synchronization, device speech-recognition services for pronunciation practice, RevenueCat and app-store services for subscriptions and lifetime purchases, and Google Mobile Ads to display ads to non-Premium users.
 
 We do not sell or rent your personal information. We do not provide practice transcripts, pronunciation scores, or vocabulary history to advertisers for building advertising profiles.
 
@@ -60,7 +60,7 @@ Speaktou uses the device's text-to-speech engine to play reference pronunciation
 
 ## 6. Advertising and consent
 
-Non-Premium users may see banner and interstitial advertisements supplied by Google Mobile Ads (AdMob). Premium users are not shown these ads. The Google Mobile Ads SDK may automatically collect or process information such as:
+Non-Premium users may see banner, interstitial and optional rewarded advertisements supplied by Google Mobile Ads (AdMob). Premium users are not shown these ads. The Google Mobile Ads SDK may automatically collect or process information such as:
 
 - IP address, which may be used to estimate general location;
 - device and account identifiers, including the Android advertising ID when available;
@@ -68,7 +68,7 @@ Non-Premium users may see banner and interstitial advertisements supplied by Goo
 - diagnostic information such as crash information, performance data, and SDK errors; and
 - device, operating-system, App, and network information.
 
-Google uses this information to provide and measure advertising, perform analytics, prevent fraud and abuse, comply with law, and, where permitted, personalize advertisements. Speaktou does not initialize Firebase or Google Mobile Ads until the user's age band has been resolved. For users aged 13–17, ad requests are marked for teen age-restricted treatment, limited to general-audience content, and requested as non-personalized ads. For users whose age is unresolved, no ads are requested. Depending on the user's region, Speaktou uses Google's User Messaging Platform to request consent or present privacy choices before requesting ads. Users can revisit available advertising privacy choices from the App's Settings screen. They may also manage advertising identifiers and personalization through device or Google account settings.
+Google uses this information to provide and measure advertising, perform analytics, prevent fraud and abuse, comply with law, and, where permitted, personalize advertisements. Firebase is initialized to support onboarding and authentication. Google Mobile Ads is initialized only after the user has signed in and an eligible age band has been resolved. For users aged 13–17, ad requests are marked for teen age-restricted treatment, limited to general-audience content, and requested as non-personalized ads. For users whose age is unresolved, no ads are requested. Depending on the user's region, Speaktou uses Google's User Messaging Platform to request consent or present privacy choices before requesting ads. Users can revisit available advertising privacy choices from the App's Settings screen. They may also manage advertising identifiers and personalization through device or Google account settings.
 
 Advertising data is processed by Google under the [Google Privacy Policy](https://policies.google.com/privacy) and [Google's advertising technologies information](https://policies.google.com/technologies/ads). Speaktou does not receive users' full advertising profiles from Google.
 
@@ -78,7 +78,18 @@ Speaktou can schedule daily practice and word-of-the-day reminders. These are lo
 
 ## 8. Purchases and subscriptions
 
-Speaktou Premium may be offered as an auto-renewing subscription through Google Play or Apple's App Store. The store processes payment information, transaction identifiers, subscription status, and store-account information under its own policies. Rapheldor Software does not receive full payment-card details. The App receives and may store purchase status and transaction information necessary to unlock, validate, restore, and manage Premium access and prevent fraud.
+Speaktou Premium offers monthly and annual auto-renewing subscriptions and a non-consumable lifetime purchase through Google Play or Apple's App Store. The store processes payment information, transaction identifiers, subscription status, and store-account information under its own policies. Rapheldor Software does not receive full payment-card details. The App receives and may store purchase status and transaction information necessary to unlock, validate, restore, and manage Premium access and prevent fraud.
+
+
+RevenueCat validates purchase receipts and manages Premium access. We send it the Firebase account identifier used as an App User ID, and it processes purchase history, product and transaction identifiers, subscription status, timestamps, and technical device information. We do not send practice transcripts or microphone recordings to RevenueCat. Purchase information is used for entitlement validation, restoration, fraud prevention and purchase reporting. See [RevenueCat's Privacy Policy](https://www.revenuecat.com/privacy/).
+
+### Optional usage analytics
+
+Starting with the app update that introduces **Settings > Usage analytics**, adult users can choose to enable Google Analytics for Firebase. This setting is off by default and is unavailable to users under 18 or with unresolved age status. Earlier app builds do not include this optional usage analytics integration.
+
+When enabled, we measure screen visits, app engagement, practice language, numerical accuracy and duration, pass/fail results, journey activity, and Premium purchase/restore events. Google may also process an app-instance identifier, IP-derived approximate location, device model, operating system and app version, and automatically collected session events. Our custom events do not include names, email addresses, Firebase user IDs, birth dates, voice recordings, practice sentences, recognized speech or individual words. Analytics is not configured to use advertising identifiers or advertising personalization signals.
+
+You can disable this option in Settings. The app stops optional collection and resets the local Analytics identifier; this does not retroactively delete data already received by Google. Contact us for applicable data-rights requests. Analytics data is subject to the retention settings of our Google Analytics property and Google's processing policies. See [Google's Privacy Policy](https://policies.google.com/privacy) and [Firebase privacy information](https://firebase.google.com/support/privacy).
 
 ## 9. Website and support data
 
@@ -109,7 +120,7 @@ We use reasonable technical and organizational measures, including encrypted net
 
 ## 13. Children
 
-Speaktou is intended for users aged 13 and older. Before Firebase or advertising services start, the App determines an age band. On supported Android devices, it first requests an age-range signal from Google Play's Age Signals API. If Google Play does not share a signal, or on iOS, the App displays a neutral date-of-birth screen. The entered date is used on the device only to calculate an age band; the full date of birth is not stored or sent to Rapheldor Software. Only the resulting age band is stored locally. Google may process age-verification and age-range information under its own policies.
+Speaktou is intended for users aged 13 and older. The App determines an age band before allowing access to learning features or initializing advertising. Firebase authentication services may initialize earlier to support onboarding. On supported Android devices, it first requests an age-range signal from Google Play's Age Signals API. If Google Play does not share a signal, or on iOS, the App displays a neutral date-of-birth screen. The entered date is used on the device only to calculate an age band; the full date of birth is not stored or sent to Rapheldor Software. Only the resulting age band is stored locally. Google may process age-verification and age-range information under its own policies.
 
 Users identified as under 13 cannot continue into the App. Users aged 13–17 receive an age-restricted experience, including general-audience, non-personalized advertising. Age information and Play Age Signals are used only to provide an age-appropriate experience and meet legal or platform requirements, not to build advertising profiles. A parent or guardian who believes a child provided account information may contact us to request review and deletion.
 
@@ -117,6 +128,7 @@ Users identified as under 13 cannot continue into the App. Users aged 13–17 re
 
 Depending on location, users may have rights to access, correct, delete, restrict, object to, or receive a copy of personal information and to withdraw consent. Users can manage:
 
+- optional usage analytics through **Settings > Usage analytics** in supported app versions;
 - the account and synchronized data through **Settings > Delete account** or the [account-deletion page](https://rapheldorsoftware.com/speaktou/account-deletion/);
 - advertising consent, when available, through **Settings > Privacy choices**;
 - advertising identifiers and personalization through device or Google account settings;
