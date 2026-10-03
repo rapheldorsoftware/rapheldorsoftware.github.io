@@ -1,0 +1,31 @@
+# Doitly Terms of Use
+
+Last updated: October 4, 2026
+
+These terms apply to Doitly, published by Rapheldor Software. By using the App, you agree to these terms and the applicable app-store rules.
+
+## 1. Using Doitly
+
+Doitly helps you organise tasks, categories, subtasks and dated plans. Features vary by installed version and platform. You may use the App for your own lawful purposes. Do not interfere with its operation, bypass access controls or misuse third-party services.
+
+## 2. Your tasks and backups
+
+You remain responsible for the content you enter and for keeping backups of important information. Core task data is stored on your device. Exports you create remain under your control. App deletion, device failure or resetting data may remove local records. We do not promise recovery of records for which no usable backup exists.
+
+## 3. Advertising and third parties
+
+Versions that include ads use Google AdMob. Advertising and external links are subject to the relevant provider’s terms and privacy practices. See the [Doitly Privacy Policy](https://www.rapheldorsoftware.com/privacy?app=doitly) for information about data processing.
+
+## 4. Availability and your rights
+
+We aim to keep Doitly usable, but uninterrupted operation, compatibility with every device and recovery from every data-loss event cannot be guaranteed. These terms do not exclude or limit rights or remedies that cannot be waived under applicable consumer law.
+
+## 5. Updates
+
+We may change features and update these terms. Material changes will be notified where required by applicable law. The date above identifies the current version of this text.
+
+## 6. Contact
+
+Nurullah KIRBIZ, publishing as Rapheldor Software, Türkiye.
+
+rapheldorsoftware@gmail.com

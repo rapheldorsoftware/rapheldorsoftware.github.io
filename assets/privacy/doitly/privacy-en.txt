@@ -1,8 +1,8 @@
 Privacy Policy
 
-Last Updated: September 25, 2025
+Last Updated: October 4, 2026
 
-Doitly (“App”) does not collect, process, or share any personal data. The App works offline and all data is stored only on the user’s device.
+Doitly ("App") stores tasks and settings locally. Versions that include advertising use Google AdMob, which may process device and usage information as described below.
 
 1. Personal Information
 
@@ -16,7 +16,11 @@ This data is not transmitted to the internet, servers, or third parties.
 3. Data Usage
 
 Data is used solely to provide the core functionality of managing to-dos.
-Data is not used for advertising, analytics, or marketing.
+Your task text is not intentionally provided to advertisers. AdMob may process advertising/device identifiers, IP addresses, ad interactions, app activity and diagnostics for advertising, measurement and fraud prevention. Advertising availability and personalization depend on the installed version, device privacy settings and applicable consent choices.
+
+[Google privacy policy](https://policies.google.com/privacy)
+
+If you contact support, we receive the address, message and attachments you choose to send and use them to respond to your request.
 
 4. Data Deletion
 
@@ -26,14 +30,12 @@ Backups created by the user are outside the App’s control and must be deleted 
 
 5. Security
 
-All data remains on the device.
-No internet transfer occurs.
+Task data remains local. Advertising and support services may transfer information over the internet.
 100% security cannot be guaranteed; users are responsible for their device security.
 
 6. Third-Party Libraries
 
-Doitly itself does not collect or share data.
-However, the App may use third-party open-source libraries, and their behavior cannot be fully controlled. Therefore, 100% guarantees cannot be provided.
+Third-party services process information under their applicable privacy policies. Clearing task data does not necessarily delete advertising information already received by providers. Contact rapheldorsoftware@gmail.com for applicable privacy requests, including access, correction or deletion. We keep support information only as long as needed to respond, resolve issues and meet legal obligations. Service-provider records follow the relevant retention settings and policies.
 
 7. Contact
 

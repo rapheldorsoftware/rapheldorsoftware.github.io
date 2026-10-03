@@ -1,8 +1,8 @@
 Privacy Policy
 
-Last Updated: September 25, 2025
+Last Updated: October 4, 2026
 
-Dictiony (“App”) does not collect, process, or share any personal data. The App works offline and all data is stored only on the user’s device.
+Dictiony ("App") stores practice records and settings locally. Network services may process information for speech recognition, advertising, purchases and usage analytics, as described below. Availability depends on the installed version and platform.
 
 1. Personal Information
 
@@ -11,12 +11,12 @@ The App does not request personal information such as name, email, or photos.
 2. User Data
 
 All data created by the user is stored only on the device.
-This data is not transmitted to the internet, servers, or third parties.
+Raw practice text and recognised speech are not intentionally sent to Firebase Analytics. Selected exercise identifiers and performance metrics may be processed as described in the Analytics section below.
 
 3. Speech Recognition
 
 The App uses the device’s built-in speech recognition services.
-Audio is processed by the device. Dictiony does not collect, record, or store speech or audio data.
+The operating system speech recogniser may process audio on the device or through its provider’s online service, depending on the device, language and recogniser settings. Microphone permission is required for speaking practice. Rapheldor does not operate its own speech-recognition server. Refer to Google or Apple privacy information for the recogniser used by your device.
 
 4. Advertising
 
@@ -28,31 +28,33 @@ Google AdMob policies/support — https://support.google.com/admob/answer/612854
 
 5. Premium Subscription
 
-Dictiony offers a Premium Subscription via in-app purchases on Google Play. Subscriptions are billed on a monthly basis and automatically renew unless cancelled by the user. Purchasing the Premium Subscription removes advertisements within the App and may provide additional premium features or functionality.
+Dictiony offers a Premium Subscription via in-app purchases on Google Play. The available plan, billing period and renewal terms are shown by the store before purchase. Subscriptions automatically renew unless cancelled through the store. Purchasing the Premium Subscription removes advertisements within the App and may provide additional premium features or functionality.
 
 All subscription payments are processed by Google Play. Payment details are handled by Google and are not shared with Dictiony. For refunds, subscription management, or cancellation, please use Google Play > Subscriptions or visit: https://play.google.com/store/account/subscriptions
 
 6. Data Usage
 
 Data is used solely to provide the core functionality of the App.
-User-created data (practice sessions, progress, etc.) is not used for advertising, analytics, or marketing.
+We do not send raw spoken transcripts or user-authored practice content to advertisers. Firebase Analytics may receive practice identifiers, durations, completion and accuracy metrics, streak milestones, screen views, game scores, purchase attempts and ad interactions to help us understand feature usage. It may also process app-instance identifiers, device/app details and general location derived from IP addresses. Collection depends on the build and service settings.
+
+[Firebase privacy information](https://firebase.google.com/support/privacy)
+[Google privacy policy](https://policies.google.com/privacy)
+[Apple privacy policy](https://www.apple.com/legal/privacy/)
 
 7. Data Deletion
 
 Users can delete all data at any time using the in-app reset option.
-Uninstalling the App will permanently remove all data from the device.
+Uninstalling the App removes local app data, subject to operating-system backup and restore behavior. Analytics, ad and transaction records already received by service providers are subject to their retention settings and policies.
 Backups created by the user are outside the App's control and must be deleted manually.
 
 8. Security
 
-All data remains on the device.
-No internet transfer occurs.
+Local practice records remain on the device, while the services described above may transfer information over the internet.
 100% security cannot be guaranteed; users are responsible for their device security.
 
 9. Third-Party Libraries
 
-Dictiony itself does not collect or share data.
-However, the App may use third-party open-source libraries, and their behavior cannot be fully controlled. Therefore, 100% guarantees cannot be provided.
+The App uses service providers for the functions described above. These providers process information under their applicable privacy policies and service terms. Contact rapheldorsoftware@gmail.com for requests concerning data processed on our behalf. Clearing app data does not necessarily delete information already received by third-party services. Applicable access, correction, deletion and objection rights depend on your jurisdiction.
 
 10. Children's Privacy
 

@@ -1,0 +1,2551 @@
+[
+  {
+    "name": "Booktou",
+    "category": "reading",
+    "accent": "#4f46a8",
+    "tint": "#f0edfb",
+    "icon": "assets/booktou/icon.webp",
+    "apple": "https://apps.apple.com/app/id6795242771",
+    "images": [
+      "assets/booktou/marketing/track-books.webp",
+      "assets/booktou/marketing/statistics.webp",
+      "assets/booktou/marketing/notes-quotes.webp"
+    ],
+    "id": "booktou",
+    "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou",
+    "imageSizes": {
+      "assets/booktou/marketing/track-books.webp": [
+        810,
+        1440
+      ],
+      "assets/booktou/marketing/statistics.webp": [
+        810,
+        1440
+      ],
+      "assets/booktou/marketing/notes-quotes.webp": [
+        810,
+        1440
+      ]
+    },
+    "locales": {
+      "ar": {
+        "title": "مرحبًا بك في Booktou!",
+        "summary": "Booktou تطبيق لمتابعة قراءاتك، تدوين الملاحظات، وتحقيق أهداف القراءة.",
+        "features": [
+          {
+            "title": "مرحبًا بك في Booktou!",
+            "body": "رفيقك الشخصي للقراءة الذي يساعدك على تتبع التقدم، البقاء متحفزًا، وبناء عادات قراءة منتظمة."
+          },
+          {
+            "title": "ابنِ عادة وسلسلة قراءة",
+            "body": "حدد هدفاً يومياً، وتتبع سلسلتك، واحتفل بكل إنجاز تحققه."
+          },
+          {
+            "title": "شاهد عامك من خلال الكتب",
+            "body": "احصل على ملخص سنوي مخصص وإحصائيات مفصلة حول كل ما قرأته."
+          },
+          {
+            "title": "مؤقت بومودورو للقراءة المركزة",
+            "body": "ركز على القراءة بتقنية بومودورو"
+          }
+        ]
+      },
+      "da": {
+        "title": "Spor hver side, hver note",
+        "summary": "Booktou er en omfattende læseledsager-app, der hjælper dig med at spore dine læsefremskridt, tage noter og nå dine læsemål.",
+        "features": [
+          {
+            "title": "Spor hver side, hver note",
+            "body": "Log dine fremskridt, gem citater, og sorter dine bøger i samlinger og serier."
+          },
+          {
+            "title": "Byg en læserække",
+            "body": "Sæt et dagligt mål, spor din streak, og fejr hver milepæl, du når."
+          },
+          {
+            "title": "Se dit år i bøger",
+            "body": "Få en personlig årlig opsummering og detaljeret statistik over alt, hvad du har læst."
+          },
+          {
+            "title": "Pomodoro timer til fokuseret læsning",
+            "body": "Fokuslæsning med Pomodoro-teknik"
+          }
+        ]
+      },
+      "de": {
+        "title": "Willkommen bei Booktou!",
+        "summary": "Booktou ist eine umfassende Lese-App, die dir hilft, deinen Lesefortschritt zu verfolgen, Notizen zu machen und deine Leseziele zu erreichen.",
+        "features": [
+          {
+            "title": "Willkommen bei Booktou!",
+            "body": "Dein persönlicher Lese-Begleiter, der dir hilft, Fortschritte zu verfolgen, motiviert zu bleiben und konsequente Lesegewohnheiten aufzubauen."
+          },
+          {
+            "title": "Baue eine Lese-Streak auf",
+            "body": "Setze dir ein tägliches Ziel, verfolge deine Serie und feiere jeden Meilenstein."
+          },
+          {
+            "title": "Dein Lesejahr im Überblick",
+            "body": "Erhalte einen personalisierten Jahresrückblick und detaillierte Statistiken zu allem, was du gelesen hast."
+          },
+          {
+            "title": "Pomodoro-Timer für konzentriertes Lesen",
+            "body": "Mit der Pomodoro-Technik konzentriert lesen"
+          }
+        ]
+      },
+      "el": {
+        "title": "Καλώς ήρθατε στο Booktou!",
+        "summary": "Το Booktou είναι ένας πλήρης βοηθός ανάγνωσης που σας βοηθά να παρακολουθείτε την πρόοδο, να κρατάτε σημειώσεις και να πετυχαίνετε τους στόχους ανάγνωσης.",
+        "features": [
+          {
+            "title": "Καλώς ήρθατε στο Booktou!",
+            "body": "Ο προσωπικός σας σύντροφος ανάγνωσης που σας βοηθά να παρακολουθείτε την πρόοδο, να διατηρείτε το κίνητρο και να αποκτήσετε συνεπείς συνήθειες ανάγνωσης."
+          },
+          {
+            "title": "Χτίστε ένα σερί ανάγνωσης",
+            "body": "Θέστε έναν ημερήσιο στόχο, παρακολουθήστε το σερί σας και γιορτάστε κάθε ορόσημο που πετυχαίνετε."
+          },
+          {
+            "title": "Δείτε τη χρονιά σας σε βιβλία",
+            "body": "Λάβετε μια εξατομικευμένη ετήσια ανασκόπηση και λεπτομερή στατιστικά για όλα όσα διαβάσατε."
+          },
+          {
+            "title": "Pomodoro χρονόμετρο για εστιασμένη ανάγνωση",
+            "body": "Εστιαστείτε στην ανάγνωση με την τεχνική Pomodoro"
+          }
+        ]
+      },
+      "en": {
+        "title": "A home for your reading life.",
+        "summary": "Keep your personal library, reading sessions and favourite passages together. Track the books you are reading, save notes and quotes, build a reading habit and see your progress over time.",
+        "features": [
+          {
+            "title": "Track every page, every note",
+            "body": "Log your progress, save quotes, and sort your books into collections and series."
+          },
+          {
+            "title": "Build a reading streak",
+            "body": "Set a daily goal, track your streak, and celebrate every milestone you hit."
+          },
+          {
+            "title": "See your year in books",
+            "body": "Get a personalized yearly recap and detailed stats on everything you've read."
+          },
+          {
+            "title": "Pomodoro timer for focused reading",
+            "body": "Focus reading with Pomodoro technique"
+          }
+        ]
+      },
+      "es": {
+        "title": "¡Bienvenido a Booktou!",
+        "summary": "Booktou es una completa app compañera de lectura que te ayuda a rastrear tu progreso, tomar notas y alcanzar tus metas de lectura.",
+        "features": [
+          {
+            "title": "¡Bienvenido a Booktou!",
+            "body": "Tu compañera personal de lectura que te ayuda a rastrear el progreso, mantener la motivación y construir hábitos de lectura constantes."
+          },
+          {
+            "title": "Crea una racha de lectura",
+            "body": "Ponte una meta diaria, sigue tu racha y celebra cada logro que alcances."
+          },
+          {
+            "title": "Mira tu año en libros",
+            "body": "Obtén un resumen anual personalizado y estadísticas detalladas de todo lo que has leído."
+          },
+          {
+            "title": "Temporizador Pomodoro para lectura enfocada",
+            "body": "Enfoca la lectura con técnica Pomodoro"
+          }
+        ]
+      },
+      "fi": {
+        "title": "Seuraa jokaista sivua, jokaista muistiinpanoa",
+        "summary": "Booktou on kattava lukukumppanisovellus, jonka avulla voit seurata lukemisen edistymistä, tehdä muistiinpanoja ja saavuttaa lukutavoitteesi.",
+        "features": [
+          {
+            "title": "Seuraa jokaista sivua, jokaista muistiinpanoa",
+            "body": "Kirjaa edistymisesi, tallenna lainauksia ja lajittele kirjasi kokoelmiin ja sarjoihin."
+          },
+          {
+            "title": "Rakenna lukuputki",
+            "body": "Aseta päivittäinen tavoite, seuraa sarjaasi ja juhli jokaista saavuttamaasi virstanpylvästä."
+          },
+          {
+            "title": "Katso vuosi kirjoista",
+            "body": "Hanki henkilökohtainen vuosikatsaus ja yksityiskohtaiset tilastot kaikesta lukemastasi."
+          },
+          {
+            "title": "Pomodoro-ajastin keskittyneeseen lukemiseen",
+            "body": "Tarkenna lukeminen Pomodoro-tekniikalla"
+          }
+        ]
+      },
+      "fil": {
+        "title": "Maligayang pagdating sa Booktou!",
+        "summary": "Ang Booktou ay isang komprehensibong reading companion app na tumutulong sa'yo subaybayan ang progreso ng pagbasa, magtala ng mga note, at makamit ang iyong mga reading goal.",
+        "features": [
+          {
+            "title": "Maligayang pagdating sa Booktou!",
+            "body": "Ang iyong personal na kasama sa pagbasa na tumutulong subaybayan ang progreso, manatiling motivated, at bumuo ng pare-parehong gawi sa pagbasa."
+          },
+          {
+            "title": "Bumuo ng streak sa pagbabasa",
+            "body": "Magtakda ng pang-araw-araw na layunin, subaybayan ang iyong streak, at ipagdiwang ang bawat milestone."
+          },
+          {
+            "title": "Tingnan ang iyong taon sa mga aklat",
+            "body": "Kumuha ng personalized na taunang recap at detalyadong istatistika sa lahat ng iyong nabasa."
+          },
+          {
+            "title": "Pomodoro timer para sa nakatutok na pagbasa",
+            "body": "Magtuon ng pagbasa gamit ang Pomodoro technique"
+          }
+        ]
+      },
+      "fr": {
+        "title": "Bienvenue sur Booktou !",
+        "summary": "Booktou est une application compagnon de lecture complète qui vous aide à suivre votre progression, prendre des notes et atteindre vos objectifs de lecture.",
+        "features": [
+          {
+            "title": "Bienvenue sur Booktou !",
+            "body": "Votre compagnon de lecture personnel qui vous aide à suivre vos progrès, rester motivé et développer des habitudes de lecture cohérentes."
+          },
+          {
+            "title": "Créez une série de lecture",
+            "body": "Fixez un objectif quotidien, suivez votre série et célébrez chaque étape franchie."
+          },
+          {
+            "title": "Votre année en livres",
+            "body": "Obtenez un récapitulatif annuel personnalisé et des statistiques détaillées sur tout ce que vous avez lu."
+          },
+          {
+            "title": "Minuteur Pomodoro pour une lecture concentrée",
+            "body": "Focalisez votre lecture avec la technique Pomodoro"
+          }
+        ]
+      },
+      "hi": {
+        "title": "Booktou में आपका स्वागत है!",
+        "summary": "Booktou एक व्यापक पढ़ने वाला साथी ऐप है जो आपकी पढ़ने की प्रगति को ट्रैक करने, नोट्स लेने और पढ़ने के लक्ष्य हासिल करने में मदद करता है।",
+        "features": [
+          {
+            "title": "Booktou में आपका स्वागत है!",
+            "body": "आपका व्यक्तिगत पढ़ने का साथी जो आपकी प्रगति ट्रैक करने, प्रेरित रहने और लगातार पढ़ने की आदत बनाने में मदद करता है।"
+          },
+          {
+            "title": "एक पठन स्ट्रीक बनाएं",
+            "body": "दैनिक लक्ष्य निर्धारित करें, अपनी स्ट्रीक ट्रैक करें और हर मील के पत्थर का जश्न मनाएं।"
+          },
+          {
+            "title": "किताबों में अपना वर्ष देखें",
+            "body": "एक व्यक्तिगत वार्षिक सारांश और अपनी पढ़ी गई सभी पुस्तकों के विस्तृत आँकड़े प्राप्त करें।"
+          },
+          {
+            "title": "फोकस पढ़ने के लिए पोमोडोरो टाइमर",
+            "body": "पोमोडोरो तकनीक के साथ फोकस पढ़ें"
+          }
+        ]
+      },
+      "id": {
+        "title": "Selamat datang di Booktou!",
+        "summary": "Booktou adalah aplikasi pendamping membaca yang membantu melacak kemajuan membaca, mencatat, dan mencapai target membaca Anda.",
+        "features": [
+          {
+            "title": "Selamat datang di Booktou!",
+            "body": "Pendamping membaca pribadi Anda yang membantu melacak kemajuan, tetap termotivasi, dan membangun kebiasaan membaca yang konsisten."
+          },
+          {
+            "title": "Bangun kebiasaan membaca rutin",
+            "body": "Tetapkan target harian, lacak streak Anda, dan rayakan setiap pencapaian."
+          },
+          {
+            "title": "Lihat tahun membaca Anda",
+            "body": "Dapatkan rekap tahunan yang dipersonalisasi dan statistik terperinci tentang semua yang telah Anda baca."
+          },
+          {
+            "title": "Timer Pomodoro untuk membaca fokus",
+            "body": "Fokus membaca dengan teknik Pomodoro"
+          }
+        ]
+      },
+      "it": {
+        "title": "Tieni traccia di ogni pagina, ogni nota",
+        "summary": "Booktou è un'app completa per la lettura che ti aiuta a monitorare i tuoi progressi nella lettura, prendere appunti e raggiungere i tuoi obiettivi di lettura.",
+        "features": [
+          {
+            "title": "Tieni traccia di ogni pagina, ogni nota",
+            "body": "Registra i tuoi progressi, salva citazioni e ordina i tuoi libri in raccolte e serie."
+          },
+          {
+            "title": "Costruisci una serie di letture",
+            "body": "Imposta un obiettivo quotidiano, monitora il tuo record e celebra ogni traguardo raggiunto."
+          },
+          {
+            "title": "Vedi il tuo anno sui libri",
+            "body": "Ottieni un riepilogo annuale personalizzato e statistiche dettagliate su tutto ciò che hai letto."
+          },
+          {
+            "title": "Pomodoro timer per una lettura mirata",
+            "body": "Lettura focalizzata con la tecnica del Pomodoro"
+          }
+        ]
+      },
+      "ja": {
+        "title": "Booktouへようこそ！",
+        "summary": "Booktouは読書の進捗を追跡し、ノートを取り、読書目標を達成するのに役立つ総合的な読書支援アプリです。",
+        "features": [
+          {
+            "title": "Booktouへようこそ！",
+            "body": "読書の進捗を追跡し、モチベーションを保ち、継続的な読書習慣を作るお手伝いをします。"
+          },
+          {
+            "title": "読書の習慣を身につけよう",
+            "body": "毎日の目標を設定し、ストリークを記録して、達成した節目をお祝いしましょう。"
+          },
+          {
+            "title": "本で振り返る1年",
+            "body": "あなた専用の年間読書レポートと、読んだすべての本の詳細な統計を確認できます。"
+          },
+          {
+            "title": "集中読書のためのポモドーロタイマー",
+            "body": "ポモドーロテクニックで集中読書"
+          }
+        ]
+      },
+      "ko": {
+        "title": "Booktou에 오신 것을 환영합니다!",
+        "summary": "Booktou는 독서 진행을 추적하고 메모를 작성하며 읽기 목표를 달성하도록 도와주는 종합 독서 도우미 앱입니다.",
+        "features": [
+          {
+            "title": "Booktou에 오신 것을 환영합니다!",
+            "body": "진행을 추적하고 동기를 유지하며 일관된 독서 습관을 형성하도록 돕는 개인 독서 도우미입니다."
+          },
+          {
+            "title": "독서 습관 만들기",
+            "body": "일일 목표를 정하고 스트릭을 기록하며 달성한 모든 순간을 축하하세요."
+          },
+          {
+            "title": "책으로 돌아보는 한 해",
+            "body": "맞춤형 연간 요약과 읽은 모든 책에 대한 상세 통계를 확인하세요."
+          },
+          {
+            "title": "집중 독서를 위한 포모도로 타이머",
+            "body": "포모도로 기법으로 집중 독서"
+          }
+        ]
+      },
+      "ms": {
+        "title": "Selamat datang ke Booktou!",
+        "summary": "Booktou adalah aplikasi teman membaca yang komprehensif yang membantu anda menjejak kemajuan membaca, mengambil nota, dan mencapai matlamat membaca anda.",
+        "features": [
+          {
+            "title": "Selamat datang ke Booktou!",
+            "body": "Teman membaca peribadi anda yang membantu menjejak kemajuan, kekal bermotivasi, dan membina tabiat membaca yang konsisten."
+          },
+          {
+            "title": "Bina streak membaca",
+            "body": "Tetapkan sasaran harian, jejaki streak anda, dan raikan setiap pencapaian."
+          },
+          {
+            "title": "Lihat tahun anda dalam buku",
+            "body": "Dapatkan rumusan tahunan yang diperibadikan dan statistik terperinci mengenai semua yang telah anda baca."
+          },
+          {
+            "title": "Pemasa Pomodoro untuk membaca fokus",
+            "body": "Fokus membaca dengan teknik Pomodoro"
+          }
+        ]
+      },
+      "nb": {
+        "title": "Spor hver side, hver note",
+        "summary": "Booktou er en omfattende lesefølgeapp som hjelper deg med å spore lesefremgangen din, ta notater og nå lesemålene dine.",
+        "features": [
+          {
+            "title": "Spor hver side, hver note",
+            "body": "Logg fremgangen din, lagre sitater og sorter bøkene dine i samlinger og serier."
+          },
+          {
+            "title": "Bygg en leserekke",
+            "body": "Sett deg et daglig mål, følg rekken din og feir hver milepæl du når."
+          },
+          {
+            "title": "Se året ditt i bøker",
+            "body": "Få en personlig årlig oppsummering og detaljert statistikk over alt du har lest."
+          },
+          {
+            "title": "Pomodoro timer for fokusert lesing",
+            "body": "Fokuslesing med Pomodoro-teknikk"
+          }
+        ]
+      },
+      "nl": {
+        "title": "Welkom bij Booktou!",
+        "summary": "Booktou is een uitgebreide leesassistent-app die je helpt je leesvoortgang bij te houden, notities te maken en je leesdoelen te bereiken.",
+        "features": [
+          {
+            "title": "Welkom bij Booktou!",
+            "body": "Je persoonlijke leesgenoot die je helpt voortgang bij te houden, gemotiveerd te blijven en consistente leesgewoontes op te bouwen."
+          },
+          {
+            "title": "Bouw een leesstreak op",
+            "body": "Stel een dagelijks doel in, volg je streak en vier elke mijlpaal die je bereikt."
+          },
+          {
+            "title": "Bekijk je jaar in boeken",
+            "body": "Ontvang een persoonlijk jaaroverzicht en gedetailleerde statistieken over alles wat je hebt gelezen."
+          },
+          {
+            "title": "Pomodoro-timer voor gefocust lezen",
+            "body": "Concentreer je op lezen met de Pomodoro-techniek"
+          }
+        ]
+      },
+      "pl": {
+        "title": "Śledź każdą stronę, każdą notatkę",
+        "summary": "Booktou to wszechstronna aplikacja towarzysząca czytaniu, która pomaga śledzić postępy w czytaniu, robić notatki i osiągać cele czytelnicze.",
+        "features": [
+          {
+            "title": "Śledź każdą stronę, każdą notatkę",
+            "body": "Rejestruj swoje postępy, zapisuj cytaty i sortuj swoje książki według kolekcji i serii."
+          },
+          {
+            "title": "Zbuduj pasję czytelniczą",
+            "body": "Ustawiaj dzienny cel, śledź dobrą passę i świętuj każdy osiągnięty kamień milowy."
+          },
+          {
+            "title": "Zobacz swój rok w książkach",
+            "body": "Uzyskaj spersonalizowane roczne podsumowanie i szczegółowe statystyki dotyczące wszystkiego, co przeczytałeś."
+          },
+          {
+            "title": "Timer Pomodoro do skupionego czytania",
+            "body": "Czytanie skupione techniką Pomodoro"
+          }
+        ]
+      },
+      "pt": {
+        "title": "Bem-vindo ao Booktou!",
+        "summary": "Booktou é um aplicativo completo para acompanhar sua leitura, tirar notas e alcançar suas metas de leitura.",
+        "features": [
+          {
+            "title": "Bem-vindo ao Booktou!",
+            "body": "Seu companheiro pessoal de leitura que ajuda a acompanhar o progresso, manter a motivação e construir hábitos de leitura consistentes."
+          },
+          {
+            "title": "Crie uma sequência de leitura",
+            "body": "Defina uma meta diária, acompanhe sua sequência e comemore cada marco alcançado."
+          },
+          {
+            "title": "Veja seu ano em livros",
+            "body": "Receba uma retrospectiva anual personalizada e estatísticas detalhadas de tudo o que leu."
+          },
+          {
+            "title": "Temporizador Pomodoro para leitura focada",
+            "body": "Concentre-se na leitura com a técnica Pomodoro"
+          }
+        ]
+      },
+      "ro": {
+        "title": "Bine ai venit la Booktou!",
+        "summary": "Booktou este o aplicație completă pentru însoțirea lecturii, care te ajută să urmărești progresul, să iei note și să îți atingi obiectivele de lectură.",
+        "features": [
+          {
+            "title": "Bine ai venit la Booktou!",
+            "body": "Companionul tău personal de lectură care te ajută să urmărești progresul, să rămâi motivat și să construiești obiceiuri de citire consecvente."
+          },
+          {
+            "title": "Construiește o serie de lectură",
+            "body": "Setează un obiectiv zilnic, urmărește-ți seria și sărbătorește fiecare etapă atinsă."
+          },
+          {
+            "title": "Vezi anul tău în cărți",
+            "body": "Obține o recapitulare anuală personalizată și statistici detaliate despre tot ce ai citit."
+          },
+          {
+            "title": "Cronometru Pomodoro pentru lectură concentrată",
+            "body": "Concentrează-te la citit cu tehnica Pomodoro"
+          }
+        ]
+      },
+      "ru": {
+        "title": "Отслеживайте каждую страницу и заметку",
+        "summary": "Booktou . это комплексное приложение-компаньон для чтения, которое помогает отслеживать прогресс в чтении, делать заметки и достигать поставленных целей в чтении.",
+        "features": [
+          {
+            "title": "Отслеживайте каждую страницу и заметку",
+            "body": "Записывайте прогресс, сохраняйте цитаты и распределяйте книги по коллекциям и сериям."
+          },
+          {
+            "title": "Создайте серию чтения",
+            "body": "Ставьте ежедневную цель, отслеживайте серию и отмечайте каждое достижение."
+          },
+          {
+            "title": "Ваш год в книгах",
+            "body": "Получайте персональные итоги года и подробную статистику обо всем прочитанном."
+          },
+          {
+            "title": "Таймер Pomodoro для сосредоточенного чтения",
+            "body": "Сосредоточьтесь на чтении с помощью техники Помидора."
+          }
+        ]
+      },
+      "sv": {
+        "title": "Spåra varje sida, varje anteckning",
+        "summary": "Booktou är en omfattande läskompanjonsapp som hjälper dig att spåra dina läsframsteg, göra anteckningar och uppnå dina läsmål.",
+        "features": [
+          {
+            "title": "Spåra varje sida, varje anteckning",
+            "body": "Logga dina framsteg, spara citat och sortera dina böcker i samlingar och serier."
+          },
+          {
+            "title": "Bygg en lässerie",
+            "body": "Sätt upp ett dagligt mål, spåra din streak och fira varje milstolpe du når."
+          },
+          {
+            "title": "Se ditt år i böcker",
+            "body": "Få en personlig årlig sammanfattning och detaljerad statistik över allt du har läst."
+          },
+          {
+            "title": "Pomodoro timer för fokuserad läsning",
+            "body": "Fokusläsning med Pomodoro-teknik"
+          }
+        ]
+      },
+      "th": {
+        "title": "ยินดีต้อนรับสู่ Booktou!",
+        "summary": "Booktou เป็นแอปเพื่อนคู่ใจการอ่านที่ช่วยให้คุณติดตามความคืบหน้าการอ่าน จดโน้ต และบรรลุเป้าหมายการอ่านของคุณ",
+        "features": [
+          {
+            "title": "ยินดีต้อนรับสู่ Booktou!",
+            "body": "เพื่อนคู่ใจการอ่านของคุณที่ช่วยติดตามความคืบหน้า สร้างแรงจูงใจ และสร้างนิสัยการอ่านที่สม่ำเสมอ"
+          },
+          {
+            "title": "สร้างสตรีคการอ่าน",
+            "body": "ตั้งเป้าหมายรายวัน ติดตามสตรีคของคุณ และเฉลิมฉลองทุกก้าวสำคัญที่ทำได้"
+          },
+          {
+            "title": "ดูเรื่องราวการอ่านตลอดทั้งปีของคุณ",
+            "body": "รับสรุปประจำปีและสถิติโดยละเอียดเกี่ยวกับสิ่งที่คุณได้อ่านทั้งหมด"
+          },
+          {
+            "title": "ตัวจับเวลาโพโมโดโรสำหรับการอ่านอย่างมีสมาธิ",
+            "body": "อ่านอย่างมีสมาธิด้วยเทคนิคโพโมโดโร"
+          }
+        ]
+      },
+      "tr": {
+        "title": "Okuma hayatının kendi köşesi.",
+        "summary": "Kişisel kütüphaneni, okuma seanslarını ve sevdiğin satırları bir arada tut. Okuduğun kitapları takip et, not ve alıntılarını kaydet, okuma alışkanlığı kazan ve zaman içindeki ilerlemeni gör.",
+        "features": [
+          {
+            "title": "Her sayfayı, her notu takip et",
+            "body": "İlerlemeni kaydet, alıntılarını sakla, kitaplarını koleksiyon ve serilere ayır."
+          },
+          {
+            "title": "Bir okuma serisi oluştur",
+            "body": "Günlük hedef belirle, serini takip et, ulaştığın her kilometre taşını kutla."
+          },
+          {
+            "title": "Yılını kitaplarınla gör",
+            "body": "Kişiselleştirilmiş yıllık özetini ve okuduğun her şeyin detaylı istatistiklerini al."
+          },
+          {
+            "title": "Odaklanmış okuma için Pomodoro zamanlayıcısı",
+            "body": "Pomodoro tekniği ile odaklanarak okuyun"
+          }
+        ]
+      },
+      "zh": {
+        "title": "欢迎使用 Booktou！",
+        "summary": "Booktou 是一款全面的阅读伴侣应用，帮助你跟踪阅读进度、做笔记并实现阅读目标。",
+        "features": [
+          {
+            "title": "欢迎使用 Booktou！",
+            "body": "你的私人阅读伴侣，帮助你跟踪进度、保持动力并养成持续阅读习惯。"
+          },
+          {
+            "title": "建立连续阅读习惯",
+            "body": "设定每日目标，追踪阅读连胜，庆祝每一个达成的里程碑。"
+          },
+          {
+            "title": "以书为伴的年度回顾",
+            "body": "获取专属年度阅读回顾以及所有阅读内容的详细统计。"
+          },
+          {
+            "title": "用于专注阅读的番茄计时器",
+            "body": "使用番茄技术专注阅读"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Speaktou",
+    "category": "speaking",
+    "accent": "#087e73",
+    "tint": "#e9f5f1",
+    "icon": "assets/speaktou/icon.webp",
+    "apple": null,
+    "images": [
+      "assets/speaktou/marketing/practice.webp",
+      "assets/speaktou/marketing/word-tower.webp",
+      "assets/speaktou/marketing/listening.webp"
+    ],
+    "id": "speaktou",
+    "play": null,
+    "imageSizes": {
+      "assets/speaktou/marketing/practice.webp": [
+        750,
+        1521
+      ],
+      "assets/speaktou/marketing/word-tower.webp": [
+        750,
+        1521
+      ],
+      "assets/speaktou/marketing/listening.webp": [
+        750,
+        1521
+      ]
+    },
+    "locales": {
+      "ar": {
+        "title": "تحدث قليلاً كل يوم.",
+        "summary": "تدرّب على الإنجليزية أو الإسبانية أو الفرنسية أو الألمانية ببطاقات يومية قصيرة. استمع واقرأ بصوت عالٍ وراجع الكلمات التي تم التعرف عليها. تعلّم مفردات يومية وتابع تقدمك. يتيح Premium مواصلة التدريب بعد هدفك اليومي ومراجعة الكلمات.",
+        "features": [
+          {
+            "title": "تدريب",
+            "body": "تدرب لبضع دقائق كل يوم لتتحدث باللغة التي اخترتها بوضوح وثقة."
+          },
+          {
+            "title": "كلمة اليوم",
+            "body": "تذكيرات يومية لتعلم كلمة جديدة"
+          },
+          {
+            "title": "اتجاه الدقة",
+            "body": "شاهد كيف يتغير نطقك خلال أسبوعين وقارنه بالأسبوع الماضي."
+          },
+          {
+            "title": "صوت القراءة وسرعتها",
+            "body": "اضبط سرعة القراءة. يتيح Premium الاختيار من الأصوات المتوفرة على جهازك."
+          }
+        ]
+      },
+      "de": {
+        "title": "Jeden Tag ein bisschen sprechen.",
+        "summary": "Übe Englisch, Spanisch, Französisch oder Deutsch mit kurzen täglichen Karten. Höre zu, lies laut und überprüfe erkannte Wörter. Sammle tägliche Vokabeln und verfolge deinen Fortschritt. Premium bietet zusätzliche Übungen nach deinem Tagesziel und gezielte Wortwiederholung.",
+        "features": [
+          {
+            "title": "Üben",
+            "body": "Übe jeden Tag ein paar Minuten, um deine gewählte Sprache klar und sicher zu sprechen."
+          },
+          {
+            "title": "Wort des Tages",
+            "body": "Tägliche Erinnerungen zum Lernen eines neuen Wortes"
+          },
+          {
+            "title": "Genauigkeitsverlauf",
+            "body": "Sieh, wie sich deine Aussprache über zwei Wochen entwickelt, und vergleiche sie mit der Vorwoche."
+          },
+          {
+            "title": "Vorlesestimme und Tempo",
+            "body": "Passe die Lesegeschwindigkeit an. Mit Premium kannst du aus den auf deinem Gerät verfügbaren Stimmen wählen."
+          }
+        ]
+      },
+      "en": {
+        "title": "Speak a little. Every day.",
+        "summary": "Practise speaking English, Spanish, French or German with short daily cards. Listen, read aloud and review the words that matched. Build a streak, collect daily vocabulary and follow your progress. Premium adds practice beyond your daily goal and focused word review.",
+        "features": [
+          {
+            "title": "Practice",
+            "body": "Short daily practice to help you speak your chosen language with clarity and confidence."
+          },
+          {
+            "title": "Word of the day",
+            "body": "Daily reminders to learn a new word"
+          },
+          {
+            "title": "Accuracy trend",
+            "body": "See how your pronunciation changes over two weeks and compare it with last week."
+          },
+          {
+            "title": "Reading voice & speed",
+            "body": "Adjust reading speed. Premium lets you choose from the voices available on your device."
+          }
+        ]
+      },
+      "es": {
+        "title": "Habla un poco cada día.",
+        "summary": "Practica inglés, español, francés o alemán con tarjetas diarias breves. Escucha, lee en voz alta y revisa las palabras reconocidas. Aprende vocabulario diario y sigue tu progreso. Premium permite continuar después de tu objetivo diario y repasar palabras.",
+        "features": [
+          {
+            "title": "Practicar",
+            "body": "Practica unos minutos al día para hablar el idioma que elijas con claridad y confianza."
+          },
+          {
+            "title": "Palabra del día",
+            "body": "Recordatorios diarios para aprender una palabra nueva"
+          },
+          {
+            "title": "Tendencia de precisión",
+            "body": "Mira cómo cambia tu pronunciación en dos semanas y compárala con la semana pasada."
+          },
+          {
+            "title": "Voz y velocidad de lectura",
+            "body": "Ajusta la velocidad de lectura. Premium permite elegir entre las voces disponibles en tu dispositivo."
+          }
+        ]
+      },
+      "fr": {
+        "title": "Un peu de pratique chaque jour.",
+        "summary": "Pratiquez l’anglais, l’espagnol, le français ou l’allemand avec de courtes cartes quotidiennes. Écoutez, lisez à voix haute et vérifiez les mots reconnus. Enrichissez votre vocabulaire et suivez vos progrès. Premium permet de continuer après votre objectif quotidien et de réviser les mots.",
+        "features": [
+          {
+            "title": "Pratique",
+            "body": "Quelques minutes de pratique chaque jour pour parler la langue choisie avec aisance et confiance."
+          },
+          {
+            "title": "Mot du jour",
+            "body": "Rappels quotidiens pour apprendre un nouveau mot"
+          },
+          {
+            "title": "Tendance de précision",
+            "body": "Vois comment ta prononciation évolue sur deux semaines et compare-la avec la semaine dernière."
+          },
+          {
+            "title": "Voix et vitesse de lecture",
+            "body": "Réglez la vitesse de lecture. Premium permet de choisir parmi les voix disponibles sur votre appareil."
+          }
+        ]
+      },
+      "hi": {
+        "title": "हर दिन थोड़ा बोलें।",
+        "summary": "छोटे दैनिक कार्डों से अंग्रेज़ी, स्पेनिश, फ़्रेंच या जर्मन बोलने का अभ्यास करें। सुनें, ज़ोर से पढ़ें और पहचाने गए शब्द देखें। रोज़ नई शब्दावली सीखें और प्रगति देखें। Premium से दैनिक लक्ष्य के बाद भी अभ्यास और शब्दों की समीक्षा कर सकते हैं।",
+        "features": [
+          {
+            "title": "अभ्यास",
+            "body": "हर दिन कुछ मिनट अभ्यास करें ताकि आप चुनी हुई भाषा स्पष्टता और आत्मविश्वास से बोल सकें।"
+          },
+          {
+            "title": "आज का शब्द",
+            "body": "नया शब्द सीखने के लिए दैनिक रिमाइंडर"
+          },
+          {
+            "title": "सटीकता का रुझान",
+            "body": "देखें कि दो हफ़्तों में आपका उच्चारण कैसे बदलता है और पिछले हफ़्ते से तुलना करें।"
+          },
+          {
+            "title": "पढ़ने की आवाज़ और गति",
+            "body": "पढ़ने की गति बदलें। Premium से अपने डिवाइस पर उपलब्ध आवाज़ों में से चुनें।"
+          }
+        ]
+      },
+      "id": {
+        "title": "Berbicara sedikit setiap hari.",
+        "summary": "Latih bahasa Inggris, Spanyol, Prancis atau Jerman dengan kartu harian singkat. Dengarkan, baca dengan suara keras dan periksa kata yang dikenali. Pelajari kosakata dan pantau kemajuan. Premium memungkinkan latihan setelah target harian dan pengulangan kata.",
+        "features": [
+          {
+            "title": "Latihan",
+            "body": "Berlatih beberapa menit setiap hari agar Anda dapat berbicara dalam bahasa pilihan dengan jelas dan percaya diri."
+          },
+          {
+            "title": "Kata hari ini",
+            "body": "Pengingat harian untuk mempelajari kata baru"
+          },
+          {
+            "title": "Tren akurasi",
+            "body": "Lihat bagaimana pelafalanmu berubah selama dua minggu dan bandingkan dengan minggu lalu."
+          },
+          {
+            "title": "Suara dan kecepatan baca",
+            "body": "Atur kecepatan membaca. Premium memungkinkan pilihan suara yang tersedia di perangkat Anda."
+          }
+        ]
+      },
+      "it": {
+        "title": "Parla un po’ ogni giorno.",
+        "summary": "Esercitati in inglese, spagnolo, francese o tedesco con brevi schede quotidiane. Ascolta, leggi ad alta voce e controlla le parole riconosciute. Impara vocaboli e segui i tuoi progressi. Premium permette di continuare oltre l’obiettivo giornaliero e ripassare le parole.",
+        "features": [
+          {
+            "title": "Pratica",
+            "body": "Esercitati pochi minuti al giorno per parlare la lingua che hai scelto con chiarezza e sicurezza."
+          },
+          {
+            "title": "Parola del giorno",
+            "body": "Promemoria giornalieri per imparare una nuova parola"
+          },
+          {
+            "title": "Andamento della precisione",
+            "body": "Guarda come cambia la tua pronuncia in due settimane e confrontala con la settimana scorsa."
+          },
+          {
+            "title": "Voce e velocità di lettura",
+            "body": "Regola la velocità di lettura. Premium permette di scegliere tra le voci disponibili sul tuo dispositivo."
+          }
+        ]
+      },
+      "ja": {
+        "title": "毎日、少しずつ話そう。",
+        "summary": "短い毎日のカードで英語、スペイン語、フランス語、ドイツ語の会話を練習できます。音声を聞いて音読し、認識された単語を確認。語彙を増やし、進歩を記録しましょう。Premiumでは毎日の目標達成後も練習を続け、単語を復習できます。",
+        "features": [
+          {
+            "title": "練習",
+            "body": "毎日少しずつ練習して、選んだ言語を明瞭に自信を持って話しましょう。"
+          },
+          {
+            "title": "今日の単語",
+            "body": "新しい単語を学ぶための毎日のリマインダー"
+          },
+          {
+            "title": "正確さの推移",
+            "body": "2週間で発音がどう変わったかを確認し、先週と比べましょう。"
+          },
+          {
+            "title": "読み上げ音声と速度",
+            "body": "読み上げ速度を調整できます。Premiumでは、お使いの端末で利用できる音声を選べます。"
+          }
+        ]
+      },
+      "ko": {
+        "title": "매일 조금씩 말해 보세요.",
+        "summary": "짧은 일일 카드로 영어, 스페인어, 프랑스어 또는 독일어 말하기를 연습하세요. 듣고 소리 내어 읽으며 인식된 단어를 확인하세요. 어휘를 배우고 진행 상황을 살펴보세요. Premium으로 일일 목표 달성 후에도 연습하고 단어를 복습할 수 있습니다.",
+        "features": [
+          {
+            "title": "연습",
+            "body": "매일 몇 분씩 연습하며 선택한 언어를 또렷하고 자신 있게 말해 보세요."
+          },
+          {
+            "title": "오늘의 단어",
+            "body": "새 단어 학습을 위한 매일 알림"
+          },
+          {
+            "title": "정확도 추이",
+            "body": "2주 동안 발음이 어떻게 변하는지 보고 지난주와 비교해 보세요."
+          },
+          {
+            "title": "읽기 음성과 속도",
+            "body": "읽기 속도를 조절하세요. Premium으로 기기에서 사용 가능한 음성을 선택할 수 있습니다."
+          }
+        ]
+      },
+      "pl": {
+        "title": "Mów trochę każdego dnia.",
+        "summary": "Ćwicz angielski, hiszpański, francuski lub niemiecki z krótkimi codziennymi kartami. Słuchaj, czytaj na głos i sprawdzaj rozpoznane słowa. Poznawaj słownictwo i śledź postępy. Premium pozwala ćwiczyć po osiągnięciu dziennego celu i powtarzać słowa.",
+        "features": [
+          {
+            "title": "Ćwiczenia",
+            "body": "Ćwicz codziennie przez kilka minut, aby mówić w wybranym języku wyraźnie i pewnie."
+          },
+          {
+            "title": "Słowo dnia",
+            "body": "Codzienne przypomnienia o nauce nowego słowa"
+          },
+          {
+            "title": "Trend dokładności",
+            "body": "Zobacz, jak zmienia się Twoja wymowa w ciągu dwóch tygodni, i porównaj ją z poprzednim tygodniem."
+          },
+          {
+            "title": "Głos i tempo czytania",
+            "body": "Dostosuj szybkość czytania. Premium pozwala wybrać głos spośród dostępnych na urządzeniu."
+          }
+        ]
+      },
+      "pt": {
+        "title": "Fale um pouco todos os dias.",
+        "summary": "Pratique inglês, espanhol, francês ou alemão com cartões diários curtos. Ouça, leia em voz alta e reveja as palavras reconhecidas. Aprenda vocabulário e acompanhe o seu progresso. Premium permite continuar após a meta diária e revisar palavras.",
+        "features": [
+          {
+            "title": "Praticar",
+            "body": "Pratique alguns minutos por dia para falar o idioma escolhido com clareza e confiança."
+          },
+          {
+            "title": "Palavra do dia",
+            "body": "Lembretes diários para aprender uma palavra nova"
+          },
+          {
+            "title": "Tendência de precisão",
+            "body": "Veja como sua pronúncia muda em duas semanas e compare com a semana passada."
+          },
+          {
+            "title": "Voz e velocidade de leitura",
+            "body": "Ajuste a velocidade de leitura. Premium permite escolher entre as vozes disponíveis no seu dispositivo."
+          }
+        ]
+      },
+      "ru": {
+        "title": "Говорите понемногу каждый день.",
+        "summary": "Практикуйте английский, испанский, французский или немецкий с короткими ежедневными карточками. Слушайте, читайте вслух и проверяйте распознанные слова. Изучайте лексику и следите за прогрессом. Premium позволяет продолжить после дневной цели и повторять слова.",
+        "features": [
+          {
+            "title": "Практика",
+            "body": "Занимайтесь по несколько минут каждый день, чтобы говорить на выбранном языке ясно и уверенно."
+          },
+          {
+            "title": "Слово дня",
+            "body": "Ежедневные напоминания об изучении нового слова"
+          },
+          {
+            "title": "Динамика точности",
+            "body": "Смотрите, как меняется ваше произношение за две недели, и сравнивайте с прошлой неделей."
+          },
+          {
+            "title": "Голос и скорость чтения",
+            "body": "Настройте скорость чтения. Premium позволяет выбирать голоса, доступные на вашем устройстве."
+          }
+        ]
+      },
+      "th": {
+        "title": "ฝึกพูดวันละนิดทุกวัน",
+        "summary": "ฝึกพูดภาษาอังกฤษ สเปน ฝรั่งเศส หรือเยอรมันด้วยการ์ดสั้น ๆ ทุกวัน ฟัง อ่านออกเสียง และตรวจคำที่ระบบจดจำ เรียนรู้คำศัพท์และติดตามความก้าวหน้า Premium ช่วยให้ฝึกต่อหลังบรรลุเป้าหมายประจำวันและทบทวนคำศัพท์ได้",
+        "features": [
+          {
+            "title": "ฝึกพูด",
+            "body": "ฝึกวันละไม่กี่นาทีเพื่อพูดภาษาที่คุณเลือกได้อย่างชัดเจนและมั่นใจ"
+          },
+          {
+            "title": "คำศัพท์ประจำวัน",
+            "body": "การแจ้งเตือนรายวันเพื่อเรียนรู้คำศัพท์ใหม่"
+          },
+          {
+            "title": "แนวโน้มความแม่นยำ",
+            "body": "ดูว่าการออกเสียงของคุณเปลี่ยนไปอย่างไรในสองสัปดาห์ และเทียบกับสัปดาห์ที่แล้ว"
+          },
+          {
+            "title": "เสียงอ่านและความเร็ว",
+            "body": "ปรับความเร็วในการอ่าน Premium ให้คุณเลือกเสียงที่มีอยู่ในอุปกรณ์ได้"
+          }
+        ]
+      },
+      "tr": {
+        "title": "Her gün biraz konuş.",
+        "summary": "Kısa günlük kartlarla İngilizce, İspanyolca, Fransızca veya Almanca konuşma pratiği yap. Dinle, sesli oku ve eşleşen kelimeleri incele. Serini oluştur, günlük kelimeleri biriktir ve ilerlemeni takip et. Premium ile günlük hedefinden sonra da pratik yapabilir, kelime tekrarı çalışabilirsin.",
+        "features": [
+          {
+            "title": "Pratik",
+            "body": "Seçtiğin dilde daha net ve güvenle konuşmana yardımcı olan kısa günlük pratikler."
+          },
+          {
+            "title": "Günün kelimesi",
+            "body": "Yeni bir kelime öğrenmek için günlük hatırlatmalar"
+          },
+          {
+            "title": "Doğruluk trendi",
+            "body": "Telaffuzunun iki haftada nasıl değiştiğini gör ve geçen haftayla karşılaştır."
+          },
+          {
+            "title": "Okuma sesi ve hızı",
+            "body": "Okuma hızını ayarla. Premium ile cihazındaki kullanılabilir sesler arasından seçim yap."
+          }
+        ]
+      },
+      "vi": {
+        "title": "Nói một chút mỗi ngày.",
+        "summary": "Luyện nói tiếng Anh, Tây Ban Nha, Pháp hoặc Đức với thẻ ngắn hằng ngày. Nghe, đọc thành tiếng và xem các từ được nhận dạng. Học từ vựng và theo dõi tiến bộ. Premium cho phép luyện tiếp sau mục tiêu hằng ngày và ôn từ.",
+        "features": [
+          {
+            "title": "Luyện tập",
+            "body": "Luyện tập vài phút mỗi ngày để nói ngôn ngữ bạn chọn một cách rõ ràng và tự tin."
+          },
+          {
+            "title": "Từ vựng mỗi ngày",
+            "body": "Lời nhắc hằng ngày để học một từ mới"
+          },
+          {
+            "title": "Xu hướng độ chính xác",
+            "body": "Xem cách phát âm của bạn thay đổi trong hai tuần và so sánh với tuần trước."
+          },
+          {
+            "title": "Giọng đọc và tốc độ",
+            "body": "Điều chỉnh tốc độ đọc. Premium cho phép chọn giọng có sẵn trên thiết bị của bạn."
+          }
+        ]
+      },
+      "zh": {
+        "title": "每天开口说一点。",
+        "summary": "通过简短的每日卡片练习英语、西班牙语、法语或德语。先听，再朗读，并查看识别出的单词。积累每日词汇，记录学习进展。Premium 可让你在完成每日目标后继续练习，并专项复习单词。",
+        "features": [
+          {
+            "title": "练习",
+            "body": "每天练习几分钟，自信而清晰地说出你选择的语言。"
+          },
+          {
+            "title": "每日一词",
+            "body": "每日新词学习提醒"
+          },
+          {
+            "title": "准确度趋势",
+            "body": "查看你的发音在两周内的变化，并与上周比较。"
+          },
+          {
+            "title": "朗读声音和速度",
+            "body": "调整朗读速度。Premium 可让你选择设备上可用的声音。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Notero",
+    "category": "notes",
+    "accent": "#9b4d12",
+    "tint": "#fff3e4",
+    "icon": "assets/notero/icon.webp",
+    "apple": null,
+    "id": "notero",
+    "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero",
+    "images": [
+      "assets/notero/screens/01.webp",
+      "assets/notero/screens/02.webp",
+      "assets/notero/screens/03.webp"
+    ],
+    "imageSizes": {
+      "assets/notero/screens/01.webp": [
+        810,
+        1440
+      ],
+      "assets/notero/screens/02.webp": [
+        810,
+        1440
+      ],
+      "assets/notero/screens/03.webp": [
+        810,
+        1440
+      ]
+    },
+    "locales": {
+      "ar": {
+        "title": "إنشاء وتنظيم الملاحظات",
+        "summary": "مرحبًا بك في Notero، تطبيقك القوي لتدوين الملاحظات مع ميزة المشاركة عبر الويب!",
+        "features": [
+          {
+            "title": "نظم باستخدام المجلدات",
+            "body": "حافظ على تنظيم ملاحظاتك باستخدام المجلدات."
+          },
+          {
+            "title": "شارك ملاحظاتك على الشبكة المحلية",
+            "body": "المشاركة مخصصة فقط للشبكة المحلية وللاستخدام الشخصي."
+          },
+          {
+            "title": "تحويل إلى PDF",
+            "body": ""
+          },
+          {
+            "title": "النسخ الاحتياطي والاستيراد",
+            "body": "تصدير أو استيراد ملاحظاتك ومجلداتك"
+          },
+          {
+            "title": "تأمين بكلمة مرور",
+            "body": "أضف كلمة مرور لتأمين التطبيق"
+          }
+        ]
+      },
+      "de": {
+        "title": "Notizen erstellen und organisieren",
+        "summary": "Willkommen bei Notero, Ihrer leistungsstarken Notiz-App mit Webfreigabe-Funktionen!",
+        "features": [
+          {
+            "title": "Organisieren Sie Ihre Notizen mit Ordnern",
+            "body": "Halten Sie Ihre Notizen mit Ordnern organisiert."
+          },
+          {
+            "title": "Teilen Sie Ihre Notizen im lokalen Netzwerk",
+            "body": "Freigabe nur für lokales Netzwerk und private Nutzung."
+          },
+          {
+            "title": "In PDF konvertieren",
+            "body": ""
+          },
+          {
+            "title": "Sicherung & Import",
+            "body": "Exportieren oder importieren Sie Ihre Notizen und Ordner"
+          },
+          {
+            "title": "Mit Passwortschutz sichern",
+            "body": "Fügen Sie ein Passwort hinzu, um Ihre Anwendung zu sichern"
+          }
+        ]
+      },
+      "en": {
+        "title": "Give your thoughts a place.",
+        "summary": "Write and organise notes in folders, keep them on your device and export them as PDF. With local network sharing, open and edit your notes in a browser on another device on the same network. Back up your notes and protect app access with a password.",
+        "features": [
+          {
+            "title": "Organize with folders",
+            "body": "Keep your notes organized with folders."
+          },
+          {
+            "title": "Share your notes on the local network",
+            "body": "Sharing is only for local network and personal use."
+          },
+          {
+            "title": "Convert to PDF",
+            "body": ""
+          },
+          {
+            "title": "Backup & Import",
+            "body": "Export or import your notes and folders"
+          },
+          {
+            "title": "Secure with password protection",
+            "body": "Add a password to secure your application"
+          }
+        ]
+      },
+      "es": {
+        "title": "Crea y organiza notas",
+        "summary": "¡Bienvenido a Notero, tu potente aplicación para tomar notas con funciones para compartir en la web!",
+        "features": [
+          {
+            "title": "Organiza con carpetas",
+            "body": "Mantén tus notas organizadas con carpetas."
+          },
+          {
+            "title": "Comparte tus notas en la red local",
+            "body": "El uso de compartición es solo para red local y uso personal."
+          },
+          {
+            "title": "Convertir a PDF",
+            "body": ""
+          },
+          {
+            "title": "Copia de seguridad e importación",
+            "body": "Exporta o importa tus notas y carpetas"
+          },
+          {
+            "title": "Protege con contraseña",
+            "body": "Agrega una contraseña para asegurar tu aplicación"
+          }
+        ]
+      },
+      "fr": {
+        "title": "Créer et organiser des notes",
+        "summary": "Bienvenue sur Notero, votre application de prise de notes puissante avec fonctionnalités de partage Web !",
+        "features": [
+          {
+            "title": "Organiser avec des dossiers",
+            "body": "Gardez vos notes organisées avec des dossiers."
+          },
+          {
+            "title": "Partagez vos notes sur le réseau local",
+            "body": "Le partage est uniquement pour le réseau local et un usage personnel."
+          },
+          {
+            "title": "Convertir en PDF",
+            "body": ""
+          },
+          {
+            "title": "Sauvegarde & Import",
+            "body": "Exporter ou importer vos notes et dossiers"
+          },
+          {
+            "title": "Sécuriser avec la protection par mot de passe",
+            "body": "Ajoutez un mot de passe pour sécuriser votre application"
+          }
+        ]
+      },
+      "hi": {
+        "title": "नोट बनाएं और व्यवस्थित करें",
+        "summary": "Notero में आपका स्वागत है . आपकी शक्तिशाली नोट-लेने वाली ऐप जिसमें वेब शेयरिंग की सुविधाएँ हैं!",
+        "features": [
+          {
+            "title": "फ़ोल्डर्स के साथ व्यवस्थित करें",
+            "body": "फ़ोल्डर्स के साथ अपने नोट्स व्यवस्थित रखें।"
+          },
+          {
+            "title": "स्थानीय नेटवर्क पर अपने नोट्स साझा करें",
+            "body": "शेयरिंग केवल स्थानीय नेटवर्क और व्यक्तिगत उपयोग के लिए है।"
+          },
+          {
+            "title": "PDF में बदलें",
+            "body": ""
+          },
+          {
+            "title": "बैकअप और इम्पोर्ट",
+            "body": "अपने नोट्स और फ़ोल्डर्स को एक्सपोर्ट या इम्पोर्ट करें"
+          },
+          {
+            "title": "पासवर्ड सुरक्षा के साथ सुरक्षित रखें",
+            "body": "अपनी एप्लिकेशन को सुरक्षित करने के लिए पासवर्ड जोड़ें"
+          }
+        ]
+      },
+      "ja": {
+        "title": "ノートを作成して整理する",
+        "summary": "Noteroへようこそ。ウェブ共有機能を備えた強力なノート作成アプリです！",
+        "features": [
+          {
+            "title": "フォルダーで整理する",
+            "body": "フォルダーでノートを整理できます。"
+          },
+          {
+            "title": "ローカルネットワークでノートを共有",
+            "body": "共有はローカルネットワークおよび個人使用のみです。"
+          },
+          {
+            "title": "PDFに変換",
+            "body": ""
+          },
+          {
+            "title": "バックアップ & インポート",
+            "body": "ノートとフォルダーをエクスポートまたはインポート"
+          },
+          {
+            "title": "パスワード保護で安全に",
+            "body": "アプリを保護するためにパスワードを追加します"
+          }
+        ]
+      },
+      "ko": {
+        "title": "노트 작성 및 정리",
+        "summary": "웹 공유 기능을 갖춘 강력한 노트 작성 앱 Notero에 오신 것을 환영합니다!",
+        "features": [
+          {
+            "title": "폴더로 정리하세요",
+            "body": "폴더로 노트를 정리하세요."
+          },
+          {
+            "title": "로컬 네트워크에서 노트를 공유하세요",
+            "body": "공유는 로컬 네트워크 및 개인 사용 전용입니다."
+          },
+          {
+            "title": "PDF로 변환",
+            "body": ""
+          },
+          {
+            "title": "백업 및 가져오기",
+            "body": "노트와 폴더를 내보내거나 가져오세요"
+          },
+          {
+            "title": "비밀번호로 보호하세요",
+            "body": "앱을 보호하기 위해 비밀번호를 추가하세요"
+          }
+        ]
+      },
+      "ms": {
+        "title": "Buat dan susun nota",
+        "summary": "Selamat datang ke Notero, aplikasi pencatatan nota yang berkuasa dengan ciri perkongsian web!",
+        "features": [
+          {
+            "title": "Susun dengan folder",
+            "body": "Kekalkan nota anda teratur dengan folder."
+          },
+          {
+            "title": "Kongsi nota anda pada rangkaian tempatan",
+            "body": "Perkongsian hanya untuk rangkaian tempatan dan kegunaan peribadi."
+          },
+          {
+            "title": "Tukar ke PDF",
+            "body": ""
+          },
+          {
+            "title": "Sandaran & Import",
+            "body": "Eksport atau import nota dan folder anda"
+          },
+          {
+            "title": "Lindungi dengan perlindungan kata laluan",
+            "body": "Tambah kata laluan untuk mengamankan aplikasi anda"
+          }
+        ]
+      },
+      "pt": {
+        "title": "Crie e organize notas",
+        "summary": "Bem-vindo ao Notero, seu poderoso aplicativo de anotações com recurso de compartilhamento na web!",
+        "features": [
+          {
+            "title": "Organize com pastas",
+            "body": "Mantenha suas notas organizadas com pastas."
+          },
+          {
+            "title": "Compartilhe suas notas na rede local",
+            "body": "O compartilhamento é apenas para rede local e uso pessoal."
+          },
+          {
+            "title": "Converter para PDF",
+            "body": ""
+          },
+          {
+            "title": "Backup & Importar",
+            "body": "Exporte ou importe suas notas e pastas"
+          },
+          {
+            "title": "Proteja com senha",
+            "body": "Adicione uma senha para proteger seu aplicativo"
+          }
+        ]
+      },
+      "ro": {
+        "title": "Creează și organizează notițe",
+        "summary": "Bine ai venit la Notero, aplicația ta puternică pentru luat notițe cu funcție de partajare web!",
+        "features": [
+          {
+            "title": "Organizează cu foldere",
+            "body": "Păstrează notițele organizate cu foldere."
+          },
+          {
+            "title": "Partajează notițele în rețeaua locală",
+            "body": "Partajarea este doar pentru rețeaua locală și uz personal."
+          },
+          {
+            "title": "Convertește în PDF",
+            "body": ""
+          },
+          {
+            "title": "Copie de siguranță și import",
+            "body": "Exportă sau importă notițele și folderele"
+          },
+          {
+            "title": "Protejează-ți notițele cu parolă",
+            "body": "Adaugă o parolă pentru a securiza aplicația"
+          }
+        ]
+      },
+      "th": {
+        "title": "สร้างและจัดระเบียบบันทึก",
+        "summary": "ยินดีต้อนรับสู่ Notero แอปจดบันทึกทรงพลังที่มาพร้อมความสามารถในการแชร์ผ่านเว็บ!",
+        "features": [
+          {
+            "title": "จัดระเบียบด้วยโฟลเดอร์",
+            "body": "เก็บบันทึกของคุณให้เป็นระเบียบด้วยโฟลเดอร์"
+          },
+          {
+            "title": "แชร์บันทึกของคุณบนเครือข่ายภายใน",
+            "body": "การแชร์ใช้ได้เฉพาะเครือข่ายภายในและการใช้งานส่วนตัวเท่านั้น"
+          },
+          {
+            "title": "แปลงเป็น PDF",
+            "body": ""
+          },
+          {
+            "title": "สำรอง & นำเข้า",
+            "body": "ส่งออกหรือนำเข้าบันทึกและโฟลเดอร์ของคุณ"
+          },
+          {
+            "title": "ปกป้องด้วยการตั้งรหัสผ่าน",
+            "body": "เพิ่มรหัสผ่านเพื่อป้องกันแอปของคุณ"
+          }
+        ]
+      },
+      "tr": {
+        "title": "Düşüncelerine bir yer aç.",
+        "summary": "Notlarını yaz, klasörlerle düzenle, cihazında sakla ve PDF olarak dışa aktar. Yerel ağ paylaşımıyla aynı ağa bağlı başka bir cihazın tarayıcısından notlarını açıp düzenle. Notlarını yedekle ve uygulama erişimini şifreyle koru.",
+        "features": [
+          {
+            "title": "Klasörlerle düzenleyin",
+            "body": "Notlarını klasörlerle düzenli tut."
+          },
+          {
+            "title": "Notlarınızı yerel ağda paylaşın",
+            "body": "Paylaşım sadece yerel ağda ve kişisel kullanım içindir."
+          },
+          {
+            "title": "PDF'ye Dönüştür",
+            "body": ""
+          },
+          {
+            "title": "Yedekleme ve İçe Aktarma",
+            "body": "Notlarınızı ve klasörlerinizi dışa aktarın veya içe aktarın"
+          },
+          {
+            "title": "Şifre korumasıyla güvenli",
+            "body": "Uygulamanızı güvence altına almak için bir şifre ekleyin"
+          }
+        ]
+      },
+      "zh": {
+        "title": "创建并整理笔记",
+        "summary": "欢迎使用 Notero，强大的笔记应用，支持网页共享功能！",
+        "features": [
+          {
+            "title": "使用文件夹进行整理",
+            "body": "使用文件夹保持笔记有序。"
+          },
+          {
+            "title": "在局域网上分享您的笔记",
+            "body": "仅限局域网和个人使用分享。"
+          },
+          {
+            "title": "转换为 PDF",
+            "body": ""
+          },
+          {
+            "title": "备份与导入",
+            "body": "导出或导入您的笔记和文件夹"
+          },
+          {
+            "title": "使用密码保护笔记",
+            "body": "添加密码以保护您的应用"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Lessonta",
+    "category": "study",
+    "accent": "#235fae",
+    "tint": "#edf3fd",
+    "icon": "assets/lessonta/icon.webp",
+    "apple": null,
+    "id": "lessonta",
+    "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.lessonta",
+    "images": [
+      "assets/lessonta/screens/01.webp",
+      "assets/lessonta/screens/02.webp",
+      "assets/lessonta/screens/03.webp"
+    ],
+    "imageSizes": {
+      "assets/lessonta/screens/01.webp": [
+        810,
+        1440
+      ],
+      "assets/lessonta/screens/02.webp": [
+        810,
+        1440
+      ],
+      "assets/lessonta/screens/03.webp": [
+        810,
+        1440
+      ]
+    },
+    "locales": {
+      "ar": {
+        "title": "جدول الدروس",
+        "summary": "مدير دروس وحضور بسيط.",
+        "features": [
+          {
+            "title": "جدول الدروس",
+            "body": "هذا الدرس يتكرر أسبوعيًا"
+          },
+          {
+            "title": "الحضور",
+            "body": "تتبع حالات غيابك واستقبل الإشعارات"
+          },
+          {
+            "title": "تذكيرات الواجبات",
+            "body": "تذكيرات بالواجبات القادمة"
+          },
+          {
+            "title": "تذكيرات الامتحانات",
+            "body": "تذكيرات بالامتحانات القادمة"
+          },
+          {
+            "title": "تصدير PDF",
+            "body": "صدّر جداول الدروس، سجلات الحضور، الواجبات والاختبارات القادمة كملف PDF"
+          },
+          {
+            "title": "إشعارات تذكير الدروس",
+            "body": "احصل على تذكير قبل بدء دروسك"
+          }
+        ]
+      },
+      "de": {
+        "title": "Unterrichtsplan",
+        "summary": "Ein minimalistischer Lern- und Anwesenheitsmanager.",
+        "features": [
+          {
+            "title": "Unterrichtsplan",
+            "body": "Diese Lektion wiederholt sich wöchentlich"
+          },
+          {
+            "title": "Anwesenheit",
+            "body": "Verfolge deine Fehlzeiten und erhalte Benachrichtigungen"
+          },
+          {
+            "title": "Hausaufgaben-Erinnerungen",
+            "body": "Erinnerungen an bevorstehende Hausaufgaben"
+          },
+          {
+            "title": "Prüfungs-Erinnerungen",
+            "body": "Erinnerungen an bevorstehende Prüfungen"
+          },
+          {
+            "title": "PDF-Export",
+            "body": "Exportiere Stundenpläne, Anwesenheitsdaten, anstehende Hausaufgaben und Prüfungen als PDF"
+          },
+          {
+            "title": "Unterrichtserinnerungen",
+            "body": "Lassen Sie sich vor Beginn Ihres Unterrichts erinnern"
+          }
+        ]
+      },
+      "el": {
+        "title": "Πρόγραμμα μαθημάτων",
+        "summary": "Ένας μινιμαλιστικός διαχειριστής μαθημάτων και παρουσιών.",
+        "features": [
+          {
+            "title": "Πρόγραμμα μαθημάτων",
+            "body": "Αυτό το μάθημα επαναλαμβάνεται εβδομαδιαία"
+          },
+          {
+            "title": "Παρουσίες",
+            "body": "Παρακολουθήστε τις απουσίες σας και λαμβάνετε ειδοποιήσεις"
+          },
+          {
+            "title": "Υπενθυμίσεις εργασιών",
+            "body": "Υπενθυμίσεις για επερχόμενες εργασίες"
+          },
+          {
+            "title": "Υπενθυμίσεις εξετάσεων",
+            "body": "Υπενθυμίσεις για επερχόμενες εξετάσεις"
+          },
+          {
+            "title": "Εξαγωγή PDF",
+            "body": "Εξάγετε προγράμματα μαθημάτων, αρχεία παρουσιών, επερχόμενες εργασίες και εξετάσεις ως PDF"
+          },
+          {
+            "title": "Ειδοποιήσεις Υπενθύμισης Μαθημάτων",
+            "body": "Λάβετε υπενθύμιση πριν την έναρξη των μαθημάτων σας"
+          }
+        ]
+      },
+      "en": {
+        "title": "Your school week, together.",
+        "summary": "Keep your lesson timetable, attendance, homework and exams in one place. Set reminders, follow attendance by lesson and export schedules or records as PDF. Built for organising your own student life.",
+        "features": [
+          {
+            "title": "Lesson Schedule",
+            "body": "This lesson repeats weekly"
+          },
+          {
+            "title": "Attendance",
+            "body": "Track your absences and receive notifications"
+          },
+          {
+            "title": "Homework Reminders",
+            "body": "Reminders for upcoming homework"
+          },
+          {
+            "title": "Exam Reminders",
+            "body": "Reminders for upcoming exams"
+          },
+          {
+            "title": "PDF export",
+            "body": "Export lesson schedules, attendance records, upcoming homework and exams as PDF"
+          },
+          {
+            "title": "Lesson Reminder Notifications",
+            "body": "Get reminded before your lessons start"
+          }
+        ]
+      },
+      "es": {
+        "title": "Horario de clases",
+        "summary": "Un gestor minimalista de clases y asistencia.",
+        "features": [
+          {
+            "title": "Horario de clases",
+            "body": "Esta lección se repite semanalmente"
+          },
+          {
+            "title": "Asistencia",
+            "body": "Controla tus ausencias y recibe notificaciones"
+          },
+          {
+            "title": "Recordatorios de tareas",
+            "body": "Recordatorios para tareas próximas"
+          },
+          {
+            "title": "Recordatorios de exámenes",
+            "body": "Recordatorios para exámenes próximos"
+          },
+          {
+            "title": "Exportar PDF",
+            "body": "Exporta horarios de clases, registros de asistencia, tareas y exámenes próximos como PDF"
+          },
+          {
+            "title": "Notificaciones de recordatorio de lecciones",
+            "body": "Recibe recordatorios antes de que comiencen tus lecciones"
+          }
+        ]
+      },
+      "fil": {
+        "title": "Iskedyul ng Aralin",
+        "summary": "Isang minimalistang tagapangasiwa ng aralin at pagdalo.",
+        "features": [
+          {
+            "title": "Iskedyul ng Aralin",
+            "body": "Paulit-ulit ang leksyon na ito linggu-linggo"
+          },
+          {
+            "title": "Pagdalo",
+            "body": "Subaybayan ang iyong mga pagliban at tumanggap ng mga notification"
+          },
+          {
+            "title": "Paalala ng Gawaing-bahay",
+            "body": "Paalala para sa mga nalalapit na gawaing-bahay"
+          },
+          {
+            "title": "Paalala ng Pagsusulit",
+            "body": "Paalala para sa mga nalalapit na pagsusulit"
+          },
+          {
+            "title": "Pag-export ng PDF",
+            "body": "I-export ang iskedyul ng aralin, talaan ng pagdalo, mga paparating na gawaing-bahay at pagsusulit bilang PDF"
+          },
+          {
+            "title": "Mga Abiso sa Paalala ng Aralin",
+            "body": "Makatanggap ng paalala bago magsimula ang iyong mga aralin"
+          }
+        ]
+      },
+      "fr": {
+        "title": "Planning des cours",
+        "summary": "Un gestionnaire minimaliste de cours et de présences.",
+        "features": [
+          {
+            "title": "Planning des cours",
+            "body": "Ce cours se répète chaque semaine"
+          },
+          {
+            "title": "Présences",
+            "body": "Suivez vos absences et recevez des notifications"
+          },
+          {
+            "title": "Rappels de devoirs",
+            "body": "Rappels pour les devoirs à venir"
+          },
+          {
+            "title": "Rappels d'examen",
+            "body": "Rappels pour les examens à venir"
+          },
+          {
+            "title": "Exportation PDF",
+            "body": "Exporter les emplois du temps, les registres de présence, les devoirs et examens à venir en PDF"
+          },
+          {
+            "title": "Notifications de rappel de cours",
+            "body": "Recevez un rappel avant le début de vos cours"
+          }
+        ]
+      },
+      "hi": {
+        "title": "पाठ अनुसूची",
+        "summary": "एक न्यूनतम पाठ और हाजिरी प्रबंधक।",
+        "features": [
+          {
+            "title": "पाठ अनुसूची",
+            "body": "यह पाठ साप्ताहिक रूप से दोहराता है"
+          },
+          {
+            "title": "हाजिरी",
+            "body": "अपनी अनुपस्थतियों को ट्रैक करें और सूचनाएँ प्राप्त करें"
+          },
+          {
+            "title": "होमवर्क रिमाइंडर्स",
+            "body": "आगामी होमवर्क के लिए रिमाइंडर्स"
+          },
+          {
+            "title": "परीक्षा रिमाइंडर्स",
+            "body": "आगामी परीक्षाओं के लिए रिमाइंडर्स"
+          },
+          {
+            "title": "PDF निर्यात",
+            "body": "पाठ अनुसूची, हाज़िरी रिकॉर्ड, आगामी गृहकार्य और परीक्षाएँ PDF के रूप में निर्यात करें"
+          },
+          {
+            "title": "पाठ अनुस्मारक सूचनाएं",
+            "body": "अपने पाठ शुरू होने से पहले अनुस्मारक प्राप्त करें"
+          }
+        ]
+      },
+      "id": {
+        "title": "Jadwal Pelajaran",
+        "summary": "Pengelola pelajaran dan kehadiran minimalis.",
+        "features": [
+          {
+            "title": "Jadwal Pelajaran",
+            "body": "Pelajaran ini berulang setiap minggu"
+          },
+          {
+            "title": "Kehadiran",
+            "body": "Lacak ketidakhadiran Anda dan terima notifikasi"
+          },
+          {
+            "title": "Pengingat PR",
+            "body": "Pengingat untuk PR yang akan datang"
+          },
+          {
+            "title": "Pengingat Ujian",
+            "body": "Pengingat untuk ujian yang akan datang"
+          },
+          {
+            "title": "Ekspor PDF",
+            "body": "Ekspor jadwal pelajaran, rekaman kehadiran, PR dan ujian mendatang sebagai PDF"
+          },
+          {
+            "title": "Notifikasi Pengingat Pelajaran",
+            "body": "Dapatkan pengingat sebelum pelajaran Anda dimulai"
+          }
+        ]
+      },
+      "ja": {
+        "title": "授業スケジュール",
+        "summary": "最小限の授業と出席管理アプリ。",
+        "features": [
+          {
+            "title": "授業スケジュール",
+            "body": "この授業は毎週繰り返されます"
+          },
+          {
+            "title": "出席",
+            "body": "欠席を追跡し、通知を受け取ります"
+          },
+          {
+            "title": "宿題リマインダー",
+            "body": "これからの宿題のリマインダー"
+          },
+          {
+            "title": "試験リマインダー",
+            "body": "これからの試験のリマインダー"
+          },
+          {
+            "title": "PDFエクスポート",
+            "body": "授業スケジュール、出席記録、今後の宿題や試験をPDFとしてエクスポートします"
+          },
+          {
+            "title": "授業リマインダー通知",
+            "body": "授業開始前にリマインダーを受け取る"
+          }
+        ]
+      },
+      "ko": {
+        "title": "수업 일정",
+        "summary": "미니멀한 수업 및 출석 관리 앱입니다.",
+        "features": [
+          {
+            "title": "수업 일정",
+            "body": "이 수업은 매주 반복됩니다"
+          },
+          {
+            "title": "출석",
+            "body": "결석을 추적하고 알림을 받으세요"
+          },
+          {
+            "title": "과제 알림",
+            "body": "다가오는 과제에 대한 알림"
+          },
+          {
+            "title": "시험 알림",
+            "body": "다가오는 시험에 대한 알림"
+          },
+          {
+            "title": "PDF 내보내기",
+            "body": "수업 일정, 출석 기록, 다가오는 과제 및 시험을 PDF로 내보내세요"
+          },
+          {
+            "title": "수업 알림 알림",
+            "body": "수업 시작 전에 알림 받기"
+          }
+        ]
+      },
+      "ms": {
+        "title": "Jadual Pelajaran",
+        "summary": "Pengurus pelajaran dan kehadiran yang minimalis.",
+        "features": [
+          {
+            "title": "Jadual Pelajaran",
+            "body": "Kelas ini berulang setiap minggu"
+          },
+          {
+            "title": "Kehadiran",
+            "body": "Jejaki ketidakhadiran anda dan terima pemberitahuan"
+          },
+          {
+            "title": "Peringatan Kerja Rumah",
+            "body": "Peringatan untuk kerja rumah yang akan datang"
+          },
+          {
+            "title": "Peringatan Peperiksaan",
+            "body": "Peringatan untuk peperiksaan yang akan datang"
+          },
+          {
+            "title": "Eksport PDF",
+            "body": "Eksport jadual pelajaran, rekod kehadiran, kerja rumah dan peperiksaan akan datang sebagai PDF"
+          },
+          {
+            "title": "Pemberitahuan Peringatan Pelajaran",
+            "body": "Dapatkan peringatan sebelum pelajaran anda bermula"
+          }
+        ]
+      },
+      "nl": {
+        "title": "Lesschema",
+        "summary": "Een minimalistische les- en aanwezigheidsbeheerder.",
+        "features": [
+          {
+            "title": "Lesschema",
+            "body": "Deze les herhaalt wekelijks"
+          },
+          {
+            "title": "Aanwezigheid",
+            "body": "Houd uw afwezigheden bij en ontvang meldingen"
+          },
+          {
+            "title": "Huiswerkherinneringen",
+            "body": "Herinneringen voor aankomend huiswerk"
+          },
+          {
+            "title": "Tentamenherinneringen",
+            "body": "Herinneringen voor aankomende tentamens"
+          },
+          {
+            "title": "PDF-export",
+            "body": "Exporteer lesschema's, aanwezigheidsregistraties, aankomend huiswerk en toetsen als PDF"
+          },
+          {
+            "title": "Lessen Herinnering Notificaties",
+            "body": "Ontvang een herinnering voordat je lessen beginnen"
+          }
+        ]
+      },
+      "pl": {
+        "title": "Harmonogram lekcji",
+        "summary": "Minimalistyczny menedżer lekcji i obecności.",
+        "features": [
+          {
+            "title": "Harmonogram lekcji",
+            "body": "Ta lekcja powtarza się co tydzień"
+          },
+          {
+            "title": "Obecność",
+            "body": "Śledź swoje nieobecności i otrzymuj powiadomienia"
+          },
+          {
+            "title": "Przypomnienia o zadaniach",
+            "body": "Przypomnienia o nadchodzących zadaniach domowych"
+          },
+          {
+            "title": "Przypomnienia o egzaminach",
+            "body": "Przypomnienia o nadchodzących egzaminach"
+          },
+          {
+            "title": "Eksport PDF",
+            "body": "Eksportuj harmonogramy, rekordy obecności oraz nadchodzące zadania i egzaminy jako PDF"
+          },
+          {
+            "title": "Powiadomienia o przypomnieniach o lekcjach",
+            "body": "Otrzymuj przypomnienia przed rozpoczęciem lekcji"
+          }
+        ]
+      },
+      "pt": {
+        "title": "Cronograma de aulas",
+        "summary": "Um gerenciador minimalista de aulas e frequência.",
+        "features": [
+          {
+            "title": "Cronograma de aulas",
+            "body": "Esta aula se repete semanalmente"
+          },
+          {
+            "title": "Frequência",
+            "body": "Acompanhe suas faltas e receba notificações"
+          },
+          {
+            "title": "Lembretes de tarefas",
+            "body": "Lembretes de tarefas próximas"
+          },
+          {
+            "title": "Lembretes de exames",
+            "body": "Lembretes de exames próximos"
+          },
+          {
+            "title": "Exportação de PDF",
+            "body": "Exporte cronogramas de aulas, registros de frequência, tarefas e exames futuros como PDF"
+          },
+          {
+            "title": "Notificações de Lembrete de Aula",
+            "body": "Receba lembretes antes do início das suas aulas"
+          }
+        ]
+      },
+      "ro": {
+        "title": "Program lecții",
+        "summary": "Un manager minimalist pentru lecții și prezență.",
+        "features": [
+          {
+            "title": "Program lecții",
+            "body": "Această lecție se repetă săptămânal"
+          },
+          {
+            "title": "Prezență",
+            "body": "Urmărește-ți absențele și primește notificări"
+          },
+          {
+            "title": "Mementouri teme",
+            "body": "Mementouri pentru teme viitoare"
+          },
+          {
+            "title": "Mementouri examene",
+            "body": "Mementouri pentru examene viitoare"
+          },
+          {
+            "title": "Export PDF",
+            "body": "Exportă orarele lecțiilor, înregistrările de prezență, temele și examenele viitoare ca PDF"
+          },
+          {
+            "title": "Notificări Memento Lecții",
+            "body": "Primește memento-uri înainte de începerea lecțiilor tale"
+          }
+        ]
+      },
+      "th": {
+        "title": "ตารางบทเรียน",
+        "summary": "ตัวจัดการบทเรียนและการเข้าเรียนแบบมินิมอล",
+        "features": [
+          {
+            "title": "ตารางบทเรียน",
+            "body": "บทเรียนนี้ทำซ้ำทุกสัปดาห์"
+          },
+          {
+            "title": "การเข้าเรียน",
+            "body": "ติดตามการขาดเรียนและรับการแจ้งเตือน"
+          },
+          {
+            "title": "เตือนการบ้าน",
+            "body": "การเตือนสำหรับการบ้านที่กำลังจะมาถึง"
+          },
+          {
+            "title": "เตือนข้อสอบ",
+            "body": "การเตือนสำหรับข้อสอบที่กำลังจะมาถึง"
+          },
+          {
+            "title": "ส่งออก PDF",
+            "body": "ส่งออกตารางบทเรียน บันทึกการเข้าเรียน การบ้านและการสอบที่จะมาถึงเป็น PDF"
+          },
+          {
+            "title": "การแจ้งเตือนเตือนความจำบทเรียน",
+            "body": "รับการเตือนก่อนเริ่มบทเรียนของคุณ"
+          }
+        ]
+      },
+      "tr": {
+        "title": "Okul haftan, bir arada.",
+        "summary": "Ders programını, devamsızlığını, ödevlerini ve sınavlarını tek yerde tut. Hatırlatıcılar ayarla, ders bazında devamsızlığını takip et ve programını veya kayıtlarını PDF olarak dışa aktar. Kendi öğrencilik hayatını düzenlemek için.",
+        "features": [
+          {
+            "title": "Ders Programı",
+            "body": "Bu ders her hafta tekrar eder"
+          },
+          {
+            "title": "Yoklama",
+            "body": "Devamsızlıklarınızı takip edin ve bildirimler alın"
+          },
+          {
+            "title": "Ödev Hatırlatmaları",
+            "body": "Yaklaşan ödevler için hatırlatmalar"
+          },
+          {
+            "title": "Sınav Hatırlatmaları",
+            "body": "Yaklaşan sınavlar için hatırlatmalar"
+          },
+          {
+            "title": "PDF dışa aktarımı",
+            "body": "Ders programlarını, yoklama kayıtlarını, yaklaşan ödev ve sınavları PDF olarak dışa aktarın"
+          },
+          {
+            "title": "Ders Hatırlatma Bildirimleri",
+            "body": "Dersleriniz başlamadan önce hatırlatılın"
+          }
+        ]
+      },
+      "zh": {
+        "title": "课程安排",
+        "summary": "一个简约的课程与出勤管理器。",
+        "features": [
+          {
+            "title": "课程安排",
+            "body": "本课程每周重复"
+          },
+          {
+            "title": "出勤",
+            "body": "跟踪你的缺勤并接收通知"
+          },
+          {
+            "title": "作业提醒",
+            "body": "即将到来的作业提醒"
+          },
+          {
+            "title": "考试提醒",
+            "body": "即将到来的考试提醒"
+          },
+          {
+            "title": "PDF 导出",
+            "body": "导出课程安排、出勤记录、即将到期的作业和考试为 PDF"
+          },
+          {
+            "title": "课程提醒通知",
+            "body": "在课程开始前收到提醒"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Doitly",
+    "category": "tasks",
+    "accent": "#35614c",
+    "tint": "#eaf4ed",
+    "icon": "assets/doitly/icon.webp",
+    "apple": null,
+    "id": "doitly",
+    "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.doitly",
+    "images": [
+      "assets/doitly/screens/01.webp",
+      "assets/doitly/screens/02.webp",
+      "assets/doitly/screens/03.webp"
+    ],
+    "imageSizes": {
+      "assets/doitly/screens/01.webp": [
+        810,
+        1440
+      ],
+      "assets/doitly/screens/02.webp": [
+        810,
+        1440
+      ],
+      "assets/doitly/screens/03.webp": [
+        810,
+        1440
+      ]
+    },
+    "locales": {
+      "ar": {
+        "title": "قائمة مهام بسيطة وحديثة . تتبع مهامك بسهولة.",
+        "summary": "قائمة مهام بسيطة وحديثة . تتبع مهامك بسهولة.",
+        "features": [
+          {
+            "title": "مهام فرعية",
+            "body": ""
+          },
+          {
+            "title": "تصفية حسب الفئة",
+            "body": ""
+          },
+          {
+            "title": "التقويم",
+            "body": ""
+          },
+          {
+            "title": "الإحصائيات",
+            "body": "عرض إحصائيات مهامك"
+          },
+          {
+            "title": "نسخ احتياطي للبيانات",
+            "body": "صدّر مهامك وإعداداتك كملف نسخة احتياطية"
+          },
+          {
+            "title": "الأمان",
+            "body": "اطلب رمز PIN عند فتح التطبيق"
+          }
+        ]
+      },
+      "de": {
+        "title": "Eine minimalistische und moderne To‑Do‑Liste . Deine Aufgaben einfach verwalten.",
+        "summary": "Eine minimalistische und moderne To‑Do‑Liste . Deine Aufgaben einfach verwalten.",
+        "features": [
+          {
+            "title": "Unteraufgaben",
+            "body": ""
+          },
+          {
+            "title": "Nach Kategorie filtern",
+            "body": ""
+          },
+          {
+            "title": "Kalender",
+            "body": ""
+          },
+          {
+            "title": "Statistiken",
+            "body": "Ihre Aufgabenstatistiken anzeigen"
+          },
+          {
+            "title": "Daten sichern",
+            "body": "Exportieren Sie Ihre Aufgaben und Einstellungen als Backup-Datei"
+          },
+          {
+            "title": "Sicherheit",
+            "body": "Beim Öffnen der App nach PIN fragen"
+          }
+        ]
+      },
+      "en": {
+        "title": "A little order. A lighter day.",
+        "summary": "Keep everyday tasks in a simple list. Break bigger jobs into subtasks, organise them by category and see dated tasks on your calendar. Review completion statistics, protect access with a PIN and keep a backup of your data.",
+        "features": [
+          {
+            "title": "Subtasks",
+            "body": ""
+          },
+          {
+            "title": "Filter by Category",
+            "body": ""
+          },
+          {
+            "title": "Calendar",
+            "body": ""
+          },
+          {
+            "title": "Statistics",
+            "body": "View your task statistics"
+          },
+          {
+            "title": "Backup Data",
+            "body": "Export your tasks and settings as a backup file"
+          },
+          {
+            "title": "Security",
+            "body": "Ask for PIN when opening the app"
+          }
+        ]
+      },
+      "es": {
+        "title": "Una lista de tareas mínima y moderna: sigue tus tareas fácilmente.",
+        "summary": "Una lista de tareas mínima y moderna: sigue tus tareas fácilmente.",
+        "features": [
+          {
+            "title": "Subtareas",
+            "body": ""
+          },
+          {
+            "title": "Filtrar por categoría",
+            "body": ""
+          },
+          {
+            "title": "Calendario",
+            "body": ""
+          },
+          {
+            "title": "Estadísticas",
+            "body": "Ver estadísticas de tareas"
+          },
+          {
+            "title": "Respaldar datos",
+            "body": "Exporta tus tareas y ajustes como un archivo de respaldo"
+          },
+          {
+            "title": "Seguridad",
+            "body": "Solicitar PIN al abrir la aplicación"
+          }
+        ]
+      },
+      "fr": {
+        "title": "Une application de liste de tâches minimale et moderne . suivez facilement vos tâches.",
+        "summary": "Une application de liste de tâches minimale et moderne . suivez facilement vos tâches.",
+        "features": [
+          {
+            "title": "Sous-tâches",
+            "body": ""
+          },
+          {
+            "title": "Filtrer par catégorie",
+            "body": ""
+          },
+          {
+            "title": "Calendrier",
+            "body": ""
+          },
+          {
+            "title": "Statistiques",
+            "body": "Voir vos statistiques de tâches"
+          },
+          {
+            "title": "Sauvegarder les données",
+            "body": "Exportez vos tâches et paramètres en tant que fichier de sauvegarde"
+          },
+          {
+            "title": "Sécurité",
+            "body": "Demander le code PIN à l'ouverture de l'application"
+          }
+        ]
+      },
+      "hi": {
+        "title": "एक सीमलित और आधुनिक टू-डू सूची . अपने कार्यों को आसानी से ट्रैक करें।",
+        "summary": "एक सीमलित और आधुनिक टू-डू सूची . अपने कार्यों को आसानी से ट्रैक करें।",
+        "features": [
+          {
+            "title": "सबटास्क",
+            "body": ""
+          },
+          {
+            "title": "श्रेणी के अनुसार फ़िल्टर करें",
+            "body": ""
+          },
+          {
+            "title": "कैलेंडर",
+            "body": ""
+          },
+          {
+            "title": "आँकड़े",
+            "body": "अपने कार्य आँकड़े देखें"
+          },
+          {
+            "title": "डेटा बैकअप",
+            "body": "अपने कार्यों और सेटिंग्स को बैकअप फ़ाइल के रूप में निर्यात करें"
+          },
+          {
+            "title": "सुरक्षा",
+            "body": "ऐप खोलते समय पिन पूछें"
+          }
+        ]
+      },
+      "tr": {
+        "title": "Biraz düzen. Daha rahat bir gün.",
+        "summary": "Günlük işlerini sade bir listede tut. Büyük işleri alt görevlere ayır, kategorilerle düzenle ve tarihli görevlerini takvimde gör. Tamamlama istatistiklerine bak, PIN ile erişimi koru ve verilerini yedekle.",
+        "features": [
+          {
+            "title": "Alt görevler",
+            "body": ""
+          },
+          {
+            "title": "Kategoriye Göre Filtrele",
+            "body": ""
+          },
+          {
+            "title": "Takvim",
+            "body": ""
+          },
+          {
+            "title": "İstatistikler",
+            "body": "Görev istatistiklerinizi görüntüleyin"
+          },
+          {
+            "title": "Verileri Yedekle",
+            "body": "Görevlerinizi ve ayarlarınızı yedek dosyası olarak dışa aktarın"
+          },
+          {
+            "title": "Güvenlik",
+            "body": "Uygulamayı açarken PIN iste"
+          }
+        ]
+      },
+      "zh": {
+        "title": "简洁现代的待办事项应用 . 轻松跟踪你的任务。",
+        "summary": "简洁现代的待办事项应用 . 轻松跟踪你的任务。",
+        "features": [
+          {
+            "title": "子任务",
+            "body": ""
+          },
+          {
+            "title": "按类别筛选",
+            "body": ""
+          },
+          {
+            "title": "日历",
+            "body": ""
+          },
+          {
+            "title": "统计",
+            "body": "查看您的任务统计"
+          },
+          {
+            "title": "备份数据",
+            "body": "将你的任务和设置导出为备份文件"
+          },
+          {
+            "title": "安全",
+            "body": "打开应用时要求输入密码"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Dictiony",
+    "category": "diction",
+    "accent": "#925032",
+    "tint": "#fcf0e9",
+    "icon": "assets/dictiony/icon.webp",
+    "apple": null,
+    "id": "dictiony",
+    "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony",
+    "images": [
+      "assets/dictiony/screens/01.webp",
+      "assets/dictiony/screens/02.webp"
+    ],
+    "imageSizes": {
+      "assets/dictiony/screens/01.webp": [
+        810,
+        1440
+      ],
+      "assets/dictiony/screens/02.webp": [
+        810,
+        1440
+      ]
+    },
+    "locales": {
+      "en": {
+        "title": "Find your speaking rhythm.",
+        "summary": "Practise reading aloud with categorised texts, diction exercises and games. Listen to reference speech, work through a personal programme and follow your practice history. A speaking practice tool, not a medical assessment.",
+        "features": [
+          {
+            "title": "Text Reading",
+            "body": "Practice reading with various texts"
+          },
+          {
+            "title": "Exercises",
+            "body": "Improve your diction with exercises"
+          },
+          {
+            "title": "Games",
+            "body": "Practice while having fun"
+          }
+        ]
+      },
+      "tr": {
+        "title": "Konuşmanın ritmini bul.",
+        "summary": "Kategorilere ayrılmış metinler, diksiyon egzersizleri ve oyunlarla sesli okuma pratiği yap. Örnek okumaları dinle, kişisel programını takip et ve çalışma geçmişini gör. Tıbbi değerlendirme değil, konuşma pratiği aracıdır.",
+        "features": [
+          {
+            "title": "Metin Okuma",
+            "body": "Çeşitli metinlerle okuma pratiği yapın"
+          },
+          {
+            "title": "Egzersizler",
+            "body": "Egzersizlerle diksiyonunuzu geliştirin"
+          },
+          {
+            "title": "Oyunlar",
+            "body": "Eğlenirken pratik yapın"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Beanjup",
+    "category": "arcade",
+    "accent": "#236f68",
+    "tint": "#e4f4f1",
+    "icon": "assets/beanjup/icon.webp",
+    "apple": "https://apps.apple.com/app/id6792344729",
+    "id": "beanjup",
+    "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.beanjup",
+    "images": [
+      "assets/beanjup/screens/01.webp",
+      "assets/beanjup/screens/02.webp",
+      "assets/beanjup/screens/03.webp"
+    ],
+    "imageSizes": {
+      "assets/beanjup/screens/01.webp": [
+        664,
+        1440
+      ],
+      "assets/beanjup/screens/02.webp": [
+        664,
+        1440
+      ],
+      "assets/beanjup/screens/03.webp": [
+        664,
+        1440
+      ]
+    },
+    "locales": {
+      "en": {
+        "title": "One tap. One more jump.",
+        "summary": "Time your jump, pass through the gap and keep climbing. Chase your high score in Classic mode or take on 100 Adventure levels across 10 regions.",
+        "features": [
+          {
+            "title": "One-tap play",
+            "body": "The bean moves automatically. Tap at the right moment to jump."
+          },
+          {
+            "title": "Classic mode",
+            "body": "Climb as high as you can and beat your personal best."
+          },
+          {
+            "title": "Adventure",
+            "body": "100 levels across 10 regions, with changing challenges and boss stages."
+          }
+        ]
+      },
+      "tr": {
+        "title": "Bir dokunuş. Bir zıplayış daha.",
+        "summary": "Zıplayışını zamanla, aralıktan geç ve yükselmeye devam et. Klasik modda rekorunu kovala veya 10 bölgede 100 Macera seviyesini tamamla.",
+        "features": [
+          {
+            "title": "Tek dokunuşla oyun",
+            "body": "Fasulye kendi hareket eder. Zıplamak için doğru anda dokun."
+          },
+          {
+            "title": "Klasik mod",
+            "body": "Çıkabildiğin kadar yükseğe çık ve kendi rekorunu kır."
+          },
+          {
+            "title": "Macera",
+            "body": "10 bölgede 100 seviye, değişen zorluklar ve bölüm sonu aşamaları."
+          }
+        ]
+      },
+      "de": {
+        "title": "Ein Tippen. Noch ein Sprung.",
+        "summary": "Springe im richtigen Moment durch die Lücke und klettere weiter. Jage deinen Highscore im Classic-Modus oder spiele 100 Adventure-Level in 10 Regionen.",
+        "features": [
+          {
+            "title": "Mit einem Tippen",
+            "body": "Die Bohne bewegt sich automatisch. Tippe im richtigen Moment zum Springen."
+          },
+          {
+            "title": "Classic-Modus",
+            "body": "Klettere so hoch wie möglich und übertriff deinen Rekord."
+          },
+          {
+            "title": "Adventure",
+            "body": "100 Level in 10 Regionen mit wechselnden Herausforderungen und Boss-Leveln."
+          }
+        ]
+      },
+      "fr": {
+        "title": "Un geste. Un saut de plus.",
+        "summary": "Sautez au bon moment, passez dans l’ouverture et continuez à grimper. Battez votre record en mode Classic ou jouez 100 niveaux Adventure dans 10 régions.",
+        "features": [
+          {
+            "title": "Une seule touche",
+            "body": "Le haricot se déplace automatiquement. Touchez au bon moment pour sauter."
+          },
+          {
+            "title": "Mode Classic",
+            "body": "Grimpez le plus haut possible et battez votre record."
+          },
+          {
+            "title": "Adventure",
+            "body": "100 niveaux dans 10 régions, avec des défis variés et des boss."
+          }
+        ]
+      },
+      "es": {
+        "title": "Un toque. Un salto más.",
+        "summary": "Salta en el momento justo, atraviesa el hueco y sigue subiendo. Supera tu récord en Classic o juega 100 niveles Adventure en 10 regiones.",
+        "features": [
+          {
+            "title": "Un solo toque",
+            "body": "La judía se mueve sola. Toca en el momento adecuado para saltar."
+          },
+          {
+            "title": "Modo Classic",
+            "body": "Sube lo más alto posible y supera tu récord."
+          },
+          {
+            "title": "Adventure",
+            "body": "100 niveles en 10 regiones con retos variados y fases de jefe."
+          }
+        ]
+      },
+      "pt": {
+        "title": "Um toque. Mais um salto.",
+        "summary": "Salte no momento certo, passe pela abertura e continue a subir. Supere o seu recorde no Classic ou jogue 100 níveis Adventure em 10 regiões.",
+        "features": [
+          {
+            "title": "Um único toque",
+            "body": "O feijão move-se sozinho. Toque no momento certo para saltar."
+          },
+          {
+            "title": "Modo Classic",
+            "body": "Suba o mais alto possível e supere o seu recorde."
+          },
+          {
+            "title": "Adventure",
+            "body": "100 níveis em 10 regiões com desafios variados e fases de chefe."
+          }
+        ]
+      },
+      "it": {
+        "title": "Un tocco. Un altro salto.",
+        "summary": "Salta al momento giusto, attraversa il varco e continua a salire. Batti il tuo record in Classic o affronta 100 livelli Adventure in 10 regioni.",
+        "features": [
+          {
+            "title": "Un solo tocco",
+            "body": "Il fagiolo si muove da solo. Tocca al momento giusto per saltare."
+          },
+          {
+            "title": "Modalità Classic",
+            "body": "Sali più in alto che puoi e batti il tuo record."
+          },
+          {
+            "title": "Adventure",
+            "body": "100 livelli in 10 regioni, con sfide diverse e livelli boss."
+          }
+        ]
+      },
+      "id": {
+        "title": "Satu ketukan. Satu lompatan lagi.",
+        "summary": "Lompat pada saat yang tepat, lewati celah dan terus naik. Kejar rekor di Classic atau mainkan 100 level Adventure di 10 wilayah.",
+        "features": [
+          {
+            "title": "Satu ketukan",
+            "body": "Kacang bergerak otomatis. Ketuk pada saat yang tepat untuk melompat."
+          },
+          {
+            "title": "Mode Classic",
+            "body": "Naik setinggi mungkin dan kalahkan rekor pribadi."
+          },
+          {
+            "title": "Adventure",
+            "body": "100 level di 10 wilayah dengan tantangan beragam dan level bos."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "Word Balloon Pop",
+    "category": "voicegame",
+    "accent": "#7a42a6",
+    "tint": "#f4ecfb",
+    "icon": "assets/wordballoonpop/icon.webp",
+    "apple": null,
+    "id": "wordballoonpop",
+    "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.wordballoonpop",
+    "images": [
+      "assets/wordballoonpop/screens/01.webp",
+      "assets/wordballoonpop/screens/02.webp",
+      "assets/wordballoonpop/screens/03.webp"
+    ],
+    "imageSizes": {
+      "assets/wordballoonpop/screens/01.webp": [
+        648,
+        1440
+      ],
+      "assets/wordballoonpop/screens/02.webp": [
+        648,
+        1440
+      ],
+      "assets/wordballoonpop/screens/03.webp": [
+        648,
+        1440
+      ]
+    },
+    "locales": {
+      "en": {
+        "title": "Say the word. Pop the balloon.",
+        "summary": "Use your voice to pop word balloons. Practise speaking through classic levels, endless rounds and survival mode, with coins and power-ups along the way. Microphone access and a compatible speech recogniser are needed.",
+        "features": [
+          {
+            "title": "Use Your Voice!",
+            "body": "Speak clearly to pop the balloons. The game uses speech recognition to understand you."
+          },
+          {
+            "title": "Multiple Game Modes",
+            "body": "Play classic levels, endless mode, or survival mode. Collect coins and unlock power-ups!"
+          }
+        ]
+      },
+      "tr": {
+        "title": "Kelimeyi söyle. Balonu patlat.",
+        "summary": "Kelime balonlarını sesinle patlat. Klasik seviyeler, sonsuz turlar ve hayatta kalma modunda konuşarak oyna; yol boyunca para ve güçlendirmeler topla. Mikrofon erişimi ve uyumlu bir konuşma tanıyıcı gerekir.",
+        "features": [
+          {
+            "title": "Sesini Kullan!",
+            "body": "Balonları patlatmak için net konuş. Oyun seni anlamak için konuşma tanıma kullanıyor."
+          },
+          {
+            "title": "Çoklu Oyun Modları",
+            "body": "Klasik seviyeler, sonsuz mod veya hayatta kalma modunda oyna. Jeton topla ve güçlendirmeleri aç!"
+          }
+        ]
+      }
+    }
+  }
+]

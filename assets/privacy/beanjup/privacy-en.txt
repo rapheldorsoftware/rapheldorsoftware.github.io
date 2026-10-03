@@ -2,7 +2,7 @@
 
 Effective Date: July 18, 2026
 
-Last Updated: July 18, 2026
+Last Updated: October 4, 2026
 
 This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer
 based in Türkiye and publishing under the name Rapheldor Software ("Rapheldor,"
@@ -11,18 +11,16 @@ Beanjup (the "Game") for Android and iOS.
 
  1. Privacy at a Glance
 
-The current version of Beanjup:
+Features depend on the installed version and platform. Beanjup stores game preferences and progress locally. Versions that include online features may also use:
 
-- does not require or offer user accounts;
-- does not contain advertising;
-- does not use third-party advertising or analytics SDKs;
-- does not track users across apps or websites;
-- does not collect precise or approximate location information;
-- does not access contacts, photos, the camera, the microphone, or files;
-- does not include in-app purchases;
-- stores game preferences and high scores locally on your device; and
-- allows you to voluntarily contact us through your own email application when
-  reporting a bug or requesting support.
+- Google Mobile Ads (AdMob) for interstitial and optional rewarded ads;
+- Google User Messaging Platform (UMP) for advertising privacy choices;
+- Firebase Analytics and Crashlytics for usage and crash diagnostics;
+- Google Play Games or Apple Game Center for platform sign-in and leaderboards;
+- platform cloud-save services to synchronize game progress; and
+- Unity In-App Purchasing and the app stores for the optional Remove Ads purchase.
+
+Beanjup does not offer a separate Rapheldor account. Online game services use your platform account. The Game does not request access to contacts, photos, the camera, the microphone or precise location.
 
 We do not sell personal information.
 
@@ -37,8 +35,7 @@ Game can remember your preferences:
 - vibration settings; and
 - whether you accepted the Privacy Policy and Terms of Use.
 
-This information is not transmitted to Rapheldor. It normally remains on your
-device until you clear the Game's app data or uninstall the Game. Device backup
+Local preferences normally remain on your device until you clear the Game's app data or uninstall the Game. Game progress and scores may be transmitted to platform services when their cloud-save or leaderboard features are used. Device backup
 and restore features provided by your operating system or app store may process
 local app data in accordance with their own terms and privacy policies.
 
@@ -86,6 +83,23 @@ operating system version, crash stack traces, installation statistics, and
 general performance information. We use these reports solely to maintain and
 improve the Game and not for advertising or cross-app tracking.
 
+## Advertising, diagnostics, online play and purchases
+
+Where enabled in your version, AdMob processes device and advertising identifiers, IP addresses, ad interactions, app activity and diagnostic information to serve and measure ads and prevent fraud. UMP records privacy choices and may show a consent form when required. On iOS, advertising tracking is subject to the system permission choice. Denying tracking does not necessarily remove contextual ads. You can reopen the Game's advertising privacy options where they are available, and use your device's privacy controls.
+
+Firebase Analytics helps us understand usage. It may process app-instance identifiers, device and app details, interaction events and general location derived from IP addresses. Crashlytics processes installation identifiers, device details, crash traces and diagnostic logs to identify and fix crashes. Availability and collection depend on the installed build and service settings. We do not intentionally send your support messages to Analytics.
+
+Google Play Games and Game Center may process platform player identifiers, display names, scores and leaderboard rankings. Leaderboard information may be visible to other players under the platform's settings. Cloud saves may include high scores, completed Adventure levels and other game-progress information associated with the platform account. Manage platform sign-in, saved games and privacy through Google or Apple settings.
+
+The Remove Ads product is purchased through the app store. Unity IAP and the store process product identifiers, transaction and receipt information and purchase status. Rapheldor does not receive your full payment-card details. Removing interstitial ads does not disable optional rewarded videos that you choose to watch. Purchase availability varies by version, platform and region.
+
+Service information:
+
+- [Google privacy policy](https://policies.google.com/privacy)
+- [Firebase privacy and security](https://firebase.google.com/support/privacy)
+- [Unity privacy policy](https://unity.com/legal/privacy-policy)
+- [Apple privacy policy](https://www.apple.com/legal/privacy/)
+
  5. How We Share Information
 
 We do not sell, rent, or trade personal information.
@@ -101,7 +115,7 @@ We may disclose information only in the following limited circumstances:
   reorganized, or otherwise transferred, information may be transferred subject
   to appropriate confidentiality and data protection safeguards.
 
-We do not share personal information for behavioral advertising.
+Advertising providers may process information for personalized advertising where permitted by your choices and applicable requirements. We do not provide support correspondence to advertisers.
 
  6. Legal Grounds for Processing
 
@@ -116,9 +130,7 @@ information:
 - to comply with legal obligations or establish, exercise, or defend legal
   claims.
 
-Support information is collected directly from you only when you voluntarily
-send us an email. Gameplay information stored locally on your device is not
-collected by Rapheldor.
+Support information is provided by you when you send an email. Online services also process the information described above. Local-only preferences are not uploaded as part of support reporting.
 
  7. Data Retention and Deletion
 
@@ -131,8 +143,7 @@ collected by Rapheldor.
   correspondence within 12 months after the related request has been resolved,
   unless a longer retention period is reasonably necessary for legal, security,
   or dispute-related purposes.
-- Store diagnostics are retained according to the retention policies of Google
-  Play and the Apple App Store.
+- Store diagnostics, advertising data, Analytics, crash reports and platform game data follow the relevant service retention settings and policies. Clearing local app data does not necessarily delete records already held by these services. Contact us for requests concerning data held on our behalf; platform-account requests may also require contacting Google or Apple.
 
 Beanjup does not currently provide user accounts, so there is no Game account to
 delete. You may request the deletion of a support email or other personal
@@ -208,11 +219,7 @@ Game, applicable laws, or our privacy practices. We will update the "Last
 Updated" date and, where required, provide additional notice within the Game or
 through the relevant app store.
 
-If a future version of the Game introduces user accounts, advertising,
-analytics, cloud saves, online leaderboards, in-app purchases, or other features
-involving the processing of personal information, we will update this Privacy
-Policy and the relevant app store privacy disclosures before or when those
-features become available.
+Feature availability varies by installed version and platform. We update this policy when our data practices change and provide any notice required by applicable law.
 
  14. Contact
 

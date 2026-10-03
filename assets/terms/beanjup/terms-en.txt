@@ -2,7 +2,7 @@
 
 Effective Date: July 18, 2026
 
-Last Updated: July 18, 2026
+Last Updated: October 4, 2026
 
 These Terms of Use ("Terms") are an agreement between you and Nurullah KIRBIZ, an
 independent software developer based in Türkiye and publishing under the name
@@ -11,7 +11,7 @@ download, installation, access to, and use of the mobile game Beanjup (the
 "Game") on Android and iOS.
 
 Please read these Terms and the
-[Beanjup Privacy Policy](https://rapheldorsoftware.com/privacy) before using the
+[Beanjup Privacy Policy](https://www.rapheldorsoftware.com/privacy?app=beanjup) before using the
 Game. By selecting the approval button in the Game, downloading the Game, or
 using the Game, you agree to these Terms. If you do not agree, do not use the
 Game.
@@ -50,15 +50,21 @@ Google Play, your use is also subject to the applicable Google Play terms.
 The current version of Beanjup:
 
 - is a single-player casual game;
-- does not require a user account;
-- does not contain advertising;
-- does not include in-app purchases;
+- does not require a separate Rapheldor account, while platform online features may use Google Play Games or Game Center;
+- may display interstitial and optional rewarded advertising;
+- may offer a non-consumable Remove Ads purchase;
 - does not provide online chat, public profiles, or user-generated content; and
-- stores high scores and preferences locally on the device.
+- stores progress and preferences locally, with platform leaderboard and cloud-save features where available.
 
 We may add, remove, or change features in a future version. If a change
 materially affects these Terms, privacy practices, payments, or your rights, we
 will update the applicable terms and notices.
+
+## Advertising and purchases
+
+Feature and purchase availability varies by installed version, platform and region. Optional rewarded videos provide the reward described in the Game after successful completion; availability is not guaranteed. The Remove Ads purchase removes interstitial advertising, while optional rewarded videos remain available when you choose to use them.
+
+Prices, taxes and purchase confirmation are shown by the app store before you authorize payment. Payments and refund requests are handled under the applicable store policies and your statutory rights. Rapheldor does not receive your full payment-card information. Use the available restore-purchases feature and the store account used for the purchase to restore eligible non-consumable purchases. Purchases are not promised to transfer between different app-store platforms.
 
  4. Acceptable Use
 
@@ -194,7 +200,7 @@ personal injury where applicable law prohibits limitation.
  13. Privacy
 
 Our handling of information related to the Game is described in the
-[Beanjup Privacy Policy](https://rapheldorsoftware.com/privacy), which forms an
+[Beanjup Privacy Policy](https://www.rapheldorsoftware.com/privacy?app=beanjup), which forms an
 important part of your relationship with us.
 
  14. Governing Law and Disputes
