@@ -41,7 +41,7 @@ if (dialog) {
 const legal = document.body.dataset.legal;
 if (legal) {
   const app = new URLSearchParams(location.search).get('app');
-  const allowed = new Set(['booktou','speaktou','notero','lessonta','doitly','dictiony','beanjup','wordballoonpop']);
+  const allowed = new Set(['booktou','speaktou','notero','lessonta','doitly','dictiony','beanjup','wordballoonpop','streaktou']);
   const policy = document.querySelector('#policy');
   const esc = text => text.replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const inline = text => esc(text)

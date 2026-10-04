@@ -1,0 +1,59 @@
+# Streaktou Privacy Policy
+
+**Last updated: October 4, 2026**
+
+This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"), handles information when you use the Streaktou mobile application (the "App") and the Streaktou pages on rapheldorsoftware.com.
+
+## 1. At a glance
+
+Streaktou is a local-first habit app. It has no accounts, no servers of ours, no advertising and no analytics or tracking SDKs. Everything you create stays on your device unless you choose to back it up to your own cloud storage. We do not collect, sell, rent or share your personal information.
+
+## 2. Information stored on your device
+
+The App stores the following only in its private storage on your device:
+
+- your challenges, including their names, durations, days and reminder times;
+- completed sessions, dates, session lengths, notes and streak information, including streak freezes;
+- proof photos you take or choose;
+- settings such as language, appearance, color theme, haptics and backup preferences; and
+- the status of your Streaktou Plus purchase, cached so the App works offline.
+
+We cannot see or access this information. Uninstalling the App removes it from your device, subject to your operating system's own device backup behavior.
+
+## 3. Camera and photo library
+
+The camera and photo library are used only when you take or choose a proof photo. The selected photo is copied into the App's private storage. We never upload your photos.
+
+## 4. Notifications, widgets and Live Activities
+
+Reminders and session notifications are scheduled locally on your device. Home Screen widgets, Lock Screen widgets and Live Activities show your streak and session timer using data shared only between the App and its widget extension on the same device. No notification or widget data leaves your device.
+
+## 5. Backups to your own cloud
+
+Backup is optional and off by default. If you turn it on:
+
+- **iCloud (iOS):** an archive of your data is saved to the App's folder in your own iCloud Drive. Apple's privacy policy applies.
+- **Google Drive:** an archive is saved to a hidden, app-specific folder in your own Google Drive. Google Sign-In is used only to request permission for that folder. Google's privacy policy applies.
+- **Backup file:** you can export an archive and save it wherever you choose.
+
+We never receive your backups, your Apple or Google credentials, or your access tokens.
+
+## 6. Purchases
+
+Streaktou Plus is sold through the App Store and Google Play. Payments are processed by Apple or Google; we do not receive your payment details. The App checks your purchase status with the store on your device.
+
+## 7. Children
+
+Streaktou is not directed to children under 13, and we do not knowingly collect personal information from anyone.
+
+## 8. Your choices and data deletion
+
+You can edit or delete your notes, turn off reminders, disconnect backups and delete the App at any time. Backups can be deleted from your iCloud or Google Drive storage settings. Because we hold no data about you, there is no account or server copy to delete.
+
+## 9. Changes
+
+We may update this policy. The "Last updated" date shows the latest version. Material changes will be reflected on this page.
+
+## 10. Contact
+
+Questions about this policy: [rapheldorsoftware@gmail.com](mailto:rapheldorsoftware@gmail.com)

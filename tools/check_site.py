@@ -57,7 +57,7 @@ for route in ROUTES:
     for tag,a in p.tags:
         if tag=='img' and a.get('src'):assert 'alt' in a and a.get('width') and a.get('height'),(route,'image attributes')
 
-expected={'booktou':25,'speaktou':17,'notero':14,'lessonta':19,'doitly':8,'dictiony':2,'beanjup':8,'wordballoonpop':2}
+expected={'booktou':25,'speaktou':17,'notero':14,'lessonta':19,'doitly':8,'dictiony':2,'beanjup':8,'wordballoonpop':2,'streaktou':14}
 assert set(HOME)==set().union(*(set(a['locales']) for a in APPS))
 for lang,copy in HOME.items():
     route='/' if lang=='en' else '/'+lang+'/'
@@ -96,5 +96,5 @@ ratios={a['id']:round(contrast(a['accent'],'#ffffff'),2) for a in APPS}
 ratios['brand']=round(contrast('#69418e','#ffffff'),2)
 ratios['body']=round(contrast('#62616a','#faf9f6'),2)
 assert min(ratios.values())>=4.5,ratios
-print(f'PASS: {len(ROUTES)} routes, 95 app locales, {checks} local links/assets, 16 policy files, metadata and RTL.')
+print(f'PASS: {len(ROUTES)} routes, 109 app locales, {checks} local links/assets, 18 policy files, metadata and RTL.')
 print('Text/button contrast:',ratios)

@@ -986,6 +986,350 @@
     }
   },
   {
+    "name": "Streaktou",
+    "category": "habits",
+    "accent": "#b23a10",
+    "tint": "#fbefe7",
+    "icon": "assets/streaktou/icon.webp",
+    "apple": null,
+    "images": [
+      "assets/streaktou/marketing/today.webp",
+      "assets/streaktou/marketing/journal.webp",
+      "assets/streaktou/marketing/motivation.webp",
+      "assets/streaktou/marketing/insights.webp"
+    ],
+    "id": "streaktou",
+    "play": null,
+    "imageSizes": {
+      "assets/streaktou/marketing/today.webp": [
+        750,
+        1626
+      ],
+      "assets/streaktou/marketing/journal.webp": [
+        750,
+        1626
+      ],
+      "assets/streaktou/marketing/motivation.webp": [
+        750,
+        1626
+      ],
+      "assets/streaktou/marketing/insights.webp": [
+        750,
+        1626
+      ]
+    },
+    "locales": {
+      "en": {
+        "title": "Show up. Prove it. Build your streak.",
+        "summary": "Pick one thing you want to do every day, like reading, exercise or a new language. Run a focus timer, leave a photo as proof and watch your streak grow. Your photos become a visual diary, and milestones turn into stories you can share. No account needed, and everything stays on your phone.",
+        "features": [
+          {
+            "title": "Photo proof",
+            "body": "Finish a session and leave one photo. Day by day, your proof becomes a visual journal."
+          },
+          {
+            "title": "A streak that grows",
+            "body": "Your flame evolves as you keep going, and streak freezes cover a missed day."
+          },
+          {
+            "title": "Widgets and live timer",
+            "body": "See your streak on the Home Screen and your session timer on the Lock Screen and Dynamic Island."
+          },
+          {
+            "title": "Private by design",
+            "body": "No account, no ads and no tracking. Back up to your own iCloud or Google Drive if you want."
+          }
+        ]
+      },
+      "tr": {
+        "title": "Ortaya çık. Kanıtla. Serini büyüt.",
+        "summary": "Her gün yapmak istediğin bir şeyi seç: kitap okumak, egzersiz ya da yeni bir dil. Odak zamanlayıcısını başlat, kanıt olarak bir fotoğraf bırak ve serinin büyüdüğünü izle. Fotoğrafların görsel bir günlüğe dönüşür, kilometre taşları da paylaşabileceğin hikâyelere. Hesap gerekmez, her şey telefonunda kalır.",
+        "features": [
+          {
+            "title": "Fotoğrafla kanıt",
+            "body": "Seansı bitir ve tek bir fotoğraf bırak. Gün gün kanıtların görsel bir günlüğe dönüşür."
+          },
+          {
+            "title": "Büyüyen bir seri",
+            "body": "Devam ettikçe alevin gelişir, seri dondurmalar da kaçırdığın bir günü kapatır."
+          },
+          {
+            "title": "Widget ve canlı zamanlayıcı",
+            "body": "Serini ana ekranda, seans zamanlayıcını kilit ekranında ve Dynamic Island'da gör."
+          },
+          {
+            "title": "Gizlilik öncelikli",
+            "body": "Hesap, reklam ya da takip yok. İstersen kendi iCloud veya Google Drive hesabına yedekle."
+          }
+        ]
+      },
+      "es": {
+        "title": "Aparece. Demuéstralo. Construye tu racha.",
+        "summary": "Elige algo que quieras hacer cada día, como leer, hacer ejercicio o aprender un idioma. Inicia un temporizador, deja una foto como prueba y mira crecer tu racha. Tus fotos se convierten en un diario visual y los hitos, en historias para compartir. Sin cuenta: todo se queda en tu teléfono.",
+        "features": [
+          {
+            "title": "Prueba con foto",
+            "body": "Termina una sesión y deja una foto. Día a día, tus pruebas forman un diario visual."
+          },
+          {
+            "title": "Una racha que crece",
+            "body": "Tu llama evoluciona a medida que avanzas y los congeladores cubren un día perdido."
+          },
+          {
+            "title": "Widgets y temporizador en vivo",
+            "body": "Mira tu racha en la pantalla de inicio y tu sesión en la pantalla bloqueada y la Dynamic Island."
+          },
+          {
+            "title": "Privada por diseño",
+            "body": "Sin cuenta, sin anuncios y sin rastreo. Haz copia en tu propio iCloud o Google Drive si quieres."
+          }
+        ]
+      },
+      "pt": {
+        "title": "Apareça. Prove. Construa sua sequência.",
+        "summary": "Escolha algo que você quer fazer todo dia, como ler, se exercitar ou aprender um idioma. Inicie um cronômetro, deixe uma foto como prova e veja sua sequência crescer. Suas fotos viram um diário visual e os marcos, histórias para compartilhar. Sem conta: tudo fica no seu celular.",
+        "features": [
+          {
+            "title": "Prova com foto",
+            "body": "Termine uma sessão e deixe uma foto. Dia após dia, suas provas viram um diário visual."
+          },
+          {
+            "title": "Uma sequência que cresce",
+            "body": "Sua chama evolui conforme você continua, e os congelamentos cobrem um dia perdido."
+          },
+          {
+            "title": "Widgets e cronômetro ao vivo",
+            "body": "Veja sua sequência na tela inicial e sua sessão na tela de bloqueio e na Dynamic Island."
+          },
+          {
+            "title": "Privado por padrão",
+            "body": "Sem conta, sem anúncios e sem rastreamento. Faça backup no seu iCloud ou Google Drive, se quiser."
+          }
+        ]
+      },
+      "fr": {
+        "title": "Sois là. Prouve-le. Construis ta série.",
+        "summary": "Choisis une chose à faire chaque jour, comme lire, faire du sport ou apprendre une langue. Lance un minuteur, laisse une photo comme preuve et regarde ta série grandir. Tes photos deviennent un journal visuel et les étapes, des stories à partager. Sans compte : tout reste sur ton téléphone.",
+        "features": [
+          {
+            "title": "La preuve en photo",
+            "body": "Termine une séance et laisse une photo. Jour après jour, tes preuves forment un journal visuel."
+          },
+          {
+            "title": "Une série qui grandit",
+            "body": "Ta flamme évolue à mesure que tu avances, et les gels couvrent un jour manqué."
+          },
+          {
+            "title": "Widgets et minuteur en direct",
+            "body": "Vois ta série sur l'écran d'accueil et ta séance sur l'écran verrouillé et la Dynamic Island."
+          },
+          {
+            "title": "Privée par nature",
+            "body": "Pas de compte, pas de pub, pas de suivi. Sauvegarde dans ton propre iCloud ou Google Drive si tu veux."
+          }
+        ]
+      },
+      "de": {
+        "title": "Zeig dich. Beweis es. Bau deine Serie auf.",
+        "summary": "Wähle etwas, das du jeden Tag tun willst, etwa lesen, Sport oder eine neue Sprache. Starte einen Timer, hinterlasse ein Foto als Beweis und sieh deine Serie wachsen. Deine Fotos werden zu einem visuellen Tagebuch, Meilensteine zu Storys zum Teilen. Kein Konto nötig, alles bleibt auf deinem Handy.",
+        "features": [
+          {
+            "title": "Beweis per Foto",
+            "body": "Beende eine Einheit und hinterlasse ein Foto. Tag für Tag entsteht ein visuelles Tagebuch."
+          },
+          {
+            "title": "Eine Serie, die wächst",
+            "body": "Deine Flamme entwickelt sich, während du dranbleibst, und Freezes decken einen verpassten Tag ab."
+          },
+          {
+            "title": "Widgets und Live-Timer",
+            "body": "Sieh deine Serie auf dem Home-Bildschirm und deine Einheit auf dem Sperrbildschirm und in der Dynamic Island."
+          },
+          {
+            "title": "Privat von Grund auf",
+            "body": "Kein Konto, keine Werbung, kein Tracking. Sichere bei Bedarf in deine eigene iCloud oder dein Google Drive."
+          }
+        ]
+      },
+      "it": {
+        "title": "Presentati. Dimostralo. Costruisci la tua serie.",
+        "summary": "Scegli una cosa da fare ogni giorno, come leggere, allenarti o imparare una lingua. Avvia un timer, lascia una foto come prova e guarda crescere la tua serie. Le foto diventano un diario visivo e i traguardi storie da condividere. Nessun account: tutto resta sul tuo telefono.",
+        "features": [
+          {
+            "title": "Prova con foto",
+            "body": "Completa una sessione e lascia una foto. Giorno dopo giorno nasce un diario visivo."
+          },
+          {
+            "title": "Una serie che cresce",
+            "body": "La tua fiamma si evolve mentre continui e i congelamenti coprono un giorno saltato."
+          },
+          {
+            "title": "Widget e timer dal vivo",
+            "body": "Guarda la tua serie nella schermata Home e la sessione nella schermata di blocco e nella Dynamic Island."
+          },
+          {
+            "title": "Privata per natura",
+            "body": "Niente account, pubblicità o tracciamento. Fai il backup sul tuo iCloud o Google Drive, se vuoi."
+          }
+        ]
+      },
+      "ru": {
+        "title": "Приходи. Докажи. Строй свою серию.",
+        "summary": "Выбери то, что хочешь делать каждый день: читать, тренироваться или учить язык. Запусти таймер, оставь фото как доказательство и смотри, как растёт серия. Фото складываются в визуальный дневник, а этапы превращаются в истории для публикации. Без аккаунта: всё хранится на телефоне.",
+        "features": [
+          {
+            "title": "Доказательство фото",
+            "body": "Заверши сессию и оставь одно фото. День за днём складывается визуальный дневник."
+          },
+          {
+            "title": "Растущая серия",
+            "body": "Твоё пламя растёт, пока ты продолжаешь, а заморозки спасают пропущенный день."
+          },
+          {
+            "title": "Виджеты и живой таймер",
+            "body": "Серия на главном экране, а таймер сессии на экране блокировки и в Dynamic Island."
+          },
+          {
+            "title": "Приватность по умолчанию",
+            "body": "Без аккаунта, рекламы и слежки. По желанию сохраняй копию в своём iCloud или Google Drive."
+          }
+        ]
+      },
+      "ja": {
+        "title": "続ける。証明する。連続記録を育てる。",
+        "summary": "読書、運動、語学など、毎日続けたいことをひとつ選びましょう。タイマーで集中し、証拠に写真を1枚残すと、連続記録が育っていきます。写真は見返せる日記になり、節目はシェアできるストーリーに。アカウント不要で、データはすべてスマホの中に残ります。",
+        "features": [
+          {
+            "title": "写真で証明",
+            "body": "セッションを終えたら写真を1枚。毎日の証拠が写真日記になります。"
+          },
+          {
+            "title": "育つ連続記録",
+            "body": "続けるほど炎が成長。フリーズが休んだ日をカバーします。"
+          },
+          {
+            "title": "ウィジェットとライブタイマー",
+            "body": "ホーム画面で記録を、ロック画面とダイナミックアイランドでタイマーを確認できます。"
+          },
+          {
+            "title": "プライバシー重視",
+            "body": "アカウント、広告、トラッキングなし。必要なら自分の iCloud や Google ドライブにバックアップ。"
+          }
+        ]
+      },
+      "ko": {
+        "title": "해내고, 증명하고, 연속 기록을 쌓으세요.",
+        "summary": "독서, 운동, 외국어처럼 매일 하고 싶은 한 가지를 고르세요. 타이머로 집중하고, 사진 한 장을 증거로 남기면 연속 기록이 자라납니다. 사진은 한눈에 보는 일기가 되고, 마일스톤은 공유할 수 있는 스토리가 됩니다. 계정 없이, 모든 데이터는 내 폰에만 저장돼요.",
+        "features": [
+          {
+            "title": "사진으로 증명",
+            "body": "세션을 마치고 사진 한 장을 남기세요. 하루하루가 사진 일기가 됩니다."
+          },
+          {
+            "title": "자라나는 연속 기록",
+            "body": "꾸준할수록 불꽃이 커지고, 프리즈가 놓친 하루를 지켜줍니다."
+          },
+          {
+            "title": "위젯과 라이브 타이머",
+            "body": "홈 화면에서 연속 기록을, 잠금 화면과 다이내믹 아일랜드에서 타이머를 확인하세요."
+          },
+          {
+            "title": "개인정보 우선",
+            "body": "계정, 광고, 추적이 없어요. 원하면 내 iCloud나 Google 드라이브에 백업하세요."
+          }
+        ]
+      },
+      "zh": {
+        "title": "坚持。证明。积累你的连胜。",
+        "summary": "选一件你想每天坚持的事，比如阅读、运动或学一门外语。开启专注计时，留下一张照片作为证明，看着连胜不断增长。照片会变成可回看的视觉日记，里程碑会变成可以分享的故事。无需账号，所有数据都留在你的手机上。",
+        "features": [
+          {
+            "title": "照片证明",
+            "body": "完成一次专注后留下一张照片，日积月累就是一本视觉日记。"
+          },
+          {
+            "title": "不断成长的连胜",
+            "body": "坚持越久火焰越旺，冻结卡还能保住错过的一天。"
+          },
+          {
+            "title": "小组件与实时计时",
+            "body": "在主屏幕查看连胜，在锁定屏幕和灵动岛查看计时。"
+          },
+          {
+            "title": "隐私优先",
+            "body": "无账号、无广告、无追踪。需要时可备份到你自己的 iCloud 或 Google 云端硬盘。"
+          }
+        ]
+      },
+      "ar": {
+        "title": "احضر. أثبت. ابنِ سلسلتك.",
+        "summary": "اختر شيئًا تريد القيام به كل يوم، مثل القراءة أو الرياضة أو تعلّم لغة. شغّل مؤقت التركيز، واترك صورة دليلًا، وشاهد سلسلتك تكبر. تتحول صورك إلى يوميات مصوّرة، والمحطات إلى قصص يمكنك مشاركتها. بلا حساب، وكل شيء يبقى على هاتفك.",
+        "features": [
+          {
+            "title": "دليل بالصورة",
+            "body": "أنهِ الجلسة واترك صورة واحدة. يومًا بعد يوم تصبح أدلتك يوميات مصوّرة."
+          },
+          {
+            "title": "سلسلة تكبر",
+            "body": "تتطور شعلتك كلما واصلت، ويحمي التجميد يومًا فاتك."
+          },
+          {
+            "title": "أدوات ومؤقت مباشر",
+            "body": "شاهد سلسلتك على الشاشة الرئيسية وجلستك على شاشة القفل وفي Dynamic Island."
+          },
+          {
+            "title": "خصوصية من الأساس",
+            "body": "بلا حساب ولا إعلانات ولا تتبّع. انسخ احتياطيًا إلى iCloud أو Google Drive الخاص بك إن أردت."
+          }
+        ]
+      },
+      "hi": {
+        "title": "रोज़ आओ। साबित करो। अपनी स्ट्रीक बनाओ।",
+        "summary": "कोई एक काम चुनें जो आप हर दिन करना चाहते हैं, जैसे पढ़ना, व्यायाम या नई भाषा। फ़ोकस टाइमर चलाएँ, सबूत के तौर पर एक फ़ोटो छोड़ें और अपनी स्ट्रीक बढ़ती देखें। आपकी फ़ोटो एक विज़ुअल डायरी बन जाती हैं और पड़ाव शेयर करने लायक स्टोरी। कोई अकाउंट नहीं, सब कुछ आपके फ़ोन पर रहता है।",
+        "features": [
+          {
+            "title": "फ़ोटो से सबूत",
+            "body": "सेशन पूरा करें और एक फ़ोटो छोड़ें। दिन-ब-दिन आपके सबूत एक फ़ोटो डायरी बनते हैं।"
+          },
+          {
+            "title": "बढ़ती हुई स्ट्रीक",
+            "body": "जैसे-जैसे आप जारी रखते हैं, लौ बढ़ती है और फ़्रीज़ छूटे हुए दिन को संभालते हैं।"
+          },
+          {
+            "title": "विजेट और लाइव टाइमर",
+            "body": "होम स्क्रीन पर स्ट्रीक और लॉक स्क्रीन व Dynamic Island पर सेशन टाइमर देखें।"
+          },
+          {
+            "title": "प्राइवेसी सबसे पहले",
+            "body": "कोई अकाउंट, विज्ञापन या ट्रैकिंग नहीं। चाहें तो अपने iCloud या Google Drive में बैकअप लें।"
+          }
+        ]
+      },
+      "id": {
+        "title": "Hadir. Buktikan. Bangun streak-mu.",
+        "summary": "Pilih satu hal yang ingin kamu lakukan setiap hari, seperti membaca, olahraga, atau belajar bahasa. Jalankan timer fokus, tinggalkan foto sebagai bukti, dan lihat streak-mu bertambah. Fotomu menjadi jurnal visual dan pencapaianmu menjadi story yang bisa dibagikan. Tanpa akun, semuanya tetap di ponselmu.",
+        "features": [
+          {
+            "title": "Bukti foto",
+            "body": "Selesaikan sesi dan tinggalkan satu foto. Hari demi hari, buktimu menjadi jurnal visual."
+          },
+          {
+            "title": "Streak yang tumbuh",
+            "body": "Apimu berkembang selama kamu konsisten, dan pembeku menutup hari yang terlewat."
+          },
+          {
+            "title": "Widget dan timer langsung",
+            "body": "Lihat streak di layar utama serta timer sesi di layar kunci dan Dynamic Island."
+          },
+          {
+            "title": "Privat sejak awal",
+            "body": "Tanpa akun, iklan, atau pelacakan. Cadangkan ke iCloud atau Google Drive milikmu jika mau."
+          }
+        ]
+      }
+    }
+  },
+  {
     "name": "Notero",
     "category": "notes",
     "accent": "#9b4d12",

@@ -1,6 +1,6 @@
 # Rapheldor Software
 
-Static showcase and product pages for eight apps. GitHub Pages serves the
+Static showcase and product pages for nine apps. GitHub Pages serves the
 checked-in HTML. No Node runtime, external font, frontend framework or tracking
 script is needed by visitors.
 
@@ -12,7 +12,7 @@ python tools/check_site.py
 ```
 
 Content lives in `content/apps.json`; shared translated labels live in
-`content/ui.py`. There are 95 product/language pages, 26 localized
+`content/ui.py`. There are 109 product/language pages, 26 localized
 showcase pages, privacy/terms views and two account-deletion pages.
 
 Each product only lists languages verified in its app repository. The product
