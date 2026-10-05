@@ -1,12 +1,14 @@
 # Streaktou Privacy Policy
 
-**Last updated: October 4, 2026**
+**Last updated: October 5, 2026**
 
 This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"), handles information when you use the Streaktou mobile application (the "App") and the Streaktou pages on rapheldorsoftware.com.
 
 ## 1. At a glance
 
-Streaktou is a local-first habit app. It has no accounts, no servers of ours, no advertising and no analytics or tracking SDKs. Everything you create stays on your device unless you choose to back it up to your own cloud storage. We do not collect, sell, rent or share your personal information.
+Streaktou stores your challenges, sessions, notes and proof photos locally on your device. There is no Streaktou account and no server of ours that receives your habit data. Optional backups go to your own cloud storage.
+
+The free version of the App shows ads through Google AdMob and Unity Ads. Streaktou Plus removes ads. RevenueCat helps us validate and restore Plus purchases. These providers process the limited information described in sections 6 and 7. The App does not send your habit names, notes, sessions or proof photos to them. We do not sell your personal information.
 
 ## 2. Information stored on your device
 
@@ -14,15 +16,14 @@ The App stores the following only in its private storage on your device:
 
 - your challenges, including their names, durations, days and reminder times;
 - completed sessions, dates, session lengths, notes and streak information, including streak freezes;
-- proof photos you take or choose;
-- settings such as language, appearance, color theme, haptics and backup preferences; and
-- the status of your Streaktou Plus purchase, cached so the App works offline.
+- proof photos you take or choose; and
+- settings such as language, appearance, color theme, haptics and backup preferences.
 
 We cannot see or access this information. Uninstalling the App removes it from your device, subject to your operating system's own device backup behavior.
 
 ## 3. Camera and photo library
 
-The camera and photo library are used only when you take or choose a proof photo. The selected photo is copied into the App's private storage. We never upload your photos.
+The camera and photo library are used only when you take or choose a proof photo. The selected photo is copied into the App's private storage. We never upload your photos, and they are never sent to advertising or purchase providers.
 
 ## 4. Notifications, widgets and Live Activities
 
@@ -40,20 +41,32 @@ We never receive your backups, your Apple or Google credentials, or your access 
 
 ## 6. Purchases
 
-Streaktou Plus is sold through the App Store and Google Play. Payments are processed by Apple or Google; we do not receive your payment details. The App checks your purchase status with the store on your device.
+Streaktou Plus is sold through the App Store and Google Play. Apple or Google processes payments; we do not receive your payment card details.
 
-## 7. Children
+RevenueCat processes an anonymous app user identifier, purchase and subscription records, store transaction identifiers, entitlement status, app and device information, and connection information such as IP address. This is used to validate purchases, restore access and manage subscription status. When a subscription expires or a purchase is refunded, Plus access may be removed. RevenueCat's privacy policy: [https://www.revenuecat.com/privacy](https://www.revenuecat.com/privacy).
 
-Streaktou is not directed to children under 13, and we do not knowingly collect personal information from anyone.
+## 7. Advertising and your privacy choices
 
-## 8. Your choices and data deletion
+The free version shows banner ads and optional rewarded ads. Watching an eligible rewarded ad to the end can grant a streak freeze; ad availability and daily limits apply. Streaktou Plus users are not shown ads.
 
-You can edit or delete your notes, turn off reminders, disconnect backups and delete the App at any time. Backups can be deleted from your iCloud or Google Drive storage settings. Because we hold no data about you, there is no account or server copy to delete.
+Google AdMob and Unity Ads may process device and advertising identifiers, IP address and approximate location derived from it, device and app information, ad interactions and diagnostics. They use this to deliver and measure ads, prevent fraud and respect your privacy choices. The App does not request GPS location permission.
 
-## 9. Changes
+Personalized advertising depends on your consent and device settings. Where required by law, a consent form appears before any ad is requested, and you can revisit your choices at any time in **Profile > Ad privacy choices**. On iOS, you can decline tracking in the system prompt or later in Settings. Declining tracking or personalized ads does not limit the App's core features.
+
+Provider policies: Google [https://policies.google.com/privacy](https://policies.google.com/privacy) and Unity [https://unity.com/legal/privacy-policy](https://unity.com/legal/privacy-policy).
+
+## 8. Children
+
+Streaktou is not directed to children under 13. Advertising and purchase providers have their own privacy practices. If you believe a child has provided personal information through the App, contact us at the address below.
+
+## 9. Your choices and data deletion
+
+You can edit or delete your notes, turn off reminders, disconnect backups, change your ad privacy choices and delete the App at any time. Deleting the App removes your local data, subject to operating system backups. Backups can be deleted from your iCloud or Google Drive storage settings. Purchase records held by Apple, Google or RevenueCat may be kept for billing, fraud prevention and legal obligations; contact us for requests about purchase-related data.
+
+## 10. Changes
 
 We may update this policy. The "Last updated" date shows the latest version. Material changes will be reflected on this page.
 
-## 10. Contact
+## 11. Contact
 
 Questions about this policy: [rapheldorsoftware@gmail.com](mailto:rapheldorsoftware@gmail.com)
