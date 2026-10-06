@@ -1,6 +1,6 @@
 # Streaktou Privacy Policy
 
-**Last updated: October 5, 2026**
+**Last updated: October 6, 2026**
 
 This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"), handles information when you use the Streaktou mobile application (the "App") and the Streaktou pages on rapheldorsoftware.com.
 
@@ -8,7 +8,7 @@ This Privacy Policy explains how Nurullah KIRBIZ, an independent software develo
 
 Streaktou stores your challenges, sessions, notes and proof photos locally on your device. There is no Streaktou account and no server of ours that receives your habit data. Optional backups go to your own cloud storage.
 
-The free version of the App shows ads through Google AdMob and Unity Ads. Streaktou Plus removes ads. RevenueCat helps us validate and restore Plus purchases. These providers process the limited information described in sections 6 and 7. The App does not send your habit names, notes, sessions or proof photos to them. We do not sell your personal information.
+The free version of the App may show ads through Google AdMob and Unity Ads, including optional rewarded ads. Streaktou Plus removes ads. RevenueCat helps us validate and restore Plus purchases. These providers process the limited information described in sections 6 and 7. The App does not send your habit names, notes, sessions or proof photos to them. We do not sell your personal information.
 
 ## 2. Information stored on your device
 
@@ -47,7 +47,7 @@ RevenueCat processes an anonymous app user identifier, purchase and subscription
 
 ## 7. Advertising and your privacy choices
 
-The free version shows banner ads and optional rewarded ads. Watching an eligible rewarded ad to the end can grant a streak freeze; ad availability and daily limits apply. Streaktou Plus users are not shown ads.
+The free version may show ads, including optional rewarded ads: watching an eligible rewarded ad to the end can grant a streak freeze; ad availability and daily limits apply. Streaktou Plus users are not shown ads.
 
 Google AdMob and Unity Ads may process device and advertising identifiers, IP address and approximate location derived from it, device and app information, ad interactions and diagnostics. They use this to deliver and measure ads, prevent fraud and respect your privacy choices. The App does not request GPS location permission.
 
