@@ -1,0 +1,108 @@
+ CarSurf Privacy Policy
+
+Effective Date: October 12, 2026
+
+Last Updated: October 12, 2026
+
+This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer
+based in Türkiye and publishing under the name Rapheldor Software ("Rapheldor,"
+"we," "us," or "our"), handles information in connection with the mobile game
+CarSurf (the "Game") for Android and iOS.
+
+ 1. Privacy at a Glance
+
+Features depend on the installed version and platform. CarSurf stores game preferences and progress locally on your device and can be played offline. Versions that include online features may also use:
+
+- Google Mobile Ads (AdMob) for occasional interstitial ads and optional rewarded ads;
+- Google User Messaging Platform (UMP) for advertising privacy choices;
+- Google Play Games or Apple Game Center for platform sign-in and leaderboards; and
+- the app stores' purchase systems for optional purchases, if a version offers them.
+
+CarSurf does not offer a separate Rapheldor account. Online game services use your platform account. The Game does not request access to contacts, photos, the camera, the microphone or precise location.
+
+We do not sell personal information.
+
+ 2. Information Stored Only on Your Device
+
+CarSurf stores a limited amount of information locally on your device so the Game can remember your progress and preferences:
+
+- best score, best distance, coins, unlocked cars, paints, wheels and upgrades;
+- daily mission and daily login progress;
+- selected language;
+- music, sound, vibration, graphics and frame-rate settings; and
+- whether the tutorial has been completed.
+
+This information normally remains on your device until you clear the Game's app data or uninstall the Game. Device backup and restore features provided by your operating system or app store may process local app data in accordance with their own terms and privacy policies.
+
+ 3. Advertising
+
+Where ads are enabled in your version, AdMob processes device and advertising identifiers, IP addresses, ad interactions, app activity and diagnostic information to serve and measure ads and to prevent fraud. UMP records your privacy choices and may show a consent form where the law requires one. On iOS, advertising tracking is subject to the system permission choice; declining it does not necessarily remove contextual ads.
+
+Rewarded ads are always optional: you choose to watch one in exchange for an in-game benefit. Interstitial ads may appear only between runs, never during a run.
+
+Google's handling of this information is described at https://policies.google.com/technologies/partner-sites and https://policies.google.com/privacy.
+
+ 4. Leaderboards and Platform Game Services
+
+Where leaderboards are enabled in your version, your best score and best distance are sent to Google Play Games (Android) or Apple Game Center (iOS) under your platform game profile, and are shown to other players according to your settings on that platform. Signing in is handled by the platform. Rapheldor does not receive your platform account password and does not keep a copy of your platform player identifier on its own servers. You can manage or delete your game profile data in the Google Play Games or Game Center settings.
+
+ 5. Purchases
+
+If a version offers optional purchases, payments are processed by Google Play or the Apple App Store. Rapheldor does not receive or store your payment card details.
+
+ 6. Voluntary Support and Bug Reports
+
+If you contact us by email, we receive your email address, the contents of your message and anything you choose to attach. We use this information only to respond to you, investigate and fix problems, protect our support channel from abuse and comply with applicable legal obligations. Please do not include passwords, government-issued identification numbers, financial information or other unnecessary sensitive information.
+
+Our support email is hosted by a third-party email provider, currently Google's Gmail service.
+
+ 7. App Store and Platform Information
+
+Google Play, the Apple App Store, Android, iOS, device manufacturers and operating system services may independently process information such as downloads, installations, device details, app store account information and crash or performance diagnostics. Their processing is governed by their own privacy policies.
+
+Rapheldor may receive aggregated or pseudonymized reports made available through Google Play or the Apple App Store, such as the Game version, device model, operating system version, crash stack traces and installation statistics. We use these reports solely to maintain and improve the Game.
+
+ 8. Legal Bases, Retention and Your Rights
+
+Where data protection laws such as the GDPR, the UK GDPR or the Turkish Personal Data Protection Law (KVKK) apply, we rely on your consent (for example for personalised advertising where required), on our legitimate interests in operating, securing and improving the Game, and on compliance with legal obligations.
+
+We keep support correspondence only as long as needed to handle the request and to meet legal obligations. Data handled by AdMob, Google Play Games, Game Center and the app stores is retained by those providers under their own policies.
+
+Depending on where you live, you may have the right to access, correct, delete or restrict the processing of your personal information, to object to processing, to withdraw consent and to lodge a complaint with your data protection authority. To exercise these rights for information we hold, contact us at rapheldorsoftware@gmail.com. For information held by a platform or advertising provider, use that provider's controls.
+
+ 9. Security
+
+Information stored on your device is protected by your device's own security. No method of storage or transmission is completely secure, and we cannot guarantee absolute security.
+
+ 10. Children
+
+CarSurf is not directed to children under 13. Children under 13 should not use the Game or send us support messages. If you are a parent or legal guardian and believe that a child under 13 has provided us with personal information, please contact us at rapheldorsoftware@gmail.com. We will take reasonable steps to locate and delete that information.
+
+Users aged 13 to 17 should ask a parent or legal guardian to review this Privacy Policy and obtain any permission required under applicable law.
+
+ 11. Third-Party Links
+
+The Game may open external links, including our website, this Privacy Policy, the Terms of Use, app store pages and your email application. We do not control the privacy practices or content of third-party services.
+
+ 12. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes to the Game, applicable laws or our privacy practices. We will update the "Last Updated" date and, where required, provide additional notice within the Game or through the relevant app store.
+
+Feature availability varies by installed version and platform. A version without ads, leaderboards or purchases does not send the corresponding information.
+
+ 13. Contact
+
+Developer and Data Controller:
+Nurullah KIRBIZ, publishing as Rapheldor Software
+
+Country:
+Türkiye
+
+Privacy and Support Email:
+rapheldorsoftware@gmail.com
+
+Website:
+https://rapheldorsoftware.com
+
+Game:
+CarSurf
