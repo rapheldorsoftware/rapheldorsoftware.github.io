@@ -1,12 +1,12 @@
 # Speaktou Privacy Policy
 
-**Last updated: October 4, 2026**
+**Last updated: October 11, 2026**
 
 This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"), handles information when you use the Speaktou mobile application (the "App") and the Speaktou pages on rapheldorsoftware.com.
 
 ## 1. At a glance
 
-Speaktou is a language-learning app with a local-first practice experience. Practice history, streaks, accuracy scores, weak-word tracking, collected vocabulary ("Word Tower"), and most settings are stored on your device. Speaktou also uses Firebase for accounts and progress synchronization, device speech-recognition services for pronunciation practice, RevenueCat and app-store services for subscriptions and lifetime purchases, and Google Mobile Ads to display ads to non-Premium users.
+Speaktou is a language-learning app with a local-first practice experience. Practice history, streaks, accuracy scores, weak-word tracking, collected vocabulary ("Word Tower"), and most settings are stored on your device. Starting with version 0.6.30, Speaktou uses a local learner identifier and optional backups to your own Google Drive, iCloud on supported Apple devices, or an exported file. It does not create a Firebase Authentication account or synchronize learning progress to Cloud Firestore in this version. Earlier versions used Firebase accounts and synchronization as explained below. Speaktou also uses device speech-recognition services, RevenueCat and app-store services for purchases, Google Mobile Ads for non-Premium users, and optional adult usage analytics.
 
 We do not sell or rent your personal information. We do not provide practice transcripts, pronunciation scores, or vocabulary history to advertisers for building advertising profiles.
 
@@ -20,11 +20,27 @@ The following information may be stored on your device:
 - an age band (under 13, 13–17, or 18+), daily practice goals, reminder times, app language, speech-recognition locale, appearance, consent, and other settings; and
 - purchase status and technical records needed to unlock or restore Premium access.
 
-Uninstalling the App generally removes local app data, subject to the operating system's backup and restore behavior. Account deletion from the App also removes the current account's locally stored learning data from that device.
+Uninstalling the App generally removes local app data, subject to the operating system's backup and restore behavior. In version 0.6.30 and later, Settings > Delete data removes the learning data on that device. Cloud backups and exported copies require the additional deletion steps described below.
 
-## 3. Accounts, sign-in, and cloud synchronization
+## 3. Local identity, optional backups, and earlier-version accounts
 
-Speaktou creates a Firebase Authentication account when you continue as a guest. A guest account is anonymous and is identified by a randomly generated Firebase user identifier. You may later connect Google, or Apple on supported Apple devices, to keep access to the same account. Google or Apple sign-in may provide Firebase with your email address, display name, profile photo, provider identifier, and authentication tokens. Apple may provide a private relay email address.
+### Version 0.6.30 and later
+
+The App assigns a randomly generated local learner identifier to your progress. Upgrading preserves existing local records and their owner identifier, which can be the Firebase identifier assigned by an earlier version. This identifier is also used as the RevenueCat App User ID for purchase validation.
+
+Backups are optional. When you connect Google Drive, the App requests the app-specific `drive.appdata` scope and stores backup archives in its hidden application-data folder. This permission does not give the App access to the rest of your Drive files. On supported Apple devices, iCloud backups use the Speaktou iCloud container associated with your Apple account. You can also export a backup file to a destination you choose.
+
+A backup contains the local learning database, including recognized speech transcripts, pronunciation results, practice history, vocabulary, streaks and eligible app settings, together with the owner identifier needed to restore progress. Raw microphone recordings are not included. Age assurance, analytics consent, cached purchase entitlements and backup connection settings are re-established on the destination device. Restoring a backup replaces its existing learning database and eligible settings. A backup does not grant Premium access without store verification.
+
+Google and Apple store and process cloud backups under their own privacy policies. Speaktou does not upload a copy of these backups to Rapheldor Software's servers. Exported backups are ordinary ZIP archives without an additional password or app-level encryption. Protect the files and the accounts or destinations you choose: anyone with a usable backup file can access its contents.
+
+Disconnecting a provider stops its use in the App and does not itself erase its existing backups. Settings > Delete data removes local learning data and attempts to delete backups from the currently connected provider. If the provider is unavailable, cloud deletion can fail. Check the provider separately if deletion cannot be confirmed. Copies exported elsewhere, backups in previously connected accounts, and earlier-version Firebase records are not removed by deleting local data. Uninstalling the App also does not erase these copies. Deleting data does not cancel store subscriptions.
+
+### Earlier versions: Firebase accounts and synchronization
+
+The following account, synchronization, App Check and account-deletion description applies to versions before 0.6.30. Installing the new version does not itself delete records previously stored by those versions. For those records, use the older version's deletion flow when available or request deletion using the support instructions below.
+
+Earlier versions of Speaktou create a Firebase Authentication account when you continue as a guest. A guest account is anonymous and is identified by a randomly generated Firebase user identifier. In those versions, you may connect Google, or Apple on supported Apple devices, to keep access to the same account. Google or Apple sign-in may provide Firebase with your email address, display name, profile photo, provider identifier, and authentication tokens. Apple may provide a private relay email address.
 
 For signed-in and anonymous guest accounts, Speaktou may synchronize learning progress to Cloud Firestore, including:
 
@@ -38,7 +54,7 @@ We use this information to authenticate users, synchronize and restore progress,
 
 ### App Check and device integrity
 
-Speaktou uses Firebase App Check to help verify that requests come from a genuine copy of the App. On Android this may use Google Play Integrity; on Apple platforms it may use Apple DeviceCheck. These providers may process app, device, network, and integrity signals and return an attestation result. Speaktou receives the validation result rather than the underlying device-attestation details.
+Earlier versions use Firebase App Check to help verify that requests come from a genuine copy of the App. On Android this may use Google Play Integrity; on Apple platforms it may use Apple DeviceCheck. These providers may process app, device, network, and integrity signals and return an attestation result. Speaktou receives the validation result rather than the underlying device-attestation details. Version 0.6.30 does not use Firebase App Check for learning records or backups.
 
 ### Account retention and deletion
 
@@ -52,7 +68,7 @@ Deleting the account does **not** cancel an active Google Play or App Store subs
 
 When you start pronunciation practice, Speaktou uses the device's speech-recognition service (Apple's speech-recognition services on iOS or an Android speech recognizer) to convert speech into text. Depending on the device, language, and operating-system settings, raw audio may be transmitted to and processed by Apple, Google, or another speech-recognition provider under that provider's privacy terms.
 
-Speaktou does not save a raw voice recording or upload an audio file to Rapheldor Software's own servers. The resulting transcript and pronunciation score may be stored locally and synchronized to Firestore as described above. Microphone access is requested only when needed for pronunciation practice.
+Speaktou does not save a raw voice recording or upload an audio file to Rapheldor Software's own servers. The resulting transcript and pronunciation score may be stored locally and included in optional backups. Earlier versions may synchronize them to Firestore as described above. Microphone access is requested only when needed for pronunciation practice.
 
 ## 5. Text-to-speech
 
@@ -68,7 +84,7 @@ Non-Premium users may see banner, interstitial and optional rewarded advertiseme
 - diagnostic information such as crash information, performance data, and SDK errors; and
 - device, operating-system, App, and network information.
 
-Google uses this information to provide and measure advertising, perform analytics, prevent fraud and abuse, comply with law, and, where permitted, personalize advertisements. Firebase is initialized to support onboarding and authentication. Google Mobile Ads is initialized only after the user has signed in and an eligible age band has been resolved. For users aged 13–17, ad requests are marked for teen age-restricted treatment, limited to general-audience content, and requested as non-personalized ads. For users whose age is unresolved, no ads are requested. Depending on the user's region, Speaktou uses Google's User Messaging Platform to request consent or present privacy choices before requesting ads. Users can revisit available advertising privacy choices from the App's Settings screen. They may also manage advertising identifiers and personalization through device or Google account settings.
+Google uses this information to provide and measure advertising, perform analytics, prevent fraud and abuse, comply with law, and, where permitted, personalize advertisements. Google Mobile Ads is initialized only after an eligible age band has been resolved and applicable consent checks have completed. Earlier versions additionally required sign-in and initialized Firebase for onboarding/authentication; version 0.6.30 initializes Firebase only for optional usage analytics. For users aged 13–17, ad requests are marked for teen age-restricted treatment, limited to general-audience content, and requested as non-personalized ads. For users whose age is unresolved, no ads are requested. Depending on the user's region, Speaktou uses Google's User Messaging Platform to request consent or present privacy choices before requesting ads. Users can revisit available advertising privacy choices from the App's Settings screen. They may also manage advertising identifiers and personalization through device or Google account settings.
 
 Advertising data is processed by Google under the [Google Privacy Policy](https://policies.google.com/privacy) and [Google's advertising technologies information](https://policies.google.com/technologies/ads). Speaktou does not receive users' full advertising profiles from Google.
 
@@ -81,7 +97,7 @@ Speaktou can schedule daily practice and word-of-the-day reminders. These are lo
 Speaktou Premium offers monthly and annual auto-renewing subscriptions and a non-consumable lifetime purchase through Google Play or Apple's App Store. The store processes payment information, transaction identifiers, subscription status, and store-account information under its own policies. Rapheldor Software does not receive full payment-card details. The App receives and may store purchase status and transaction information necessary to unlock, validate, restore, and manage Premium access and prevent fraud.
 
 
-RevenueCat validates purchase receipts and manages Premium access. We send it the Firebase account identifier used as an App User ID, and it processes purchase history, product and transaction identifiers, subscription status, timestamps, and technical device information. We do not send practice transcripts or microphone recordings to RevenueCat. Purchase information is used for entitlement validation, restoration, fraud prevention and purchase reporting. See [RevenueCat's Privacy Policy](https://www.revenuecat.com/privacy/).
+RevenueCat validates purchase receipts and manages Premium access. We send it the local learner identifier used as an App User ID in version 0.6.30 and later; older installations can retain their earlier Firebase identifier. RevenueCat processes purchase history, product and transaction identifiers, subscription status, timestamps, and technical device information. We do not send practice transcripts or microphone recordings to RevenueCat. Purchase information is used for entitlement validation, restoration, fraud prevention and purchase reporting. See [RevenueCat's Privacy Policy](https://www.revenuecat.com/privacy/).
 
 ### Optional usage analytics
 
@@ -107,7 +123,7 @@ Firebase, Google, Apple, app-store providers, speech-service providers, and GitH
 
 We disclose information only as described in this Policy:
 
-- to service providers needed for authentication, cloud synchronization, integrity checks, speech recognition, text-to-speech, advertising and measurement, purchases, and website hosting;
+- to service providers needed for optional cloud backups, speech recognition, text-to-speech, advertising and optional measurement, purchases, and website hosting, and for authentication, cloud synchronization and integrity checks in earlier versions;
 - when directed by the user or with consent;
 - when required by law or a valid legal request; or
 - to protect users, the App, our rights, or the public from fraud, abuse, or security threats.
@@ -116,11 +132,11 @@ We do not sell or rent personal information.
 
 ## 12. Security
 
-We use reasonable technical and organizational measures, including encrypted network connections, platform authentication, Firebase access rules, and App Check. No system is completely secure, and we cannot guarantee absolute security. Users should keep their devices and provider accounts protected.
+We use reasonable technical and organizational measures, including encrypted network connections and provider authentication for cloud backups. Earlier versions use Firebase access rules and App Check for their Firebase services. Exported ZIP backups have no additional app-level encryption. No system is completely secure, and we cannot guarantee absolute security. Users should keep their devices, backup files and provider accounts protected.
 
 ## 13. Children
 
-Speaktou is intended for users aged 13 and older. The App determines an age band before allowing access to learning features or initializing advertising. Firebase authentication services may initialize earlier to support onboarding. On supported Android devices, it first requests an age-range signal from Google Play's Age Signals API. If Google Play does not share a signal, or on iOS, the App displays a neutral date-of-birth screen. The entered date is used on the device only to calculate an age band; the full date of birth is not stored or sent to Rapheldor Software. Only the resulting age band is stored locally. Google may process age-verification and age-range information under its own policies.
+Speaktou is intended for users aged 13 and older. The App determines an age band before allowing access to learning features or initializing advertising. In earlier versions, Firebase authentication services may initialize earlier to support onboarding. On supported Android devices, it first requests an age-range signal from Google Play's Age Signals API. If Google Play does not share a signal, or on iOS, the App displays a neutral date-of-birth screen. The entered date is used on the device only to calculate an age band; the full date of birth is not stored or sent to Rapheldor Software. Only the resulting age band is stored locally. Google may process age-verification and age-range information under its own policies.
 
 Users identified as under 13 cannot continue into the App. Users aged 13–17 receive an age-restricted experience, including general-audience, non-personalized advertising. Age information and Play Age Signals are used only to provide an age-appropriate experience and meet legal or platform requirements, not to build advertising profiles. A parent or guardian who believes a child provided account information may contact us to request review and deletion.
 
@@ -129,11 +145,12 @@ Users identified as under 13 cannot continue into the App. Users aged 13–17 re
 Depending on location, users may have rights to access, correct, delete, restrict, object to, or receive a copy of personal information and to withdraw consent. Users can manage:
 
 - optional usage analytics through **Settings > Usage analytics** in supported app versions;
-- the account and synchronized data through **Settings > Delete account** or the [account-deletion page](https://rapheldorsoftware.com/speaktou/account-deletion/);
+- local learning data through **Settings > Delete data** in version 0.6.30 and later, and optional cloud/exported copies as described in section 3;
+- earlier-version accounts and synchronized data through **Settings > Delete account** in those versions or the [account-deletion page](https://rapheldorsoftware.com/speaktou/account-deletion/);
 - advertising consent, when available, through **Settings > Privacy choices**;
 - advertising identifiers and personalization through device or Google account settings;
 - microphone and notification permissions through device settings;
-- local data by using account deletion or uninstalling the App; and
+- local data by using the version-appropriate deletion flow or uninstalling the App; and
 - subscriptions through Google Play or the App Store.
 
 Users in Türkiye may also have the rights provided under Article 11 of Turkish Law No. 6698 on the Protection of Personal Data (KVKK). Where applicable, users may lodge a complaint with their local data-protection authority.
@@ -171,4 +188,4 @@ Android Package Name:
 com.rapheldorsoftw.speaktou
 
 iOS Bundle Identifier:  
-com.rapheldorsoftware.speaktou
+com.rapheldorsoftw.speaktou

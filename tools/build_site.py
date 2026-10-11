@@ -126,7 +126,9 @@ for app_id in ('booktou','speaktou'):
     app=next(a for a in APPS if a['id']==app_id)
     fragment=(ROOT/'content'/f'account-deletion-{app_id}.html').read_text(encoding='utf-8')
     body='<main id="main" class="wrap deletion-main">'+fragment+'</main>'
-    html=page('Delete your '+app['name']+' account | Rapheldor Software','How to delete your '+app['name']+' account and associated data.',body,'/'+app_id+'/account-deletion/','en',app)
+    noun='data' if app_id=='speaktou' else 'account'
+    description='How to delete your '+app['name']+' '+noun+' and associated '+('records.' if app_id=='speaktou' else 'data.')
+    html=page('Delete your '+app['name']+' '+noun+' | Rapheldor Software',description,body,'/'+app_id+'/account-deletion/','en',app)
     html=re.sub(r'<link rel="alternate"[^>]+>','',html)
     write('/'+app_id+'/account-deletion/',html)
 

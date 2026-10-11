@@ -1,6 +1,6 @@
 # Speaktou Terms of Use
 
-**Last updated: October 4, 2026**
+**Last updated: October 11, 2026**
 
 These Terms of Use ("Terms") are an agreement between you and Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"). They govern your use of the Speaktou mobile application (the "App"). By downloading, accessing, or using Speaktou, you agree to these Terms and our [Privacy Policy](https://rapheldorsoftware.com/privacy?app=speaktou). If you do not agree, do not use the App.
 
@@ -18,15 +18,21 @@ For a copy obtained through Apple's App Store, your license is also subject to A
 
 ## 3. Your content and local data
 
-You retain responsibility for your spoken practice attempts and settings. Speaktou stores learning information locally and may synchronize it to the account's cloud records as described in the Privacy Policy. Device failure, operating-system changes, uninstallation, corrupted files, provider outages, or software errors can cause data loss. Cloud synchronization reduces this risk but does not guarantee recovery.
+You retain responsibility for your spoken practice attempts and settings. Speaktou stores learning information locally. Version 0.6.30 and later offers optional Google Drive, iCloud on supported Apple devices, and exported-file backups as described in the Privacy Policy. Earlier versions may synchronize progress to Firebase cloud records. Device failure, operating-system changes, uninstallation, corrupted files, provider outages, or software errors can cause data loss. Backups and synchronization can reduce this risk but do not guarantee recovery. Restoring a backup replaces the destination device's existing learning database and eligible settings.
 
-## 4. Accounts and cloud synchronization
+## 4. Local identity, backups, and earlier-version accounts
 
-Continuing as a guest creates an anonymous Firebase account. You may connect Google or, on supported Apple devices, Apple sign-in. You are responsible for your provider account and activity performed through it. Speaktou may synchronize practice progress so it can be restored across supported sessions and devices.
+Version 0.6.30 and later uses a local learner identifier instead of creating a Speaktou cloud sign-in account. You are responsible for protecting your device, backup files and the Google or Apple accounts you choose for backups. Backup availability depends on supported devices, provider access, connectivity and storage. Exported ZIP files do not have an additional app-level password or encryption.
+
+You can delete local learning data from **Settings > Delete data**. The App also attempts to remove backups from the currently connected provider, but provider errors can prevent cloud deletion. Exported copies, previously connected cloud accounts and earlier-version Firebase records require separate deletion as explained in the [data-deletion instructions](https://rapheldorsoftware.com/speaktou/account-deletion/). Deleting data or disconnecting a backup provider does not cancel an active store subscription.
+
+### Earlier versions
+
+In versions before 0.6.30, continuing as a guest creates an anonymous Firebase account. You may connect Google or, on supported Apple devices, Apple sign-in in those versions. You are responsible for your provider account and activity performed through it. Earlier versions may synchronize practice progress so it can be restored across supported sessions and devices. Upgrading does not itself erase previously stored Firebase records.
 
 You must not access another user's data, manipulate scoring or streaks through automated or abusive means, or use the account unlawfully. We may restrict or terminate cloud access when reasonably necessary to prevent abuse, comply with law, protect users or services, or address a serious breach of these Terms.
 
-You may delete the account from **Settings > Delete account** or follow the instructions at [Speaktou Account Deletion](https://rapheldorsoftware.com/speaktou/account-deletion/). Account deletion does not cancel an active store subscription.
+You may delete an earlier-version account from **Settings > Delete account** in that version or follow the instructions at [Speaktou Account Deletion](https://rapheldorsoftware.com/speaktou/account-deletion/). Account deletion does not cancel an active store subscription.
 
 ## 5. Microphone use and pronunciation scoring
 
@@ -50,7 +56,7 @@ Lifetime Premium is a one-time purchase with no automatic renewal. It provides a
 
 ## 8. Third-party services
 
-Speaktou relies on services supplied by Google, Apple, Firebase (including optional usage analytics), RevenueCat, Google Mobile Ads, app-store providers, and device speech providers for authentication, cloud synchronization, device integrity, speech recognition, text-to-speech, advertising, consent, measurement, and purchases. Their own terms and privacy policies apply. We do not guarantee the availability, accuracy, or content of third-party services.
+Speaktou relies on services supplied by Google, Apple, Firebase for optional usage analytics, RevenueCat, Google Mobile Ads, app-store providers and device speech providers for optional backups, speech recognition, text-to-speech, advertising, consent, measurement and purchases. Earlier versions additionally use Firebase authentication, cloud synchronization and App Check. Their own terms and privacy policies apply. We do not guarantee the availability, accuracy, or content of third-party services.
 
 ## 9. Notifications and learning results
 
@@ -70,7 +76,7 @@ To the maximum extent permitted by law, Rapheldor Software will not be liable fo
 
 ## 13. Termination
 
-You may stop using Speaktou at any time. You may delete the account, revoke provider access, and uninstall the App. Provisions that by their nature should survive termination, including ownership, disclaimers, limitations, and dispute terms, remain effective.
+You may stop using Speaktou at any time. You may delete local data or an earlier-version account, revoke provider access, and uninstall the App. Provisions that by their nature should survive termination, including ownership, disclaimers, limitations, and dispute terms, remain effective.
 
 ## 14. Governing law
 
@@ -120,4 +126,4 @@ Android Package Name:
 com.rapheldorsoftw.speaktou
 
 iOS Bundle Identifier:  
-com.rapheldorsoftware.speaktou
+com.rapheldorsoftw.speaktou
