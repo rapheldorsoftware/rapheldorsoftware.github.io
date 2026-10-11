@@ -1,0 +1,70 @@
+ CarSurf Terms of Use
+
+Effective Date: October 12, 2026
+
+Last Updated: October 12, 2026
+
+These Terms of Use are an agreement between you and Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("Rapheldor," "we," "us," or "our"). They apply to the mobile game CarSurf (the "Game"). By downloading or using the Game you agree to these Terms. If you do not agree, do not use the Game.
+
+ 1. The Game
+
+CarSurf is a free-to-play arcade driving game. It can be played offline. Some versions include online features such as advertisements, leaderboards or optional purchases; these need an internet connection and may not be available in every country, version or platform.
+
+ 2. Licence
+
+We grant you a personal, limited, non-exclusive, non-transferable, revocable licence to install and play the Game on devices you own or control, for non-commercial entertainment. You may not copy, modify, reverse engineer, redistribute, sell or rent the Game, remove notices from it, or use it in a way that breaks the law or the rules of the app store you downloaded it from.
+
+ 3. Fair Play
+
+You agree not to cheat, exploit bugs, use automation or modified versions of the Game, or submit false scores to leaderboards. We may remove scores that appear to have been obtained unfairly, and platform providers may apply their own rules.
+
+ 4. Virtual Items
+
+Coins, cars, paints, wheels, upgrades, boosters and other in-game items are licensed, not sold. They have no real-world value, cannot be exchanged for money and cannot be transferred outside the Game. Progress is stored on your device; it can be lost if you clear the Game's data, uninstall the Game or change devices, and we are not able to restore it.
+
+ 5. Advertisements
+
+Versions with ads show occasional interstitial ads between runs and optional rewarded ads. Rewarded ads are always your choice. Ad content is provided by third parties; we are not responsible for it. A reward is granted only when the ad provider reports that the ad was completed.
+
+ 6. Purchases
+
+If a version offers optional purchases, they are processed by Google Play or the Apple App Store under that store's terms, including its refund rules. Prices and availability may change.
+
+ 7. Platform Services
+
+Leaderboards and sign-in are provided by Google Play Games or Apple Game Center and are subject to their terms. We do not control those services.
+
+ 8. Intellectual Property
+
+The Game, including its code, artwork, sounds, names and logos, belongs to Rapheldor or its licensors and is protected by law. CarSurf's vehicles are original designs and do not represent real manufacturers or products.
+
+ 9. Safety
+
+Play responsibly. Do not play while driving, cycling or doing anything else that needs your attention. Driving in the Game is fiction and must not be imitated on real roads.
+
+ 10. Disclaimers
+
+The Game is provided "as is" and "as available," without warranties of any kind to the extent the law allows. We do not promise that the Game will always be available, error-free or compatible with every device.
+
+ 11. Limitation of Liability
+
+To the extent the law allows, Rapheldor is not liable for indirect, incidental, special or consequential damages, or for loss of data or progress, arising from your use of the Game. Nothing in these Terms limits rights that cannot be limited under the consumer law of your country.
+
+ 12. Changes and Termination
+
+We may update the Game and these Terms. When we change the Terms we update the "Last Updated" date and, where required, give notice in the Game or through the app store. You may stop using the Game at any time by uninstalling it. We may suspend or end access to online features if these Terms are broken.
+
+ 13. Governing Law
+
+These Terms are governed by the laws of the Republic of Türkiye, without affecting mandatory consumer protections that apply where you live.
+
+ 14. Privacy
+
+Our handling of information is described in the CarSurf Privacy Policy at https://www.rapheldorsoftware.com/privacy?app=carsurf.
+
+ 15. Contact
+
+Nurullah KIRBIZ, publishing as Rapheldor Software
+Türkiye
+rapheldorsoftware@gmail.com
+https://rapheldorsoftware.com
