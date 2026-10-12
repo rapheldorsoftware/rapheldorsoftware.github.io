@@ -110,6 +110,7 @@ def product(app,lang):
 def legal(kind):
     title='Privacy policy' if kind=='privacy' else 'Terms of use'
     cards=''.join(f'<a class="related-app" href="/{kind}?app={a["id"]}"><img src="/{a["icon"]}" width="44" height="44" alt=""><span>{E(a["name"])}</span><span aria-hidden="true">→</span></a>' for a in APPS)
+    cards += f'<a class="related-app" href="/{kind}?app=carsurf"><span>CarSurf</span><span aria-hidden="true">→</span></a>'
     body=f'''<main id="main" class="wrap legal-main"><p class="eyebrow">RAPHELDOR SOFTWARE</p><h1>{title}</h1><p class="lead">Choose an app to read its {title.lower()}.</p><nav class="legal-app-picker" aria-label="Apps">{cards}</nav><article class="policy-text" id="policy" aria-live="polite"></article></main>'''
     html=page(title+' | Rapheldor Software','Privacy and terms for Rapheldor Software apps.',body,'/'+kind,'en')
     html=html.replace('<body>','<body data-legal="'+kind+'">')
