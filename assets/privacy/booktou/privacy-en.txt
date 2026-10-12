@@ -1,6 +1,6 @@
 # Booktou Privacy Policy
 
-**Last updated: August 17, 2026**
+**Last updated: October 12, 2026**
 
 This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"), handles information when you use the Booktou mobile application (the "App") and the Booktou pages on rapheldorsoftware.com.
 
@@ -8,7 +8,7 @@ This Privacy Policy explains how Nurullah KIRBIZ, an independent software develo
 
 Booktou is local-first. Your library, books, reading history, notes, quotes, collections, goals, profile details, and most settings are stored on your device. We do not upload this content to our servers as part of the App's core functionality.
 
-Cloud processing occurs when you choose a network feature, such as Friend Streak, Google Drive backup, book search/cover lookup, advertising, or an in-app purchase, and also automatically through anonymous, aggregate app analytics and crash reporting, described below. The sections below explain each feature.
+Cloud processing occurs when you choose a network feature, such as Friend Streak, Google Drive backup, book search/cover lookup, advertising, or an in-app purchase. The App also uses crash reporting, and uses Firebase Analytics to help improve the App, subject to the installed version's usage-analytics controls described below. The sections below explain each feature.
 
 We do not sell your personal information. We do not use your library, notes, or reading history to build advertising profiles.
 
@@ -28,7 +28,7 @@ Because local data can be lost through uninstallation, device failure, operating
 
 ## 3. Optional Friend Streak account and cloud data
 
-Friend Streak is optional. Booktou does not create an anonymous Firebase account merely because you open the App. Firebase is initialized for this social feature when you choose to use it, and you must sign in with Google or Apple before creating or joining a Friend Streak.
+Friend Streak is optional. Booktou does not create an anonymous Firebase account merely because you open the App. Firebase Authentication and Cloud Firestore are used for this social feature when you choose to use it, and you must sign in with Google or Apple before creating or joining a Friend Streak.
 
 When you use Friend Streak, we and our service providers may process:
 
@@ -72,15 +72,21 @@ Text recognition is designed to run on the device through Google ML Kit. The sel
 
 ## 6. Analytics and crash reporting
 
-Booktou uses Firebase Analytics and Firebase Crashlytics, provided by Google Firebase, to understand feature usage in aggregate and to diagnose and fix crashes. Unlike the optional features described elsewhere in this policy, these run automatically in released builds of the App (they are disabled in development/debug builds) rather than only when you choose a specific feature.
+Booktou uses Firebase Analytics, provided by Google Firebase, to understand feature usage and improve the App. In versions that provide the About > Usage analytics control, usage analytics is optional and collection is disabled until you enable it. Advertising consent is separate and does not authorize usage analytics. You can withdraw this choice at any time using the same control; Booktou stops collection and resets local Analytics data and its app-instance identifier. This does not erase data previously processed by Google. Earlier installed versions may start usage analytics automatically in released builds as described by the previous policy; update to a version with the Usage analytics control to manage this choice.
 
-These tools may process device and app information, screen and event names, general usage patterns, app version, and crash diagnostics such as stack traces and device state at the time of a failure. Analytics events and user properties are limited to categorical, non-identifying information, such as a screen name or a selected theme — we do not send book titles, note content, author names, quotes, or other library content to Firebase Analytics or Crashlytics, and this data is not linked to your Friend Streak identity or used to build advertising profiles.
+Usage analytics may process app and device information, network information, screen and event names, categorical preferences such as a selected theme, and an app-instance identifier. We do not set a user identifier linking Analytics to your Friend Streak account. Book titles, note content, author names, quotes, birth dates, and account details are not included in Analytics events or user properties. In versions with the updated analytics consent controls, Analytics data is not authorized for advertising personalization or advertising data sharing, and Analytics does not collect the advertising identifier.
+
+Firebase Crashlytics is separate from the optional usage-analytics choice. It starts automatically in released builds to diagnose and fix crashes and errors, and may process app and device information, a Firebase installation identifier, crash logs, stack traces, and diagnostic information about a failure. Booktou does not intentionally attach library content or account identifiers to crash reports. Usage analytics and crash reporting are disabled in development/debug builds.
 
 ## 7. Advertising and consent
 
 The free version of Booktou uses Google AdMob, including rewarded ads for optional rewards such as streak freezes. Google and its advertising partners may process advertising identifiers, IP address, device and app information, approximate location derived from network data, ad interactions, diagnostics, and consent choices to provide, limit, personalize where permitted, prevent fraud, and measure ads.
 
 Where required, Booktou asks for advertising consent and provides ad privacy controls. On Apple platforms, tracking permission is requested where legally and technically required. Premium users are not shown ads, subject to successful purchase status restoration.
+
+Versions with the updated consent controls use Google's User Messaging Platform (UMP) to refresh advertising consent and sequence the iOS tracking explanation and permission request. You can change or withdraw advertising choices under About > Ad privacy settings whenever UMP requires that control. Ads loaded before a privacy-preference change are discarded. UMP determines whether personalized, non-personalized, or limited ads may be requested; rejecting personalized advertising does not necessarily prohibit every kind of ad.
+
+In versions with these updated consent controls, advertising and optional usage analytics are disabled when the locally determined age is under 16 or cannot be established. Booktou uses only a local eligibility decision for this restriction; it does not send the birth date or numeric age to advertising or Analytics SDKs.
 
 Booktou does not provide your local library, notes, quotes, or reading history to AdMob for advertising.
 
@@ -90,7 +96,7 @@ Premium purchases are processed by Google Play or Apple's App Store. The store m
 
 ## 9. Notifications, camera, photos, and device permissions
 
-Local reading reminders and streak reminders are scheduled on your device. Booktou currently does not use Friend Streak "nudge" actions to send a remote push notification; sharing a nudge uses your device's share sheet.
+Local reading reminders and streak reminders are scheduled on your device. Depending on the installed version, Friend Streak nudges may use your device's share sheet or remote push notifications. Versions supporting remote nudges use Firebase Cloud Messaging and a server-side service, which may process a device push token, a Friend Streak identifier, notification language, and delivery information to send the requested notification. Notification permission can be managed in device settings.
 
 Camera or photo access is used only when you choose features such as barcode scanning, selecting a cover, or text recognition. Biometric authentication, when enabled for app lock, is performed by the operating system; Booktou does not receive or store your biometric template.
 
@@ -100,7 +106,7 @@ The Booktou legal and account deletion pages are static pages hosted through Git
 
 ## 11. Legal bases and international processing
 
-Where data-protection law requires a legal basis, we process information as necessary to provide features you request and perform our agreement with you; based on your consent for optional sign-in, advertising, tracking, or Drive access where applicable; and for legitimate interests such as service security, abuse prevention, troubleshooting, aggregate analytics, crash diagnostics, and legal compliance. You can withdraw optional permissions through the App, device settings, provider account settings, or by deleting the Friend Streak account.
+Where data-protection law requires a legal basis, we process information as necessary to provide features you request and perform our agreement with you; based on your consent for optional usage analytics in versions with that control, advertising, tracking, sign-in, or Drive access where applicable; and for legitimate interests such as service security, abuse prevention, troubleshooting, crash diagnostics, and legal compliance. You can withdraw optional permissions through the App, device settings, provider account settings, or by deleting the Friend Streak account.
 
 Firebase, Google, Apple, GitHub, Open Library, advertising partners, and store providers may process information in countries other than your own. Their privacy terms and applicable safeguards govern their processing.
 
@@ -132,6 +138,7 @@ You can manage:
 - local data and exports in Booktou;
 - Google Drive backups in the backup screen or your Google Account;
 - ad privacy choices in Booktou where available;
+- optional usage analytics under About > Usage analytics in versions with that control;
 - notification, camera, photo, tracking, and biometric permissions in device settings;
 - subscriptions through Google Play or the App Store; and
 - Google or Apple account access through the provider's account settings.
