@@ -114,6 +114,7 @@ def legal(kind):
     body=f'''<main id="main" class="wrap legal-main"><p class="eyebrow">RAPHELDOR SOFTWARE</p><h1>{title}</h1><p class="lead">Choose an app to read its {title.lower()}.</p><nav class="legal-app-picker" aria-label="Apps">{cards}</nav><article class="policy-text" id="policy" aria-live="polite"></article></main>'''
     html=page(title+' | Rapheldor Software','Privacy and terms for Rapheldor Software apps.',body,'/'+kind,'en')
     html=html.replace('<body>','<body data-legal="'+kind+'">')
+    html=html.replace('/assets/site.js"', '/assets/site.js?v=carsurf-20261012"')
     # Legal views use their own canonical address, rather than home alternates.
     html=re.sub(r'<link rel="alternate"[^>]+>','',html)
     (ROOT/(kind+'.html')).write_text(html+'\n',encoding='utf-8')
