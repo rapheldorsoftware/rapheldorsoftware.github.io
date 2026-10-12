@@ -13,14 +13,14 @@ CarSurf (the "Game") for Android and iOS.
 
 Features depend on the installed version and platform. CarSurf stores game preferences and progress locally on your device and can be played offline. Versions that include online features may also use:
 
-- Google Mobile Ads (AdMob) for occasional interstitial ads and optional rewarded ads;
+- Google Mobile Ads (AdMob), with Unity Ads as a mediation advertising partner, for occasional interstitial ads and optional rewarded ads;
 - Google User Messaging Platform (UMP) for advertising privacy choices;
 - Google Play Games or Apple Game Center for platform sign-in and leaderboards; and
 - the app stores' purchase systems for optional purchases, if a version offers them.
 
 CarSurf does not offer a separate Rapheldor account. Online game services use your platform account. The Game does not request access to contacts, photos, the camera, the microphone or precise location.
 
-We do not sell personal information.
+Rapheldor does not sell personal information for money. Advertising partners may process or share information for targeted advertising; this may be considered sharing or a sale under some privacy laws. Available advertising privacy choices depend on your region and platform.
 
  2. Information Stored Only on Your Device
 
@@ -36,11 +36,15 @@ This information normally remains on your device until you clear the Game's app 
 
  3. Advertising
 
-Where ads are enabled in your version, AdMob processes device and advertising identifiers, IP addresses, ad interactions, app activity and diagnostic information to serve and measure ads and to prevent fraud. UMP records your privacy choices and may show a consent form where the law requires one. On iOS, advertising tracking is subject to the system permission choice; declining it does not necessarily remove contextual ads.
+Where ads are enabled in your version, ads are requested through Google Mobile Ads (AdMob). AdMob mediation may obtain an ad from Google or Unity Ads. These SDKs process device and advertising identifiers, SDK-assigned identifiers, IP addresses and inferred approximate location, ad views and interactions, app activity, device configuration, and crash or performance diagnostics. Unity's SDK disclosures also cover purchase history or purchase tendencies. CarSurf does not transmit payment card details and the current version does not offer in-app purchases. This information is used for advertising, measurement and analytics, SDK operation, and fraud prevention or legal compliance, as applicable to the provider and data type.
+
+UMP records your privacy choices and may show a consent form where the law requires one. You can revisit available advertising privacy choices from the Game's settings. On iOS, advertising tracking is subject to the system permission choice; declining it does not necessarily remove contextual ads. Advertising SDKs may still process information needed to deliver and measure contextual ads.
 
 Rewarded ads are always optional: you choose to watch one in exchange for an in-game benefit. Interstitial ads may appear only between runs, never during a run.
 
 Google's handling of this information is described at https://policies.google.com/technologies/partner-sites and https://policies.google.com/privacy.
+
+Unity's handling of information and privacy controls are described at https://unity.com/legal/privacy-policy. An ad's privacy or information controls may also provide access to the advertising provider's choices and deletion requests.
 
  4. Leaderboards and Platform Game Services
 
@@ -66,9 +70,15 @@ Rapheldor may receive aggregated or pseudonymized reports made available through
 
 Where data protection laws such as the GDPR, the UK GDPR or the Turkish Personal Data Protection Law (KVKK) apply, we rely on your consent (for example for personalised advertising where required), on our legitimate interests in operating, securing and improving the Game, and on compliance with legal obligations.
 
-We keep support correspondence only as long as needed to handle the request and to meet legal obligations. Data handled by AdMob, Google Play Games, Game Center and the app stores is retained by those providers under their own policies.
+We keep support correspondence only as long as needed to handle the request and to meet legal obligations. Data handled by AdMob, Unity Ads, Google Play Games, Game Center and the app stores is retained by those providers under their own policies.
 
 Depending on where you live, you may have the right to access, correct, delete or restrict the processing of your personal information, to object to processing, to withdraw consent and to lodge a complaint with your data protection authority. To exercise these rights for information we hold, contact us at rapheldorsoftware@gmail.com. For information held by a platform or advertising provider, use that provider's controls.
+
+Data deletion requests for CarSurf
+
+To delete progress and preferences stored only on your device, clear CarSurf's app data or uninstall the Game. To request deletion of support correspondence held by Rapheldor, email rapheldorsoftware@gmail.com with the subject "CarSurf data deletion" and identify the correspondence you want deleted. Do not send passwords or identity documents. We delete correspondence we no longer need, except records that must be retained to meet a legal obligation or resolve an active dispute; any applicable reason and retention period will be explained in our response.
+
+For advertising data held by Google or Unity, use the provider's privacy controls linked above or the privacy controls in the ad itself. You may also contact us for help directing a request to the relevant provider. Provider-held advertising records follow that provider's deletion process and retention policy; uninstalling CarSurf does not itself delete those records.
 
  9. Security
 
