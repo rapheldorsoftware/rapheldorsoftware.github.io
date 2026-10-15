@@ -2,13 +2,13 @@
 
 Effective Date: October 15, 2026
 
-Last Updated: October 16, 2026
+Last Updated: October 17, 2026
 
 These Terms of Use are an agreement between you and Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("Rapheldor," "we," "us," or "our"). They apply to the mobile game Bumper Pop! (the "Game"). The Game asks you to accept these Terms and the Privacy Policy before you play for the first time. If you do not agree, do not use the Game.
 
  1. The Game
 
-Bumper Pop! is a free match-3 puzzle game with a bumper-car theme. It is free to play and funded by advertising: it shows full-screen ads at natural breaks and offers optional rewarded videos (for example, extra moves). The current version has no in-app purchases. Ads are provided by Google AdMob; an internet connection is needed for ads but not for playing.
+Bumper Pop! is a free match-3 puzzle game with a bumper-car theme. It is free to play and funded by advertising: it shows full-screen ads at natural breaks and offers optional rewarded videos (for example, extra moves). The current version has no in-app purchases. Ads are provided by Google AdMob; an internet connection is needed for ads but not for playing. Where advertising has not been enabled for a platform (for example a first iOS release), that version shows no ads and offers no rewarded videos.
 
  2. Licence
 

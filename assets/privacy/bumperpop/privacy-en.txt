@@ -2,7 +2,7 @@
 
 Effective Date: October 15, 2026
 
-Last Updated: October 16, 2026
+Last Updated: October 17, 2026
 
 This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer
 based in Türkiye and publishing under the name Rapheldor Software ("Rapheldor,"
@@ -39,13 +39,15 @@ This information never leaves your device through the Game. It remains on your d
 
 The Game uses the Google Mobile Ads SDK (Google AdMob) to show ads, and Google's User Messaging Platform (UMP) to request and store your privacy choices. When ads are requested, Google and its advertising partners may collect and process:
 
-- your device's advertising identifier (Android Advertising ID or Apple IDFA, where permitted) and other device identifiers;
+- on Android, your device's advertising identifier (Android Advertising ID) and other device identifiers; on iOS, identifiers other than Apple's advertising identifier (see below);
 - IP address and the approximate location derived from it;
 - device and app information, such as device model, operating system, language, app version and screen size;
 - ad interaction data, such as ad impressions, clicks and video completion; and
 - diagnostic information used to measure, debug and secure ad delivery and to prevent fraud.
 
-This information is used to deliver, measure and limit the frequency of ads, to detect fraud and abuse and, where you consent or where the law allows, to show personalized ads. In regions where consent is required, you are asked for your choice before personalized ads are shown; you can change your choice at any time with the "Privacy choices" button in the Game's Settings. You can also reset or delete your advertising ID, or opt out of ads personalization, in your device settings (Android: Settings > Google > Ads or Settings > Privacy > Ads; iOS: Settings > Privacy & Security > Tracking).
+This information is used to deliver, measure and limit the frequency of ads, to detect fraud and abuse and, where you consent or where the law allows, to show personalized ads. In regions where consent is required, you are asked for your choice before personalized ads are shown; you can change your choice at any time with the "Privacy choices" button in the Game's Settings. You can also reset or delete your advertising ID, or opt out of ads personalization, in your device settings (Android: Settings > Google > Ads or Settings > Privacy > Ads; iOS: Settings > Privacy & Security > Tracking and Apple Advertising).
+
+On iOS, the Game does not ask for permission to track you through Apple's App Tracking Transparency framework, so Apple's advertising identifier (IDFA) is not accessed and ads are never personalized using it. The Google Mobile Ads SDK on iOS is configured not to start until the Game starts it; the iOS version shows ads only where advertising has been enabled for iOS, and it does not collect any data before that.
 
 Ads in the Game are requested with a maximum content rating suitable for general audiences with parental guidance (PG). Rapheldor does not receive the identifiers listed above. Google's processing is governed by Google's Privacy Policy (https://policies.google.com/privacy) and its explanation of how Google uses information from apps that use its services (https://policies.google.com/technologies/partner-sites).
 
