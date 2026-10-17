@@ -1,6 +1,6 @@
 # Booktou Privacy Policy
 
-**Last updated: October 12, 2026**
+**Last updated: October 17, 2026**
 
 This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("we", "us", or "our"), handles information when you use the Booktou mobile application (the "App") and the Booktou pages on rapheldorsoftware.com.
 
@@ -72,7 +72,7 @@ Text recognition is designed to run on the device through Google ML Kit. The sel
 
 ## 6. Analytics and crash reporting
 
-Booktou uses Firebase Analytics, provided by Google Firebase, to understand feature usage and improve the App. In versions that provide the About > Usage analytics control, usage analytics is optional and collection is disabled until you enable it. Advertising consent is separate and does not authorize usage analytics. You can withdraw this choice at any time using the same control; Booktou stops collection and resets local Analytics data and its app-instance identifier. This does not erase data previously processed by Google. Earlier installed versions may start usage analytics automatically in released builds as described by the previous policy; update to a version with the Usage analytics control to manage this choice.
+Booktou uses Firebase Analytics, provided by Google Firebase, to understand feature usage and improve the App. Usage analytics is on by default and can be turned off at any time under About > Usage analytics. In the European Economic Area, the United Kingdom and Switzerland (as reported by Google's User Messaging Platform), and while the region is not yet known, Booktou uses Google consent mode with analytics storage denied: Analytics does not read or store an app-instance identifier and receives only identifier-free signals used for aggregated, modeled reporting. Turning the control on there allows the identifier, for users aged 16 or older. Advertising consent does not change these analytics settings. When you turn the control off, Booktou stops collection and resets local Analytics data and its app-instance identifier. This does not erase data previously processed by Google. Earlier installed versions may start usage analytics automatically in released builds as described by the previous policy; update to a version with the Usage analytics control to manage this choice.
 
 Usage analytics may process app and device information, network information, screen and event names, categorical preferences such as a selected theme, and an app-instance identifier. We do not set a user identifier linking Analytics to your Friend Streak account. Book titles, note content, author names, quotes, birth dates, and account details are not included in Analytics events or user properties. In versions with the updated analytics consent controls, Analytics data is not authorized for advertising personalization or advertising data sharing, and Analytics does not collect the advertising identifier.
 
@@ -86,7 +86,7 @@ Where required, Booktou asks for advertising consent and provides ad privacy con
 
 Versions with the updated consent controls use Google's User Messaging Platform (UMP) to refresh advertising consent and sequence the iOS tracking explanation and permission request. You can change or withdraw advertising choices under About > Ad privacy settings whenever UMP requires that control. Ads loaded before a privacy-preference change are discarded. UMP determines whether personalized, non-personalized, or limited ads may be requested; rejecting personalized advertising does not necessarily prohibit every kind of ad.
 
-In versions with these updated consent controls, advertising and optional usage analytics are disabled when the locally determined age is under 16 or cannot be established. Booktou uses only a local eligibility decision for this restriction; it does not send the birth date or numeric age to advertising or Analytics SDKs.
+In versions with these updated consent controls, advertising is disabled when the locally determined age is under 16 or cannot be established, and usage analytics is disabled when the locally determined age is under 13. Booktou uses only a local eligibility decision for this restriction; it does not send the birth date or numeric age to advertising or Analytics SDKs.
 
 Booktou does not provide your local library, notes, quotes, or reading history to AdMob for advertising.
 
@@ -106,7 +106,7 @@ The Booktou legal and account deletion pages are static pages hosted through Git
 
 ## 11. Legal bases and international processing
 
-Where data-protection law requires a legal basis, we process information as necessary to provide features you request and perform our agreement with you; based on your consent for optional usage analytics in versions with that control, advertising, tracking, sign-in, or Drive access where applicable; and for legitimate interests such as service security, abuse prevention, troubleshooting, crash diagnostics, and legal compliance. You can withdraw optional permissions through the App, device settings, provider account settings, or by deleting the Friend Streak account.
+Where data-protection law requires a legal basis, we process information as necessary to provide features you request and perform our agreement with you; based on your consent for usage analytics identifiers where consent is required, advertising, tracking, sign-in, or Drive access where applicable; and for legitimate interests such as service security, abuse prevention, troubleshooting, crash diagnostics, aggregated usage measurement without identifiers, and legal compliance. You can withdraw optional permissions through the App, device settings, provider account settings, or by deleting the Friend Streak account.
 
 Firebase, Google, Apple, GitHub, Open Library, advertising partners, and store providers may process information in countries other than your own. Their privacy terms and applicable safeguards govern their processing.
 
