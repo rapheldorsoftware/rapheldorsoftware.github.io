@@ -2,7 +2,7 @@
 
 Effective Date: October 15, 2026
 
-Last Updated: October 17, 2026
+Last Updated: October 19, 2026
 
 This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer
 based in Türkiye and publishing under the name Rapheldor Software ("Rapheldor,"
@@ -11,13 +11,14 @@ Bumper Pop! (the "Game") for Android and iOS.
 
  1. Privacy at a Glance
 
-Bumper Pop! is a free match-3 puzzle game. It is funded by advertising. The current version:
+Bumper Pop! is a free match-3 puzzle game. It is funded by advertising and optional in-app purchases. The current version:
 
 - stores your game progress and settings only on your device;
-- shows ads provided by Google AdMob: full-screen ads at natural breaks (for example when you restart a level) and optional rewarded videos that you choose to watch for extra moves;
+- shows ads served through Google AdMob, which may fill some ad requests with ads from Unity Ads: full-screen ads at natural breaks (for example when you restart a level) and optional rewarded videos that you choose to watch for rewards such as extra moves, coins or a life;
 - uses Google's User Messaging Platform to ask for your consent where the law requires it (for example in the EEA, the UK and Switzerland), and lets you change your choice later from the Settings screen;
-- does not offer in-app purchases;
-- does not require or offer an account or sign-in; and
+- offers optional in-app purchases (coins, boosters, unlimited lives, removal of full-screen ads), processed by Google Play or the Apple App Store;
+- offers optional leaderboards through Google Play Games (Android) or Apple Game Center (iOS), using the account you have with that service;
+- can send local reminders (for example when your lives are full or the daily wheel is ready) if you allow notifications; and
 - does not request access to contacts, photos, the camera, the microphone or location.
 
 Rapheldor itself does not receive, sell or share personal information collected by the ad services described in Section 3.
@@ -26,18 +27,18 @@ Rapheldor itself does not receive, sell or share personal information collected 
 
 The Game stores a limited amount of information locally on your device so it can remember your progress and preferences:
 
-- level stars and best scores, coins, boosters and unlocked garage paints;
-- daily round progress and a level you have left unfinished;
+- level stars and best scores, coins, boosters, lives, purchases already granted and unlocked garage paints;
+- daily round, daily wheel, win streak, piggy bank and star chest progress, and a level you have left unfinished;
 - selected language;
-- music, sound, vibration, accessibility and animation settings;
+- music, sound, vibration, reminder, accessibility and animation settings;
 - which tutorials and tips you have already seen; and
 - the date on which you accepted this Privacy Policy and the Terms of Use.
 
 This information never leaves your device through the Game. It remains on your device until you clear the Game's app data or uninstall the Game. Device backup and restore features provided by your operating system or app store may process local app data in accordance with their own terms and privacy policies.
 
- 3. Advertising (Google AdMob)
+ 3. Advertising (Google AdMob and Unity Ads)
 
-The Game uses the Google Mobile Ads SDK (Google AdMob) to show ads, and Google's User Messaging Platform (UMP) to request and store your privacy choices. When ads are requested, Google and its advertising partners may collect and process:
+The Game uses the Google Mobile Ads SDK (Google AdMob) to show ads, and Google's User Messaging Platform (UMP) to request and store your privacy choices. Through AdMob mediation, some ad requests may be filled by Unity Ads (Unity Technologies), whose SDK is included in the Game for that purpose. When ads are requested, Google, Unity and their advertising partners may collect and process:
 
 - on Android, your device's advertising identifier (Android Advertising ID) and other device identifiers; on iOS, identifiers other than Apple's advertising identifier (see below);
 - IP address and the approximate location derived from it;
@@ -47,9 +48,17 @@ The Game uses the Google Mobile Ads SDK (Google AdMob) to show ads, and Google's
 
 This information is used to deliver, measure and limit the frequency of ads, to detect fraud and abuse and, where you consent or where the law allows, to show personalized ads. In regions where consent is required, you are asked for your choice before personalized ads are shown; you can change your choice at any time with the "Privacy choices" button in the Game's Settings. You can also reset or delete your advertising ID, or opt out of ads personalization, in your device settings (Android: Settings > Google > Ads or Settings > Privacy > Ads; iOS: Settings > Privacy & Security > Tracking and Apple Advertising).
 
-On iOS, the Game does not ask for permission to track you through Apple's App Tracking Transparency framework, so Apple's advertising identifier (IDFA) is not accessed and ads are never personalized using it. The Google Mobile Ads SDK on iOS is configured not to start until the Game starts it; the iOS version shows ads only where advertising has been enabled for iOS, and it does not collect any data before that.
+On iOS, the Game does not ask for permission to track you through Apple's App Tracking Transparency framework, so Apple's advertising identifier (IDFA) is not accessed and ads are never personalized using it. The ad SDKs on iOS are is configured not to start until the Game starts it; the iOS version shows ads only where advertising has been enabled for iOS, and it does not collect any data before that.
 
-Ads in the Game are requested with a maximum content rating suitable for general audiences with parental guidance (PG). Rapheldor does not receive the identifiers listed above. Google's processing is governed by Google's Privacy Policy (https://policies.google.com/privacy) and its explanation of how Google uses information from apps that use its services (https://policies.google.com/technologies/partner-sites).
+Ads in the Game are requested with a maximum content rating suitable for general audiences with parental guidance (PG). Your consent choices collected through UMP are shared with Unity Ads in the industry-standard consent format, and Unity Ads respects them. Rapheldor does not receive the identifiers listed above. Google's processing is governed by Google's Privacy Policy (https://policies.google.com/privacy) and its explanation of how Google uses information from apps that use its services (https://policies.google.com/technologies/partner-sites). Unity's processing is governed by the Unity Privacy Policy (https://unity.com/legal/privacy-policy); you can learn more about Unity Ads and your choices at https://unity.com/legal/game-player-and-app-user-privacy-policy.
+
+ 3a. In-App Purchases, Leaderboards and Reminders
+
+In-app purchases are handled entirely by Google Play or the Apple App Store; Rapheldor never receives your payment details. The Game receives a purchase confirmation (product and transaction identifiers) so it can deliver what you bought and avoid granting it twice, and stores that locally on your device.
+
+Leaderboards are optional. If you sign in to Google Play Games or Apple Game Center, the Game submits your highest level and total stars, and the service shows them to other players together with your player name and avatar. Google's and Apple's processing is governed by their own privacy policies.
+
+Reminders are local notifications scheduled on your device by the Game. No notification data is sent to Rapheldor or to any server. You can turn reminders off in the Game's Settings or in your device's notification settings.
 
  4. Voluntary Support and Bug Reports
 
@@ -63,7 +72,7 @@ Google Play, the Apple App Store, Android, iOS, device manufacturers and operati
 
 Rapheldor may receive aggregated or pseudonymized reports made available through Google Play or the Apple App Store, such as the Game version, device model, operating system version, crash stack traces and installation statistics. We use these reports solely to maintain and improve the Game.
 
-The Game is built with the Unity engine. The Game does not enable Unity's optional analytics or advertising services; ads are provided only by Google AdMob as described in Section 3.
+The Game is built with the Unity engine. The Game does not enable Unity's optional analytics services; Unity Ads is used only through AdMob mediation as described in Section 3. In-app purchases use the Unity In-App Purchasing package, which communicates only with Google Play or the Apple App Store.
 
  6. Legal Bases, Retention and Your Rights
 
@@ -75,7 +84,7 @@ Depending on where you live, you may have the right to access, correct, delete o
 
 Data deletion requests for Bumper Pop!
 
-To delete progress and preferences stored on your device, clear the Game's app data or uninstall the Game. Advertising data is held by Google, not by Rapheldor: you can reset or delete your advertising ID in your device settings and manage your Google data at https://myaccount.google.com. To request deletion of support correspondence held by Rapheldor, email rapheldorsoftware@gmail.com with the subject "Bumper Pop data deletion" and identify the correspondence you want deleted. Do not send passwords or identity documents. We delete correspondence we no longer need, except records that must be retained to meet a legal obligation or resolve an active dispute; any applicable reason and retention period will be explained in our response.
+To delete progress and preferences stored on your device, clear the Game's app data or uninstall the Game. Advertising data is held by Google and Unity, not by Rapheldor: you can reset or delete your advertising ID in your device settings, manage your Google data at https://myaccount.google.com and contact Unity about Unity Ads data through https://unity.com/legal/privacy-policy. Leaderboard entries are held by Google Play Games or Apple Game Center and can be managed in those services. To request deletion of support correspondence held by Rapheldor, email rapheldorsoftware@gmail.com with the subject "Bumper Pop data deletion" and identify the correspondence you want deleted. Do not send passwords or identity documents. We delete correspondence we no longer need, except records that must be retained to meet a legal obligation or resolve an active dispute; any applicable reason and retention period will be explained in our response.
 
  7. Security
 
