@@ -586,7 +586,7 @@
     "accent": "#087e73",
     "tint": "#e9f5f1",
     "icon": "assets/speaktou/icon.webp",
-    "apple": null,
+    "apple": "https://apps.apple.com/app/id6814258980",
     "images": [
       "assets/speaktou/marketing/practice.webp",
       "assets/speaktou/marketing/word-tower.webp",
@@ -2887,6 +2887,55 @@
           {
             "title": "Çoklu Oyun Modları",
             "body": "Klasik seviyeler, sonsuz mod veya hayatta kalma modunda oyna. Jeton topla ve güçlendirmeleri aç!"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "sleeptou",
+    "name": "Sleeptou",
+    "category": "sleep",
+    "accent": "#535598",
+    "tint": "#eeeef9",
+    "icon": "assets/sleeptou/icon.jpg",
+    "apple": "https://apps.apple.com/app/id6820843632",
+    "play": null,
+    "images": [
+      "assets/sleeptou/screen.jpg"
+    ],
+    "imageSizes": {
+      "assets/sleeptou/screen.jpg": [
+        221,
+        480
+      ]
+    },
+    "locales": {
+      "en": {
+        "title": "A calmer bedtime.",
+        "summary": "Wind down with sleep sounds, white noise, breathing exercises and a personal bedtime routine. Core sounds and routines work offline without a Sleeptou account. Optional Premium and personal cloud backups are available.",
+        "features": [
+          {
+            "title": "Sleep sounds",
+            "body": "Create a quiet bedtime atmosphere with sleep sounds and white noise."
+          },
+          {
+            "title": "Bedtime routines",
+            "body": "Build a personal routine with gentle breathing and a routine journal."
+          }
+        ]
+      },
+      "tr": {
+        "title": "Daha sakin bir uyku vakti.",
+        "summary": "Uyku sesleri, beyaz gürültü, nefes egzersizleri ve kişisel gece rutininle rahatla. Temel sesler ve rutinler Sleeptou hesabı olmadan çevrimdışı çalışır. İsteğe bağlı Premium ve kişisel bulut yedekleri sunulur.",
+        "features": [
+          {
+            "title": "Uyku sesleri",
+            "body": "Uyku sesleri ve beyaz gürültüyle sakin bir gece ortamı oluştur."
+          },
+          {
+            "title": "Gece rutinleri",
+            "body": "Nefes egzersizleri ve rutin günlüğüyle kişisel alışkanlıklar oluştur."
           }
         ]
       }

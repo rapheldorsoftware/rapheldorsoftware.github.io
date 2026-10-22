@@ -30,4 +30,7 @@ ROWS={
 }
 HOME={lang:dict(zip(KEYS,row.split('|'),strict=True)) for lang,row in ROWS.items()}
 COUNTS={'en':'9 apps','tr':'9 uygulama','ar':'9 تطبيقات','da':'9 apps','de':'9 Apps','el':'9 εφαρμογές','es':'9 apps','fi':'9 sovellusta','fil':'9 app','fr':'9 applications','hi':'9 ऐप','id':'9 aplikasi','it':'9 app','ja':'9つのアプリ','ko':'9개 앱','ms':'9 aplikasi','nb':'9 apper','nl':'9 apps','pl':'9 aplikacji','pt':'9 aplicações','ro':'9 aplicații','ru':'9 приложений','sv':'9 appar','th':'9 แอป','vi':'9 ứng dụng','zh':'9 款应用'}
-for lang,copy in HOME.items(): copy['count']=COUNTS[lang]
+for lang,copy in HOME.items(): copy['count']=COUNTS[lang].replace('9','10')
+
+SLEEP_LABELS={'en': 'Sleep sounds and bedtime routines', 'tr': 'Uyku sesleri ve gece rutinleri', 'ar': 'أصوات النوم وروتين وقت النوم', 'da': 'Søvnlyde og aftenrutiner', 'de': 'Schlafklänge und Abendroutinen', 'el': 'Ήχοι ύπνου και βραδινές συνήθειες', 'es': 'Sonidos para dormir y rutinas nocturnas', 'fi': 'Uniäänet ja iltarutiinit', 'fil': 'Mga tunog sa pagtulog at gawain sa gabi', 'fr': 'Sons de sommeil et routines du soir', 'hi': 'नींद की आवाज़ें और सोने की दिनचर्या', 'id': 'Suara tidur dan rutinitas malam', 'it': 'Suoni per dormire e routine serali', 'ja': '睡眠サウンドと就寝ルーティン', 'ko': '수면 사운드와 취침 루틴', 'ms': 'Bunyi tidur dan rutin malam', 'nb': 'Søvnlyder og kveldsrutiner', 'nl': 'Slaapgeluiden en avondroutines', 'pl': 'Dźwięki snu i wieczorne rytuały', 'pt': 'Sons para dormir e rotinas noturnas', 'ro': 'Sunete de somn și rutine de seară', 'ru': 'Звуки для сна и вечерние привычки', 'sv': 'Sömnljud och kvällsrutiner', 'th': 'เสียงเพื่อการนอนและกิจวัตรก่อนนอน', 'vi': 'Âm thanh ngủ và thói quen trước khi ngủ', 'zh': '助眠声音与睡前习惯'}
+for lang, copy in HOME.items(): copy['sleep']=SLEEP_LABELS[lang]

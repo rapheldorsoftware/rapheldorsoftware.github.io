@@ -41,8 +41,9 @@ def header(app,lang):
 
 def footer(lang,app=None):
     u=UI[lang]; query='?app='+app['id'] if app else ''
-    return f'''<footer class="site-footer wrap"><a class="footer-brand" href="{route(None,home_lang(lang))}">Rapheldor Software</a>
+    html = f'''<footer class="site-footer wrap"><a class="footer-brand" href="{route(None,home_lang(lang))}">Rapheldor Software</a>
 <span>© 2026 Rapheldor Software</span><div><a href="/privacy{query}">Privacy policy</a><a href="/terms{query}">Terms of use</a><a href="mailto:rapheldorsoftware@gmail.com">{E(u['support'])}</a></div></footer>'''
+    return html.replace('/privacy?app=sleeptou','/sleeptou/privacy.html').replace('/terms?app=sleeptou','/sleeptou/terms.html')
 
 def page(title,description,body,path,lang,app=None,extra_head=''):
     image='/'+(app['images'][0] if app else 'assets/social-preview.png')
@@ -104,12 +105,16 @@ def product(app,lang):
     if live_stores: schema['sameAs']=live_stores
     if app['play'] and app['apple']: schema['operatingSystem']='Android, iOS'
     elif app['play']: schema['operatingSystem']='Android'
+    elif app['apple']: schema['operatingSystem']='iOS'
     # Do not claim an unreleased listing, rating, price or store availability.
+    if app['id']=='sleeptou':
+        body=body.replace('/privacy?app=sleeptou','/sleeptou/privacy.html').replace('/terms?app=sleeptou','/sleeptou/terms.html')
+        body = body.replace('</main>', (ROOT/'content/sleeptou-support.html').read_text(encoding='utf-8')+'</main>')
     return page(app['name']+' | '+d['title'],d['summary'],body,path,lang,app,extra_head='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False)+'</script>')
 
 def legal(kind):
     title='Privacy policy' if kind=='privacy' else 'Terms of use'
-    cards=''.join(f'<a class="related-app" href="/{kind}?app={a["id"]}"><img src="/{a["icon"]}" width="44" height="44" alt=""><span>{E(a["name"])}</span><span aria-hidden="true">→</span></a>' for a in APPS)
+    cards=''.join(f'<a class="related-app" href="{('/sleeptou/'+kind+'.html') if a['id']=='sleeptou' else ('/'+kind+'?app='+a['id'])}"><img src="/{a["icon"]}" width="44" height="44" alt=""><span>{E(a["name"])}</span><span aria-hidden="true">→</span></a>' for a in APPS)
     cards += f'<a class="related-app" href="/{kind}?app=carsurf"><span>CarSurf</span><span aria-hidden="true">→</span></a>'
     cards += f'<a class="related-app" href="/{kind}?app=bumperpop"><img src="/assets/bumperpop/icon.webp" width="44" height="44" alt=""><span>Bumper Pop!</span><span aria-hidden="true">→</span></a>'
     body=f'''<main id="main" class="wrap legal-main"><p class="eyebrow">RAPHELDOR SOFTWARE</p><h1>{title}</h1><p class="lead">Choose an app to read its {title.lower()}.</p><nav class="legal-app-picker" aria-label="Apps">{cards}</nav><article class="policy-text" id="policy" aria-live="polite"></article></main>'''

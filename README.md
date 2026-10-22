@@ -1,6 +1,6 @@
 # Rapheldor Software
 
-Static showcase and product pages for nine apps. GitHub Pages serves the
+Static showcase and product pages for ten apps. GitHub Pages serves the
 checked-in HTML. No Node runtime, external font, frontend framework or tracking
 script is needed by visitors.
 
@@ -12,12 +12,12 @@ python tools/check_site.py
 ```
 
 Content lives in `content/apps.json`; shared translated labels live in
-`content/ui.py`. There are 109 product/language pages, 26 localized
+`content/ui.py`. There are 111 product/language pages, 26 localized
 showcase pages, privacy/terms views and two account-deletion pages.
 
 Each product only lists languages verified in its app repository. The product
-copy distinguishes interface languages from practice languages. Speaktou's
-store links stay unpublished until a public listing is verified. No invented
+copy distinguishes interface languages from practice languages. Speaktou and
+Sleeptou link to their verified public App Store listings. No invented
 store ratings, prices, download totals or release claims are included.
 
 To deliberately refresh the source snapshot from local Flutter app repositories:

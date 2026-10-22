@@ -57,7 +57,7 @@ for route in ROUTES:
     for tag,a in p.tags:
         if tag=='img' and a.get('src'):assert 'alt' in a and a.get('width') and a.get('height'),(route,'image attributes')
 
-expected={'booktou':25,'speaktou':17,'notero':14,'lessonta':19,'doitly':8,'dictiony':2,'beanjup':8,'wordballoonpop':2,'streaktou':14}
+expected={'booktou':25,'speaktou':17,'notero':14,'lessonta':19,'doitly':8,'dictiony':2,'beanjup':8,'wordballoonpop':2,'streaktou':14,'sleeptou':2}
 assert set(HOME)==set().union(*(set(a['locales']) for a in APPS))
 for lang,copy in HOME.items():
     route='/' if lang=='en' else '/'+lang+'/'
@@ -71,6 +71,9 @@ for lang,copy in HOME.items():
 for app in APPS:
     assert len(app['locales'])==expected[app['id']]
     for kind in ('privacy','terms'):
+        if app['id']=='sleeptou':
+            assert (ROOT/'sleeptou'/(kind+'.html')).exists()
+            continue
         assert (ROOT/'assets'/kind/app['id']/(kind+'-en.txt')).exists(),(app['id'],kind)
     for lang,copy in app['locales'].items():
         assert lang in UI and lang in NAMES
@@ -85,6 +88,11 @@ for app in APPS:
         alternatives={a.get('hreflang'):a.get('href') for t,a in p.tags if t=='link' and a.get('rel')=='alternate'}
         assert set(alternatives)==set(app['locales'])|{'x-default'}
         assert p.json[0]['name']==app['name']
+        if app['apple']:
+            assert app['apple'] in p.json[0]['sameAs']
+            assert p.json[0]['operatingSystem'] in ('iOS','Android, iOS')
+            assert sum(t=='a' and a.get('href')==app['apple'] for t,a in p.tags)==2
+            assert 'class="release-note"' not in file_for(route).read_text(encoding='utf-8')
 
 def lum(colour):
     rgb=[int(colour[i:i+2],16)/255 for i in (1,3,5)]
@@ -96,5 +104,5 @@ ratios={a['id']:round(contrast(a['accent'],'#ffffff'),2) for a in APPS}
 ratios['brand']=round(contrast('#69418e','#ffffff'),2)
 ratios['body']=round(contrast('#62616a','#faf9f6'),2)
 assert min(ratios.values())>=4.5,ratios
-print(f'PASS: {len(ROUTES)} routes, 109 app locales, {checks} local links/assets, 18 policy files, metadata and RTL.')
+print(f'PASS: {len(ROUTES)} routes, {sum(len(a["locales"]) for a in APPS)} app locales, {checks} local links/assets, policies, store links, metadata and RTL.')
 print('Text/button contrast:',ratios)

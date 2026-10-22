@@ -19,7 +19,7 @@ def clean(value):
 
 definitions = {
     'booktou': dict(name='Booktou', category='reading', accent='#4f46a8', tint='#f0edfb', icon='assets/booktou/marketing/icon.webp', apple='6795242771', title='onboardingWelcomeTitle', summary='appDescription', features=[('onboardingWelcomeTitle','onboardingWelcomeBody'),('onboardingTrackTitle','onboardingTrackBody'),('onboardingFocusTitle','onboardingFocusBody'),('pomodoroTimerFeature','pomodoroDescription')], images=['assets/booktou/marketing/track-books.webp','assets/booktou/marketing/statistics.webp','assets/booktou/marketing/notes-quotes.webp']),
-    'speaktou': dict(name='Speaktou', category='speaking', accent='#087e73', tint='#e9f5f1', icon='assets/speaktou/marketing/icon.webp', apple=None, title='practice', summary='onboardingSpeakingDescription', features=[('practice','onboardingSpeakingDescription'),('shareWordCardSubtitle','wordRemindersDescription'),('premiumStatsTitle','premiumStatsDescription'),('yourWordTower','wordTowerEmptyDescription'),('playbackSettings','playbackNoVoices'),('practiceCalendar','progressAccuracyHelp')], images=['assets/speaktou/marketing/practice.webp','assets/speaktou/marketing/word-tower.webp','assets/speaktou/marketing/listening.webp']),
+    'speaktou': dict(name='Speaktou', category='speaking', accent='#087e73', tint='#e9f5f1', icon='assets/speaktou/marketing/icon.webp', apple='6814258980', title='practice', summary='onboardingSpeakingDescription', features=[('practice','onboardingSpeakingDescription'),('shareWordCardSubtitle','wordRemindersDescription'),('premiumStatsTitle','premiumStatsDescription'),('yourWordTower','wordTowerEmptyDescription'),('playbackSettings','playbackNoVoices'),('practiceCalendar','progressAccuracyHelp')], images=['assets/speaktou/marketing/practice.webp','assets/speaktou/marketing/word-tower.webp','assets/speaktou/marketing/listening.webp']),
     'notero': dict(name='Notero', category='notes', accent='#9b4d12', tint='#fff3e4', icon='assets/notero-logo.png', apple=None, title='createNotes', summary='onboardingWelcome', features=[('organizeFolders','featureOrganizeFoldersDescription'),('share_notes_on_web','webShareLocalOnlyRule'),('convertToPdf',None),('backup_import','backup_import_description'),('secureNotes','add_password_description')]),
     'lessonta': dict(name='Lessonta', category='study', accent='#235fae', tint='#edf3fd', icon='assets/lessonta/lessonta_logo.png', apple=None, title='lessonSchedule', summary='aboutPageDescription', features=[('lessonSchedule','weeklyLessonDescription'),('attendance','attendanceTracking'),('homeworkReminders','homeworkRemindersDescription'),('examReminders','examRemindersDescription'),('adFreePdfExport','adFreePdfExportDescription'),('lessonReminderNotifications','lessonReminderNotificationsDescription')]),
     'doitly': dict(name='Doitly', category='tasks', accent='#35614c', tint='#eaf4ed', icon='assets/doitly/doitly_logo.png', apple=None, title='appdescription', summary='appdescription', features=[('subtasks',None),('filterByCategory',None),('calendar',None),('statistics','viewYourTaskStatistics'),('backupData','exportYourData'),('security','askPinOnAppOpen')]),
@@ -143,6 +143,10 @@ for app_id, definition in definitions.items():
             if app_id=='notero' and lang=='ro': features[3]['title']='Copie de siguranță și import'
             app['locales'][lang]=dict(title=clean(title),summary=clean(summary),features=features)
     apps.append(app)
+
+# Keep independently maintained products when refreshing Flutter snapshots.
+known_ids={a['id'] for a in apps}
+apps.extend(a for a in json.loads((ROOT/'content/apps.json').read_text(encoding='utf-8')) if a['id'] not in known_ids)
 
 (ROOT/'content/apps.json').write_text(json.dumps(apps,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('Imported',len(apps),'apps and',sum(len(a['locales']) for a in apps),'localized product pages')
