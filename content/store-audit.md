@@ -7,7 +7,7 @@ Only software records belonging to NURULLAH KIRBIZ were used.
 | App | App Store | Google Play |
 | --- | --- | --- |
 | Booktou | 6795242771 | com.rapheldorsoftware.booktou |
-| Speaktou | 6814258980 | No public listing verified |
+| Speaktou | 6814258980 | com.rapheldorsoftw.speaktou |
 | Sleeptou | 6820843632 | No public listing verified |
 | Beanjup | 6792344729 | com.rapheldorsoftware.beanjup |
 | Notero | Not in the checked Apple catalogue | com.rapheldorsoftware.notero |
@@ -34,3 +34,7 @@ fields of the Apple catalogue record for 6820843632. Images are used unmodified.
 
 This audit covers public store availability for the site's app/game portfolio;
 it is not a source-code review of every repository in the GitHub account.
+
+Speaktou Google Play update verified on 2026-10-25: the public listing at
+`https://play.google.com/store/apps/details?id=com.rapheldorsoftw.speaktou`
+returned HTTP 200. Both store buttons are enabled in all 17 product languages.

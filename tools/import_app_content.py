@@ -116,7 +116,7 @@ for app_id, definition in definitions.items():
     icon_path.parent.mkdir(parents=True,exist_ok=True)
     icon.save(icon_path,'WEBP',quality=90,method=6)
     app['icon']=icon_path.relative_to(ROOT).as_posix()
-    app['play'] = None if app_id == 'speaktou' else f'https://play.google.com/store/apps/details?id=com.rapheldorsoftware.{app_id}'
+    app['play'] = 'https://play.google.com/store/apps/details?id=com.rapheldorsoftw.speaktou' if app_id == 'speaktou' else f'https://play.google.com/store/apps/details?id=com.rapheldorsoftware.{app_id}'
     app['apple'] = f'https://apps.apple.com/app/id{app["apple"]}' if app['apple'] else None
     app['images'] = app.get('images') or [q.as_posix() for q in sorted((ROOT/'assets'/app_id/'screens').glob('*.webp'))]
     app['images'] = [p.replace(ROOT.as_posix()+'/', '') for p in app['images']]
