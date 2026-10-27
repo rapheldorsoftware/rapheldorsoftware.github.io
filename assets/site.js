@@ -42,6 +42,38 @@ if (glow && !calm) head.addEventListener('pointermove', event => {
   glow.style.setProperty('--gx', `${event.clientX - box.left}px`);
   glow.style.setProperty('--gy', `${event.clientY - box.top}px`);
 }, { passive: true });
+// tvOS-style tilt for app icons, plus a soft spotlight that follows the pointer over the catalogue.
+const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
+if (fine && !calm) {
+  const tilt = (icon, host, max) => {
+    host.addEventListener('pointermove', event => {
+      const box = icon.getBoundingClientRect();
+      const x = Math.max(-1, Math.min(1, (event.clientX - box.left) / box.width * 2 - 1));
+      const y = Math.max(-1, Math.min(1, (event.clientY - box.top) / box.height * 2 - 1));
+      icon.classList.add('is-tilting');
+      icon.style.setProperty('--rx', `${(-y * max).toFixed(2)}deg`);
+      icon.style.setProperty('--ry', `${(x * max).toFixed(2)}deg`);
+    });
+    host.addEventListener('pointerleave', () => {
+      icon.classList.remove('is-tilting');
+      icon.style.removeProperty('--rx');
+      icon.style.removeProperty('--ry');
+    });
+  };
+  document.querySelectorAll('.tile').forEach(tile => tilt(tile.querySelector('.icon'), tile, 14));
+  const productIcon = document.querySelector('.product-icon');
+  if (productIcon) tilt(productIcon, document.querySelector('.product-head'), 10);
+
+  const catalogue = document.querySelector('.catalogue');
+  catalogue?.addEventListener('pointermove', event => {
+    const box = catalogue.getBoundingClientRect();
+    catalogue.style.setProperty('--mx', `${event.clientX - box.left + 120}px`);
+    catalogue.style.setProperty('--my', `${event.clientY - box.top + 40}px`);
+    catalogue.style.setProperty('--spot', '1');
+  });
+  catalogue?.addEventListener('pointerleave', () => catalogue.style.setProperty('--spot', '0'));
+}
+
 // Screenshot strip: arrow buttons for mouse users, shown only when the strip overflows.
 const row = document.querySelector('.screens-row');
 if (row) {
