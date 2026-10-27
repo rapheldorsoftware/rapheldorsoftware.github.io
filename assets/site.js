@@ -1,29 +1,5 @@
-// Content and navigation work without JavaScript. This only enhances filtering,
-// scroll reveals and the screenshot viewer; no analytics or third-party code is loaded.
-const revealed = [...document.querySelectorAll('[data-reveal]')];
-if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  const observer = new IntersectionObserver(entries => entries.forEach(entry => {
-    if (!entry.isIntersecting) return;
-    entry.target.classList.add('is-visible');
-    observer.unobserve(entry.target);
-  }), { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
-  revealed.forEach(element => observer.observe(element));
-} else {
-  revealed.forEach(element => element.classList.add('is-visible'));
-}
-const filters = [...document.querySelectorAll('[data-filter]')];
-const cards = [...document.querySelectorAll('[data-category]')];
-filters.forEach(button => button.addEventListener('click', () => {
-  filters.forEach(other => other.setAttribute('aria-pressed', String(other === button)));
-  let count = 0;
-  cards.forEach(card => {
-    card.hidden = button.dataset.filter !== 'all' && card.dataset.category !== button.dataset.filter;
-    if (!card.hidden) count++;
-  });
-  const status = document.querySelector('.filter-status');
-  if (status) status.textContent = count ? `${button.textContent}: ${count}` : status.dataset.empty;
-}));
-
+// Content and navigation work without JavaScript. This only enhances the screenshot
+// viewer and legal pages; no analytics or third-party code is loaded.
 const dialog = document.querySelector('.image-dialog');
 if (dialog) {
   const shots = [...document.querySelectorAll('[data-shot]')];
