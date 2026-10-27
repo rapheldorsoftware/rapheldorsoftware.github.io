@@ -1,0 +1,100 @@
+ Baggage Flow Privacy Policy
+
+Effective Date: October 27, 2026
+
+Last Updated: October 27, 2026
+
+This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer
+based in Türkiye and publishing under the name Rapheldor Software ("Rapheldor,"
+"we," "us," or "our"), handles information in connection with the mobile puzzle game
+Baggage Flow (the "Game") for Android and iOS.
+
+ 1. Privacy at a Glance
+
+Baggage Flow is an offline logic puzzle game. It shows no ads and is funded by optional in-app purchases. The current version:
+
+- stores your game progress and settings only on your device;
+- contains no advertising, analytics or tracking SDKs;
+- offers optional in-app purchases (hint packs, a starter pack and Premium Forever), processed by Google Play or the Apple App Store;
+- offers optional leaderboards through Google Play Games (Android) or Apple Game Center (iOS), using the account you have with that service;
+- may ask you to rate the Game using the review prompt provided by Google Play or the Apple App Store; and
+- does not request access to contacts, photos, the camera, the microphone or location.
+
+Rapheldor does not collect, sell or share personal information through the Game.
+
+ 2. Information Stored Only on Your Device
+
+The Game stores a limited amount of information locally on your device so it can remember your progress and preferences:
+
+- unlocked levels, stars per level and the last level you played;
+- hints, Premium status and purchases already granted;
+- daily gift streak, star chest progress, starter pack timer and whether the tutorial and rating prompt have been shown;
+- selected language; and
+- sound, music, vibration and screen shake settings.
+
+This information never leaves your device through the Game. It remains on your device until you clear the Game's app data or uninstall the Game. Device backup and restore features provided by your operating system or app store may process local app data in accordance with their own terms and privacy policies.
+
+ 3. In-App Purchases and Leaderboards
+
+In-app purchases are handled entirely by Google Play or the Apple App Store through the Unity In-App Purchasing package; Rapheldor never receives your payment details. The Game receives a purchase confirmation (product and transaction identifiers) so it can deliver what you bought and avoid granting it twice, and stores that locally on your device. Premium Forever can be restored from the shop.
+
+Leaderboards are optional. If you sign in to Google Play Games or Apple Game Center, the Game submits your highest level and total stars, and the service shows them to other players together with your player name and avatar. Google's and Apple's processing is governed by their own privacy policies.
+
+ 4. Voluntary Support and Bug Reports
+
+If you contact us by email, we receive your email address, the contents of your message and anything you choose to attach. We use this information only to respond to you, investigate and fix problems, protect our support channel from abuse and comply with applicable legal obligations. Please do not include passwords, government-issued identification numbers, financial information or other unnecessary sensitive information.
+
+Our support email is hosted by a third-party email provider, currently Google's Gmail service.
+
+ 5. App Store and Platform Information
+
+Google Play, the Apple App Store, Android, iOS, device manufacturers and operating system services may independently process information such as downloads, installations, device details, app store account information and crash or performance diagnostics. Their processing is governed by their own privacy policies.
+
+Rapheldor may receive aggregated or pseudonymized reports made available through Google Play or the Apple App Store, such as the Game version, device model, operating system version, crash stack traces and installation statistics. We use these reports solely to maintain and improve the Game.
+
+The Game is built with the Unity engine. The Game does not enable Unity's optional analytics or advertising services.
+
+ 6. Legal Bases, Retention and Your Rights
+
+Where data protection laws such as the GDPR, the UK GDPR or the Turkish Personal Data Protection Law (KVKK) apply, we rely on our legitimate interests in operating, securing and improving the Game and on compliance with legal obligations.
+
+We keep support correspondence only as long as needed to handle the request and to meet legal obligations. Data handled by the app stores and platform providers is retained by those providers under their own policies.
+
+Depending on where you live, you may have the right to access, correct, delete or restrict the processing of your personal information, to object to processing and to lodge a complaint with your data protection authority. To exercise these rights for information we hold, contact us at rapheldorsoftware@gmail.com.
+
+Data deletion requests for Baggage Flow
+
+To delete progress and preferences stored on your device, clear the Game's app data or uninstall the Game. Leaderboard entries are held by Google Play Games or Apple Game Center and can be managed in those services. To request deletion of support correspondence held by Rapheldor, email rapheldorsoftware@gmail.com with the subject "Baggage Flow data deletion" and identify the correspondence you want deleted. Do not send passwords or identity documents. We delete correspondence we no longer need, except records that must be retained to meet a legal obligation or resolve an active dispute; any applicable reason and retention period will be explained in our response.
+
+ 7. Security
+
+Information stored on your device is protected by your device's own security. No method of storage or transmission is completely secure, and we cannot guarantee absolute security.
+
+ 8. Children
+
+Baggage Flow is a casual game for a general audience and is not directed at children under 13. Rapheldor does not knowingly collect personal information from children. Children should ask a parent or legal guardian before making purchases or sending us an email. If you are a parent or legal guardian and believe that a child has sent us personal information, please contact us at rapheldorsoftware@gmail.com and we will delete it.
+
+ 9. Third-Party Links
+
+The Game may open external links, including our website, this Privacy Policy, the Terms of Use, app store pages and your email application. We do not control the privacy practices or content of third-party services.
+
+ 10. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes to the Game, applicable laws or our privacy practices. We will update the "Last Updated" date and, where required, provide notice inside the Game or through the relevant app store.
+
+ 11. Contact
+
+Developer and Data Controller:
+Nurullah KIRBIZ, publishing as Rapheldor Software
+
+Country:
+Türkiye
+
+Privacy and Support Email:
+rapheldorsoftware@gmail.com
+
+Website:
+https://rapheldorsoftware.com
+
+Game:
+Baggage Flow

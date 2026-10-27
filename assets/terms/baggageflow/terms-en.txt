@@ -1,0 +1,64 @@
+ Baggage Flow Terms of Use
+
+Effective Date: October 27, 2026
+
+Last Updated: October 27, 2026
+
+These Terms of Use are an agreement between you and Nurullah KIRBIZ, an independent software developer based in Türkiye and publishing under the name Rapheldor Software ("Rapheldor," "we," "us," or "our"). They apply to the mobile game Baggage Flow (the "Game"). By installing or using the Game you agree to these Terms. If you do not agree, do not use the Game.
+
+ 1. The Game
+
+Baggage Flow is a logic puzzle game set in an airport baggage hall. It is free to download, shows no ads and offers optional in-app purchases. An internet connection is needed for purchases and leaderboards but not for playing.
+
+ 2. Licence
+
+We grant you a personal, limited, non-exclusive, non-transferable, revocable licence to install and play the Game on devices you own or control, for non-commercial entertainment. You may not copy, modify, reverse engineer, redistribute, sell or rent the Game, remove notices from it, or use it in a way that breaks the law or the rules of the app store you downloaded it from.
+
+ 3. Fair Play
+
+You agree not to cheat, exploit bugs, or use automation or modified versions of the Game.
+
+ 4. Virtual Items
+
+Hints, stars and other in-game items are licensed, not sold. They have no real-world value, cannot be exchanged for money and cannot be transferred outside the Game. Progress is stored on your device; it can be lost if you clear the Game's data, uninstall the Game or change devices, and we are not able to restore it.
+
+ 5. Purchases and Online Features
+
+The Game offers optional in-app purchases: hint packs, a one-time starter pack and Premium Forever, which unlocks all levels and unlimited hints. Hints are stored on your device and may be lost if you clear the Game's data or uninstall it, except that Premium Forever can be restored from the shop. Purchases are processed by Google Play or the Apple App Store under that store's terms, including its refund rules. Prices are shown by the store before you confirm.
+
+Leaderboards are provided by Google Play Games or Apple Game Center under their own terms. We may remove leaderboard entries that result from cheating or abuse.
+
+ 6. Intellectual Property
+
+The Game, including its code, artwork, sounds, names and logos, belongs to Rapheldor or its licensors and is protected by law. Fonts and other third-party components are used under their own licences.
+
+ 7. Healthy Play
+
+Take regular breaks. Do not play while driving, cycling or doing anything else that needs your attention.
+
+ 8. Disclaimers
+
+The Game is provided "as is" and "as available," without warranties of any kind to the extent the law allows. We do not promise that the Game will always be available, error-free or compatible with every device.
+
+ 9. Limitation of Liability
+
+To the extent the law allows, Rapheldor is not liable for indirect, incidental, special or consequential damages, or for loss of data or progress, arising from your use of the Game. Nothing in these Terms limits rights that cannot be limited under the consumer law of your country.
+
+ 10. Changes and Termination
+
+We may update the Game and these Terms. When we change the Terms we update the "Last Updated" date and, where required, give notice inside the Game or through the app store. You may stop using the Game at any time by uninstalling it.
+
+ 11. Governing Law
+
+These Terms are governed by the laws of the Republic of Türkiye, without affecting mandatory consumer protections that apply where you live.
+
+ 12. Privacy
+
+Our handling of information is described in the Baggage Flow Privacy Policy at https://www.rapheldorsoftware.com/privacy?app=baggageflow.
+
+ 13. Contact
+
+Nurullah KIRBIZ, publishing as Rapheldor Software
+Türkiye
+rapheldorsoftware@gmail.com
+https://rapheldorsoftware.com

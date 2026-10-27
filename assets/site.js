@@ -1,5 +1,16 @@
-// Content and navigation work without JavaScript. This only enhances filtering
-// and the screenshot viewer; no analytics or third-party code is loaded.
+// Content and navigation work without JavaScript. This only enhances filtering,
+// scroll reveals and the screenshot viewer; no analytics or third-party code is loaded.
+const revealed = [...document.querySelectorAll('[data-reveal]')];
+if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.add('is-visible');
+    observer.unobserve(entry.target);
+  }), { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+  revealed.forEach(element => observer.observe(element));
+} else {
+  revealed.forEach(element => element.classList.add('is-visible'));
+}
 const filters = [...document.querySelectorAll('[data-filter]')];
 const cards = [...document.querySelectorAll('[data-category]')];
 filters.forEach(button => button.addEventListener('click', () => {
@@ -41,7 +52,7 @@ if (dialog) {
 const legal = document.body.dataset.legal;
 if (legal) {
   const app = new URLSearchParams(location.search).get('app');
-  const allowed = new Set(['booktou','speaktou','notero','lessonta','doitly','dictiony','beanjup','wordballoonpop','streaktou','carsurf','bumperpop']);
+  const allowed = new Set(['booktou','speaktou','notero','lessonta','doitly','dictiony','beanjup','wordballoonpop','streaktou','carsurf','bumperpop','baggageflow']);
   const policy = document.querySelector('#policy');
   const esc = text => text.replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const inline = text => esc(text)

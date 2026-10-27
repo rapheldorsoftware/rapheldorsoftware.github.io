@@ -57,7 +57,7 @@ for route in ROUTES:
     for tag,a in p.tags:
         if tag=='img' and a.get('src'):assert 'alt' in a and a.get('width') and a.get('height'),(route,'image attributes')
 
-expected={'booktou':25,'speaktou':17,'notero':14,'lessonta':19,'doitly':8,'dictiony':2,'beanjup':8,'wordballoonpop':2,'streaktou':14,'sleeptou':2}
+expected={'booktou':25,'speaktou':17,'notero':14,'lessonta':19,'doitly':8,'dictiony':2,'beanjup':8,'wordballoonpop':2,'streaktou':14,'sleeptou':2,'baggageflow':25}
 assert set(HOME)==set().union(*(set(a['locales']) for a in APPS))
 for lang,copy in HOME.items():
     route='/' if lang=='en' else '/'+lang+'/'

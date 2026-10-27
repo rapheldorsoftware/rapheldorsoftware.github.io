@@ -2940,5 +2940,786 @@
         ]
       }
     }
+  },
+  {
+    "name": "Baggage Flow",
+    "category": "puzzle",
+    "accent": "#0f766e",
+    "tint": "#e6f6f3",
+    "icon": "assets/baggageflow/icon.webp",
+    "apple": null,
+    "id": "baggageflow",
+    "play": null,
+    "images": [
+      "assets/baggageflow/screens/01.webp",
+      "assets/baggageflow/screens/02.webp",
+      "assets/baggageflow/screens/03.webp"
+    ],
+    "imageSizes": {
+      "assets/baggageflow/screens/01.webp": [
+        810,
+        1440
+      ],
+      "assets/baggageflow/screens/02.webp": [
+        810,
+        1440
+      ],
+      "assets/baggageflow/screens/03.webp": [
+        810,
+        1440
+      ]
+    },
+    "locales": {
+      "en": {
+        "title": "Every bag has a destination.",
+        "summary": "A relaxing 3D logic puzzle set in an airport baggage hall. Turn the conveyor junctions, press Start and watch every suitcase reach the right passenger. 200 levels, offline play and no ads.",
+        "features": [
+          {
+            "title": "200 levels",
+            "body": "Every level is checked by a solver and has exactly one route that works."
+          },
+          {
+            "title": "Plan, then press Start",
+            "body": "Turn junctions while the belts stand still, then watch your plan run."
+          },
+          {
+            "title": "New ideas as you go",
+            "body": "Locked junctions, tap limits and swinging junctions keep the puzzles fresh."
+          },
+          {
+            "title": "Hints when you are stuck",
+            "body": "A hint fixes one junction for you and never costs a tap."
+          },
+          {
+            "title": "Daily gifts and star chests",
+            "body": "Come back for free hints and earn more with every 20 stars."
+          },
+          {
+            "title": "Offline, no ads",
+            "body": "Play anywhere without a connection. No ads, no timers, no energy."
+          }
+        ]
+      },
+      "tr": {
+        "title": "Her valizin bir rotası var.",
+        "summary": "Havalimanı bagaj salonunda geçen rahatlatıcı bir 3D mantık bulmacası. Bant kavşaklarını çevir, Başlat'a bas ve her valizin doğru yolcuya ulaşmasını izle. 200 bölüm, internetsiz oyun ve reklam yok.",
+        "features": [
+          {
+            "title": "200 bölüm",
+            "body": "Her bölüm bir çözücüyle doğrulandı ve işe yarayan tek bir rotası var."
+          },
+          {
+            "title": "Planla, sonra başlat",
+            "body": "Bantlar dururken kavşakları çevir, sonra planının çalışmasını izle."
+          },
+          {
+            "title": "Her aşamada yeni fikirler",
+            "body": "Kilitli kavşaklar, dokunuş sınırları ve salınan kavşaklar bulmacaları taze tutar."
+          },
+          {
+            "title": "Takılınca ipucu",
+            "body": "İpucu senin için bir kavşağı düzeltir ve dokunuş saymaz."
+          },
+          {
+            "title": "Günlük hediyeler ve yıldız sandıkları",
+            "body": "Ücretsiz ipuçları için her gün gel, her 20 yıldızda daha fazlasını kazan."
+          },
+          {
+            "title": "İnternetsiz, reklamsız",
+            "body": "İnternet olmadan her yerde oyna. Reklam, süre ve enerji yok."
+          }
+        ]
+      },
+      "ar": {
+        "title": "لكل حقيبة وجهتها.",
+        "summary": "لغز منطقي ثلاثي الأبعاد مريح في صالة أمتعة المطار. أدر محوّلات السيور، واضغط ابدأ، وشاهد كل حقيبة تصل إلى المسافر الصحيح. 200 مستوى، لعب دون اتصال وبلا إعلانات.",
+        "features": [
+          {
+            "title": "200 مستوى",
+            "body": "كل مستوى تم التحقق منه بأداة حل وله مسار واحد فقط ينجح."
+          },
+          {
+            "title": "خطط ثم اضغط ابدأ",
+            "body": "أدر المحوّلات والسيور متوقفة، ثم شاهد خطتك تعمل."
+          },
+          {
+            "title": "أفكار جديدة باستمرار",
+            "body": "المحوّلات المقفلة وحدود النقرات والمحوّلات المتأرجحة تبقي الألغاز ممتعة."
+          },
+          {
+            "title": "تلميحات عندما تعلق",
+            "body": "التلميح يصلح محوّلًا واحدًا لك ولا يحتسب نقرة."
+          },
+          {
+            "title": "هدايا يومية وصناديق نجوم",
+            "body": "عد يوميًا لتلميحات مجانية واكسب المزيد مع كل 20 نجمة."
+          },
+          {
+            "title": "دون اتصال وبلا إعلانات",
+            "body": "العب في أي مكان دون إنترنت. لا إعلانات ولا مؤقتات ولا طاقة."
+          }
+        ]
+      },
+      "da": {
+        "title": "Hver kuffert har et mål.",
+        "summary": "Et afslappende 3D-logikspil i en lufthavns bagagehal. Drej båndenes sporskifter, tryk Start, og se hver kuffert nå den rigtige passager. 200 baner, spil offline og ingen reklamer.",
+        "features": [
+          {
+            "title": "200 baner",
+            "body": "Hver bane er tjekket af en løser og har præcis én rute, der virker."
+          },
+          {
+            "title": "Planlæg, og tryk så Start",
+            "body": "Drej sporskifterne, mens båndene står stille, og se så din plan køre."
+          },
+          {
+            "title": "Nye idéer undervejs",
+            "body": "Låste sporskifter, begrænsede tryk og svingskifter holder opgaverne friske."
+          },
+          {
+            "title": "Hints, når du sidder fast",
+            "body": "Et hint retter ét sporskifte for dig og koster aldrig et tryk."
+          },
+          {
+            "title": "Daglige gaver og stjernekister",
+            "body": "Kom tilbage efter gratis hints, og tjen flere for hver 20 stjerner."
+          },
+          {
+            "title": "Offline, ingen reklamer",
+            "body": "Spil overalt uden forbindelse. Ingen reklamer, timere eller energi."
+          }
+        ]
+      },
+      "de": {
+        "title": "Jeder Koffer hat ein Ziel.",
+        "summary": "Ein entspannendes 3D-Logikrätsel in der Gepäckhalle eines Flughafens. Dreh die Weichen der Bänder, drück Start und sieh zu, wie jeder Koffer beim richtigen Passagier ankommt. 200 Level, offline spielbar und ohne Werbung.",
+        "features": [
+          {
+            "title": "200 Level",
+            "body": "Jedes Level ist von einem Löser geprüft und hat genau eine Route, die funktioniert."
+          },
+          {
+            "title": "Planen, dann starten",
+            "body": "Dreh die Weichen, solange die Bänder stillstehen, und sieh deinem Plan zu."
+          },
+          {
+            "title": "Immer neue Ideen",
+            "body": "Gesperrte Weichen, Tipp-Limits und Schwingweichen halten die Rätsel frisch."
+          },
+          {
+            "title": "Hinweise, wenn du feststeckst",
+            "body": "Ein Hinweis stellt eine Weiche für dich richtig und kostet nie einen Tipp."
+          },
+          {
+            "title": "Tagesgeschenke und Sternentruhen",
+            "body": "Komm für gratis Hinweise wieder und verdiene mehr mit je 20 Sternen."
+          },
+          {
+            "title": "Offline, ohne Werbung",
+            "body": "Spiel überall ohne Verbindung. Keine Werbung, keine Timer, keine Energie."
+          }
+        ]
+      },
+      "el": {
+        "title": "Κάθε βαλίτσα έχει προορισμό.",
+        "summary": "Ένας χαλαρωτικός τρισδιάστατος γρίφος λογικής σε αίθουσα αποσκευών αεροδρομίου. Γύρισε τους διακλαδωτές, πάτα Έναρξη και δες κάθε βαλίτσα να φτάνει στον σωστό επιβάτη. 200 πίστες, παιχνίδι χωρίς σύνδεση και χωρίς διαφημίσεις.",
+        "features": [
+          {
+            "title": "200 πίστες",
+            "body": "Κάθε πίστα έχει ελεγχθεί από λύτη και έχει ακριβώς μία διαδρομή που δουλεύει."
+          },
+          {
+            "title": "Σχεδίασε και μετά πάτα Έναρξη",
+            "body": "Γύρισε τους διακλαδωτές ενώ οι ιμάντες είναι σταματημένοι και δες το σχέδιό σου να τρέχει."
+          },
+          {
+            "title": "Νέες ιδέες στην πορεία",
+            "body": "Κλειδωμένοι διακλαδωτές, όρια πατημάτων και αιωρούμενοι διακλαδωτές κρατούν τους γρίφους φρέσκους."
+          },
+          {
+            "title": "Βοήθεια όταν κολλάς",
+            "body": "Μια βοήθεια διορθώνει έναν διακλαδωτή και δεν κοστίζει ποτέ πάτημα."
+          },
+          {
+            "title": "Ημερήσια δώρα και σεντούκια αστεριών",
+            "body": "Έλα για δωρεάν βοήθειες και κέρδισε περισσότερες κάθε 20 αστέρια."
+          },
+          {
+            "title": "Χωρίς σύνδεση, χωρίς διαφημίσεις",
+            "body": "Παίξε παντού χωρίς σύνδεση. Χωρίς διαφημίσεις, χρονόμετρα ή ενέργεια."
+          }
+        ]
+      },
+      "es": {
+        "title": "Cada maleta tiene su destino.",
+        "summary": "Un relajante puzle de lógica en 3D en la sala de equipajes de un aeropuerto. Gira los cruces de las cintas, pulsa Empezar y mira cómo cada maleta llega al pasajero correcto. 200 niveles, juego sin conexión y sin anuncios.",
+        "features": [
+          {
+            "title": "200 niveles",
+            "body": "Cada nivel está comprobado por un solucionador y tiene una sola ruta que funciona."
+          },
+          {
+            "title": "Planea y luego pulsa Empezar",
+            "body": "Gira los cruces con las cintas paradas y mira tu plan en marcha."
+          },
+          {
+            "title": "Ideas nuevas en cada etapa",
+            "body": "Cruces bloqueados, toques limitados y cruces oscilantes mantienen los puzles frescos."
+          },
+          {
+            "title": "Pistas cuando te atascas",
+            "body": "Una pista arregla un cruce por ti y nunca gasta un toque."
+          },
+          {
+            "title": "Regalos diarios y cofres de estrellas",
+            "body": "Vuelve a por pistas gratis y gana más cada 20 estrellas."
+          },
+          {
+            "title": "Sin conexión y sin anuncios",
+            "body": "Juega en cualquier lugar sin conexión. Sin anuncios, sin temporizadores, sin energía."
+          }
+        ]
+      },
+      "fi": {
+        "title": "Jokaisella laukulla on määränpää.",
+        "summary": "Rentouttava 3D-logiikkapeli lentokentän matkatavarahallissa. Käännä hihnojen vaihteita, paina Aloita ja katso, kun jokainen laukku päätyy oikealle matkustajalle. 200 tasoa, pelaa ilman verkkoa ja ilman mainoksia.",
+        "features": [
+          {
+            "title": "200 tasoa",
+            "body": "Jokainen taso on tarkistettu ratkaisijalla, ja siinä on täsmälleen yksi toimiva reitti."
+          },
+          {
+            "title": "Suunnittele ja paina Aloita",
+            "body": "Käännä vaihteita hihnojen seistessä ja katso suunnitelmasi toimivan."
+          },
+          {
+            "title": "Uusia ideoita matkan varrella",
+            "body": "Lukitut vaihteet, napautusrajat ja heiluvaihteet pitävät pulmat tuoreina."
+          },
+          {
+            "title": "Vihjeitä, kun jäät jumiin",
+            "body": "Vihje korjaa yhden vaihteen puolestasi eikä koskaan kuluta napautusta."
+          },
+          {
+            "title": "Päivän lahjat ja tähtiarkut",
+            "body": "Palaa hakemaan ilmaisia vihjeitä ja ansaitse lisää jokaisesta 20 tähdestä."
+          },
+          {
+            "title": "Ilman verkkoa, ilman mainoksia",
+            "body": "Pelaa missä vain ilman yhteyttä. Ei mainoksia, ajastimia tai energiaa."
+          }
+        ]
+      },
+      "fil": {
+        "title": "May patutunguhan ang bawat maleta.",
+        "summary": "Isang nakakarelaks na 3D logic puzzle sa baggage hall ng paliparan. Ikutin ang mga junction ng belt, pindutin ang Start at panoorin ang bawat maleta na makarating sa tamang pasahero. 200 level, offline na laro at walang ads.",
+        "features": [
+          {
+            "title": "200 level",
+            "body": "Sinuri ng solver ang bawat level at iisa lang ang rutang gumagana."
+          },
+          {
+            "title": "Magplano, saka pindutin ang Start",
+            "body": "Ikutin ang mga junction habang nakatigil ang belt, saka panoorin ang plano mo."
+          },
+          {
+            "title": "Bagong ideya habang naglalaro",
+            "body": "Naka-lock na junction, limitadong tap at swing junction ang nagpapasariwa sa mga puzzle."
+          },
+          {
+            "title": "Hint kapag na-stuck",
+            "body": "Inaayos ng hint ang isang junction para sa iyo at hindi kailanman nagbabawas ng tap."
+          },
+          {
+            "title": "Pang-araw-araw na regalo at baul ng bituin",
+            "body": "Bumalik para sa libreng hint at kumita pa sa bawat 20 bituin."
+          },
+          {
+            "title": "Offline, walang ads",
+            "body": "Maglaro kahit saan nang walang koneksyon. Walang ads, timer o energy."
+          }
+        ]
+      },
+      "fr": {
+        "title": "Chaque valise a sa destination.",
+        "summary": "Un puzzle de logique en 3D relaxant dans le hall à bagages d'un aéroport. Tourne les aiguillages des tapis, appuie sur Lancer et regarde chaque valise arriver au bon passager. 200 niveaux, jeu hors ligne et sans publicité.",
+        "features": [
+          {
+            "title": "200 niveaux",
+            "body": "Chaque niveau est vérifié par un solveur et n'a qu'un seul itinéraire qui fonctionne."
+          },
+          {
+            "title": "Prépare, puis lance",
+            "body": "Tourne les aiguillages tapis à l'arrêt, puis regarde ton plan s'exécuter."
+          },
+          {
+            "title": "Des idées nouvelles en chemin",
+            "body": "Aiguillages verrouillés, touches limitées et aiguillages oscillants gardent les puzzles frais."
+          },
+          {
+            "title": "Des indices quand tu bloques",
+            "body": "Un indice corrige un aiguillage pour toi et ne coûte jamais de touche."
+          },
+          {
+            "title": "Cadeaux du jour et coffres à étoiles",
+            "body": "Reviens chercher des indices gratuits et gagnes-en plus toutes les 20 étoiles."
+          },
+          {
+            "title": "Hors ligne, sans publicité",
+            "body": "Joue partout sans connexion. Sans publicité, sans chrono, sans énergie."
+          }
+        ]
+      },
+      "id": {
+        "title": "Setiap koper punya tujuan.",
+        "summary": "Teka-teki logika 3D yang santai di ruang bagasi bandara. Putar persimpangan ban, tekan Mulai, dan lihat setiap koper sampai ke penumpang yang tepat. 200 level, bisa dimainkan offline dan tanpa iklan.",
+        "features": [
+          {
+            "title": "200 level",
+            "body": "Setiap level diperiksa oleh pemecah soal dan hanya punya satu rute yang berhasil."
+          },
+          {
+            "title": "Rencanakan, lalu tekan Mulai",
+            "body": "Putar persimpangan saat ban berhenti, lalu lihat rencanamu berjalan."
+          },
+          {
+            "title": "Ide baru di setiap tahap",
+            "body": "Persimpangan terkunci, batas ketukan, dan persimpangan ayun membuat teka-teki tetap segar."
+          },
+          {
+            "title": "Petunjuk saat buntu",
+            "body": "Petunjuk membetulkan satu persimpangan untukmu dan tidak pernah memakan ketukan."
+          },
+          {
+            "title": "Hadiah harian dan peti bintang",
+            "body": "Kembali untuk petunjuk gratis dan dapatkan lebih banyak setiap 20 bintang."
+          },
+          {
+            "title": "Offline, tanpa iklan",
+            "body": "Main di mana saja tanpa koneksi. Tanpa iklan, tanpa timer, tanpa energi."
+          }
+        ]
+      },
+      "it": {
+        "title": "Ogni valigia ha una destinazione.",
+        "summary": "Un rilassante rompicapo logico in 3D nella sala bagagli di un aeroporto. Ruota gli scambi dei nastri, premi Avvia e guarda ogni valigia arrivare al passeggero giusto. 200 livelli, gioco offline e senza pubblicità.",
+        "features": [
+          {
+            "title": "200 livelli",
+            "body": "Ogni livello è verificato da un risolutore e ha un solo percorso che funziona."
+          },
+          {
+            "title": "Pianifica, poi premi Avvia",
+            "body": "Ruota gli scambi a nastri fermi, poi guarda il tuo piano in azione."
+          },
+          {
+            "title": "Idee nuove strada facendo",
+            "body": "Scambi bloccati, tocchi limitati e scambi oscillanti mantengono i rompicapi freschi."
+          },
+          {
+            "title": "Aiuti quando sei bloccato",
+            "body": "Un aiuto sistema uno scambio per te e non costa mai un tocco."
+          },
+          {
+            "title": "Regali giornalieri e forzieri di stelle",
+            "body": "Torna per aiuti gratis e guadagnane altri ogni 20 stelle."
+          },
+          {
+            "title": "Offline, senza pubblicità",
+            "body": "Gioca ovunque senza connessione. Niente pubblicità, timer o energia."
+          }
+        ]
+      },
+      "ja": {
+        "title": "すべての荷物に行き先がある。",
+        "summary": "空港の手荷物ホールが舞台の、リラックスできる3Dロジックパズル。ベルトの分岐を回してスタートを押し、荷物が正しい乗客に届くのを見届けよう。200レベル、オフラインで遊べて広告なし。",
+        "features": [
+          {
+            "title": "200レベル",
+            "body": "すべてのレベルはソルバーで確認済み。正解のルートは1つだけ。"
+          },
+          {
+            "title": "計画してからスタート",
+            "body": "ベルトが止まっている間に分岐を回し、計画どおりに動くのを見よう。"
+          },
+          {
+            "title": "次々に登場する新しい仕掛け",
+            "body": "ロックされた分岐、タップ制限、スイング分岐でパズルが飽きない。"
+          },
+          {
+            "title": "困ったらヒント",
+            "body": "ヒントが分岐を1つ直してくれて、タップ数は減りません。"
+          },
+          {
+            "title": "デイリーギフトとスター宝箱",
+            "body": "毎日来て無料ヒントを受け取り、スター20個ごとにさらにもらえる。"
+          },
+          {
+            "title": "オフライン、広告なし",
+            "body": "通信なしでどこでも遊べる。広告もタイマーもスタミナもありません。"
+          }
+        ]
+      },
+      "ko": {
+        "title": "모든 가방에는 목적지가 있다.",
+        "summary": "공항 수하물 홀을 배경으로 한 편안한 3D 논리 퍼즐. 벨트 분기점을 돌리고 시작을 누른 뒤, 모든 가방이 올바른 승객에게 도착하는 모습을 지켜보세요. 200개 레벨, 오프라인 플레이, 광고 없음.",
+        "features": [
+          {
+            "title": "200개 레벨",
+            "body": "모든 레벨은 솔버로 검증되었고 정답 경로는 단 하나입니다."
+          },
+          {
+            "title": "계획하고 시작하기",
+            "body": "벨트가 멈춰 있을 때 분기점을 돌리고 계획이 움직이는 걸 지켜보세요."
+          },
+          {
+            "title": "계속 등장하는 새로운 아이디어",
+            "body": "잠긴 분기점, 탭 제한, 스윙 분기점이 퍼즐을 새롭게 만들어요."
+          },
+          {
+            "title": "막히면 힌트",
+            "body": "힌트가 분기점 하나를 고쳐 주고 탭은 소모하지 않아요."
+          },
+          {
+            "title": "매일 선물과 별 상자",
+            "body": "매일 무료 힌트를 받고 별 20개마다 더 받으세요."
+          },
+          {
+            "title": "오프라인, 광고 없음",
+            "body": "연결 없이 어디서나 플레이. 광고, 타이머, 에너지 없음."
+          }
+        ]
+      },
+      "ms": {
+        "title": "Setiap beg ada destinasinya.",
+        "summary": "Teka-teki logik 3D yang santai di dewan bagasi lapangan terbang. Pusingkan simpang tali sawat, tekan Mula dan lihat setiap beg sampai kepada penumpang yang betul. 200 tahap, boleh dimain luar talian dan tanpa iklan.",
+        "features": [
+          {
+            "title": "200 tahap",
+            "body": "Setiap tahap disemak oleh penyelesai dan hanya ada satu laluan yang berjaya."
+          },
+          {
+            "title": "Rancang, kemudian tekan Mula",
+            "body": "Pusingkan simpang semasa tali sawat berhenti, kemudian lihat rancangan anda berjalan."
+          },
+          {
+            "title": "Idea baharu sepanjang jalan",
+            "body": "Simpang berkunci, had ketikan dan simpang berayun memastikan teka-teki sentiasa segar."
+          },
+          {
+            "title": "Petunjuk apabila tersekat",
+            "body": "Petunjuk membetulkan satu simpang untuk anda dan tidak pernah menggunakan ketikan."
+          },
+          {
+            "title": "Hadiah harian dan peti bintang",
+            "body": "Kembali untuk petunjuk percuma dan dapatkan lebih banyak setiap 20 bintang."
+          },
+          {
+            "title": "Luar talian, tanpa iklan",
+            "body": "Main di mana-mana tanpa sambungan. Tiada iklan, pemasa atau tenaga."
+          }
+        ]
+      },
+      "nb": {
+        "title": "Hver koffert har et mål.",
+        "summary": "Et avslappende 3D-logikkspill i en flyplass sin bagasjehall. Snu sporvekslene på båndene, trykk Start og se hver koffert nå riktig passasjer. 200 brett, spill uten nett og ingen reklame.",
+        "features": [
+          {
+            "title": "200 brett",
+            "body": "Hvert brett er sjekket av en løser og har nøyaktig én rute som virker."
+          },
+          {
+            "title": "Planlegg, og trykk så Start",
+            "body": "Snu vekslene mens båndene står stille, og se planen din gå."
+          },
+          {
+            "title": "Nye idéer underveis",
+            "body": "Låste veksler, trykkgrenser og svingveksler holder oppgavene friske."
+          },
+          {
+            "title": "Hint når du står fast",
+            "body": "Et hint retter én veksel for deg og koster aldri et trykk."
+          },
+          {
+            "title": "Daglige gaver og stjernekister",
+            "body": "Kom tilbake for gratis hint og tjen flere for hver 20 stjerner."
+          },
+          {
+            "title": "Uten nett, uten reklame",
+            "body": "Spill hvor som helst uten tilkobling. Ingen reklame, tidtakere eller energi."
+          }
+        ]
+      },
+      "nl": {
+        "title": "Elke koffer heeft een bestemming.",
+        "summary": "Een ontspannende 3D-logicapuzzel in de bagagehal van een luchthaven. Draai de wissels van de banden, druk op Start en zie elke koffer bij de juiste passagier aankomen. 200 levels, offline te spelen en zonder advertenties.",
+        "features": [
+          {
+            "title": "200 levels",
+            "body": "Elk level is gecontroleerd door een oplosser en heeft precies één route die werkt."
+          },
+          {
+            "title": "Plannen, dan starten",
+            "body": "Draai de wissels terwijl de banden stilstaan en zie je plan werken."
+          },
+          {
+            "title": "Steeds nieuwe ideeën",
+            "body": "Vergrendelde wissels, tiklimieten en zwaaiwissels houden de puzzels fris."
+          },
+          {
+            "title": "Hints als je vastzit",
+            "body": "Een hint zet één wissel voor je goed en kost nooit een tik."
+          },
+          {
+            "title": "Dagcadeaus en sterrenkisten",
+            "body": "Kom terug voor gratis hints en verdien er meer per 20 sterren."
+          },
+          {
+            "title": "Offline, zonder advertenties",
+            "body": "Speel overal zonder verbinding. Geen advertenties, timers of energie."
+          }
+        ]
+      },
+      "pl": {
+        "title": "Każda walizka ma swój cel.",
+        "summary": "Relaksująca logiczna łamigłówka 3D w hali bagażowej lotniska. Obracaj zwrotnice taśm, naciśnij Start i patrz, jak każda walizka trafia do właściwego pasażera. 200 poziomów, gra offline i bez reklam.",
+        "features": [
+          {
+            "title": "200 poziomów",
+            "body": "Każdy poziom sprawdził solver i ma dokładnie jedną działającą trasę."
+          },
+          {
+            "title": "Zaplanuj, potem Start",
+            "body": "Obracaj zwrotnice, gdy taśmy stoją, a potem patrz, jak działa twój plan."
+          },
+          {
+            "title": "Nowe pomysły po drodze",
+            "body": "Zablokowane zwrotnice, limit dotknięć i zwrotnice wahadłowe utrzymują świeżość zagadek."
+          },
+          {
+            "title": "Podpowiedzi, gdy utkniesz",
+            "body": "Podpowiedź naprawia jedną zwrotnicę i nigdy nie zużywa dotknięcia."
+          },
+          {
+            "title": "Codzienne prezenty i skrzynie gwiazd",
+            "body": "Wracaj po darmowe podpowiedzi i zdobywaj więcej co 20 gwiazdek."
+          },
+          {
+            "title": "Offline, bez reklam",
+            "body": "Graj wszędzie bez połączenia. Bez reklam, liczników czasu i energii."
+          }
+        ]
+      },
+      "pt": {
+        "title": "Cada mala tem um destino.",
+        "summary": "Um puzzle de lógica em 3D relaxante numa sala de bagagens de aeroporto. Roda os desvios dos tapetes, toca em Começar e vê cada mala chegar ao passageiro certo. 200 níveis, jogo offline e sem anúncios.",
+        "features": [
+          {
+            "title": "200 níveis",
+            "body": "Cada nível foi verificado por um solucionador e tem um único percurso que funciona."
+          },
+          {
+            "title": "Planeia e depois começa",
+            "body": "Roda os desvios com os tapetes parados e vê o teu plano a funcionar."
+          },
+          {
+            "title": "Ideias novas pelo caminho",
+            "body": "Desvios bloqueados, toques limitados e desvios oscilantes mantêm os puzzles frescos."
+          },
+          {
+            "title": "Pistas quando ficas preso",
+            "body": "Uma pista corrige um desvio por ti e nunca gasta um toque."
+          },
+          {
+            "title": "Prendas diárias e baús de estrelas",
+            "body": "Volta para pistas grátis e ganha mais a cada 20 estrelas."
+          },
+          {
+            "title": "Offline, sem anúncios",
+            "body": "Joga em qualquer lado sem ligação. Sem anúncios, temporizadores ou energia."
+          }
+        ]
+      },
+      "ro": {
+        "title": "Fiecare bagaj are o destinație.",
+        "summary": "Un puzzle logic 3D relaxant într-o sală de bagaje din aeroport. Rotește macazurile benzilor, apasă Start și privește cum fiecare bagaj ajunge la pasagerul potrivit. 200 de niveluri, joc offline și fără reclame.",
+        "features": [
+          {
+            "title": "200 de niveluri",
+            "body": "Fiecare nivel e verificat de un rezolvitor și are un singur traseu care funcționează."
+          },
+          {
+            "title": "Plănuiește, apoi pornește",
+            "body": "Rotește macazurile cât timp benzile stau, apoi privește planul în acțiune."
+          },
+          {
+            "title": "Idei noi pe parcurs",
+            "body": "Macazuri blocate, atingeri limitate și macazuri oscilante păstrează puzzle-urile proaspete."
+          },
+          {
+            "title": "Indicii când te blochezi",
+            "body": "Un indiciu repară un macaz pentru tine și nu costă nicio atingere."
+          },
+          {
+            "title": "Cadouri zilnice și cufere cu stele",
+            "body": "Revino pentru indicii gratuite și câștigă mai multe la fiecare 20 de stele."
+          },
+          {
+            "title": "Offline, fără reclame",
+            "body": "Joacă oriunde fără conexiune. Fără reclame, cronometre sau energie."
+          }
+        ]
+      },
+      "ru": {
+        "title": "У каждого чемодана свой путь.",
+        "summary": "Расслабляющая логическая 3D-головоломка в багажном зале аэропорта. Поворачивай стрелки лент, жми «Старт» и смотри, как каждый чемодан доезжает до нужного пассажира. 200 уровней, игра без интернета и без рекламы.",
+        "features": [
+          {
+            "title": "200 уровней",
+            "body": "Каждый уровень проверен решателем, и в нём ровно один рабочий маршрут."
+          },
+          {
+            "title": "Спланируй и запусти",
+            "body": "Поворачивай стрелки, пока ленты стоят, а потом смотри, как работает твой план."
+          },
+          {
+            "title": "Новые идеи по пути",
+            "body": "Заблокированные стрелки, лимит касаний и качающиеся стрелки не дают заскучать."
+          },
+          {
+            "title": "Подсказки, если застрял",
+            "body": "Подсказка исправляет одну стрелку и никогда не тратит касание."
+          },
+          {
+            "title": "Ежедневные подарки и звёздные сундуки",
+            "body": "Возвращайся за бесплатными подсказками и получай ещё за каждые 20 звёзд."
+          },
+          {
+            "title": "Без интернета и рекламы",
+            "body": "Играй где угодно без сети. Без рекламы, таймеров и энергии."
+          }
+        ]
+      },
+      "sv": {
+        "title": "Varje väska har ett mål.",
+        "summary": "Ett avslappnande 3D-logikspel i en flygplats bagagehall. Vrid bandens växlar, tryck Start och se varje väska nå rätt passagerare. 200 nivåer, spela offline och utan reklam.",
+        "features": [
+          {
+            "title": "200 nivåer",
+            "body": "Varje nivå är kontrollerad av en lösare och har exakt en rutt som fungerar."
+          },
+          {
+            "title": "Planera, sedan Start",
+            "body": "Vrid växlarna medan banden står still och se din plan köras."
+          },
+          {
+            "title": "Nya idéer längs vägen",
+            "body": "Låsta växlar, tryckgränser och svängväxlar håller pusslen fräscha."
+          },
+          {
+            "title": "Ledtrådar när du kör fast",
+            "body": "En ledtråd rättar en växel åt dig och kostar aldrig ett tryck."
+          },
+          {
+            "title": "Dagliga gåvor och stjärnkistor",
+            "body": "Kom tillbaka för gratis ledtrådar och tjäna fler för varje 20 stjärnor."
+          },
+          {
+            "title": "Offline, utan reklam",
+            "body": "Spela var som helst utan uppkoppling. Ingen reklam, inga timers, ingen energi."
+          }
+        ]
+      },
+      "th": {
+        "title": "กระเป๋าทุกใบมีจุดหมาย",
+        "summary": "ปริศนาตรรกะ 3D แบบผ่อนคลายในห้องรับกระเป๋าของสนามบิน หมุนทางแยกของสายพาน กดเริ่ม แล้วดูกระเป๋าทุกใบไปถึงผู้โดยสารที่ถูกต้อง 200 ด่าน เล่นออฟไลน์ได้ และไม่มีโฆษณา",
+        "features": [
+          {
+            "title": "200 ด่าน",
+            "body": "ทุกด่านผ่านการตรวจด้วยตัวแก้ปริศนา และมีเส้นทางที่ถูกเพียงเส้นเดียว"
+          },
+          {
+            "title": "วางแผนแล้วกดเริ่ม",
+            "body": "หมุนทางแยกตอนสายพานหยุด แล้วดูแผนของคุณทำงาน"
+          },
+          {
+            "title": "ไอเดียใหม่ตลอดทาง",
+            "body": "ทางแยกที่ล็อก การแตะที่จำกัด และทางแยกแกว่ง ทำให้ปริศนาสดใหม่เสมอ"
+          },
+          {
+            "title": "คำใบ้เมื่อติด",
+            "body": "คำใบ้แก้ทางแยกให้หนึ่งจุด และไม่เสียการแตะ"
+          },
+          {
+            "title": "ของขวัญรายวันและหีบดาว",
+            "body": "กลับมารับคำใบ้ฟรีทุกวัน และรับเพิ่มทุก 20 ดาว"
+          },
+          {
+            "title": "ออฟไลน์ ไม่มีโฆษณา",
+            "body": "เล่นได้ทุกที่โดยไม่ต้องต่อเน็ต ไม่มีโฆษณา ไม่มีตัวจับเวลา ไม่มีพลังงาน"
+          }
+        ]
+      },
+      "vi": {
+        "title": "Mỗi chiếc vali đều có điểm đến.",
+        "summary": "Trò chơi giải đố logic 3D thư giãn trong sảnh hành lý sân bay. Xoay các ngã rẽ băng chuyền, nhấn Bắt đầu và xem từng chiếc vali đến đúng hành khách. 200 màn, chơi ngoại tuyến và không quảng cáo.",
+        "features": [
+          {
+            "title": "200 màn",
+            "body": "Mỗi màn đều được kiểm tra bằng bộ giải và chỉ có một lộ trình đúng."
+          },
+          {
+            "title": "Lên kế hoạch rồi nhấn Bắt đầu",
+            "body": "Xoay ngã rẽ khi băng chuyền đứng yên, rồi xem kế hoạch của bạn vận hành."
+          },
+          {
+            "title": "Ý tưởng mới trên mỗi chặng",
+            "body": "Ngã rẽ bị khóa, giới hạn lượt chạm và ngã rẽ lắc giữ cho câu đố luôn mới."
+          },
+          {
+            "title": "Gợi ý khi bí",
+            "body": "Gợi ý sửa giúp bạn một ngã rẽ và không tốn lượt chạm."
+          },
+          {
+            "title": "Quà mỗi ngày và rương sao",
+            "body": "Quay lại nhận gợi ý miễn phí và nhận thêm sau mỗi 20 sao."
+          },
+          {
+            "title": "Ngoại tuyến, không quảng cáo",
+            "body": "Chơi mọi nơi không cần mạng. Không quảng cáo, không đếm giờ, không năng lượng."
+          }
+        ]
+      },
+      "zh": {
+        "title": "每件行李都有归宿。",
+        "summary": "一款以机场行李大厅为背景、轻松解压的 3D 逻辑解谜游戏。转动传送带道岔，按下开始，看每件行李送到对的乘客手中。200 个关卡，可离线游玩，无广告。",
+        "features": [
+          {
+            "title": "200 个关卡",
+            "body": "每一关都经过求解器验证，只有一条可行路线。"
+          },
+          {
+            "title": "先规划，再开始",
+            "body": "在传送带停止时转动道岔，然后看你的方案运转。"
+          },
+          {
+            "title": "新玩法不断登场",
+            "body": "上锁的道岔、点击次数限制和摆动道岔让谜题常玩常新。"
+          },
+          {
+            "title": "卡关时的提示",
+            "body": "提示会帮你修正一个道岔，且不消耗点击次数。"
+          },
+          {
+            "title": "每日礼物和星星宝箱",
+            "body": "每天回来领取免费提示，每集满 20 颗星还能获得更多。"
+          },
+          {
+            "title": "离线，无广告",
+            "body": "无需联网，随时随地玩。没有广告、计时器和体力。"
+          }
+        ]
+      }
+    }
   }
 ]

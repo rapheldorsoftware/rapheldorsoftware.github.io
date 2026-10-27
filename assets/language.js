@@ -1,6 +1,8 @@
 // Only the unlocalized home entry uses device language. Explicit page URLs win.
 // A manual language choice is remembered locally, without analytics or cookies.
 (() => {
+  // Lets CSS hide reveal-on-scroll content only when JavaScript will reveal it again.
+  document.documentElement.classList.add('js');
   const supported = new Set(['en','tr','ar','da','de','el','es','fi','fil','fr','hi','id','it','ja','ko','ms','nb','nl','pl','pt','ro','ru','sv','th','vi','zh']);
   const key = 'rapheldor-language';
   const resolve = value => {
