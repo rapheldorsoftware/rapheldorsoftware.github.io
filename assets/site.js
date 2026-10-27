@@ -1,5 +1,47 @@
-// Content and navigation work without JavaScript. This only enhances the screenshot
-// viewer and legal pages; no analytics or third-party code is loaded.
+// Content and navigation work without JavaScript. This only adds the hero motion, the
+// screenshot viewer and legal pages; no analytics or third-party code is loaded.
+const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const pointer = { x: 0, y: 0 };
+addEventListener('pointermove', event => {
+  pointer.x = event.clientX / innerWidth - .5;
+  pointer.y = event.clientY / innerHeight - .5;
+}, { passive: true });
+
+// Home: app icons drift at their depth, lean away from the pointer and fly outwards on scroll.
+const field = document.querySelector('.icon-field');
+if (field && !calm) {
+  const icons = [...field.children].map((el, i) => ({
+    el, d: parseFloat(el.style.getPropertyValue('--d')), phase: i * 1.7,
+    ox: parseFloat(el.style.getPropertyValue('--x')) / 50 - 1, oy: parseFloat(el.style.getPropertyValue('--y')) / 50 - 1
+  }));
+  let px = 0, py = 0, running = false;
+  const frame = time => {
+    if (!running) return;
+    px += (pointer.x - px) * .05; py += (pointer.y - py) * .05;
+    const s = Math.min(scrollY / innerHeight, 1);
+    for (const icon of icons) {
+      const k = icon.d, a = time / 1000 * .3 + icon.phase;
+      const x = Math.sin(a) * 12 * k - px * 70 * k + icon.ox * s * 260 * k;
+      const y = Math.cos(a * .8) * 12 * k - py * 70 * k + icon.oy * s * 260 * k - s * 140 * k;
+      icon.el.style.transform = `translate3d(${x.toFixed(1)}px,${y.toFixed(1)}px,0) scale(${(1 + s * .7 * k).toFixed(3)})`;
+    }
+    field.style.opacity = (1 - s * .85).toFixed(3);
+    requestAnimationFrame(frame);
+  };
+  new IntersectionObserver(([entry]) => {
+    const was = running; running = entry.isIntersecting;
+    if (running && !was) requestAnimationFrame(frame);
+  }).observe(field);
+}
+
+// Product pages: the app-coloured light follows the pointer across the header.
+const head = document.querySelector('.product-head');
+const glow = head?.querySelector('.glow');
+if (glow && !calm) head.addEventListener('pointermove', event => {
+  const box = head.getBoundingClientRect();
+  glow.style.setProperty('--gx', `${event.clientX - box.left}px`);
+  glow.style.setProperty('--gy', `${event.clientY - box.top}px`);
+}, { passive: true });
 const dialog = document.querySelector('.image-dialog');
 if (dialog) {
   const shots = [...document.querySelectorAll('[data-shot]')];

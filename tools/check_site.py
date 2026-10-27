@@ -102,7 +102,7 @@ def contrast(a,b):
     hi,lo=sorted((lum(a),lum(b)),reverse=True);return (hi+.05)/(lo+.05)
 ratios={a['id']:round(contrast(a['accent'],'#ffffff'),2) for a in APPS}
 ratios['brand']=round(contrast('#69418e','#ffffff'),2)
-ratios['body']=round(contrast('#6e6e73','#ffffff'),2)
+ratios['body']=round(contrast('#a1a1a6','#000000'),2)
 assert min(ratios.values())>=4.5,ratios
 print(f'PASS: {len(ROUTES)} routes, {sum(len(a["locales"]) for a in APPS)} app locales, {checks} local links/assets, policies, store links, metadata and RTL.')
 print('Text/button contrast:',ratios)

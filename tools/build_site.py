@@ -54,7 +54,7 @@ def page(title,description,body,path,lang,app=None,extra_head=''):
     style=f' style="--accent:{app["accent"]};--tint:{app["tint"]}"' if app else ''
     return f'''<!doctype html><html lang="{lang}" dir="{'rtl' if lang=='ar' else 'ltr'}"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{E(title)}</title><meta name="description" content="{E(description)}"><meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<title>{E(title)}</title><meta name="description" content="{E(description)}"><meta name="theme-color" content="#000000"><meta name="color-scheme" content="dark">
 <link rel="canonical" href="{BASE}{path}">{alternatives}<link rel="icon" href="/assets/favicon.ico">
 <meta property="og:type" content="website"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{BASE}{path}"><meta property="og:image" content="{BASE}{image}"><meta name="twitter:card" content="summary_large_image">
 <script src="/assets/language.js?v={JS_VERSION}"></script><link rel="stylesheet" href="/assets/site.css?v={CSS_VERSION}">{extra_head}<script src="/assets/site.js?v={JS_VERSION}" defer></script></head>
@@ -76,7 +76,7 @@ def tile(app,lang,c,u,small=False):
     app_lang=lang if lang in app['locales'] else 'en'
     size=64 if small else 96
     extra='' if small else f'<span class="tile-sub">{E(c[app["category"]])}</span><span class="tile-note">{E(available(app,u))}</span>'
-    return f'<a class="tile" href="{route(app,app_lang)}"><img class="icon" src="/{app["icon"]}" alt="" width="{size}" height="{size}" loading="lazy" style="background:{app['tint']}"><span class="tile-name">{E(app["name"])}</span>{extra}</a>'
+    return f'<a class="tile" href="{route(app,app_lang)}"><img class="icon" src="/{app["icon"]}" alt="" width="{size}" height="{size}" loading="lazy" style="background:{app['tint']};--glow:{app['accent']}"><span class="tile-name">{E(app["name"])}</span>{extra}</a>'
 
 def home(lang):
     c=HOME[lang];u=UI[lang]
@@ -84,7 +84,10 @@ def home(lang):
     for key in ('tools','learn','games'):
         apps=[a for a in APPS if category_group(a)==key]
         groups+=f'<section class="group" aria-labelledby="group-{key}"><h2 id="group-{key}">{E(c[key])}</h2><div class="tiles">{"".join(tile(a,lang,c,u) for a in apps)}</div></section>'
-    body=f'''<main id="main"><section class="wrap intro"><h1>{c['title']}</h1><p class="lead">{E(c['intro'])}</p></section>
+    # Decorative icon field behind the hero: (x%, y%, depth). Depth sets size, blur and parallax.
+    spots=[(8,20,.9),(20,70,.5),(6,88,.7),(28,10,.42),(86,16,.8),(95,50,.58),(80,84,.95),(66,7,.4),(93,92,.48),(34,92,.62),(60,93,.44)]
+    field=''.join(f'<img class="icon float-icon" src="/{a["icon"]}" alt="" width="96" height="96" style="--x:{x}%;--y:{y}%;--d:{d};--i:{i};background:{a['tint']}">' for i,(a,(x,y,d)) in enumerate(zip(APPS,spots)))
+    body=f'''<main id="main"><section class="hero"><div class="icon-field" aria-hidden="true">{field}</div><div class="wrap hero-copy"><h1>{c['title']}</h1><p class="lead">{E(c['intro'])}</p></div></section>
 <div class="wrap catalogue" id="apps">{groups}</div>
 <section class="wrap contact" id="contact"><h2>{E(u['support'])}</h2><p>{E(c['contactBody'])}</p><a class="mail" href="mailto:rapheldorsoftware@gmail.com">rapheldorsoftware@gmail.com</a></section></main>'''
     structured={'@context':'https://schema.org','@type':'CollectionPage','name':'Rapheldor Software | '+u['apps'],'url':BASE+route(None,lang),'description':c['intro'],'mainEntity':{'@type':'ItemList','itemListElement':[{'@type':'ListItem','position':i,'name':a['name'],'url':BASE+route(a,lang if lang in a['locales'] else 'en')} for i,a in enumerate(APPS,1)]}}
@@ -101,8 +104,8 @@ def product(app,lang):
     features=''.join(f'<div class="feature"><h3>{E(f["title"])}</h3>'+(f'<p>{E(f["body"])}</p>' if f['body'] else '')+'</div>' for f in d['features'])
     gallery=''.join(f'<button class="shot" type="button" data-shot="/{img}" aria-label="{E(app["name"])}: {E(u["screens"])} {i}"><img src="/{img}" alt="{E(app["name"])}: {E(u["screens"])} {i}" width="{app["imageSizes"][img][0]}" height="{app["imageSizes"][img][1]}"'+(' fetchpriority="high"' if i==1 else ' loading="lazy"')+'></button>' for i,img in enumerate(app['images'],1))
     related=''.join(tile(a,lang,c,u,small=True) for a in APPS if a['id']!=app['id'])
-    body=f'''<main id="main"><section class="wrap product-head"><a class="back-link" href="{route(None,home_lang(lang))}#apps">{E(u['back'])}</a>
-<div class="product-grid"><img class="icon product-icon" src="/{app['icon']}" width="128" height="128" alt="" style="background:{app['tint']}"><div class="product-copy"><p class="product-name">{E(app['name'])} <span>{E(c[app['category']])}</span></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['summary'])}</p><div class="store-links">{stores(app,u)}</div></div></div></section>
+    body=f'''<main id="main"><section class="product-head"><div class="glow" aria-hidden="true"></div><div class="wrap"><a class="back-link" href="{route(None,home_lang(lang))}#apps">{E(u['back'])}</a>
+<div class="product-grid"><img class="icon product-icon" src="/{app['icon']}" width="128" height="128" alt="" style="background:{app['tint']}"><div class="product-copy"><p class="product-name">{E(app['name'])} <span>{E(c[app['category']])}</span></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['summary'])}</p><div class="store-links">{stores(app,u)}</div></div></div></div></section>
 <section class="screens" aria-label="{E(u['screens'])}"><div class="wrap"><div class="screens-row">{gallery}</div><p class="note">{E(u['imageNote'])}</p></div></section>
 <section class="wrap features" id="features"><h2>{E(u['features'])}</h2><div class="feature-list">{features}</div></section>
 <section class="wrap download" id="download"><div class="download-inner"><img class="icon" src="/{app['icon']}" width="72" height="72" alt="" loading="lazy" style="background:{app['tint']}"><h2>{E(u['getApp'])}</h2><div class="store-links">{stores(app,u)}</div></div></section>
