@@ -1,49 +1,219 @@
 [
   {
-    "app": "dictiony",
-    "file": "assets/dictiony/screens/01.webp",
-    "source": "https://play-lh.googleusercontent.com/8VRQpRg3cqRGZdLMW8ywE9joqvnscPwPbloyViRAZob6CTLxCyKBb1XBfIIZRlShCWJ4HnKEqpFlMRHRaP9HPg=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony&hl=en",
+    "app": "booktou",
+    "file": "assets/booktou/store/01.webp",
+    "source": "https://play-lh.googleusercontent.com/wQfYxtmf-q3hk-yGAyOZWf-_nN8ayVAO0gLWxlMStphhJWcRt0ebOkW6oMZirQPAPAtwwIRvNBkxKbbHNnlTd54=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
     "size": [
       810,
       1440
     ]
   },
   {
-    "app": "dictiony",
-    "file": "assets/dictiony/screens/02.webp",
-    "source": "https://play-lh.googleusercontent.com/3383NrfddQ2CQSnPPSid__CzqCx-fejlhU5hJKbhxwvemudqYm-e4YQO42bImVNbzd6_AB2ozVcRuw2McNAjU24=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony&hl=en",
+    "app": "booktou",
+    "file": "assets/booktou/store/02.webp",
+    "source": "https://play-lh.googleusercontent.com/wV84uEwQ7tb8VKdoM9PsRfwiRkkj-k0xAb8d9Vybe2nP3Yog15ykrIxFqdnha8qPirwiKHx4RMBnzIDemCTM=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
     "size": [
       810,
       1440
     ]
   },
   {
-    "app": "doitly",
-    "file": "assets/doitly/screens/01.webp",
-    "source": "https://play-lh.googleusercontent.com/alU-zQBTdG051zWHkjI5gSlp1c3LJCqizvPEejPijpT1pTFRo1gZdAd3Ht2AeRWz4yEtM_ikp_rrrpLZk0sQOQ=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.doitly&hl=en",
+    "app": "booktou",
+    "file": "assets/booktou/store/03.webp",
+    "source": "https://play-lh.googleusercontent.com/PaVSpqAHAVVQ9VpAzpzutwpRWZKdHD8f41j38M6woJaa-XMN87gElkAvjXE_GwID9kDanQv-wvFqE8uCMDkA_w=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
     "size": [
       810,
       1440
     ]
   },
   {
-    "app": "doitly",
-    "file": "assets/doitly/screens/02.webp",
-    "source": "https://play-lh.googleusercontent.com/Jai2Qo3NncJiCUaEZokA1OKgQrrM2FGKsLELW5ghY4tux_CPTZE-JwJu1MjLimp4MtnGgr4U1LQ-yj6sdpV2qw=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.doitly&hl=en",
+    "app": "booktou",
+    "file": "assets/booktou/store/04.webp",
+    "source": "https://play-lh.googleusercontent.com/n-Kin8wgkC7XlqpcLqez-P8FwQH8S8Dsbf8iImcR2keMDPXejYz8ZL3cEWNsML7O2rVeMkbeNfHvR3h-gTZXsg=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
     "size": [
       810,
       1440
     ]
   },
   {
-    "app": "doitly",
-    "file": "assets/doitly/screens/03.webp",
-    "source": "https://play-lh.googleusercontent.com/tPRPSXtE_cptsj8MJls4R03zOSyNJIZz9PLCJUEmp9XD1lE6rguf1RUoC0l-G0_y94rMQVxH7mmBL7Gl0PPZXYg=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.doitly&hl=en",
+    "app": "booktou",
+    "file": "assets/booktou/store/05.webp",
+    "source": "https://play-lh.googleusercontent.com/IpreLJehKWKaS1lP7-BM-jXZHl1Ra5FagDM0etWZ6-ITV2ol3G9kXIccwO9EFBo4fZtOqF5IBgu7sk35CNsATQ=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "booktou",
+    "file": "assets/booktou/store/06.webp",
+    "source": "https://play-lh.googleusercontent.com/feAXqPay2IXO7_1ozcdyrm5g3ZOILhNgdHZxTWLVCPGty7H14w0-Um_z1E24EjvS9QxhxKcZ1bukKBRjA43HRQ=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "booktou",
+    "file": "assets/booktou/store/07.webp",
+    "source": "https://play-lh.googleusercontent.com/KQhyTjBUc9WtkJkDmrREmAL9PX-e5zMQMkmuNTHU9FhzZ2y6kDtCc40MeKDUnf9cjcw9wt2WQ_YKuLbsKUXyXA=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "booktou",
+    "file": "assets/booktou/store/08.webp",
+    "source": "https://play-lh.googleusercontent.com/xcHboX7EQambZAYBx4kqKBN9rEqhDkMdJSnph1MCPbddgFRl_cOZQNMlSXAmlr6_3EwNO8P8r2jcNJWto-d4QA=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "speaktou",
+    "file": "assets/speaktou/store/01.webp",
+    "source": "https://play-lh.googleusercontent.com/HsciJ_oSz-dSTKEoAcFEwtoZYGOgHS0hm4gGWjNJLYgAJIhAWJ43kbhFZkF4yge_q_BtBiyv0RgwP4IZv81Q9w=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftw.speaktou&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "speaktou",
+    "file": "assets/speaktou/store/02.webp",
+    "source": "https://play-lh.googleusercontent.com/V2LALCAHGEwKWEE7JAn93pKTsPwkhWCVNIVVy9hyf_GsVVvr7OFu_fXeZiVTwCPYqgAbpnQ1b_qgnURbjNfPpw=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftw.speaktou&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "speaktou",
+    "file": "assets/speaktou/store/03.webp",
+    "source": "https://play-lh.googleusercontent.com/-gqKEMIARuICkI_fbXK9co5BtKmq7mGANeS-PVraIfs0EmzJGtlYRyvDrGTdvEXjfpBZmO7eWOtg_ICgJMZneA=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftw.speaktou&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "speaktou",
+    "file": "assets/speaktou/store/04.webp",
+    "source": "https://play-lh.googleusercontent.com/H3tym3KnaCU9ZIwswJMbs4IPsXoGgRBXGhOtM3vzVT6Xt5ykrHZAcJYYypO83uvd-bQzOoTgkNzRvBBW9AVVUQ=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftw.speaktou&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "speaktou",
+    "file": "assets/speaktou/store/05.webp",
+    "source": "https://play-lh.googleusercontent.com/7YsHk_uOtDve2ZP4geq0psee9Dn5d5JkAqNEbyu7efaJlmqLVB11my7r4BlUR8zLuONObTwMjyiOhYqmKhcq=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftw.speaktou&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "speaktou",
+    "file": "assets/speaktou/store/06.webp",
+    "source": "https://play-lh.googleusercontent.com/3p-F4-RvBCZES-kEG2EyHob1cbTZc1jW_JYO6BojIxfOCqu-aJhP5ioLMKnY6nNvibyyBwFtEVs4m576KEuBKQ=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftw.speaktou&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "notero",
+    "file": "assets/notero/store/01.webp",
+    "source": "https://play-lh.googleusercontent.com/jwHh2EXPZaalmLqXiHwU8gpOhmHi2HQ1VfTJ0OPHmkATGTGqwlQfIG19T_b6COUb2EPC7L4T_7rrRqKp-co7JA=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "notero",
+    "file": "assets/notero/store/02.webp",
+    "source": "https://play-lh.googleusercontent.com/UwlShEzSc3uofgVij225TJJl6V7gG3MAz26EFawNcY5JCGneHcptZVK5hz2mWG7HF4AYShZ3ISixggOh4JoD=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "notero",
+    "file": "assets/notero/store/03.webp",
+    "source": "https://play-lh.googleusercontent.com/_qjP_blpJ4CNn0IG4xoVT1jLFi1J02n09CWYXaZ_VqfydwcP7RaPynqkjHve6hSR110SY_IyN_vl9qT3XGG3C1w=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "notero",
+    "file": "assets/notero/store/04.webp",
+    "source": "https://play-lh.googleusercontent.com/-ONdJnWTzArQuekQEf23UtRzwfBetuwHU1hzxYy0N-q-aiLStsJJok6CxQnPlH7tICRUVAfk_xHxD25N-API=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "notero",
+    "file": "assets/notero/store/05.webp",
+    "source": "https://play-lh.googleusercontent.com/VNjJUOOHo9FkZ3yJX0Q77E563j2GfNxuCJLZ-laEFL4MDcr2kkZ5MZGORUkoSEqCCrb5QDJFIJ9WSH2gQ7kjYQ=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "notero",
+    "file": "assets/notero/store/06.webp",
+    "source": "https://play-lh.googleusercontent.com/LAvi8c-FYIU6MH8Ub7GXFGKCgBet8A6x8smETa4NRBnMy0oyccq7fNAVbNsFP2YSZyd2TPejE_J-ZeFNPQoqyCU=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "notero",
+    "file": "assets/notero/store/07.webp",
+    "source": "https://play-lh.googleusercontent.com/TK9V-qiZyFl7PIPAS-keysRg8vhRDrDmcBClxAEnTDVyz3pv1tM24yrqhyjT8o5EwqGImLfB1e9WItQrtiwma64=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "notero",
+    "file": "assets/notero/store/08.webp",
+    "source": "https://play-lh.googleusercontent.com/DqAWv0Bq7-cR6e8sTf-rbjimjPDLgyRalFtWbRMvtLHRtMo_qftIJyaIpcARNHA6NFbJ_TEKQbzMH9Ffb-rX=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero&hl=en",
     "size": [
       810,
       1440
@@ -51,7 +221,7 @@
   },
   {
     "app": "lessonta",
-    "file": "assets/lessonta/screens/01.webp",
+    "file": "assets/lessonta/store/01.webp",
     "source": "https://play-lh.googleusercontent.com/cI6oXdDT9zCLBpx7svkOkrTnCVHF8luQNOcyMonTLmCMNFr4DgmjaehdUXY8-o6PbxPgiltMVK4Mg2LaTrF-=w2560-h1440-rw",
     "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.lessonta&hl=en",
     "size": [
@@ -61,7 +231,7 @@
   },
   {
     "app": "lessonta",
-    "file": "assets/lessonta/screens/02.webp",
+    "file": "assets/lessonta/store/02.webp",
     "source": "https://play-lh.googleusercontent.com/pGN0mucELDURaeyt6JyZhheyyTJ248l7-vTbWt97PBhLfWhTQATErb1SClThUis4hviRjcWu2zJmrbR3aif4-Sc=w2560-h1440-rw",
     "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.lessonta&hl=en",
     "size": [
@@ -71,7 +241,7 @@
   },
   {
     "app": "lessonta",
-    "file": "assets/lessonta/screens/03.webp",
+    "file": "assets/lessonta/store/03.webp",
     "source": "https://play-lh.googleusercontent.com/O9XrlKc2ISOycT_z-xHDYRKVxKzF86LonW1g-NEEdgCafh5gSmV7N0DWbzy-FGKuGd0IdUznktjaVXaDC4Lzhg=w2560-h1440-rw",
     "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.lessonta&hl=en",
     "size": [
@@ -80,68 +250,178 @@
     ]
   },
   {
-    "app": "notero",
-    "file": "assets/notero/screens/01.webp",
-    "source": "https://play-lh.googleusercontent.com/g7HQLw2nll76yfoU_7D7bG9ZkZuLkJxQ56H5oD03Vy6q_YKzHQDTKFyYx4DBupMIxxOx0JyYyXSaUXAeFTHbXnk=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero&hl=en",
+    "app": "lessonta",
+    "file": "assets/lessonta/store/04.webp",
+    "source": "https://play-lh.googleusercontent.com/cGEDDgOLLhPau_JNkynTFch_njQvzy3SbDuBwja4dQLjKv289e1j9yUJ2p6kYvIsr2gbbF1SAVnUJGBDhW3SiQ=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.lessonta&hl=en",
     "size": [
       810,
       1440
     ]
   },
   {
-    "app": "notero",
-    "file": "assets/notero/screens/02.webp",
-    "source": "https://play-lh.googleusercontent.com/JMzMtxCRQ_r6f6ErRQUgvUHOpoMXHnbotpOViWsZEGZcMn7gnlWvdiHGAgzxLi9Ey2M6BGzK6B4cjm9xyuwh=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero&hl=en",
+    "app": "lessonta",
+    "file": "assets/lessonta/store/05.webp",
+    "source": "https://play-lh.googleusercontent.com/3FgI6DbbLqNeQUebxmA9Gv5V8ZyZ6VPCe9nuwqdAOWhQpqqBUbp1vv274RcElWMQey_kTmRnIxReVYXN0IM32w=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.lessonta&hl=en",
     "size": [
       810,
       1440
     ]
   },
   {
-    "app": "notero",
-    "file": "assets/notero/screens/03.webp",
-    "source": "https://play-lh.googleusercontent.com/UKjWSUFl6ZlSL0-USpBGpFyGe6GAdPyVZgQTIJhKlEgNq1i22RIs1i226sObGsaOW-gSsn8zEtQOBOeVWOqj=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero&hl=en",
+    "app": "lessonta",
+    "file": "assets/lessonta/store/06.webp",
+    "source": "https://play-lh.googleusercontent.com/tX5OQiQD3OIO00Si2X4WPKKRC1nhJHGVDdzHDGNaQUqb-pjJq7FHd9WiAnBEIruShxrcxm-y8G_-Epfh7Rp4zg=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.lessonta&hl=en",
     "size": [
       810,
       1440
     ]
   },
   {
-    "app": "wordballoonpop",
-    "file": "assets/wordballoonpop/screens/01.webp",
-    "source": "https://play-lh.googleusercontent.com/GGCbjdbbsa9yyV3HFqbpOVe5EIdfBSwKWQ9H6fALWuIe1QpzmdWzJ7EZcwOrNhKzZCVE7T7_1TBuM1r2fUhHkw=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.wordballoonpop&hl=en",
+    "app": "lessonta",
+    "file": "assets/lessonta/store/07.webp",
+    "source": "https://play-lh.googleusercontent.com/gKk3r9LXXB8Tzmxf4fPW5oYbuVVOhqIeYhDHDFHam-ebx0Z_h1yinlsnrikG-LVUNPYcL9QmIx7r73SF0iduPjg=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.lessonta&hl=en",
     "size": [
-      648,
+      810,
       1440
     ]
   },
   {
-    "app": "wordballoonpop",
-    "file": "assets/wordballoonpop/screens/02.webp",
-    "source": "https://play-lh.googleusercontent.com/MWXL5HLNAuXPrvyTk8gST7qES9uxlyF68-g0L_1WW4ZyNu_BCocfxNyRZX9aSbMXOIkRNKIw5VuT-Obp6tHxkQ=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.wordballoonpop&hl=en",
+    "app": "doitly",
+    "file": "assets/doitly/store/01.webp",
+    "source": "https://play-lh.googleusercontent.com/alU-zQBTdG051zWHkjI5gSlp1c3LJCqizvPEejPijpT1pTFRo1gZdAd3Ht2AeRWz4yEtM_ikp_rrrpLZk0sQOQ=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.doitly&hl=en",
     "size": [
-      648,
+      810,
       1440
     ]
   },
   {
-    "app": "wordballoonpop",
-    "file": "assets/wordballoonpop/screens/03.webp",
-    "source": "https://play-lh.googleusercontent.com/hgD2K06D9tGnw4IB6YoAwUkAwdhC8N8fHSxdj-VcztmE9PPXCnlnfNBkxZeTEyCIRqEKMFms6ukitM05lowiEA=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.wordballoonpop&hl=en",
+    "app": "doitly",
+    "file": "assets/doitly/store/02.webp",
+    "source": "https://play-lh.googleusercontent.com/Jai2Qo3NncJiCUaEZokA1OKgQrrM2FGKsLELW5ghY4tux_CPTZE-JwJu1MjLimp4MtnGgr4U1LQ-yj6sdpV2qw=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.doitly&hl=en",
     "size": [
-      648,
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "doitly",
+    "file": "assets/doitly/store/03.webp",
+    "source": "https://play-lh.googleusercontent.com/tPRPSXtE_cptsj8MJls4R03zOSyNJIZz9PLCJUEmp9XD1lE6rguf1RUoC0l-G0_y94rMQVxH7mmBL7Gl0PPZXYg=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.doitly&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "doitly",
+    "file": "assets/doitly/store/04.webp",
+    "source": "https://play-lh.googleusercontent.com/y8kzpdEzV86B0IHMokmyniUeTAGKyuLsTuBCqhbngyACtbeyy_muibgrG8--oDhIxtHwSKk20-dxS4ww3n093CM=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.doitly&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "doitly",
+    "file": "assets/doitly/store/05.webp",
+    "source": "https://play-lh.googleusercontent.com/oX38QMJ6fzQ-R7p6k42fdJr74F0uvf7jw3zPEqjMtdpR23pbF5gy8ECEKKYHGMF7j0fLeGgSjE6nN_UL1bIadw=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.doitly&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "dictiony",
+    "file": "assets/dictiony/store/01.webp",
+    "source": "https://play-lh.googleusercontent.com/8VRQpRg3cqRGZdLMW8ywE9joqvnscPwPbloyViRAZob6CTLxCyKBb1XBfIIZRlShCWJ4HnKEqpFlMRHRaP9HPg=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "dictiony",
+    "file": "assets/dictiony/store/02.webp",
+    "source": "https://play-lh.googleusercontent.com/3383NrfddQ2CQSnPPSid__CzqCx-fejlhU5hJKbhxwvemudqYm-e4YQO42bImVNbzd6_AB2ozVcRuw2McNAjU24=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "dictiony",
+    "file": "assets/dictiony/store/03.webp",
+    "source": "https://play-lh.googleusercontent.com/1Ma5cqXe4zg_QBVAithBihgftFLoJncEnRlikVEkySPni2J-8sh3egmqRqrrlPJ3IUVSJenNJgFHjT63vEAtekc=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "dictiony",
+    "file": "assets/dictiony/store/04.webp",
+    "source": "https://play-lh.googleusercontent.com/6y8Xu02LvU_loclm5JSNih90c8ebsYIbg7rIf--BB8J8cCRgBg0dxOnUEsj_TV1uiPDE8HCRZA7jAqh4-TmZOw=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "dictiony",
+    "file": "assets/dictiony/store/05.webp",
+    "source": "https://play-lh.googleusercontent.com/Tiz2K8vMcUs-NwZxUozqNxF7e1IK130c086SSJpM9Htq8ZlzWZ47d3v5jZmKoCdp6jtTk0_DzBzrQfE2L59p-Ms=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "dictiony",
+    "file": "assets/dictiony/store/06.webp",
+    "source": "https://play-lh.googleusercontent.com/mmfkraRvft4B-Y3wMNgoKDVX7btl7jGJsuOo-hw90CmH_-E3rWaCvpzb7QuODKGSoIoqf7VYgDYjbn3U_7h1Jg=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "dictiony",
+    "file": "assets/dictiony/store/07.webp",
+    "source": "https://play-lh.googleusercontent.com/-CBqGQ0CCqx2vWUy5uLNlKhdXAmBKa1p2Q8vlfsruLMDs0xU-ooQiXN86CmF2EPrwv26jMEEjBhLxUVpHK48=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony&hl=en",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "dictiony",
+    "file": "assets/dictiony/store/08.webp",
+    "source": "https://play-lh.googleusercontent.com/jYgT-9fteyoIhwJw2potOcb_hYAYhKUCJCC8LvX79MVYzaQWf6JmGVb6xITcxhBwyBw9hiL5GqctkxqUht_nmw=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony&hl=en",
+    "size": [
+      810,
       1440
     ]
   },
   {
     "app": "beanjup",
-    "file": "assets/beanjup/screens/01.webp",
+    "file": "assets/beanjup/store/01.webp",
     "source": "https://play-lh.googleusercontent.com/Axk7xyso5N6b0I4SaF8GFVSJxyjELeyrrideRRKq2sHc9nKdjcJ0ef6cVVQQ9VxX4EbuL3F2KuI5bpQ_Rb-zhQ=w2560-h1440-rw",
     "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.beanjup&hl=en",
     "size": [
@@ -151,7 +431,7 @@
   },
   {
     "app": "beanjup",
-    "file": "assets/beanjup/screens/02.webp",
+    "file": "assets/beanjup/store/02.webp",
     "source": "https://play-lh.googleusercontent.com/9rqp59kSXQfqxrIPF2Z77KUju4WuErAL1_mAdlhKwPn4onhWpaCBLKuKN554fiJSOxg2N_d0RpLqKlyXv-0YmMg=w2560-h1440-rw",
     "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.beanjup&hl=en",
     "size": [
@@ -161,11 +441,121 @@
   },
   {
     "app": "beanjup",
-    "file": "assets/beanjup/screens/03.webp",
+    "file": "assets/beanjup/store/03.webp",
     "source": "https://play-lh.googleusercontent.com/cS-Uj1uZcllIl2nSVc8aIYfAsUdIAILYPewnbNrRWpGi6tdpWOw75axBaxdK9cUMjVfx20sBpgAyJ5oL6TY01A=w2560-h1440-rw",
     "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.beanjup&hl=en",
     "size": [
       664,
+      1440
+    ]
+  },
+  {
+    "app": "beanjup",
+    "file": "assets/beanjup/store/04.webp",
+    "source": "https://play-lh.googleusercontent.com/6FVeWXBeOVZnqAOitWI7UtRhVn3FAt8vc2qUi-L7igebyqqbk5EZi4-DVTx5ZFEpehlmpBq4CxKtLuPr1qiPPg=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.beanjup&hl=en",
+    "size": [
+      664,
+      1440
+    ]
+  },
+  {
+    "app": "beanjup",
+    "file": "assets/beanjup/store/05.webp",
+    "source": "https://play-lh.googleusercontent.com/uRwEjpbEAEjOJFgRjrwxio5oggAPrODrOOKQp3Np4BPBdy3t0m-dllsAkwubRyxydTc_sGKrmCC7H16Jtfaw-aM=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.beanjup&hl=en",
+    "size": [
+      664,
+      1440
+    ]
+  },
+  {
+    "app": "wordballoonpop",
+    "file": "assets/wordballoonpop/store/01.webp",
+    "source": "https://play-lh.googleusercontent.com/GGCbjdbbsa9yyV3HFqbpOVe5EIdfBSwKWQ9H6fALWuIe1QpzmdWzJ7EZcwOrNhKzZCVE7T7_1TBuM1r2fUhHkw=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.wordballoonpop&hl=en",
+    "size": [
+      648,
+      1440
+    ]
+  },
+  {
+    "app": "wordballoonpop",
+    "file": "assets/wordballoonpop/store/02.webp",
+    "source": "https://play-lh.googleusercontent.com/MWXL5HLNAuXPrvyTk8gST7qES9uxlyF68-g0L_1WW4ZyNu_BCocfxNyRZX9aSbMXOIkRNKIw5VuT-Obp6tHxkQ=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.wordballoonpop&hl=en",
+    "size": [
+      648,
+      1440
+    ]
+  },
+  {
+    "app": "wordballoonpop",
+    "file": "assets/wordballoonpop/store/03.webp",
+    "source": "https://play-lh.googleusercontent.com/hgD2K06D9tGnw4IB6YoAwUkAwdhC8N8fHSxdj-VcztmE9PPXCnlnfNBkxZeTEyCIRqEKMFms6ukitM05lowiEA=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.wordballoonpop&hl=en",
+    "size": [
+      648,
+      1440
+    ]
+  },
+  {
+    "app": "wordballoonpop",
+    "file": "assets/wordballoonpop/store/04.webp",
+    "source": "https://play-lh.googleusercontent.com/nqCWouk2HgSrr40C33HMnIoQYG7dkbGx7trPEpGWqnjBoohlNs830AwjwfJjwT2_3pek2zjVHk7UmawI9UfX=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.wordballoonpop&hl=en",
+    "size": [
+      648,
+      1440
+    ]
+  },
+  {
+    "app": "wordballoonpop",
+    "file": "assets/wordballoonpop/store/05.webp",
+    "source": "https://play-lh.googleusercontent.com/dZTSTrd5phIFA_ww4rfb5RL93AoODIEpBLX-5cAuR09A8K-K6MMkTUTBi2hcaRBLMH40wjJtulKthwiCcP_2=w2560-h1440-rw",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.wordballoonpop&hl=en",
+    "size": [
+      648,
+      1440
+    ]
+  },
+  {
+    "app": "sleeptou",
+    "file": "assets/sleeptou/store/01.webp",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/12/dc/3212dcbc-303a-a270-9edf-0a14c0eaada8/en-US-01-night.png/1290x2796bb.png",
+    "sourcePage": "https://apps.apple.com/us/app/id6820843632",
+    "size": [
+      662,
+      1440
+    ]
+  },
+  {
+    "app": "sleeptou",
+    "file": "assets/sleeptou/store/02.webp",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/44/01/45/44014521-05ea-ee2d-0b86-08631b4aa760/en-US-02-sounds.png/1290x2796bb.png",
+    "sourcePage": "https://apps.apple.com/us/app/id6820843632",
+    "size": [
+      662,
+      1440
+    ]
+  },
+  {
+    "app": "sleeptou",
+    "file": "assets/sleeptou/store/03.webp",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/89/d8/e089d8ab-c492-bec2-df28-aa4ac08fd0ea/en-US-03-journal.png/1290x2796bb.png",
+    "sourcePage": "https://apps.apple.com/us/app/id6820843632",
+    "size": [
+      662,
+      1440
+    ]
+  },
+  {
+    "app": "sleeptou",
+    "file": "assets/sleeptou/store/04.webp",
+    "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/b1/d4/59b1d434-c7e4-be10-2cc8-eabb04b998b3/en-US-04-rain.png/1290x2796bb.png",
+    "sourcePage": "https://apps.apple.com/us/app/id6820843632",
+    "size": [
+      662,
       1440
     ]
   }

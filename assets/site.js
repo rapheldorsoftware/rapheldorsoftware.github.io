@@ -42,6 +42,32 @@ if (glow && !calm) head.addEventListener('pointermove', event => {
   glow.style.setProperty('--gx', `${event.clientX - box.left}px`);
   glow.style.setProperty('--gy', `${event.clientY - box.top}px`);
 }, { passive: true });
+// Screenshot strip: arrow buttons for mouse users, shown only when the strip overflows.
+const row = document.querySelector('.screens-row');
+if (row) {
+  const nav = document.createElement('div');
+  nav.className = 'screens-nav';
+  const rtl = getComputedStyle(row).direction === 'rtl' ? -1 : 1;
+  const buttons = [['previous', '‹', -1], ['next', '›', 1]].map(([key, glyph, step]) => {
+    const button = document.createElement('button');
+    button.type = 'button'; button.textContent = glyph; button.setAttribute('aria-label', row.dataset[key]);
+    button.addEventListener('click', () => row.scrollBy({ left: step * rtl * row.clientWidth * .8, behavior: calm ? 'auto' : 'smooth' }));
+    nav.append(button);
+    return button;
+  });
+  const sync = () => {
+    const max = row.scrollWidth - row.clientWidth, at = Math.abs(row.scrollLeft);
+    nav.hidden = max < 4;
+    buttons[0].disabled = at < 4;
+    buttons[1].disabled = at > max - 4;
+  };
+  row.parentElement.querySelector('.screens-foot').append(nav);
+  row.addEventListener('scroll', sync, { passive: true });
+  addEventListener('resize', sync);
+  addEventListener('load', sync);
+  sync();
+}
+
 const dialog = document.querySelector('.image-dialog');
 if (dialog) {
   const shots = [...document.querySelectorAll('[data-shot]')];

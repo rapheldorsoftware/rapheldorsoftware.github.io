@@ -99,7 +99,12 @@ summary::-webkit-details-marker{display:none}
 .screens-row{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:16px;scrollbar-width:thin}
 .shot{flex:none;padding:0;border:0;background:none;border-radius:22px;overflow:hidden;scroll-snap-align:start;box-shadow:0 0 0 1px #ffffff1a}
 .shot img{height:min(560px,70vh);width:auto}
-.note{font-size:12px;color:var(--muted);margin:8px 0 0}
+.screens-foot{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:8px}
+.note{font-size:12px;color:var(--muted);margin:0}
+.screens-nav{display:flex;gap:10px;flex-shrink:0}
+.screens-nav button{width:44px;height:44px;border:0;border-radius:50%;background:#ffffff1f;font-size:22px;line-height:1;display:grid;place-items:center;transition:background .2s}
+.screens-nav button:hover:not(:disabled){background:#ffffff33}
+.screens-nav button:disabled{opacity:.3;cursor:default}
 .features{padding-block:80px 64px}
 .features h2,.more-apps h2,.product-support h2{font-size:28px;letter-spacing:-.015em}
 .features h2{margin-bottom:32px}

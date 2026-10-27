@@ -7,22 +7,47 @@
     "icon": "assets/booktou/icon.webp",
     "apple": "https://apps.apple.com/app/id6795242771",
     "images": [
-      "assets/booktou/marketing/track-books.webp",
-      "assets/booktou/marketing/statistics.webp",
-      "assets/booktou/marketing/notes-quotes.webp"
+      "assets/booktou/store/01.webp",
+      "assets/booktou/store/02.webp",
+      "assets/booktou/store/03.webp",
+      "assets/booktou/store/04.webp",
+      "assets/booktou/store/05.webp",
+      "assets/booktou/store/06.webp",
+      "assets/booktou/store/07.webp",
+      "assets/booktou/store/08.webp"
     ],
     "id": "booktou",
     "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou",
     "imageSizes": {
-      "assets/booktou/marketing/track-books.webp": [
+      "assets/booktou/store/01.webp": [
         810,
         1440
       ],
-      "assets/booktou/marketing/statistics.webp": [
+      "assets/booktou/store/02.webp": [
         810,
         1440
       ],
-      "assets/booktou/marketing/notes-quotes.webp": [
+      "assets/booktou/store/03.webp": [
+        810,
+        1440
+      ],
+      "assets/booktou/store/04.webp": [
+        810,
+        1440
+      ],
+      "assets/booktou/store/05.webp": [
+        810,
+        1440
+      ],
+      "assets/booktou/store/06.webp": [
+        810,
+        1440
+      ],
+      "assets/booktou/store/07.webp": [
+        810,
+        1440
+      ],
+      "assets/booktou/store/08.webp": [
         810,
         1440
       ]
@@ -588,24 +613,39 @@
     "icon": "assets/speaktou/icon.webp",
     "apple": "https://apps.apple.com/app/id6814258980",
     "images": [
-      "assets/speaktou/marketing/practice.webp",
-      "assets/speaktou/marketing/word-tower.webp",
-      "assets/speaktou/marketing/listening.webp"
+      "assets/speaktou/store/01.webp",
+      "assets/speaktou/store/02.webp",
+      "assets/speaktou/store/03.webp",
+      "assets/speaktou/store/04.webp",
+      "assets/speaktou/store/05.webp",
+      "assets/speaktou/store/06.webp"
     ],
     "id": "speaktou",
     "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftw.speaktou",
     "imageSizes": {
-      "assets/speaktou/marketing/practice.webp": [
-        750,
-        1521
+      "assets/speaktou/store/01.webp": [
+        810,
+        1440
       ],
-      "assets/speaktou/marketing/word-tower.webp": [
-        750,
-        1521
+      "assets/speaktou/store/02.webp": [
+        810,
+        1440
       ],
-      "assets/speaktou/marketing/listening.webp": [
-        750,
-        1521
+      "assets/speaktou/store/03.webp": [
+        810,
+        1440
+      ],
+      "assets/speaktou/store/04.webp": [
+        810,
+        1440
+      ],
+      "assets/speaktou/store/05.webp": [
+        810,
+        1440
+      ],
+      "assets/speaktou/store/06.webp": [
+        810,
+        1440
       ]
     },
     "locales": {
@@ -1339,20 +1379,45 @@
     "id": "notero",
     "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.notero",
     "images": [
-      "assets/notero/screens/01.webp",
-      "assets/notero/screens/02.webp",
-      "assets/notero/screens/03.webp"
+      "assets/notero/store/01.webp",
+      "assets/notero/store/02.webp",
+      "assets/notero/store/03.webp",
+      "assets/notero/store/04.webp",
+      "assets/notero/store/05.webp",
+      "assets/notero/store/06.webp",
+      "assets/notero/store/07.webp",
+      "assets/notero/store/08.webp"
     ],
     "imageSizes": {
-      "assets/notero/screens/01.webp": [
+      "assets/notero/store/01.webp": [
         810,
         1440
       ],
-      "assets/notero/screens/02.webp": [
+      "assets/notero/store/02.webp": [
         810,
         1440
       ],
-      "assets/notero/screens/03.webp": [
+      "assets/notero/store/03.webp": [
+        810,
+        1440
+      ],
+      "assets/notero/store/04.webp": [
+        810,
+        1440
+      ],
+      "assets/notero/store/05.webp": [
+        810,
+        1440
+      ],
+      "assets/notero/store/06.webp": [
+        810,
+        1440
+      ],
+      "assets/notero/store/07.webp": [
+        810,
+        1440
+      ],
+      "assets/notero/store/08.webp": [
         810,
         1440
       ]
@@ -1734,20 +1799,40 @@
     "id": "lessonta",
     "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.lessonta",
     "images": [
-      "assets/lessonta/screens/01.webp",
-      "assets/lessonta/screens/02.webp",
-      "assets/lessonta/screens/03.webp"
+      "assets/lessonta/store/01.webp",
+      "assets/lessonta/store/02.webp",
+      "assets/lessonta/store/03.webp",
+      "assets/lessonta/store/04.webp",
+      "assets/lessonta/store/05.webp",
+      "assets/lessonta/store/06.webp",
+      "assets/lessonta/store/07.webp"
     ],
     "imageSizes": {
-      "assets/lessonta/screens/01.webp": [
+      "assets/lessonta/store/01.webp": [
         810,
         1440
       ],
-      "assets/lessonta/screens/02.webp": [
+      "assets/lessonta/store/02.webp": [
         810,
         1440
       ],
-      "assets/lessonta/screens/03.webp": [
+      "assets/lessonta/store/03.webp": [
+        810,
+        1440
+      ],
+      "assets/lessonta/store/04.webp": [
+        810,
+        1440
+      ],
+      "assets/lessonta/store/05.webp": [
+        810,
+        1440
+      ],
+      "assets/lessonta/store/06.webp": [
+        810,
+        1440
+      ],
+      "assets/lessonta/store/07.webp": [
         810,
         1440
       ]
@@ -2335,20 +2420,30 @@
     "id": "doitly",
     "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.doitly",
     "images": [
-      "assets/doitly/screens/01.webp",
-      "assets/doitly/screens/02.webp",
-      "assets/doitly/screens/03.webp"
+      "assets/doitly/store/01.webp",
+      "assets/doitly/store/02.webp",
+      "assets/doitly/store/03.webp",
+      "assets/doitly/store/04.webp",
+      "assets/doitly/store/05.webp"
     ],
     "imageSizes": {
-      "assets/doitly/screens/01.webp": [
+      "assets/doitly/store/01.webp": [
         810,
         1440
       ],
-      "assets/doitly/screens/02.webp": [
+      "assets/doitly/store/02.webp": [
         810,
         1440
       ],
-      "assets/doitly/screens/03.webp": [
+      "assets/doitly/store/03.webp": [
+        810,
+        1440
+      ],
+      "assets/doitly/store/04.webp": [
+        810,
+        1440
+      ],
+      "assets/doitly/store/05.webp": [
         810,
         1440
       ]
@@ -2606,15 +2701,45 @@
     "id": "dictiony",
     "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.dictiony",
     "images": [
-      "assets/dictiony/screens/01.webp",
-      "assets/dictiony/screens/02.webp"
+      "assets/dictiony/store/01.webp",
+      "assets/dictiony/store/02.webp",
+      "assets/dictiony/store/03.webp",
+      "assets/dictiony/store/04.webp",
+      "assets/dictiony/store/05.webp",
+      "assets/dictiony/store/06.webp",
+      "assets/dictiony/store/07.webp",
+      "assets/dictiony/store/08.webp"
     ],
     "imageSizes": {
-      "assets/dictiony/screens/01.webp": [
+      "assets/dictiony/store/01.webp": [
         810,
         1440
       ],
-      "assets/dictiony/screens/02.webp": [
+      "assets/dictiony/store/02.webp": [
+        810,
+        1440
+      ],
+      "assets/dictiony/store/03.webp": [
+        810,
+        1440
+      ],
+      "assets/dictiony/store/04.webp": [
+        810,
+        1440
+      ],
+      "assets/dictiony/store/05.webp": [
+        810,
+        1440
+      ],
+      "assets/dictiony/store/06.webp": [
+        810,
+        1440
+      ],
+      "assets/dictiony/store/07.webp": [
+        810,
+        1440
+      ],
+      "assets/dictiony/store/08.webp": [
         810,
         1440
       ]
@@ -2668,20 +2793,30 @@
     "id": "beanjup",
     "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.beanjup",
     "images": [
-      "assets/beanjup/screens/01.webp",
-      "assets/beanjup/screens/02.webp",
-      "assets/beanjup/screens/03.webp"
+      "assets/beanjup/store/01.webp",
+      "assets/beanjup/store/02.webp",
+      "assets/beanjup/store/03.webp",
+      "assets/beanjup/store/04.webp",
+      "assets/beanjup/store/05.webp"
     ],
     "imageSizes": {
-      "assets/beanjup/screens/01.webp": [
+      "assets/beanjup/store/01.webp": [
         664,
         1440
       ],
-      "assets/beanjup/screens/02.webp": [
+      "assets/beanjup/store/02.webp": [
         664,
         1440
       ],
-      "assets/beanjup/screens/03.webp": [
+      "assets/beanjup/store/03.webp": [
+        664,
+        1440
+      ],
+      "assets/beanjup/store/04.webp": [
+        664,
+        1440
+      ],
+      "assets/beanjup/store/05.webp": [
         664,
         1440
       ]
@@ -2843,20 +2978,30 @@
     "id": "wordballoonpop",
     "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.wordballoonpop",
     "images": [
-      "assets/wordballoonpop/screens/01.webp",
-      "assets/wordballoonpop/screens/02.webp",
-      "assets/wordballoonpop/screens/03.webp"
+      "assets/wordballoonpop/store/01.webp",
+      "assets/wordballoonpop/store/02.webp",
+      "assets/wordballoonpop/store/03.webp",
+      "assets/wordballoonpop/store/04.webp",
+      "assets/wordballoonpop/store/05.webp"
     ],
     "imageSizes": {
-      "assets/wordballoonpop/screens/01.webp": [
+      "assets/wordballoonpop/store/01.webp": [
         648,
         1440
       ],
-      "assets/wordballoonpop/screens/02.webp": [
+      "assets/wordballoonpop/store/02.webp": [
         648,
         1440
       ],
-      "assets/wordballoonpop/screens/03.webp": [
+      "assets/wordballoonpop/store/03.webp": [
+        648,
+        1440
+      ],
+      "assets/wordballoonpop/store/04.webp": [
+        648,
+        1440
+      ],
+      "assets/wordballoonpop/store/05.webp": [
         648,
         1440
       ]
@@ -2902,12 +3047,27 @@
     "apple": "https://apps.apple.com/app/id6820843632",
     "play": null,
     "images": [
-      "assets/sleeptou/screen.jpg"
+      "assets/sleeptou/store/01.webp",
+      "assets/sleeptou/store/02.webp",
+      "assets/sleeptou/store/03.webp",
+      "assets/sleeptou/store/04.webp"
     ],
     "imageSizes": {
-      "assets/sleeptou/screen.jpg": [
-        221,
-        480
+      "assets/sleeptou/store/01.webp": [
+        662,
+        1440
+      ],
+      "assets/sleeptou/store/02.webp": [
+        662,
+        1440
+      ],
+      "assets/sleeptou/store/03.webp": [
+        662,
+        1440
+      ],
+      "assets/sleeptou/store/04.webp": [
+        662,
+        1440
       ]
     },
     "locales": {
@@ -2951,20 +3111,45 @@
     "id": "baggageflow",
     "play": null,
     "images": [
-      "assets/baggageflow/screens/01.webp",
-      "assets/baggageflow/screens/02.webp",
-      "assets/baggageflow/screens/03.webp"
+      "assets/baggageflow/store/01.webp",
+      "assets/baggageflow/store/02.webp",
+      "assets/baggageflow/store/03.webp",
+      "assets/baggageflow/store/04.webp",
+      "assets/baggageflow/store/05.webp",
+      "assets/baggageflow/store/06.webp",
+      "assets/baggageflow/store/07.webp",
+      "assets/baggageflow/store/08.webp"
     ],
     "imageSizes": {
-      "assets/baggageflow/screens/01.webp": [
+      "assets/baggageflow/store/01.webp": [
         810,
         1440
       ],
-      "assets/baggageflow/screens/02.webp": [
+      "assets/baggageflow/store/02.webp": [
         810,
         1440
       ],
-      "assets/baggageflow/screens/03.webp": [
+      "assets/baggageflow/store/03.webp": [
+        810,
+        1440
+      ],
+      "assets/baggageflow/store/04.webp": [
+        810,
+        1440
+      ],
+      "assets/baggageflow/store/05.webp": [
+        810,
+        1440
+      ],
+      "assets/baggageflow/store/06.webp": [
+        810,
+        1440
+      ],
+      "assets/baggageflow/store/07.webp": [
+        810,
+        1440
+      ],
+      "assets/baggageflow/store/08.webp": [
         810,
         1440
       ]
