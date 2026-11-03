@@ -2,7 +2,7 @@
 
 Effective Date: October 27, 2026
 
-Last Updated: October 27, 2026
+Last Updated: November 4, 2026
 
 This Privacy Policy explains how Nurullah KIRBIZ, an independent software developer
 based in Türkiye and publishing under the name Rapheldor Software ("Rapheldor,"
@@ -11,16 +11,15 @@ Baggage Flow (the "Game") for Android and iOS.
 
  1. Privacy at a Glance
 
-Baggage Flow is an offline logic puzzle game. It shows no ads and is funded by optional in-app purchases. The current version:
+Baggage Flow is an offline logic puzzle game funded by advertising and optional in-app purchases. The current version:
 
-- stores your game progress and settings only on your device;
-- contains no advertising, analytics or tracking SDKs;
-- offers optional in-app purchases (hint packs, a starter pack and Premium Forever), processed by Google Play or the Apple App Store;
+- stores your game progress and settings on your device and does not require an account or login;
+- shows interstitial ads between levels through Google AdMob, with Unity Ads served through AdMob mediation, and offers optional rewarded videos for hints; Premium Forever removes interstitial ads;
+- uses Google's User Messaging Platform to ask for consent where required and lets you change your choice later through privacy options;
+- offers optional in-app purchases processed by Google Play or the Apple App Store, with purchase records sent to RevenueCat for validation and revenue reporting;
 - offers optional leaderboards through Google Play Games (Android) or Apple Game Center (iOS), using the account you have with that service;
 - may ask you to rate the Game using the review prompt provided by Google Play or the Apple App Store; and
 - does not request access to contacts, photos, the camera, the microphone or location.
-
-Rapheldor does not collect, sell or share personal information through the Game.
 
  2. Information Stored Only on Your Device
 
@@ -34,9 +33,29 @@ The Game stores a limited amount of information locally on your device so it can
 
 This information never leaves your device through the Game. It remains on your device until you clear the Game's app data or uninstall the Game. Device backup and restore features provided by your operating system or app store may process local app data in accordance with their own terms and privacy policies.
 
- 3. In-App Purchases and Leaderboards
+ 3. Advertising (Google AdMob and Unity Ads)
 
-In-app purchases are handled entirely by Google Play or the Apple App Store through the Unity In-App Purchasing package; Rapheldor never receives your payment details. The Game receives a purchase confirmation (product and transaction identifiers) so it can deliver what you bought and avoid granting it twice, and stores that locally on your device. Premium Forever can be restored from the shop.
+The Game uses the Google Mobile Ads SDK (Google AdMob) to show interstitial ads between levels and optional rewarded videos that you can watch for a hint. Through AdMob mediation, some ad requests may be filled by Unity Ads (Unity Technologies). Premium Forever removes interstitial ads. The ad SDKs may collect and process:
+
+- device identifiers such as advertising ID or app set ID;
+- IP address and the approximate location derived from it;
+- device and app information, such as device model, operating system, language, app version and screen size;
+- ad interaction data, such as ad impressions, clicks and video completion; and
+- diagnostics and crash data.
+
+On iOS, the Game does not ask for permission to track you through Apple's App Tracking Transparency framework and does not use Apple's advertising identifier (IDFA) for tracking.
+
+Google's processing is governed by Google's Privacy Policy (https://policies.google.com/privacy) and its explanation of how Google uses information from apps that use its services (https://policies.google.com/technologies/partner-sites). Unity's processing is governed by the Unity Privacy Policy (https://unity.com/legal/privacy-policy); you can learn more about Unity Ads and your choices at https://unity.com/legal/game-player-and-app-user-privacy-policy.
+
+ 3a. Consent
+
+Google's User Messaging Platform (UMP) asks for consent where required, including under EEA and UK GDPR and US state privacy laws. You can change your choice later through the Game's privacy options.
+
+ 3b. In-App Purchases, RevenueCat and Leaderboards
+
+In-app purchases are processed by Google Play or the Apple App Store through the Unity In-App Purchasing package; Rapheldor never receives your payment details. The Game receives a purchase confirmation (product and transaction identifiers) so it can deliver what you bought and avoid granting it twice, and stores that locally on your device. Premium Forever can be restored from the shop.
+
+Purchase records are also sent to RevenueCat, Inc. for purchase validation and revenue reporting. These records include an anonymous app user ID, product, price, transaction identifiers and country/store. RevenueCat's processing is governed by its Privacy Policy (https://www.revenuecat.com/privacy).
 
 Leaderboards are optional. If you sign in to Google Play Games or Apple Game Center, the Game submits your highest level and total stars, and the service shows them to other players together with your player name and avatar. Google's and Apple's processing is governed by their own privacy policies.
 
@@ -52,13 +71,13 @@ Google Play, the Apple App Store, Android, iOS, device manufacturers and operati
 
 Rapheldor may receive aggregated or pseudonymized reports made available through Google Play or the Apple App Store, such as the Game version, device model, operating system version, crash stack traces and installation statistics. We use these reports solely to maintain and improve the Game.
 
-The Game is built with the Unity engine. The Game does not enable Unity's optional analytics or advertising services.
+The Game is built with the Unity engine. Unity Ads is used through AdMob mediation as described in Section 3.
 
  6. Legal Bases, Retention and Your Rights
 
-Where data protection laws such as the GDPR, the UK GDPR or the Turkish Personal Data Protection Law (KVKK) apply, we rely on our legitimate interests in operating, securing and improving the Game and on compliance with legal obligations.
+Where data protection laws such as the GDPR, the UK GDPR or the Turkish Personal Data Protection Law (KVKK) apply, we rely on our legitimate interests in operating, securing and improving the Game, on your consent (collected through Google's User Messaging Platform) for personalised advertising where consent is required, and on compliance with legal obligations.
 
-We keep support correspondence only as long as needed to handle the request and to meet legal obligations. Data handled by the app stores and platform providers is retained by those providers under their own policies.
+We keep support correspondence only as long as needed to handle the request and to meet legal obligations. Data handled by the app stores, advertising services, RevenueCat and platform providers is retained by those providers under their own policies.
 
 Depending on where you live, you may have the right to access, correct, delete or restrict the processing of your personal information, to object to processing and to lodge a complaint with your data protection authority. To exercise these rights for information we hold, contact us at rapheldorsoftware@gmail.com.
 
@@ -72,7 +91,7 @@ Information stored on your device is protected by your device's own security. No
 
  8. Children
 
-Baggage Flow is a casual game for a general audience and is not directed at children under 13. Rapheldor does not knowingly collect personal information from children. Children should ask a parent or legal guardian before making purchases or sending us an email. If you are a parent or legal guardian and believe that a child has sent us personal information, please contact us at rapheldorsoftware@gmail.com and we will delete it.
+Baggage Flow is a casual game for a general audience and is not directed at children under 13. Rapheldor does not knowingly collect personal information from children, and ads are requested with a PG maximum content rating. Children should ask a parent or legal guardian before making purchases or sending us an email. If you are a parent or legal guardian and believe that a child has sent us personal information, please contact us at rapheldorsoftware@gmail.com and we will delete it.
 
  9. Third-Party Links
 
