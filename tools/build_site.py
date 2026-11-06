@@ -47,7 +47,7 @@ def footer(lang,app=None):
     return html.replace('/privacy?app=sleeptou','/sleeptou/privacy.html').replace('/terms?app=sleeptou','/sleeptou/terms.html')
 
 def page(title,description,body,path,lang,app=None,extra_head=''):
-    image='/'+(app['images'][0] if app else 'assets/social-preview.png')
+    image='/'+((app['images'][0] if app['images'] else app['icon']) if app else 'assets/social-preview.png')
     locales=app['locales'] if app else HOME
     alternatives=''.join(f'<link rel="alternate" hreflang="{c}" href="{BASE}{route(app,c)}">' for c in locales)
     alternatives+=f'<link rel="alternate" hreflang="x-default" href="{BASE}{route(app)}">'
@@ -103,10 +103,11 @@ def product(app,lang):
     d=app['locales'][lang];u=UI[lang];c=HOME[lang];path=route(app,lang)
     features=''.join(f'<div class="feature"><h3>{E(f["title"])}</h3>'+(f'<p>{E(f["body"])}</p>' if f['body'] else '')+'</div>' for f in d['features'])
     gallery=''.join(f'<button class="shot" type="button" data-shot="/{img}" aria-label="{E(app["name"])}: {E(u["screens"])} {i}"><img src="/{img}" alt="{E(app["name"])}: {E(u["screens"])} {i}" width="{app["imageSizes"][img][0]}" height="{app["imageSizes"][img][1]}"'+(' fetchpriority="high"' if i==1 else ' loading="lazy"')+'></button>' for i,img in enumerate(app['images'],1))
+    screens=f'<section class="screens" aria-label="{E(u["screens"])}"><div class="wrap"><div class="screens-row" data-previous="{E(u["previous"])}" data-next="{E(u["next"])}">{gallery}</div><div class="screens-foot"><p class="note">{E(u["imageNote"])}</p></div></div></section>' if app['images'] else ''
     related=''.join(tile(a,lang,c,u,small=True) for a in APPS if a['id']!=app['id'])
     body=f'''<main id="main"><section class="product-head"><div class="glow" aria-hidden="true"></div><div class="wrap"><a class="back-link" href="{route(None,home_lang(lang))}#apps">{E(u['back'])}</a>
 <div class="product-grid"><img class="icon product-icon" src="/{app['icon']}" width="128" height="128" alt="" style="background:{app['tint']}"><div class="product-copy"><p class="product-name">{E(app['name'])} <span>{E(c[app['category']])}</span></p><h1>{E(d['title'])}</h1><p class="lead">{E(d['summary'])}</p><div class="store-links">{stores(app,u)}</div></div></div></div></section>
-<section class="screens" aria-label="{E(u['screens'])}"><div class="wrap"><div class="screens-row" data-previous="{E(u['previous'])}" data-next="{E(u['next'])}">{gallery}</div><div class="screens-foot"><p class="note">{E(u['imageNote'])}</p></div></div></section>
+{screens}
 <section class="wrap features" id="features"><h2>{E(u['features'])}</h2><div class="feature-list">{features}</div></section>
 <section class="wrap download" id="download"><div class="download-inner"><img class="icon" src="/{app['icon']}" width="72" height="72" alt="" loading="lazy" style="background:{app['tint']}"><h2>{E(u['getApp'])}</h2><div class="store-links">{stores(app,u)}</div></div></section>
 <section class="wrap product-support"><div><h2>{E(u['support'])}</h2><a href="mailto:rapheldorsoftware@gmail.com">rapheldorsoftware@gmail.com</a></div><div class="legal-links"><a href="/privacy?app={app['id']}">Privacy policy</a><a href="/terms?app={app['id']}">Terms of use</a><small>{E(u['englishLegal'])}</small></div></section>

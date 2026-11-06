@@ -3916,45 +3916,8 @@
     "icon": "assets/bumperpop/icon.webp",
     "apple": "",
     "play": "https://play.google.com/store/apps/details?id=com.rapheldor.bumperpop",
-    "images": [
-      "assets/bumperpop/store/01.webp",
-      "assets/bumperpop/store/02.webp",
-      "assets/bumperpop/store/03.webp",
-      "assets/bumperpop/store/04.webp",
-      "assets/bumperpop/store/05.webp",
-      "assets/bumperpop/store/06.webp",
-      "assets/bumperpop/store/07.webp"
-    ],
-    "imageSizes": {
-      "assets/bumperpop/store/01.webp": [
-        810,
-        1440
-      ],
-      "assets/bumperpop/store/02.webp": [
-        810,
-        1440
-      ],
-      "assets/bumperpop/store/03.webp": [
-        810,
-        1440
-      ],
-      "assets/bumperpop/store/04.webp": [
-        810,
-        1440
-      ],
-      "assets/bumperpop/store/05.webp": [
-        810,
-        1440
-      ],
-      "assets/bumperpop/store/06.webp": [
-        810,
-        1440
-      ],
-      "assets/bumperpop/store/07.webp": [
-        810,
-        1440
-      ]
-    },
+    "images": [],
+    "imageSizes": {},
     "locales": {
       "en": {
         "title": "Match, bump and pop at the funfair",
@@ -3989,30 +3952,8 @@
     "icon": "assets/carsurf/icon.webp",
     "apple": "",
     "play": "https://play.google.com/store/apps/details?id=com.rapheldor.carsurf",
-    "images": [
-      "assets/carsurf/store/01.webp",
-      "assets/carsurf/store/02.webp",
-      "assets/carsurf/store/03.webp",
-      "assets/carsurf/store/04.webp"
-    ],
-    "imageSizes": {
-      "assets/carsurf/store/01.webp": [
-        810,
-        1440
-      ],
-      "assets/carsurf/store/02.webp": [
-        810,
-        1440
-      ],
-      "assets/carsurf/store/03.webp": [
-        810,
-        1440
-      ],
-      "assets/carsurf/store/04.webp": [
-        810,
-        1440
-      ]
-    },
+    "images": [],
+    "imageSizes": {},
     "locales": {
       "en": {
         "title": "Weave through traffic. Chase your next record.",
