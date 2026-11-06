@@ -1,85 +1,5 @@
 [
   {
-    "app": "booktou",
-    "file": "assets/booktou/store/01.webp",
-    "source": "https://play-lh.googleusercontent.com/wQfYxtmf-q3hk-yGAyOZWf-_nN8ayVAO0gLWxlMStphhJWcRt0ebOkW6oMZirQPAPAtwwIRvNBkxKbbHNnlTd54=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
-    "size": [
-      810,
-      1440
-    ]
-  },
-  {
-    "app": "booktou",
-    "file": "assets/booktou/store/02.webp",
-    "source": "https://play-lh.googleusercontent.com/wV84uEwQ7tb8VKdoM9PsRfwiRkkj-k0xAb8d9Vybe2nP3Yog15ykrIxFqdnha8qPirwiKHx4RMBnzIDemCTM=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
-    "size": [
-      810,
-      1440
-    ]
-  },
-  {
-    "app": "booktou",
-    "file": "assets/booktou/store/03.webp",
-    "source": "https://play-lh.googleusercontent.com/PaVSpqAHAVVQ9VpAzpzutwpRWZKdHD8f41j38M6woJaa-XMN87gElkAvjXE_GwID9kDanQv-wvFqE8uCMDkA_w=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
-    "size": [
-      810,
-      1440
-    ]
-  },
-  {
-    "app": "booktou",
-    "file": "assets/booktou/store/04.webp",
-    "source": "https://play-lh.googleusercontent.com/n-Kin8wgkC7XlqpcLqez-P8FwQH8S8Dsbf8iImcR2keMDPXejYz8ZL3cEWNsML7O2rVeMkbeNfHvR3h-gTZXsg=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
-    "size": [
-      810,
-      1440
-    ]
-  },
-  {
-    "app": "booktou",
-    "file": "assets/booktou/store/05.webp",
-    "source": "https://play-lh.googleusercontent.com/IpreLJehKWKaS1lP7-BM-jXZHl1Ra5FagDM0etWZ6-ITV2ol3G9kXIccwO9EFBo4fZtOqF5IBgu7sk35CNsATQ=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
-    "size": [
-      810,
-      1440
-    ]
-  },
-  {
-    "app": "booktou",
-    "file": "assets/booktou/store/06.webp",
-    "source": "https://play-lh.googleusercontent.com/feAXqPay2IXO7_1ozcdyrm5g3ZOILhNgdHZxTWLVCPGty7H14w0-Um_z1E24EjvS9QxhxKcZ1bukKBRjA43HRQ=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
-    "size": [
-      810,
-      1440
-    ]
-  },
-  {
-    "app": "booktou",
-    "file": "assets/booktou/store/07.webp",
-    "source": "https://play-lh.googleusercontent.com/KQhyTjBUc9WtkJkDmrREmAL9PX-e5zMQMkmuNTHU9FhzZ2y6kDtCc40MeKDUnf9cjcw9wt2WQ_YKuLbsKUXyXA=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
-    "size": [
-      810,
-      1440
-    ]
-  },
-  {
-    "app": "booktou",
-    "file": "assets/booktou/store/08.webp",
-    "source": "https://play-lh.googleusercontent.com/xcHboX7EQambZAYBx4kqKBN9rEqhDkMdJSnph1MCPbddgFRl_cOZQNMlSXAmlr6_3EwNO8P8r2jcNJWto-d4QA=w2560-h1440-rw",
-    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
-    "size": [
-      810,
-      1440
-    ]
-  },
-  {
     "app": "speaktou",
     "file": "assets/speaktou/store/01.webp",
     "source": "https://play-lh.googleusercontent.com/HsciJ_oSz-dSTKEoAcFEwtoZYGOgHS0hm4gGWjNJLYgAJIhAWJ43kbhFZkF4yge_q_BtBiyv0RgwP4IZv81Q9w=w2560-h1440-rw",
@@ -556,6 +476,185 @@
     "sourcePage": "https://apps.apple.com/us/app/id6820843632",
     "size": [
       662,
+      1440
+    ]
+  },
+  {
+    "app": "booktou",
+    "file": "assets/booktou/store/01.webp",
+    "source": "https://play-lh.googleusercontent.com/yxTMUDvBQ__u02QoWDH4Mj-TlLw0xAng7bGzt47_I4ZpidrBi_Hh2vgiXuajv_oQrwGG2L8jRlOL36M2nirGjA=w1440",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      720,
+      1440
+    ]
+  },
+  {
+    "app": "booktou",
+    "file": "assets/booktou/store/02.webp",
+    "source": "https://play-lh.googleusercontent.com/sqFgf_czYNfXsNx5vxcDKgemBI-Gi0-4706eN9pp55r64SJP7Ze-xzpoDkuvuCLyZml8k4gG8FHAuSf7LOJ4dQ=w1440",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      720,
+      1440
+    ]
+  },
+  {
+    "app": "booktou",
+    "file": "assets/booktou/store/03.webp",
+    "source": "https://play-lh.googleusercontent.com/Cy5538dZkxw1WhYPccyixrFmiWkYvHYVLNIY2Vh3ScCH-1sg0D25n-qayokwANy4SYttAHTWmE2wS--SCijsig=w1440",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      720,
+      1440
+    ]
+  },
+  {
+    "app": "booktou",
+    "file": "assets/booktou/store/04.webp",
+    "source": "https://play-lh.googleusercontent.com/-evV15mVoB_QA9bZgEMzZTU0Nr1SmFPLkYpfF0Tjf37kHn1bsmpLzrWBqmVbRURTshS7GyFTeHpu5A5VHUdEANw=w1440",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      720,
+      1440
+    ]
+  },
+  {
+    "app": "booktou",
+    "file": "assets/booktou/store/05.webp",
+    "source": "https://play-lh.googleusercontent.com/IDAsR4p52Dx45jJQj-CVdqX-ZsR3qb1wK-KwbhtiteMeqBsAdSecTJnm0APM63ANRGYfWuXEHoiCw59n5dpjZA=w1440",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      720,
+      1440
+    ]
+  },
+  {
+    "app": "booktou",
+    "file": "assets/booktou/store/06.webp",
+    "source": "https://play-lh.googleusercontent.com/mOyRQyK0BPLJffw9FwgjL3eyyJ_-AWKLYIKOC66jMpR9uXx6iX7m3vOUV5x0yWU93taHEUrOFMPariEfuKR3jvU=w1440",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      720,
+      1440
+    ]
+  },
+  {
+    "app": "booktou",
+    "file": "assets/booktou/store/07.webp",
+    "source": "https://play-lh.googleusercontent.com/PsPl3iRs8ZD4ksoZynnUy34ccK2IRSATi3GGgM4pZce-5Nn0wU-HKewqlrNYCvkbMb14Uk-8SR3_qJM1UKQdvg=w1440",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      720,
+      1440
+    ]
+  },
+  {
+    "app": "booktou",
+    "file": "assets/booktou/store/08.webp",
+    "source": "https://play-lh.googleusercontent.com/lNt3xWA7oEhNF1Rq1Zz5DsAHiDgPettkgWSDwgujaBbCnqPwwUjYHU8E8UglXsnOuQuHi0Z57EZzSGCDR2HjiA=w1440",
+    "sourcePage": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou&hl=en",
+    "size": [
+      720,
+      1440
+    ]
+  },
+  {
+    "app": "carsurf",
+    "file": "assets/carsurf/store/01.webp",
+    "source": "C:/Users/efels/Desktop/carsurf/1.webp",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "carsurf",
+    "file": "assets/carsurf/store/02.webp",
+    "source": "C:/Users/efels/Desktop/carsurf/2.webp",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "carsurf",
+    "file": "assets/carsurf/store/03.webp",
+    "source": "C:/Users/efels/Desktop/carsurf/3.webp",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "carsurf",
+    "file": "assets/carsurf/store/04.webp",
+    "source": "C:/Users/efels/Desktop/carsurf/4.webp",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "bumperpop",
+    "file": "assets/bumperpop/store/01.webp",
+    "source": "C:/Users/efels/Desktop/bumper pop/1.webp",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "bumperpop",
+    "file": "assets/bumperpop/store/02.webp",
+    "source": "C:/Users/efels/Desktop/bumper pop/2.webp",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "bumperpop",
+    "file": "assets/bumperpop/store/03.webp",
+    "source": "C:/Users/efels/Desktop/bumper pop/3.webp",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "bumperpop",
+    "file": "assets/bumperpop/store/04.webp",
+    "source": "C:/Users/efels/Desktop/bumper pop/4.webp",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "bumperpop",
+    "file": "assets/bumperpop/store/05.webp",
+    "source": "C:/Users/efels/Desktop/bumper pop/5.webp",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "bumperpop",
+    "file": "assets/bumperpop/store/06.webp",
+    "source": "C:/Users/efels/Desktop/bumper pop/6.webp",
+    "size": [
+      810,
+      1440
+    ]
+  },
+  {
+    "app": "bumperpop",
+    "file": "assets/bumperpop/store/07.webp",
+    "source": "C:/Users/efels/Desktop/bumper pop/7.webp",
+    "size": [
+      810,
       1440
     ]
   }

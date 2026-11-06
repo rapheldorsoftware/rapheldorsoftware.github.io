@@ -20,35 +20,35 @@
     "play": "https://play.google.com/store/apps/details?id=com.rapheldorsoftware.booktou",
     "imageSizes": {
       "assets/booktou/store/01.webp": [
-        810,
+        720,
         1440
       ],
       "assets/booktou/store/02.webp": [
-        810,
+        720,
         1440
       ],
       "assets/booktou/store/03.webp": [
-        810,
+        720,
         1440
       ],
       "assets/booktou/store/04.webp": [
-        810,
+        720,
         1440
       ],
       "assets/booktou/store/05.webp": [
-        810,
+        720,
         1440
       ],
       "assets/booktou/store/06.webp": [
-        810,
+        720,
         1440
       ],
       "assets/booktou/store/07.webp": [
-        810,
+        720,
         1440
       ],
       "assets/booktou/store/08.webp": [
-        810,
+        720,
         1440
       ]
     },
@@ -3902,6 +3902,137 @@
           {
             "title": "离线，无广告",
             "body": "无需联网，随时随地玩。没有广告、计时器和体力。"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "bumperpop",
+    "name": "Bumper Pop",
+    "category": "puzzle",
+    "accent": "#933080",
+    "tint": "#fceafa",
+    "icon": "assets/bumperpop/icon.webp",
+    "apple": "",
+    "play": "https://play.google.com/store/apps/details?id=com.rapheldor.bumperpop",
+    "images": [
+      "assets/bumperpop/store/01.webp",
+      "assets/bumperpop/store/02.webp",
+      "assets/bumperpop/store/03.webp",
+      "assets/bumperpop/store/04.webp",
+      "assets/bumperpop/store/05.webp",
+      "assets/bumperpop/store/06.webp",
+      "assets/bumperpop/store/07.webp"
+    ],
+    "imageSizes": {
+      "assets/bumperpop/store/01.webp": [
+        810,
+        1440
+      ],
+      "assets/bumperpop/store/02.webp": [
+        810,
+        1440
+      ],
+      "assets/bumperpop/store/03.webp": [
+        810,
+        1440
+      ],
+      "assets/bumperpop/store/04.webp": [
+        810,
+        1440
+      ],
+      "assets/bumperpop/store/05.webp": [
+        810,
+        1440
+      ],
+      "assets/bumperpop/store/06.webp": [
+        810,
+        1440
+      ],
+      "assets/bumperpop/store/07.webp": [
+        810,
+        1440
+      ]
+    },
+    "locales": {
+      "en": {
+        "title": "Match, bump and pop at the funfair",
+        "summary": "Swap bumper cars and match three or more of the same colour. Explore 100 levels across six themed worlds in an offline match-3 puzzle. Free to play; contains ads.",
+        "features": [
+          {
+            "title": "100 levels, six worlds",
+            "body": "Explore Sunny Funfair, Neon Track, Bubble Boulevard, Sunset Pier, Rainbow Raceway and Cosmic Funfair."
+          },
+          {
+            "title": "Build bigger combos",
+            "body": "Match four or five cars to create turbo, spinner and rainbow cars. Combine special cars for bigger effects."
+          },
+          {
+            "title": "New goals and daily rounds",
+            "body": "Rescue locked cars, knock down cones, collect tickets and hit targets. Use hammer and shuffle boosters, earn three stars and unlock board styles in the Garage."
+          },
+          {
+            "title": "Play at your own pace",
+            "body": "Play offline without an account, timers, lives or waiting. Progress stays on your device. Colour markers, large text and reduced motion are available."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "carsurf",
+    "name": "CarSurf",
+    "category": "arcade",
+    "accent": "#2357a4",
+    "tint": "#e9f1ff",
+    "icon": "assets/carsurf/icon.webp",
+    "apple": "",
+    "play": "https://play.google.com/store/apps/details?id=com.rapheldor.carsurf",
+    "images": [
+      "assets/carsurf/store/01.webp",
+      "assets/carsurf/store/02.webp",
+      "assets/carsurf/store/03.webp",
+      "assets/carsurf/store/04.webp"
+    ],
+    "imageSizes": {
+      "assets/carsurf/store/01.webp": [
+        810,
+        1440
+      ],
+      "assets/carsurf/store/02.webp": [
+        810,
+        1440
+      ],
+      "assets/carsurf/store/03.webp": [
+        810,
+        1440
+      ],
+      "assets/carsurf/store/04.webp": [
+        810,
+        1440
+      ]
+    },
+    "locales": {
+      "en": {
+        "title": "Weave through traffic. Chase your next record.",
+        "summary": "An offline traffic racing game with three lanes, nitro boosts and barrier jumps. Collect 21 original cars, customise your garage and race through six worlds. No account required.",
+        "features": [
+          {
+            "title": "Close calls and nitro combos",
+            "body": "Swipe left or right to change lanes and swipe up to jump barriers. Collect nitro and earn combos by passing close to traffic. A scrape brings the police; another collision ends the run."
+          },
+          {
+            "title": "21 original cars",
+            "body": "Unlock hot hatches, muscle cars, rally cars, tuners, electric GTs, supercars and hypercars. Inspect each one in a 360-degree showroom."
+          },
+          {
+            "title": "Make your garage your own",
+            "body": "Try 12 paint options with gloss, metallic, matte and pearl finishes. Combine six wheel styles with six wheel colours and upgrade performance."
+          },
+          {
+            "title": "Six worlds, daily goals",
+            "body": "Race through Daytime City, Neon Night, Desert Canyon, Rainy Coast, Autumn Forest and Snowy Pass. Complete daily missions, build a seven-day login streak and beat your best distance and score offline."
           }
         ]
       }
