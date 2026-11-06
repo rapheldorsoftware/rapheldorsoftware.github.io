@@ -43,7 +43,8 @@ def header(app,lang):
 
 def footer(lang,app=None):
     u=UI[lang]; query='?app='+app['id'] if app else ''
-    html = f'''<footer class="site-footer"><div class="wrap footer-inner"><span>© 2026 Rapheldor Software</span><nav aria-label="{E(u['support'])}"><a href="/privacy{query}">Privacy policy</a><a href="/terms{query}">Terms of use</a><a href="mailto:rapheldorsoftware@gmail.com">{E(u['support'])}</a></nav></div></footer>'''
+    app_links=f'<a href="/privacy{query}">App privacy</a><a href="/terms{query}">App terms</a>' if app else ''
+    html = f'''<footer class="site-footer"><div class="wrap footer-inner"><span>© 2026 Rapheldor Software</span><nav aria-label="{E(u['support'])}"><a href="/privacy">Website privacy</a><a href="/terms">Website terms</a>{app_links}<a href="mailto:rapheldorsoftware@gmail.com">{E(u['support'])}</a></nav></div></footer>'''
     return html.replace('/privacy?app=sleeptou','/sleeptou/privacy.html').replace('/terms?app=sleeptou','/sleeptou/terms.html')
 
 def page(title,description,body,path,lang,app=None,extra_head=''):
@@ -126,10 +127,13 @@ def product(app,lang):
     return page(app['name']+' | '+d['title'],d['summary'],body,path,lang,app,extra_head='<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False)+'</script>')
 
 def legal(kind):
-    title='Privacy policy' if kind=='privacy' else 'Terms of use'
+    title='Website privacy policy' if kind=='privacy' else 'Website terms of use'
+    app_title='App privacy policies' if kind=='privacy' else 'App terms of use'
     cards=''.join(f'<a class="related-app" href="{('/sleeptou/'+kind+'.html') if a['id']=='sleeptou' else ('/'+kind+'?app='+a['id'])}"><img src="/{a["icon"]}" width="44" height="44" alt=""><span>{E(a["name"])}</span></a>' for a in APPS)
-    body=f'''<main id="main" class="wrap legal-main"><h1>{title}</h1><p class="lead">Choose an app to read its {title.lower()}.</p><nav class="legal-app-picker" aria-label="Apps">{cards}</nav><article class="policy-text" id="policy" aria-live="polite"></article></main>'''
-    html=page(title+' | Rapheldor Software','Privacy and terms for Rapheldor Software apps.',body,'/'+kind,'en')
+    policy=(ROOT/'content'/f'website-{kind}.html').read_text(encoding='utf-8')
+    raw_links=''.join(f'<li><a href="{('/sleeptou/'+kind+'.html') if a['id']=='sleeptou' else ('/assets/'+kind+'/'+a['id']+'/'+kind+'-en.txt')}">{E(a["name"])}</a></li>' for a in APPS)
+    body=f'''<main id="main" class="wrap legal-main"><h1 id="legal-title">{title}</h1><p class="lead" id="legal-intro">This document covers the website. Each app has separate policies.</p><nav class="legal-scope" aria-label="Policy scope"><a href="/{kind}" data-site-policy aria-current="page">Website policy</a><a href="#app-policies">App policies</a></nav><article class="policy-text" id="policy" aria-live="polite">{policy}</article><section id="app-policies" aria-labelledby="app-policies-title"><h2 id="app-policies-title">{app_title}</h2><nav class="legal-app-picker" aria-label="Apps">{cards}</nav><noscript><p>For app policies without JavaScript, use these direct document links:</p><ul>{raw_links}</ul></noscript></section></main>'''
+    html=page(title+' | Rapheldor Software','Website policies and separate app policies for Rapheldor Software.',body,'/'+kind,'en')
     html=html.replace('<body>','<body data-legal="'+kind+'">')
     # Legal views use their own canonical address, rather than home alternates.
     html=re.sub(r'<link rel="alternate"[^>]+>','',html)

@@ -136,6 +136,12 @@ if (legal) {
     .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+|mailto:[^\s)]+)\)/g,'<a href="$2">$1</a>');
   if (allowed.has(app)) {
     const file = `/assets/${legal}/${app}/${legal}-en.txt`;
+    const appName = document.querySelector(`a[href="/${legal}?app=${app}"] span`)?.textContent || app;
+    const policyTitle = legal === 'privacy' ? 'Privacy policy' : 'Terms of use';
+    document.querySelector('#legal-title').textContent = `${appName} | ${policyTitle}`;
+    document.querySelector('#legal-intro').textContent = 'This document covers the selected app. Use Website policy to read the separate website document.';
+    document.querySelector('[data-site-policy]')?.removeAttribute('aria-current');
+    policy.textContent = 'Loading app policy…';
     fetch(file).then(response => {
       if(!response.ok) throw new Error('Policy unavailable');
       return response.text();
@@ -157,7 +163,6 @@ if (legal) {
       }
       flush(); flushList();
       policy.innerHTML = output;
-      const appName = document.querySelector(`a[href="/${legal}?app=${app}"] span`)?.textContent || app;
       document.title = `${appName} | ${legal === 'privacy' ? 'Privacy policy' : 'Terms of use'}`;
       document.querySelectorAll('.legal-app-picker a').forEach(a => { if(a.href.endsWith(`app=${app}`)) a.setAttribute('aria-current','page'); });
       const canonical = document.querySelector('link[rel="canonical"]');

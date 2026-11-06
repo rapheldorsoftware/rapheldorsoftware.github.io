@@ -159,6 +159,12 @@ summary::-webkit-details-marker{display:none}
 .policy-text p,.policy-text li{line-height:1.65}
 .policy-text a,.deletion-main section a{color:var(--link);text-decoration:underline;text-underline-offset:3px}
 .policy-text li{margin-bottom:8px}
+.legal-scope{display:flex;flex-wrap:wrap;gap:12px 28px;margin-block:24px 32px}
+.legal-scope a{display:inline-flex;align-items:center;min-height:44px;color:var(--link);text-decoration:underline;text-underline-offset:3px}
+.legal-scope a[aria-current=page]{color:var(--ink);font-weight:600}
+#app-policies{margin-top:56px;padding-top:32px;border-top:1px solid var(--line);scroll-margin-top:88px}
+#app-policies>h2{font-size:26px;margin:0 0 12px}
+.policy-text code{font-size:.9em;overflow-wrap:anywhere}
 .deletion-main{max-width:760px;padding-block:56px 88px}
 .deletion-main h1{font-size:40px;letter-spacing:-.03em;margin-bottom:16px}
 .deletion-main h2{font-size:22px;margin-bottom:12px}

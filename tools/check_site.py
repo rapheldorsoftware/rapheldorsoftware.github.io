@@ -57,6 +57,16 @@ for route in ROUTES:
     for tag,a in p.tags:
         if tag=='img' and a.get('src'):assert 'alt' in a and a.get('width') and a.get('height'),(route,'image attributes')
 
+# Website policies must have readable static content, separate from app selection.
+for kind in ('privacy','terms'):
+    text=file_for('/'+kind).read_text(encoding='utf-8')
+    p=Page(text)
+    assert 'Website '+('privacy policy' if kind=='privacy' else 'terms of use') in text
+    assert 'Last updated:' in text and 'rapheldorsoftware@gmail.com' in text
+    assert {'policy','app-policies','legal-title','legal-intro'} <= p.ids
+    assert '<noscript>' in text
+    assert any(t=='a' and a.get('href')=='/'+kind+'?app=booktou' for t,a in p.tags)
+
 expected={'booktou':25,'speaktou':17,'notero':14,'lessonta':19,'doitly':8,'dictiony':2,'beanjup':8,'wordballoonpop':2,'streaktou':14,'sleeptou':2,'baggageflow':25,'carsurf':1,'bumperpop':1}
 assert set(HOME)==set().union(*(set(a['locales']) for a in APPS))
 for lang,copy in HOME.items():

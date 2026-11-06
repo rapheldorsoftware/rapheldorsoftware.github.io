@@ -36,6 +36,12 @@ against their themes. After a refresh, review generated copy before publishing.
 
 ## Images and legal text
 
+`/privacy` and `/terms` contain the website's own English policies, authored in
+`content/website-privacy.html` and `content/website-terms.html`. App policies remain
+separate at the existing `?app=` URLs (and Sleeptou's existing HTML URLs). Product
+footers link to both website and app policies. The website documents are readable
+without JavaScript; app policy pages also provide direct document fallbacks.
+
 `content/image-sources.json` records the original Google Play image URLs and
 dimensions for the imported screenshots. Existing Booktou and Speaktou assets
 are preserved. Screenshots are resized/compressed without changing their aspect
