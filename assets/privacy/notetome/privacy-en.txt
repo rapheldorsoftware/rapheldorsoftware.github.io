@@ -1,0 +1,31 @@
+Last updated: November 7, 2026
+
+NoteToMe is an offline-first notes application with chat-style messaging, encrypted backups, optional Google Drive backup, and optional media and location attachments. This privacy policy explains what information the app accesses, why it is used, and which services may process it.
+
+## 1. Notes, messages, and attachments
+
+Notes, messages, checklists, and locally stored attachments are used to provide the app's core features. The app is designed to keep this content on your device unless you explicitly export it, share it, or use an optional backup feature.
+
+## 2. Permissions you choose to grant
+
+The app may request access to your camera and photo library to attach media, your microphone to record voice notes, your contacts to share contact information in chats, and your location to attach a location to a note. These permissions are optional and are used only when you start the related feature. You can revoke them at any time in your device settings.
+
+## 3. Google Drive backup and Google Sign-In
+
+If you connect Google Drive, Google Sign-In is used to authenticate your account and the encrypted backup files you choose to upload are stored in your Google Drive. Google processes information according to its own privacy policy.
+
+## 4. Advertising and analytics
+
+The app includes Google Mobile Ads and may use the device advertising identifier for advertising measurement and relevant advertising where permitted. On iOS, the app requests App Tracking Transparency permission before using tracking-related identifiers. The app also uses Firebase Analytics and Firebase Crashlytics to understand app stability and diagnose crashes.
+
+## 5. Security and deletion
+
+The app uses local security controls and encrypted backup functionality to help protect your content. You are responsible for keeping your device and backup password secure. You can delete local data and Google Drive backups through the app, device storage controls, or Google Drive. A lost backup password cannot be recovered by us.
+
+## 6. Children
+
+NoteToMe is not directed to children under 13, and we do not knowingly collect personal information from children.
+
+## 7. Contact
+
+For questions about NoteToMe or this privacy policy, please contact rapheldorsoftware@gmail.com.
