@@ -1790,6 +1790,1253 @@
     }
   },
   {
+    "name": "NoteToMe",
+    "category": "chatnotes",
+    "accent": "#5a4fb3",
+    "tint": "#efedfa",
+    "icon": "assets/notetome/icon.webp",
+    "apple": "",
+    "play": "",
+    "images": [
+      "assets/notetome/store/01.webp",
+      "assets/notetome/store/02.webp",
+      "assets/notetome/store/03.webp",
+      "assets/notetome/store/04.webp",
+      "assets/notetome/store/05.webp",
+      "assets/notetome/store/06.webp",
+      "assets/notetome/store/07.webp"
+    ],
+    "id": "notetome",
+    "imageSizes": {
+      "assets/notetome/store/01.webp": [
+        648,
+        1440
+      ],
+      "assets/notetome/store/02.webp": [
+        648,
+        1440
+      ],
+      "assets/notetome/store/03.webp": [
+        648,
+        1440
+      ],
+      "assets/notetome/store/04.webp": [
+        648,
+        1440
+      ],
+      "assets/notetome/store/05.webp": [
+        648,
+        1440
+      ],
+      "assets/notetome/store/06.webp": [
+        648,
+        1440
+      ],
+      "assets/notetome/store/07.webp": [
+        648,
+        1440
+      ]
+    },
+    "locales": {
+      "en": {
+        "title": "Notes that feel like a chat.",
+        "summary": "Write notes as if you were messaging yourself. Customise chats, group them into one unified feed, attach photos, videos, voice notes, files, locations and contacts, star what matters, and keep everything private with an app lock and encrypted backups.",
+        "features": [
+          {
+            "title": "Chat-based notes",
+            "body": "Write notes in separate conversations. Each chat can have its own colour, background and custom order."
+          },
+          {
+            "title": "Groups and unified feeds",
+            "body": "Group related chats together and browse all notes across a group in a single unified feed."
+          },
+          {
+            "title": "Rich content",
+            "body": "Attach photos, videos, voice notes, files, map locations and contact cards to any note."
+          },
+          {
+            "title": "Star what matters",
+            "body": "Star important notes and browse them quickly in one place or inside any chat."
+          },
+          {
+            "title": "Trash management",
+            "body": "Deleted notes, chats and groups move to trash where you can restore them or delete them permanently."
+          },
+          {
+            "title": "Clean, modern design",
+            "body": "Choose between auto, light, dark and high-contrast dark themes."
+          },
+          {
+            "title": "Privacy and security",
+            "body": "App lock with PIN or biometrics, encrypted backups, and your data stays on your device."
+          },
+          {
+            "title": "Backup and restore",
+            "body": "Create a single encrypted backup file and restore your notes easily when you switch devices."
+          },
+          {
+            "title": "Personalisation",
+            "body": "Adjustable font size, 12h / 24h time format, custom chat colours and backgrounds."
+          },
+          {
+            "title": "Privacy first",
+            "body": "NoteToMe works offline and needs no internet connection. Your notes stay on your device and are never shared with third parties."
+          }
+        ]
+      },
+      "tr": {
+        "title": "Sohbet hissinde notlar.",
+        "summary": "Kendinize mesaj gönderiyormuşsunuz gibi not yazın. Sohbetleri özelleştirin, tek akışta birleştirin; fotoğraf, video, sesli not, dosya, konum ve kişi ekleyin, önemli notları yıldızlayın ve uygulama kilidi ile şifrelenmiş yedeklerle her şeyi gizli tutun.",
+        "features": [
+          {
+            "title": "Sohbet tabanlı notlar",
+            "body": "Notlarınızı ayrı sohbetler halinde yazın. Her sohbetin kendi rengi, arka planı ve özel sıralaması olabilir."
+          },
+          {
+            "title": "Gruplar ve birleştirilmiş akışlar",
+            "body": "İlgili sohbetleri gruplar altında toplayın ve gruptaki tüm notları tek bir akışta görüntüleyin."
+          },
+          {
+            "title": "Zengin içerik desteği",
+            "body": "Her nota fotoğraf, video, ses kaydı, dosya, harita konumu ve kişi kartı ekleyin."
+          },
+          {
+            "title": "Önemli notları yıldızlayın",
+            "body": "Önemli notlarınızı yıldızlayarak tek bir yerden veya sohbet içinden kolayca erişin."
+          },
+          {
+            "title": "Çöp kutusu yönetimi",
+            "body": "Silinen notlar, sohbetler ve gruplar çöp kutusuna taşınır; dilediğinizde geri yükleyebilir veya kalıcı olarak silebilirsiniz."
+          },
+          {
+            "title": "Temiz ve modern tasarım",
+            "body": "Otomatik, açık, koyu ve yüksek kontrastlı koyu temalar arasından seçim yapın."
+          },
+          {
+            "title": "Gizlilik ve güvenlik",
+            "body": "PIN veya biyometrik ile uygulama kilidi, şifrelenmiş yedekler ve verileriniz cihazınızda kalır."
+          },
+          {
+            "title": "Yedekle ve geri yükle",
+            "body": "Tek bir şifrelenmiş yedek dosyası oluşturun ve cihaz değiştirdiğinizde notlarınızı kolayca geri yükleyin."
+          },
+          {
+            "title": "Kişiselleştirme",
+            "body": "Ayarlanabilir yazı tipi boyutu, 12s / 24s saat formatı, özel sohbet renkleri ve arka planları."
+          },
+          {
+            "title": "Önce gizlilik",
+            "body": "NoteToMe çevrimdışı çalışır ve internet bağlantısı gerektirmez. Notlarınız yalnızca cihazınızda saklanır ve asla üçüncü şahıslarla paylaşılmaz."
+          }
+        ]
+      },
+      "ar": {
+        "title": "ملاحظات بأسلوب الدردشة.",
+        "summary": "اكتب ملاحظاتك وكأنك تراسل نفسك. خصص المحادثات واجمعها في موجز موحد، وأرفق الصور ومقاطع الفيديو والملاحظات الصوتية والملفات والمواقع وجهات الاتصال، وميّز المهم بنجمة، وحافظ على خصوصية كل شيء بقفل التطبيق والنسخ الاحتياطي المشفر.",
+        "features": [
+          {
+            "title": "ملاحظات بأسلوب الدردشة",
+            "body": "اكتب الملاحظات في محادثات منفصلة. يمكن لكل محادثة أن تحظى بلونها وخلفيتها وترتيبها الخاص."
+          },
+          {
+            "title": "مجموعات وموجز موحد",
+            "body": "اجمع المحادثات المترابطة معاً واستعرض جميع الملاحظات عبر المجموعة في موجز موحد واحد."
+          },
+          {
+            "title": "محتوى غني",
+            "body": "أرفق الصور ومقاطع الفيديو والملاحظات الصوتية والملفات ومواقع الخريطة وبطاقات جهات الاتصال بأي ملاحظة."
+          },
+          {
+            "title": "تمييز المهم بنجمة",
+            "body": "ميّز الملاحظات المهمة بنجمة وتصفحها بسرعة في مكان واحد أو داخل أي محادثة."
+          },
+          {
+            "title": "إدارة سلة المهملات",
+            "body": "تنتقل الملاحظات والمحادثات والمجموعات المحذوفة إلى المهملات حيث يمكنك استعادتها أو حذفها نهائياً."
+          },
+          {
+            "title": "تصميم نظيف وعصري",
+            "body": "اختر بين الوضع التلقائي والفاتح والداكن ووضع التباين العالي الداكن."
+          },
+          {
+            "title": "الخصوصية والأمان",
+            "body": "قفل التطبيق برمز PIN أو البصمة، ونسخ احتياطي مشفر، وتبقى بياناتك على جهازك."
+          },
+          {
+            "title": "النسخ الاحتياطي والاستعادة",
+            "body": "أنشئ ملف نسخ احتياطي مشفر واستعد ملاحظاتك بسهولة عند تبديل الأجهزة."
+          },
+          {
+            "title": "التخصيص",
+            "body": "حجم خط قابل للتعديل، تنسيق وقت 12/24 ساعة، وألوان وخلفيات مخصصة للمحادثات."
+          },
+          {
+            "title": "الخصوصية أولاً",
+            "body": "يعمل NoteToMe دون اتصال بالإنترنت ولا يحتاج إلى شبكة. تبقى ملاحظاتك على جهازك ولا تتم مشاركتها أبداً."
+          }
+        ]
+      },
+      "da": {
+        "title": "Noter der føles som en chat.",
+        "summary": "Skriv noter, som om du sendte beskeder til dig selv. Tilpas chats, saml dem i ét samlet feed, vedhæft billeder, videoer, stemmenoter, filer, placeringer og kontakter, stjernemarkér det vigtigste, og hold alt privat med applås og krypterede sikkerhedskopier.",
+        "features": [
+          {
+            "title": "Chatbaserede noter",
+            "body": "Skriv noter i separate samtaler. Hver chat kan have sin egen farve, baggrund og tilpassede rækkefølge."
+          },
+          {
+            "title": "Grupper og samlet feed",
+            "body": "Saml relaterede chats i grupper, og gennemse alle noter i en gruppe i ét samlet feed."
+          },
+          {
+            "title": "Rigt indhold",
+            "body": "Vedhæft fotos, videoer, stemmeoptagelser, filer, kortplaceringer og kontaktkort til enhver note."
+          },
+          {
+            "title": "Stjernemarkér det vigtige",
+            "body": "Stjernemarkér vigtige noter, og find dem hurtigt ét sted eller i enhver chat."
+          },
+          {
+            "title": "Papirkurvshåndtering",
+            "body": "Slettede noter, chats og grupper flyttes til papirkurven, hvor du kan gendanne dem eller slette dem permanent."
+          },
+          {
+            "title": "Rent og moderne design",
+            "body": "Vælg mellem automatisk, lyst, mørkt og højkontrast-mørkt tema."
+          },
+          {
+            "title": "Privatliv og sikkerhed",
+            "body": "Applås med PIN eller biometri, krypterede sikkerhedskopier, og dine data forbliver på din enhed."
+          },
+          {
+            "title": "Sikkerhedskopiering og gendannelse",
+            "body": "Opret en enkelt krypteret backup-fil, og gendan nemt dine noter, når du skifter enhed."
+          },
+          {
+            "title": "Personlig tilpasning",
+            "body": "Justerbar skriftstørrelse, 12- eller 24-timers tidsformat samt brugerdefinerede chatfarver og baggrunde."
+          },
+          {
+            "title": "Privatliv i højsædet",
+            "body": "NoteToMe fungerer offline uden internetforbindelse. Dine noter forbliver på din enhed og deles aldrig."
+          }
+        ]
+      },
+      "de": {
+        "title": "Notizen im Chat-Gefühl.",
+        "summary": "Schreibe Notizen, als würdest du dir selbst Nachrichten senden. Passe Chats an, bündle sie in einem Feed, hänge Fotos, Videos, Sprachnachrichten, Dateien, Standorte und Kontakte an, markiere Wichtiges mit einem Stern und schütze alles mit App-Sperre und verschlüsselten Backups.",
+        "features": [
+          {
+            "title": "Chatbasierte Notizen",
+            "body": "Halte Notizen in separaten Unterhaltungen fest. Jeder Chat bietet eigene Farben, Hintergründe und Sortierung."
+          },
+          {
+            "title": "Gruppen und einheitlicher Feed",
+            "body": "Fasse verwandte Chats zusammen und überblicke alle Notizen einer Gruppe in einem zentralen Feed."
+          },
+          {
+            "title": "Medienreiche Inhalte",
+            "body": "Hänge Fotos, Videos, Sprachnotizen, Dateien, Standorte und Kontaktkarten an jede Notiz an."
+          },
+          {
+            "title": "Wichtiges mit Stern markieren",
+            "body": "Markiere zentrale Notizen mit einem Stern und finde sie schnell an einem Ort oder im jeweiligen Chat."
+          },
+          {
+            "title": "Papierkorb-Verwaltung",
+            "body": "Gelöschte Notizen, Chats und Gruppen landen im Papierkorb, wo du sie wiederherstellen oder dauerhaft löschen kannst."
+          },
+          {
+            "title": "Klares, modernes Design",
+            "body": "Wähle zwischen automatischem, hellem, dunklem und kontrastreichem dunklem Design."
+          },
+          {
+            "title": "Privatsphäre und Sicherheit",
+            "body": "App-Sperre per PIN oder Biometrie, verschlüsselte Backups und lokale Datenspeicherung auf deinem Gerät."
+          },
+          {
+            "title": "Sichern und Wiederherstellen",
+            "body": "Erstelle eine verschlüsselte Sicherungsdatei und stelle deine Notizen beim Gerätewechsel mühelos wieder her."
+          },
+          {
+            "title": "Personalisierung",
+            "body": "Anpassbare Schriftgröße, 12-/24-Stunden-Format sowie individuelle Chatfarben und Hintergründe."
+          },
+          {
+            "title": "Privatsphäre zuerst",
+            "body": "NoteToMe funktioniert offline ohne Internetverbindung. Deine Notizen bleiben stets sicher auf deinem Gerät."
+          }
+        ]
+      },
+      "el": {
+        "title": "Σημειώσεις που μοιάζουν με συνομιλία.",
+        "summary": "Κρατήστε σημειώσεις σαν να στέλνετε μηνύματα στον εαυτό σας. Προσαρμόστε τις συνομιλίες, ομαδοποιήστε τις σε μια ενιαία ροή, επισυνάψτε φωτογραφίες, βίντεο, φωνητικά μηνύματα, αρχεία, τοποθεσίες και επαφές, ξεχωρίστε με αστέρι τα σημαντικά και κρατήστε τα πάντα ιδιωτικά με κλείδωμα εφαρμογής και κρυπτογραφημένα αντίγραφα ασφαλείας.",
+        "features": [
+          {
+            "title": "Σημειώσεις σε μορφή συνομιλίας",
+            "body": "Γράψτε σημειώσεις σε ξεχωριστές συνομιλίες. Κάθε συνομιλία μπορεί να έχει δικό της χρώμα, φόντο και σειρά."
+          },
+          {
+            "title": "Ομάδες και ενιαία ροή",
+            "body": "Ομαδοποιήστε σχετικές συνομιλίες και περιηγηθείτε σε όλες τις σημειώσεις μιας ομάδας σε μία μόνο ροή."
+          },
+          {
+            "title": "Πλούσιο περιεχόμενο",
+            "body": "Επισυνάψτε φωτογραφίες, βίντεο, φωνητικές σημειώσεις, αρχεία, τοποθεσίες χάρτη και επαφές σε κάθε σημείωση."
+          },
+          {
+            "title": "Αστέρι στα σημαντικά",
+            "body": "Επισημάνετε με αστέρι σημαντικές σημειώσεις και βρείτε τις άμεσα σε ένα σημείο ή μέσα σε κάθε συνομιλία."
+          },
+          {
+            "title": "Διαχείριση κάδου απορριμμάτων",
+            "body": "Οι διεγραμμένες σημειώσεις, συνομιλίες και ομάδες μεταφέρονται στον κάδο, απ' όπου μπορείτε να τις επαναφέρετε ή να τις διαγράψετε οριστικά."
+          },
+          {
+            "title": "Καθαρός, σύγχρονος σχεδιασμός",
+            "body": "Επιλέξτε ανάμεσα σε αυτόματο, φωτεινό, σκοτεινό και θέμα υψηλής αντίθεσης."
+          },
+          {
+            "title": "Ιδιωτικότητα και ασφάλεια",
+            "body": "Κλείδωμα εφαρμογής με PIN ή βιομετρικά στοιχεία, κρυπτογραφημένα αντίγραφα και τοπική αποθήκευση στη συσκευή σας."
+          },
+          {
+            "title": "Αντίγραφα ασφαλείας και επαναφορά",
+            "body": "Δημιουργήστε ένα κρυπτογραφημένο αρχείο αντιγράφου και επαναφέρετε εύκολα τις σημειώσεις σας σε νέα συσκευή."
+          },
+          {
+            "title": "Εξατομίκευση",
+            "body": "Προσαρμόσιμο μέγεθος γραμματοσειράς, μορφή ώρας 12/24 ωρών, εξατομικευμένα χρώματα και φόντα συνομιλίας."
+          },
+          {
+            "title": "Πρώτα η ιδιωτικότητα",
+            "body": "Το NoteToMe λειτουργεί εκτός σύνδεσης χωρίς ανάγκη διαδικτύου. Οι σημειώσεις σας παραμένουν στη συσκευή σας."
+          }
+        ]
+      },
+      "es": {
+        "title": "Notas con sensación de chat.",
+        "summary": "Escribe notas como si te enviaras mensajes a ti mismo. Personaliza chats, agrúpalos en un solo muro unificado, adjunta fotos, vídeos, notas de voz, archivos, ubicaciones y contactos, destaca lo importante con estrellas y mantén todo privado con bloqueo de app y copias de seguridad cifradas.",
+        "features": [
+          {
+            "title": "Notas basadas en chats",
+            "body": "Escribe notas en conversaciones independientes. Cada chat puede tener su propio color, fondo y orden."
+          },
+          {
+            "title": "Grupos y muro unificado",
+            "body": "Agrupa chats relacionados y consulta todas las notas del grupo en una sola fuente unificada."
+          },
+          {
+            "title": "Contenido multimedia",
+            "body": "Adjunta fotos, vídeos, notas de voz, archivos, ubicaciones en el mapa y contactos a cualquier nota."
+          },
+          {
+            "title": "Destaca lo importante",
+            "body": "Marca con estrella tus notas clave y accede a ellas al instante en un único lugar o dentro de cada chat."
+          },
+          {
+            "title": "Papelera organizada",
+            "body": "Las notas, chats y grupos eliminados van a la papelera, donde puedes restaurarlos o borrarlos definitivamente."
+          },
+          {
+            "title": "Diseño limpio y moderno",
+            "body": "Elige entre temas automático, claro, oscuro y oscuro de alto contraste."
+          },
+          {
+            "title": "Privacidad y seguridad",
+            "body": "Bloqueo de app con PIN o biometría, copias cifradas y almacenamiento local en tu dispositivo."
+          },
+          {
+            "title": "Copia de seguridad y restauración",
+            "body": "Crea un archivo de copia de seguridad cifrado y restaura tus notas fácilmente al cambiar de dispositivo."
+          },
+          {
+            "title": "Personalización",
+            "body": "Tamaño de texto ajustable, formato de hora 12 h / 24 h y colores y fondos personalizados para los chats."
+          },
+          {
+            "title": "Privacidad ante todo",
+            "body": "NoteToMe funciona sin conexión a internet. Tus notas se quedan siempre en tu dispositivo y nunca se comparten."
+          }
+        ]
+      },
+      "fi": {
+        "title": "Muistiinpanot kuin viestejä itselle.",
+        "summary": "Kirjoita muistiinpanoja aivan kuin viestittelisit itsellesi. Mukauta keskusteluja, yhdistä ne yhteen syötteeseen, liitä kuvia, videoita, ääniviestejä, tiedostoja, sijainteja ja yhteystietoja, merkitse tärkeät tähdellä ja pidä kaikki yksityisenä sovelluksen lukituksella ja salatuilla varmuuskopioilla.",
+        "features": [
+          {
+            "title": "Keskustelupohjaiset muistiinpanot",
+            "body": "Kirjoita muistiinpanoja erillisiin keskusteluihin. Jokaisella chatilla voi olla oma väri, tausta ja järjestys."
+          },
+          {
+            "title": "Ryhmät ja yhtenäinen syöte",
+            "body": "Kokoa aiheeseen liittyvät keskustelut ryhmiksi ja selaa ryhmän kaikkia muistiinpanoja yhdessä syötteessä."
+          },
+          {
+            "title": "Monipuolinen sisältö",
+            "body": "Liitä mihin tahansa muistiinpanoon valokuvia, videoita, äänitteitä, tiedostoja, karttasijainteja ja yhteystietokortteja."
+          },
+          {
+            "title": "Merkitse tärkeät tähdellä",
+            "body": "Lisää tärkeisiin muistiinpanoihin tähti ja löydä ne nopeasti yhdestä paikasta tai chatin sisältä."
+          },
+          {
+            "title": "Roskakorin hallinta",
+            "body": "Poistetut muistiinpanot, keskustelut ja ryhmät siirtyvät roskakoriin, josta voit palauttaa ne tai poistaa lopullisesti."
+          },
+          {
+            "title": "Selkeä, moderni ulkoasu",
+            "body": "Valitse automaattisen, vaalean, tumman ja suurikontrastisen tumman teeman väliltä."
+          },
+          {
+            "title": "Yksityisyys ja tietoturva",
+            "body": "Sovelluksen lukitus PIN-koodilla tai biometriikalla, salatut varmuuskopiot ja laitekohtainen tallennus."
+          },
+          {
+            "title": "Varmuuskopiointi ja palautus",
+            "body": "Luo yksi salattu varmuuskopiotiedosto ja palauta muistiinpanosi helposti vaihtaessasi laitetta."
+          },
+          {
+            "title": "Mukautettavuus",
+            "body": "Säädettävä tekstikoko, 12/24 tunnin aikamuoto sekä mukautetut chat-värit ja -taustat."
+          },
+          {
+            "title": "Yksityisyys edellä",
+            "body": "NoteToMe toimii ilman verkkoyhteyttä. Muistiinpanosi pysyvät laitteellasi eivätkä koskaan päädy kolmansille osapuolille."
+          }
+        ]
+      },
+      "fil": {
+        "title": "Mga tala na parang chat.",
+        "summary": "Magsulat ng mga tala na parang nagmemensahe ka sa iyong sarili. I-customize ang mga chat, pagsama-samahin sa iisang feed, mag-attach ng mga litrato, video, voice note, file, lokasyon at contact, i-star ang mahalaga, at panatilihing pribado ang lahat gamit ang app lock at naka-encrypt na backup.",
+        "features": [
+          {
+            "title": "Mga talang nakabatay sa chat",
+            "body": "Sumulat ng mga tala sa magkakahiwalay na usapan. Bawat chat ay may sariling kulay, background at ayos."
+          },
+          {
+            "title": "Mga grupo at pinag-isang feed",
+            "body": "Pagsama-samahin ang magkakaugnay na chat at tingnan ang lahat ng tala sa iisang feed."
+          },
+          {
+            "title": "Mayamang nilalaman",
+            "body": "Mag-attach ng mga larawan, video, voice recording, file, lokasyon sa mapa at contact card sa anumang tala."
+          },
+          {
+            "title": "I-star ang mahalaga",
+            "body": "Lagyan ng bituin ang mahahalagang tala upang mabilis na mahanap sa isang lugar o sa loob ng chat."
+          },
+          {
+            "title": "Pamamahala ng basurahan",
+            "body": "Ang mga naburang tala, chat at grupo ay napupunta sa trash kung saan maaari mong ibalik o permanenteng burahin."
+          },
+          {
+            "title": "Malinis at modernong disenyo",
+            "body": "Pumili sa auto, light, dark, at high-contrast dark themes."
+          },
+          {
+            "title": "Privacy at seguridad",
+            "body": "App lock gamit ang PIN o biometrics, naka-encrypt na backup, at nananatili sa iyong device ang iyong data."
+          },
+          {
+            "title": "Backup at pag-restore",
+            "body": "Gumawa ng naka-encrypt na backup file at madaling ibalik ang iyong mga tala kapag nagpalit ng device."
+          },
+          {
+            "title": "Pag-personalize",
+            "body": "Naaayos na laki ng font, format ng oras na 12h / 24h, at mga custom na kulay at background ng chat."
+          },
+          {
+            "title": "Ligtas at pribado",
+            "body": "Gumagana offline ang NoteToMe nang hindi kailangan ng internet. Nananatili sa iyong device ang iyong mga tala."
+          }
+        ]
+      },
+      "fr": {
+        "title": "Des notes qui ressemblent à un chat.",
+        "summary": "Prenez des notes comme si vous vous envoyiez des messages. Personnalisez vos conversations, regroupez-les dans un flux unifié, joignez photos, vidéos, notes vocales, fichiers, lieux et contacts, marquez l'essentiel d'une étoile et gardez tout privé grâce au verrouillage et aux sauvegardes chiffrées.",
+        "features": [
+          {
+            "title": "Notes sous forme de chat",
+            "body": "Rédigez vos notes dans des discussions séparées. Chaque chat peut avoir sa couleur, son fond et son ordre."
+          },
+          {
+            "title": "Groupes et flux unifié",
+            "body": "Réunissez les discussions associées et parcourez toutes les notes d'un groupe dans un flux centralisé."
+          },
+          {
+            "title": "Contenu enrichi",
+            "body": "Joignez des photos, des vidéos, des enregistrements vocaux, des fichiers, des repères et des contacts à vos notes."
+          },
+          {
+            "title": "Épinglez l'essentiel",
+            "body": "Marquez les notes importantes d'une étoile pour les retrouver instantanément en un lieu ou dans chaque chat."
+          },
+          {
+            "title": "Gestion de la corbeille",
+            "body": "Les notes, discussions et groupes supprimés vont dans la corbeille pour être restaurés ou supprimés définitivement."
+          },
+          {
+            "title": "Design soigné et moderne",
+            "body": "Choisissez entre les thèmes automatique, clair, sombre et sombre à fort contraste."
+          },
+          {
+            "title": "Confidentialité et sécurité",
+            "body": "Verrouillage par code PIN ou biométrie, sauvegardes chiffrées et conservation locale de vos données sur votre appareil."
+          },
+          {
+            "title": "Sauvegarde et restauration",
+            "body": "Générez un fichier de sauvegarde chiffré unique pour restaurer vos notes en toute simplicité sur un nouvel appareil."
+          },
+          {
+            "title": "Personnalisation",
+            "body": "Taille de police réglable, format 12 h / 24 h, couleurs de discussion et arrière-plans personnalisés."
+          },
+          {
+            "title": "Confidentialité absolue",
+            "body": "NoteToMe fonctionne hors ligne sans aucune connexion internet. Vos notes restent exclusivement sur votre appareil."
+          }
+        ]
+      },
+      "hi": {
+        "title": "चैट जैसी सहज नोट्स।",
+        "summary": "नोट्स ऐसे लिखें जैसे खुद को संदेश भेज रहे हों। चैट कस्टमाइज़ करें, उन्हें एक संयुक्त फ़ीड में समूहित करें, फ़ोटो, वीडियो, वॉयस नोट्स, फ़ाइलें, स्थान और संपर्क जोड़ें, महत्वपूर्ण पर स्टार लगाएं, और ऐप लॉक व एन्क्रिप्टेड बैकअप से सब कुछ निजी रखें।",
+        "features": [
+          {
+            "title": "चैट-आधारित नोट्स",
+            "body": "अलग-अलग बातचीत में नोट्स लिखें। प्रत्येक चैट का अपना रंग, बैकग्राउंड और क्रम हो सकता है।"
+          },
+          {
+            "title": "समूह और संयुक्त फ़ीड",
+            "body": "संबंधित चैट को एक साथ समूहित करें और एक ही फ़ीड में समूह के सभी नोट्स देखें।"
+          },
+          {
+            "title": "समृद्ध सामग्री",
+            "body": "किसी भी नोट में फ़ोटो, वीडियो, वॉइस रिकॉर्डिंग, फ़ाइलें, मैप लोकेशन और संपर्क कार्ड जोड़ें।"
+          },
+          {
+            "title": "महत्वपूर्ण को स्टार करें",
+            "body": "ज़रूरी नोट्स पर स्टार लगाएं और उन्हें एक ही जगह या किसी भी चैट में तुरंत खोजें।"
+          },
+          {
+            "title": "ट्रैश प्रबंधन",
+            "body": "हटाए गए नोट्स, चैट और समूह ट्रैश में जाते हैं, जहाँ से आप उन्हें पुनर्स्थापित या स्थायी रूप से हटा सकते हैं।"
+          },
+          {
+            "title": "साफ़, आधुनिक डिज़ाइन",
+            "body": "ऑटो, लाइट, डार्क और हाई-कंट्रास्ट डार्क थीम में से चुनें।"
+          },
+          {
+            "title": "गोपनीयता और सुरक्षा",
+            "body": "पिन या बायोमेट्रिक्स के साथ ऐप लॉक, एन्क्रिप्टेड बैकअप, और आपका डेटा आपके डिवाइस पर ही रहता है।"
+          },
+          {
+            "title": "बैकअप और रीस्टोर",
+            "body": "एक एन्क्रिप्टेड बैकअप फ़ाइल बनाएं और डिवाइस बदलते समय अपने नोट्स आसानी से रीस्टोर करें।"
+          },
+          {
+            "title": "वैयक्तिकरण",
+            "body": "समायोज्य फ़ॉन्ट आकार, 12 घंटे / 24 घंटे का समय प्रारूप, और कस्टम चैट रंग व बैकग्राउंड।"
+          },
+          {
+            "title": "पूर्ण गोपनीयता",
+            "body": "NoteToMe बिना इंटरनेट कनेक्शन के ऑफ़लाइन काम करता है। आपके नोट्स आपके डिवाइस पर पूरी तरह सुरक्षित रहते हैं।"
+          }
+        ]
+      },
+      "id": {
+        "title": "Catatan yang terasa seperti obrolan.",
+        "summary": "Tulis catatan seolah-olah Anda sedang berkirim pesan kepada diri sendiri. Sesuaikan obrolan, kelompokkan dalam satu feed terpadu, lampirkan foto, video, pesan suara, berkas, lokasi, dan kontak, bintangi yang penting, dan jaga privasi dengan kunci aplikasi serta cadangan terenkripsi.",
+        "features": [
+          {
+            "title": "Catatan berbasis obrolan",
+            "body": "Tulis catatan dalam percakapan terpisah. Setiap obrolan dapat memiliki warna, latar belakang, dan urutan khusus."
+          },
+          {
+            "title": "Grup dan feed terpadu",
+            "body": "Satukan obrolan terkait dalam grup dan telusuri semua catatan grup dalam satu feed terpusat."
+          },
+          {
+            "title": "Konten kaya",
+            "body": "Lampirkan foto, video, rekaman suara, file dokumen, lokasi peta, dan kartu kontak ke catatan mana pun."
+          },
+          {
+            "title": "Bintangi yang penting",
+            "body": "Beri bintang pada catatan penting dan temukan dengan cepat di satu tempat atau di dalam obrolan."
+          },
+          {
+            "title": "Pengelolaan tempat sampah",
+            "body": "Catatan, obrolan, dan grup yang dihapus masuk ke tempat sampah untuk dipulihkan atau dihapus permanen."
+          },
+          {
+            "title": "Desain bersih dan modern",
+            "body": "Pilih antara tema otomatis, terang, gelap, dan gelap kontras tinggi."
+          },
+          {
+            "title": "Privasi dan keamanan",
+            "body": "Kunci aplikasi dengan PIN atau biometrik, cadangan terenkripsi, dan data tetap aman di perangkat Anda."
+          },
+          {
+            "title": "Cadangkan dan pulihkan",
+            "body": "Buat satu file cadangan terenkripsi dan pulihkan catatan Anda dengan mudah saat berganti perangkat."
+          },
+          {
+            "title": "Personalisasi",
+            "body": "Ukuran font yang dapat disesuaikan, format waktu 12 jam / 24 jam, serta warna dan latar belakang obrolan kustom."
+          },
+          {
+            "title": "Utamakan privasi",
+            "body": "NoteToMe bekerja offline tanpa perlu koneksi internet. Catatan Anda selalu berada di perangkat Anda sendiri."
+          }
+        ]
+      },
+      "it": {
+        "title": "Note con la semplicità di una chat.",
+        "summary": "Scrivi note come se stessi inviando messaggi a te stesso. Personalizza le chat, raggruppale in un unico feed, allega foto, video, note vocali, file, posizioni e contatti, aggiungi una stella a ciò che conta e proteggi tutto con blocco app e backup crittografati.",
+        "features": [
+          {
+            "title": "Note basate su chat",
+            "body": "Scrivi appunti in conversazioni separate. Ogni chat può avere colore, sfondo e ordine personalizzati."
+          },
+          {
+            "title": "Gruppi e feed unificato",
+            "body": "Raggruppa le chat correlate e sfoglia tutti gli appunti di un gruppo in un unico flusso continuo."
+          },
+          {
+            "title": "Contenuti multimediali",
+            "body": "Allega foto, video, registrazioni vocali, file, posizioni su mappa e schede di contatto a ogni nota."
+          },
+          {
+            "title": "Aggiungi ai preferiti",
+            "body": "Contrassegna le note importanti con una stella e ritrovale subito in un unico elenco o all'interno di ogni chat."
+          },
+          {
+            "title": "Gestione del cestino",
+            "body": "Note, chat e gruppi eliminati finiscono nel cestino, pronti per essere ripristinati o rimossi definitivamente."
+          },
+          {
+            "title": "Design pulito e moderno",
+            "body": "Scegli tra tema automatico, chiaro, scuro e scuro ad alto contrasto."
+          },
+          {
+            "title": "Privacy e sicurezza",
+            "body": "Blocco dell'app con PIN o dati biometrici, backup crittografati e dati salvati solo sul tuo dispositivo."
+          },
+          {
+            "title": "Backup e ripristino",
+            "body": "Crea un unico file di backup protetto da password e ripristina le tue note senza problemi quando cambi telefono."
+          },
+          {
+            "title": "Personalizzazione",
+            "body": "Dimensione del testo regolabile, formato orario 12h / 24h e colori e sfondi chat su misura."
+          },
+          {
+            "title": "Massima riservatezza",
+            "body": "NoteToMe funziona offline senza connessione a internet. I tuoi appunti non lasciano mai il tuo dispositivo."
+          }
+        ]
+      },
+      "ja": {
+        "title": "チャット感覚で残せるノート。",
+        "summary": "まるで自分自身にメッセージを送るようにメモを作成。チャットごとにカスタマイズし、グループ別の一元フィードでまとめ、写真・動画・音声・ファイル・位置情報・連絡先を添付。大切なメモにはスターを付け、アプリロックと暗号化バックアップでプライバシーを守ります。",
+        "features": [
+          {
+            "title": "チャット形式のメモ",
+            "body": "トピックごとの会話形式でメモを作成。チャットごとにテーマカラー、背景、並び順を自由に設定できます。"
+          },
+          {
+            "title": "グループと統合フィード",
+            "body": "関連するチャットをグループ化し、グループ全体のメモをひとつのタイムラインでまとめて閲覧できます。"
+          },
+          {
+            "title": "充実したメディア添付",
+            "body": "写真、動画、ボイスメモ、ファイル、地図上の位置情報、連絡先カードを簡単にメモへ追加できます。"
+          },
+          {
+            "title": "スターで重要メモを管理",
+            "body": "大事なメモにスターを付けて、一覧画面やすべてのチャット内からすばやく見つけ出せます。"
+          },
+          {
+            "title": "ゴミ箱機能で安心管理",
+            "body": "削除したメモ、チャット、グループはゴミ箱に移動するため、復元も完全削除も自由に行えます。"
+          },
+          {
+            "title": "洗練されたモダンデザイン",
+            "body": "自動、ライト、ダーク、ハイコントラストダークの4つのテーマから選べます。"
+          },
+          {
+            "title": "プライバシーとセキュリティ",
+            "body": "PINや生体認証によるアプリロック、暗号化バックアップに対応し、データは端末内に安全に保持されます。"
+          },
+          {
+            "title": "バックアップと復元",
+            "body": "暗号化された単一のバックアップファイルを作成し、端末を変更してもメモをスムーズに引き継げます。"
+          },
+          {
+            "title": "柔軟なカスタマイズ",
+            "body": "フォントサイズ調整、12時間／24時間表示、チャットごとの背景や吹き出しカラー設定が可能です。"
+          },
+          {
+            "title": "完全オフライン対応",
+            "body": "NoteToMeはネット接続不要で動作します。メモが外部サーバーに送信されることは一切ありません。"
+          }
+        ]
+      },
+      "ko": {
+        "title": "채팅하듯 적는 나만의 메모.",
+        "summary": "나 자신에게 메시지를 보내듯 메모를 작성하세요. 대화방을 맞춤 설정하고 그룹 피드로 한눈에 모아보며, 사진, 동영상, 음성 메모, 파일, 위치, 연락처를 첨부할 수 있습니다. 중요한 메모는 별표로 보관하고, 앱 잠금과 암호화 백업으로 모든 기록을 안전하게 보호하세요.",
+        "features": [
+          {
+            "title": "채팅 기반 메모",
+            "body": "대화창 형태로 간편하게 메모를 작성하세요. 채팅마다 고유한 색상, 배경화면, 순서를 지정할 수 있습니다."
+          },
+          {
+            "title": "그룹과 통합 피드",
+            "body": "관련된 채팅을 그룹으로 묶고, 그룹 내의 모든 메모를 하나의 피드에서 모아볼 수 있습니다."
+          },
+          {
+            "title": "풍부한 첨부 기능",
+            "body": "사진, 동영상, 음성 녹음, 파일, 지도 위치, 연락처 카드를 메모에 손쉽게 추가하세요."
+          },
+          {
+            "title": "중요한 메모 별표 표시",
+            "body": "기억해야 할 메모에 별표를 달아 한곳에서 빠르게 찾거나 채팅방 안에서 확인할 수 있습니다."
+          },
+          {
+            "title": "휴지통 관리",
+            "body": "삭제된 메모, 대화방, 그룹은 휴지통으로 이동하여 언제든 복구하거나 완전히 지울 수 있습니다."
+          },
+          {
+            "title": "깔끔하고 현대적인 디자인",
+            "body": "시스템 설정, 라이트, 다크, 고대비 다크 테마를 자유롭게 선택할 수 있습니다."
+          },
+          {
+            "title": "철저한 보안과 개인정보 보호",
+            "body": "PIN 또는 생체 인식 앱 잠금, 암호화 백업을 지원하며 모든 데이터는 기기에만 보관됩니다."
+          },
+          {
+            "title": "백업 및 복원",
+            "body": "암호화된 단일 백업 파일을 생성하여 기기를 변경할 때도 간편하게 메모를 복원하세요."
+          },
+          {
+            "title": "개인화 설정",
+            "body": "글꼴 크기 조절, 12시간/24시간 표기, 채팅방별 색상 및 배경 맞춤 설정이 가능합니다."
+          },
+          {
+            "title": "오프라인 우선 설계",
+            "body": "NoteToMe는 인터넷 연결 없이도 완벽하게 작동합니다. 메모는 제3자와 절대 공유되지 않습니다."
+          }
+        ]
+      },
+      "ms": {
+        "title": "Nota dengan gaya sembang.",
+        "summary": "Tulis nota seolah-olah anda menghantar mesej kepada diri sendiri. Sesuaikan sembang, kumpulkan dalam satu suapan bersepadu, lampirkan foto, video, nota suara, fail, lokasi dan kenalan, tandakan yang penting dengan bintang, dan lindungi segalanya dengan kunci aplikasi serta sandaran disulitkan.",
+        "features": [
+          {
+            "title": "Nota berasaskan sembang",
+            "body": "Tulis nota dalam perbualan berasingan. Setiap sembang boleh mempunyai warna, latar belakang dan susunan tersendiri."
+          },
+          {
+            "title": "Kumpulan dan suapan bersepadu",
+            "body": "Gabungkan sembang berkaitan ke dalam kumpulan dan semak semua nota dalam satu suapan."
+          },
+          {
+            "title": "Kandungan kaya",
+            "body": "Lampirkan foto, video, rakaman suara, fail, lokasi peta dan kad kenalan pada mana-mana nota."
+          },
+          {
+            "title": "Bintangkan yang penting",
+            "body": "Bintangkan nota utama untuk mencapainya dengan pantas di satu tempat atau dalam sembang."
+          },
+          {
+            "title": "Pengurusan tong sampah",
+            "body": "Nota, sembang dan kumpulan yang dipadam dipindahkan ke tong sampah untuk dipulihkan atau dipadam kekal."
+          },
+          {
+            "title": "Reka bentuk kemas dan moden",
+            "body": "Pilih antara tema automatik, cerah, gelap dan gelap kontras tinggi."
+          },
+          {
+            "title": "Privasi dan keselamatan",
+            "body": "Kunci aplikasi dengan PIN atau biometrik, sandaran disulitkan dan data kekal setempat pada peranti anda."
+          },
+          {
+            "title": "Sandaran dan pemulihan",
+            "body": "Cipta satu fail sandaran disulitkan dan pulihkan nota anda dengan mudah apabila bertukar peranti."
+          },
+          {
+            "title": "Pemperibadian",
+            "body": "Saiz fon boleh laras, format masa 12j / 24j serta warna dan latar belakang sembang tersuai."
+          },
+          {
+            "title": "Privasi diutamakan",
+            "body": "NoteToMe berfungsi di luar talian tanpa sambungan internet. Nota anda sentiasa tersimpan selamat pada peranti anda."
+          }
+        ]
+      },
+      "nb": {
+        "title": "Notater som føles som en chat.",
+        "summary": "Skriv notater som om du sender meldinger til deg selv. Tilpass chatter, samle dem i én felles feed, legg ved bilder, videoer, stemmenotater, filer, steder og kontakter, stjernemerk det viktigste, og hold alt privat med applås og kryptert sikkerhetskopi.",
+        "features": [
+          {
+            "title": "Chat-baserte notater",
+            "body": "Skriv notater i egne samtaler. Hver chat kan ha sin egen farge, bakgrunn og tilpassede rekkefølge."
+          },
+          {
+            "title": "Grupper og felles feed",
+            "body": "Samle beslektede samtaler i grupper og bla gjennom alle notatene i én samlet feed."
+          },
+          {
+            "title": "Rikt innhold",
+            "body": "Legg ved bilder, videoer, taleopptak, filer, kartposisjoner og kontaktkort til ethvert notat."
+          },
+          {
+            "title": "Stjernemerk det viktigste",
+            "body": "Merk viktige notater med stjerne for rask tilgang på ett sted eller inne i hver chat."
+          },
+          {
+            "title": "Papirkurvhåndtering",
+            "body": "Slettede notater, chatter og grupper flyttes til papirkurven hvor du kan gjenopprette eller slette dem for godt."
+          },
+          {
+            "title": "Rent og moderne design",
+            "body": "Velg mellom automatisk, lyst, mørkt og høykontrast-mørkt tema."
+          },
+          {
+            "title": "Personvern og sikkerhet",
+            "body": "Applås med PIN eller biometri, krypterte sikkerhetskopier og lokal lagring på enheten din."
+          },
+          {
+            "title": "Sikkerhetskopiering og gjenoppretting",
+            "body": "Lag én kryptert backup-fil og gjenopprett notatene dine enkelt når du bytter enhet."
+          },
+          {
+            "title": "Tilpasning",
+            "body": "Justerbar skriftstørrelse, 12t / 24t tidsformat, samt egne chatfarger og bakgrunner."
+          },
+          {
+            "title": "Personvern først",
+            "body": "NoteToMe fungerer helt frakoblet uten internett. Notatene dine forblir alltid på din egen enhet."
+          }
+        ]
+      },
+      "nl": {
+        "title": "Notities in chatstijl.",
+        "summary": "Maak notities alsof je jezelf berichten stuurt. Pas chats aan, bundel ze in één overzichtelijke feed, voeg foto's, video's, spraakberichten, bestanden, locaties en contacten toe, geef belangrijke notities een ster en houd alles privé met app-vergrendeling en versleutelde back-ups.",
+        "features": [
+          {
+            "title": "Notities op basis van chats",
+            "body": "Schrijf notities in afzonderlijke gesprekken. Elke chat heeft een eigen kleur, achtergrond en volgorde."
+          },
+          {
+            "title": "Groepen en één centrale feed",
+            "body": "Breng gerelateerde chats samen in groepen en bekijk alle notities binnen een groep in één handig overzicht."
+          },
+          {
+            "title": "Rijke media",
+            "body": "Voeg eenvoudig foto's, video's, spraakopnamen, bestanden, kaartlocaties en contactkaarten toe aan elke notitie."
+          },
+          {
+            "title": "Ster voor belangrijke notities",
+            "body": "Markeer cruciale notities met een ster om ze direct terug te vinden op één centrale plek of in een chat."
+          },
+          {
+            "title": "Prullenbakbeheer",
+            "body": "Verwijderde notities, gesprekken en groepen gaan naar de prullenbak, waar je ze kunt herstellen of definitief wissen."
+          },
+          {
+            "title": "Strak en modern design",
+            "body": "Kies uit automatische, lichte, donkere en contrastrijke donkere thema's."
+          },
+          {
+            "title": "Privacy en beveiliging",
+            "body": "App-vergrendeling via pincode of biometrie, versleutelde back-ups en opslag uitsluitend op je apparaat."
+          },
+          {
+            "title": "Back-up en herstel",
+            "body": "Maak een veilig versleuteld back-upbestand en herstel je notities probleemloos op een ander apparaat."
+          },
+          {
+            "title": "Personalisatie",
+            "body": "Instelbare tekstgrootte, 12-uurs of 24-uurs tijdweergave en eigen chatkleuren en achtergronden."
+          },
+          {
+            "title": "Privacy op de eerste plaats",
+            "body": "NoteToMe werkt volledig offline zonder internetverbinding. Je notities worden nooit met derden gedeeld."
+          }
+        ]
+      },
+      "pl": {
+        "title": "Notatki w stylu czatu.",
+        "summary": "Twórz notatki tak, jakbyś pisał wiadomości do samego siebie. Dostosowuj czaty, grupuj je w jeden spójny kanał, dołączaj zdjęcia, filmy, notatki głosowe, pliki, lokalizacje i kontakty, oznaczaj gwiazdką to, co ważne, i chroń prywatność blokadą aplikacji oraz szyfrowanymi kopiami zapasowymi.",
+        "features": [
+          {
+            "title": "Notatki w formie czatu",
+            "body": "Zapisuj przemyślenia w osobnych rozmowach. Każdy czat może mieć własny kolor, tło i kolejność."
+          },
+          {
+            "title": "Grupy i wspólny kanał",
+            "body": "Łącz powiązane czaty w grupy i przeglądaj wszystkie notatki z danej grupy w jednym wygodnym widoku."
+          },
+          {
+            "title": "Bogata zawartość",
+            "body": "Dołączaj zdjęcia, nagrania wideo, notatki głosowe, pliki, pinezki na mapie i wizytówki kontaktów."
+          },
+          {
+            "title": "Wyróżniaj gwiazdką",
+            "body": "Oznaczaj najważniejsze notatki gwiazdką, aby mieć do них błyskawiczny dostęp w jednym miejscu lub w czacie."
+          },
+          {
+            "title": "Zarządzanie koszem",
+            "body": "Usunięte notatki, czaty i grupy trafiają do kosza, skąd możesz je łatwo przywrócić lub skasować na stałe."
+          },
+          {
+            "title": "Czysty, nowoczesny wygląd",
+            "body": "Wybieraj spośród motywu automatycznego, jasnego, ciemnego oraz ciemnego o wysokim kontraście."
+          },
+          {
+            "title": "Prywatność i bezpieczeństwo",
+            "body": "Blokada aplikacji kodem PIN lub biometrią, szyfrowany backup i przechowywanie danych na urządzeniu."
+          },
+          {
+            "title": "Kopia zapasowa i przywracanie",
+            "body": "Utwórz pojedynczy, zaszyfrowany plik kopii zapasowej i bez trudu przenieś notatki na nowe urządzenie."
+          },
+          {
+            "title": "Personalizacja",
+            "body": "Regulowany rozmiar tekstu, format czasu 12h/24h oraz własne kolory i tapety czatów."
+          },
+          {
+            "title": "Prywatność przede wszystkim",
+            "body": "NoteToMe działa offline bez dostępu do sieci. Twoje notatki nigdy nie opuszczają Twojego urządzenia."
+          }
+        ]
+      },
+      "pt": {
+        "title": "Notas com jeito de conversa.",
+        "summary": "Escreva notas como se estivesse trocando mensagens consigo mesmo. Personalize conversas, agrupe-as em um feed unificado, anexe fotos, vídeos, notas de voz, arquivos, localizações e contatos, favorite o que importa e mantenha tudo privado com bloqueio do app e backups criptografados.",
+        "features": [
+          {
+            "title": "Notas em formato de chat",
+            "body": "Escreva suas notas em conversas separadas. Cada chat tem sua própria cor, plano de fundo e ordem personalizada."
+          },
+          {
+            "title": "Grupos e feed unificado",
+            "body": "Reúna conversas relacionadas em grupos e explore todas as notas de um grupo em um único feed prático."
+          },
+          {
+            "title": "Conteúdo multimídia",
+            "body": "Adicione fotos, vídeos, áudios gravados, arquivos, locais no mapa e cartões de contato a qualquer nota."
+          },
+          {
+            "title": "Destaque com estrelas",
+            "body": "Marque notas importantes com estrela para encontrá-las rapidamente em um só lugar ou dentro do chat."
+          },
+          {
+            "title": "Gerenciamento da lixeira",
+            "body": "Notas, chats e grupos excluídos vão para a lixeira, de onde podem ser restaurados ou apagados em definitivo."
+          },
+          {
+            "title": "Design limpo e moderno",
+            "body": "Alterne entre os temas automático, claro, escuro e escuro com alto contraste."
+          },
+          {
+            "title": "Privacidade e segurança",
+            "body": "Bloqueio do aplicativo por PIN ou biometria, backups criptografados e dados salvos no seu aparelho."
+          },
+          {
+            "title": "Backup e restauração",
+            "body": "Gere um arquivo de backup criptografado único e recupere suas notas sem esforço ao mudar de celular."
+          },
+          {
+            "title": "Personalização",
+            "body": "Tamanho de fonte ajustável, formato de hora em 12h ou 24h e cores e fundos customizáveis para as conversas."
+          },
+          {
+            "title": "Privacidade em primeiro lugar",
+            "body": "O NoteToMe funciona offline sem precisar de internet. Suas notas ficam protegidas no seu dispositivo."
+          }
+        ]
+      },
+      "ro": {
+        "title": "Notițe în stil de conversație.",
+        "summary": "Scrie notițe ca și cum ți-ai trimite mesaje ție însuți. Personalizează conversațiile, grupează-le într-un singur flux unificat, atașează fotografii, videoclipuri, note vocale, fișiere, locații și contacte, marchează cu stea ce contează și păstrează totul privat cu blocare prin parolă și copii de siguranță criptate.",
+        "features": [
+          {
+            "title": "Notițe sub formă de chat",
+            "body": "Notează idei în conversații separate. Fiecare chat poate avea propria culoare, fundal și ordine."
+          },
+          {
+            "title": "Grupuri și flux unificat",
+            "body": "Reunește conversațiile asociate în grupuri și răsfoiește toate notițele unui grup într-un singur flux."
+          },
+          {
+            "title": "Conținut bogat",
+            "body": "Atașează imagini, clipuri video, mesaje vocale, documente, locații pe hartă și contacte oricărei notițe."
+          },
+          {
+            "title": "Marchează cu stea",
+            "body": "Pune stea pe notițele importante pentru a le accesa instantaneu dintr-un singur loc sau din orice chat."
+          },
+          {
+            "title": "Gestionarea coșului de gunoi",
+            "body": "Notițele, conversațiile și grupurile șterse ajung în coș, de unde pot fi restaurate sau eliminate definitiv."
+          },
+          {
+            "title": "Design modern și aerisit",
+            "body": "Alege între temele automată, luminoasă, întunecată și întunecată cu contrast ridicat."
+          },
+          {
+            "title": "Confidențialitate și securitate",
+            "body": "Blocare a aplicației prin cod PIN sau date biometrice, backup criptat și stocare pe dispozitivul tău."
+          },
+          {
+            "title": "Copie de rezervă și restaurare",
+            "body": "Creează un fișier de backup criptat unic și restaurează-ți cu ușurință notițele pe un dispozitiv nou."
+          },
+          {
+            "title": "Personalizare",
+            "body": "Dimensiune reglabilă a textului, format de oră 12h/24h și culori și fundaluri personalizate pentru chat."
+          },
+          {
+            "title": "Confidențialitatea pe primul loc",
+            "body": "NoteToMe funcționează offline fără conexiune la internet. Notițele tale nu părăsesc niciodată telefonul."
+          }
+        ]
+      },
+      "ru": {
+        "title": "Заметки в формате чата.",
+        "summary": "Ведите заметки так, словно переписываетесь с самим собой. Настраивайте чаты, объединяйте их в единую ленту, прикрепляйте фото, видео, голосовые заметки, файлы, геопозицию и контакты, отмечайте важное звёздочкой и храните всё в тайне благодаря блокировке приложения и зашифрованным резервным копиям.",
+        "features": [
+          {
+            "title": "Заметки в виде чатов",
+            "body": "Создавайте записи в отдельных диалогах. Для каждого чата можно выбрать свой цвет, фон и порядок."
+          },
+          {
+            "title": "Группы и единая лента",
+            "body": "Объединяйте тематические чаты в группы и просматривайте все заметки группы в одном общем потоке."
+          },
+          {
+            "title": "Богатые вложения",
+            "body": "Прикрепляйте к любой заметке фотографии, видеоролики, аудиосообщения, файлы, метки на карте и контакты."
+          },
+          {
+            "title": "Избранное со звёздочкой",
+            "body": "Отмечайте ключевые заметки звёздочкой и находите их за секунду в общем списке или внутри чата."
+          },
+          {
+            "title": "Удобная корзина",
+            "body": "Удалённые заметки, чаты и группы перемещаются в корзину, откуда их можно восстановить или стереть навсегда."
+          },
+          {
+            "title": "Чистый и современный дизайн",
+            "body": "Выбирайте между системной, светлой, тёмной и контрастной тёмной темой оформления."
+          },
+          {
+            "title": "Приватность и безопасность",
+            "body": "Блокировка приложения по PIN-коду или биометрии, шифрованные копии и хранение данных строго на устройстве."
+          },
+          {
+            "title": "Резервное копирование",
+            "body": "Создавайте единый зашифрованный файл бэкапа и легко переносите свои записи при смене смартфона."
+          },
+          {
+            "title": "Персонализация",
+            "body": "Настройка размера шрифта, формата времени 12ч/24ч, а также персональные цвета и фоны для каждого чата."
+          },
+          {
+            "title": "Полная автономность",
+            "body": "NoteToMe работает офлайн без подключения к интернету. Ваши заметки никогда не передаются третьим лицам."
+          }
+        ]
+      },
+      "sv": {
+        "title": "Anteckningar som känns som en chatt.",
+        "summary": "Skriv anteckningar som om du skickade meddelanden till dig själv. Anpassa chattar, samla dem i ett enhetligt flöde, bifoga foton, videor, röstmeddelanden, filer, platser och kontakter, stjärnmärk det viktiga och håll allt privat med applås och krypterade säkerhetskopior.",
+        "features": [
+          {
+            "title": "Chattbaserade anteckningar",
+            "body": "Skriv anteckningar i separata konversationer. Varje chatt kan ha sin egen färg, bakgrund och ordning."
+          },
+          {
+            "title": "Grupper och gemensamt flöde",
+            "body": "Samla relaterade chattar i grupper och bläddra bland alla anteckningar i ett och samma flöde."
+          },
+          {
+            "title": "Rikt innehåll",
+            "body": "Bifoga bilder, videoklipp, röstinspelningar, dokument, kartpositioner och kontaktkort till alla anteckningar."
+          },
+          {
+            "title": "Stjärnmärk det viktiga",
+            "body": "Märk viktiga anteckningar med en stjärna för att snabbt hitta dem på ett ställe eller i valfri chatt."
+          },
+          {
+            "title": "Papperskorgshantering",
+            "body": "Raderade anteckningar, chattar och grupper flyttas till papperskorgen där de kan återskapas eller tas bort helt."
+          },
+          {
+            "title": "Ren och modern design",
+            "body": "Välj mellan automatiskt, ljust, mörkt och högkontrast-mörkt tema."
+          },
+          {
+            "title": "Integritet och säkerhet",
+            "body": "Applås med PIN eller biometri, krypterade säkerhetskopior och all data lagrad lokalt på enheten."
+          },
+          {
+            "title": "Säkerhetskopiering och återställning",
+            "body": "Skapa en enda krypterad säkerhetskopia och återställ enkelt dina anteckningar vid byte av enhet."
+          },
+          {
+            "title": "Anpassning",
+            "body": "Justerbar textstorlek, 12-/24-timmars tidsformat samt anpassade chattfärger och bakgrunder."
+          },
+          {
+            "title": "Integritet i första rummet",
+            "body": "NoteToMe fungerar helt offline utan internetuppkoppling. Dina anteckningar delas aldrig med andra."
+          }
+        ]
+      },
+      "th": {
+        "title": "จดโน้ตในรูปแบบแชทที่คุ้นเคย",
+        "summary": "เขียนโน้ตเสมือนส่งข้อความหาตัวเอง ปรับแต่งแชทตามใจ รวบรวมไว้ในฟีดเดียว แนบรูปถ่าย วิดีโอ เสียงบันทึก ไฟล์ พิกัดตำแหน่ง และรายชื่อติดต่อ ติดดาวโน้ตสำคัญ และรักษาความเป็นส่วนตัวด้วยการล็อกแอปและการสำรองข้อมูลที่เข้ารหัส",
+        "features": [
+          {
+            "title": "โน้ตในรูปแบบบทสนทนา",
+            "body": "เขียนบันทึกแยกตามห้องแชท แต่ละแชทกำหนดสี พื้นหลัง และลำดับการจัดวางได้ตามใจ"
+          },
+          {
+            "title": "กลุ่มและฟีดรวม",
+            "body": "รวบรวมแชทที่เกี่ยวข้องกันไว้ในกลุ่มเดียว และเปิดดูโน้ตทั้งหมดในกลุ่มได้อย่างราบรื่น"
+          },
+          {
+            "title": "เนื้อหาสื่อครบครัน",
+            "body": "แนบรูปภาพ วิดีโอ บันทึกเสียง ไฟล์เอกสาร ตำแหน่งบนแผนที่ และนามบัตรผู้ติดต่อในทุกโน้ต"
+          },
+          {
+            "title": "ติดดาวข้อความสำคัญ",
+            "body": "ใส่ดาวให้โน้ตที่ต้องจำเพื่อค้นหาได้อย่างรวดเร็วในหน้าเดียวหรือภายในห้องแชท"
+          },
+          {
+            "title": "ระบบจัดการถังขยะ",
+            "body": "โน้ต แชท และกลุ่มที่ลบจะถูกย้ายไปถังขยะ สามารถกู้คืนหรือลบถาวรได้อย่างปลอดภัย"
+          },
+          {
+            "title": "ดีไซน์เรียบง่ายทันสมัย",
+            "body": "เลือกใช้งานได้ทั้งธีมอัตโนมัติ สว่าง มืด และมืดแบบคอนทราสต์สูง"
+          },
+          {
+            "title": "ความเป็นส่วนตัวและความปลอดภัย",
+            "body": "ล็อกแอปด้วยรหัส PIN หรือสแกนลายนิ้วมือ/ใบหน้า พร้อมสำรองข้อมูลแบบเข้ารหัสในเครื่องคุณ"
+          },
+          {
+            "title": "สำรองและกู้คืนข้อมูล",
+            "body": "สร้างไฟล์สำรองข้อมูลที่เข้ารหัสเพียงไฟล์เดียว และกู้คืนโน้ตทั้งหมดได้อย่างง่ายดายเมื่อเปลี่ยนเครื่อง"
+          },
+          {
+            "title": "ปรับแต่งตามสไตล์คุณ",
+            "body": "ปรับขนาดตัวอักษร รูปแบบเวลา 12/24 ชม. และสีสันพื้นหลังแชทตามความชอบ"
+          },
+          {
+            "title": "ออฟไลน์ ปลอดภัยสูงสุด",
+            "body": "NoteToMe ทำงานแบบออฟไลน์ได้โดยไม่ต้องต่อเน็ต บันทึกของคุณจะอยู่เฉพาะบนอุปกรณ์ ไม่มีการส่งต่อ"
+          }
+        ]
+      },
+      "vi": {
+        "title": "Ghi chú theo phong cách trò chuyện.",
+        "summary": "Ghi chú như thể bạn đang nhắn tin cho chính mình. Tùy chỉnh các cuộc trò chuyện, gom nhóm vào một dòng thời gian duy nhất, đính kèm ảnh, video, ghi âm, tệp tin, vị trí và danh bạ, gắn sao nội dung quan trọng và giữ mọi thứ riêng tư với khóa ứng dụng cùng bản sao lưu mã hóa.",
+        "features": [
+          {
+            "title": "Ghi chú dạng trò chuyện",
+            "body": "Viết ghi chú trong các cuộc hội thoại riêng biệt. Mỗi cuộc trò chuyện đều có màu sắc, hình nền và thứ tự riêng."
+          },
+          {
+            "title": "Nhóm và dòng thời gian chung",
+            "body": "Tập hợp các đoạn chat liên quan vào nhóm và xem tất cả ghi chú của nhóm trong một nguồn cấp duy nhất."
+          },
+          {
+            "title": "Nội dung đa phương tiện",
+            "body": "Đính kèm hình ảnh, video, ghi âm giọng nói, tài liệu, vị trí bản đồ và thẻ liên hệ vào bất kỳ ghi chú nào."
+          },
+          {
+            "title": "Gắn sao điều quan trọng",
+            "body": "Đánh dấu sao các ghi chú quan trọng để tìm lại nhanh chóng ở một nơi hoặc trong bất kỳ cuộc trò chuyện nào."
+          },
+          {
+            "title": "Quản lý thùng rác",
+            "body": "Ghi chú, cuộc trò chuyện và nhóm đã xóa sẽ chuyển vào thùng rác, nơi bạn có thể khôi phục hoặc xóa vĩnh viễn."
+          },
+          {
+            "title": "Thiết kế hiện đại, tinh gọn",
+            "body": "Chọn giữa các giao diện tự động, sáng, tối và tối có độ tương phản cao."
+          },
+          {
+            "title": "Quyền riêng tư và bảo mật",
+            "body": "Khóa ứng dụng bằng mã PIN hoặc sinh trắc học, sao lưu được mã hóa và dữ liệu luôn nằm trên máy của bạn."
+          },
+          {
+            "title": "Sao lưu và khôi phục",
+            "body": "Tạo một tệp sao lưu mã hóa duy nhất và dễ dàng khôi phục ghi chú khi bạn đổi thiết bị."
+          },
+          {
+            "title": "Cá nhân hóa linh hoạt",
+            "body": "Tùy chỉnh cỡ chữ, định dạng giờ 12h / 24h cùng màu sắc và hình nền chat theo phong cách riêng."
+          },
+          {
+            "title": "Ưu tiên quyền riêng tư",
+            "body": "NoteToMe hoạt động ngoại tuyến không cần mạng. Ghi chú của bạn được lưu an toàn trên máy và không bao giờ bị chia sẻ."
+          }
+        ]
+      },
+      "zh": {
+        "title": "像聊天一样随手记事。",
+        "summary": "像给自己发消息一样轻松记笔记。自定义对话界面，在统一的信息流中汇总浏览，支持插入照片、视频、语音、文件、地理位置和联系人名片，加星收藏重点内容，并通过应用锁和加密备份全方位守护隐私。",
+        "features": [
+          {
+            "title": "聊天式记事体验",
+            "body": "在独立的对话窗口中记录笔记。每个聊天均可自定义专属主题色、背景壁纸与排列顺序。"
+          },
+          {
+            "title": "分组与统一信息流",
+            "body": "将相关的对话归入同一群组，在一个聚合信息流中无缝浏览群组内的所有笔记。"
+          },
+          {
+            "title": "丰富多媒体支持",
+            "body": "随心添加照片、视频、语音备忘录、文档附件、地图定位和联系人名片。"
+          },
+          {
+            "title": "加星收藏重要笔记",
+            "body": "为关键笔记添加星标，随时在收藏专区或具体对话中快速查阅。"
+          },
+          {
+            "title": "便捷废纸篓管理",
+            "body": "已删除的笔记、对话和群组会移入废纸篓，可随时一键恢复或永久清除。"
+          },
+          {
+            "title": "清爽现代的界面设计",
+            "body": "提供跟随系统、浅色、深色及高对比度深色等多种主题风格。"
+          },
+          {
+            "title": "隐私与安全双重守护",
+            "body": "支持 PIN 码及生物识别应用锁，配合加密备份，确保数据仅保存在您的设备中。"
+          },
+          {
+            "title": "一键备份与恢复",
+            "body": "生成专属加密备份文件，更换新手机时亦能轻松无缝还原全部笔记。"
+          },
+          {
+            "title": "丰富的个性化设置",
+            "body": "自由调节字体大小、切换 12/24 小时制时间格式，随心搭配对话气泡颜色和背景。"
+          },
+          {
+            "title": "离线可用，隐私至上",
+            "body": "NoteToMe 完全支持离线运行，无需联网。所有笔记均保留在本地，绝不上云或泄露给第三方。"
+          }
+        ]
+      }
+    }
+  },
+  {
     "name": "Lessonta",
     "category": "study",
     "accent": "#235fae",

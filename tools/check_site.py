@@ -67,7 +67,7 @@ for kind in ('privacy','terms'):
     assert '<noscript>' in text
     assert any(t=='a' and a.get('href')=='/'+kind+'?app=booktou' for t,a in p.tags)
 
-expected={'booktou':25,'speaktou':17,'notero':14,'lessonta':19,'doitly':8,'dictiony':2,'beanjup':8,'wordballoonpop':2,'streaktou':14,'sleeptou':2,'baggageflow':25,'carsurf':1,'bumperpop':1}
+expected={'booktou':25,'speaktou':17,'notero':14,'lessonta':19,'doitly':8,'dictiony':2,'beanjup':8,'wordballoonpop':2,'streaktou':14,'sleeptou':2,'baggageflow':25,'carsurf':1,'bumperpop':1,'notetome':26}
 assert set(HOME)==set().union(*(set(a['locales']) for a in APPS))
 for lang,copy in HOME.items():
     route='/' if lang=='en' else '/'+lang+'/'

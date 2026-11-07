@@ -37,3 +37,33 @@ for lang, copy in HOME.items(): copy['sleep']=SLEEP_LABELS[lang]
 
 PUZZLE_LABELS={"en": "Baggage sorting puzzle", "tr": "Valiz yönlendirme bulmacası", "ar": "لغز فرز الأمتعة", "da": "Puslespil med bagagesortering", "de": "Gepäck-Sortierrätsel", "el": "Γρίφος ταξινόμησης αποσκευών", "es": "Puzle de clasificar equipaje", "fi": "Matkatavaroiden lajittelupeli", "fil": "Puzzle sa pag-aayos ng bagahe", "fr": "Puzzle de tri de bagages", "hi": "सामान छांटने वाली पहेली", "id": "Teka-teki menyortir bagasi", "it": "Rompicapo di smistamento bagagli", "ja": "荷物仕分けパズル", "ko": "수하물 분류 퍼즐", "ms": "Teka-teki menyusun bagasi", "nb": "Puslespill med bagasjesortering", "nl": "Bagage-sorteerpuzzel", "pl": "Łamigłówka z sortowaniem bagażu", "pt": "Puzzle de triagem de bagagem", "ro": "Puzzle de sortare a bagajelor", "ru": "Головоломка о сортировке багажа", "sv": "Pussel med bagagesortering", "th": "ปริศนาคัดแยกกระเป๋า", "vi": "Giải đố phân loại hành lý", "zh": "行李分拣解谜"}
 for lang, copy in HOME.items(): copy['puzzle']=PUZZLE_LABELS[lang]
+
+CHATNOTES_LABELS = {
+    'en': 'Notes in a chat style',
+    'tr': 'Sohbet tarzı notlar',
+    'ar': 'ملاحظات بأسلوب الدردشة',
+    'da': 'Noter i chat-stil',
+    'de': 'Notizen im Chat-Stil',
+    'el': 'Σημειώσεις σε στυλ συνομιλίας',
+    'es': 'Notas estilo chat',
+    'fi': 'Muistiinpanot chat-tyyliin',
+    'fil': 'Mga tala sa istilong chat',
+    'fr': 'Notes façon messagerie',
+    'hi': 'चैट शैली में नोट्स',
+    'id': 'Catatan gaya obrolan',
+    'it': 'Note in stile chat',
+    'ja': 'チャット感覚のノート',
+    'ko': '채팅 스타일 메모',
+    'ms': 'Nota dalam gaya sembang',
+    'nb': 'Notater i chat-stil',
+    'nl': 'Notities in chatstijl',
+    'pl': 'Notatki w stylu czatu',
+    'pt': 'Notas em estilo de chat',
+    'ro': 'Notițe în stil de chat',
+    'ru': 'Заметки в стиле чата',
+    'sv': 'Anteckningar i chattstil',
+    'th': 'โน้ตในรูปแบบแชท',
+    'vi': 'Ghi chú theo phong cách trò chuyện',
+    'zh': '聊天风格的笔记'
+}
+for lang, copy in HOME.items(): copy['chatnotes'] = CHATNOTES_LABELS[lang]
